@@ -795,7 +795,7 @@ with left:
             st.markdown(f"**年级：** {'、'.join(record.get('grades', []))}")
 
         st.markdown("### 题干")
-        render_rich_text(record.get("normalized_stem") or record.get("stem", ""), label="题干")
+        render_rich_text(record.get("stem", ""), label="题干")
 
         if record.get("stem_images"):
             st.markdown("### 题干图片")

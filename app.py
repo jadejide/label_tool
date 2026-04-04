@@ -8,6 +8,9 @@ import streamlit as st
 
 st.set_page_config(page_title="数字题人工标注工具", layout="wide")
 
+# =========================
+# 基础配置
+# =========================
 BLOOM_LEVELS = ["记忆", "理解", "应用", "分析", "评价", "创造"]
 CORE_LITERACIES = [
     "抽象能力", "运算能力", "几何直观", "空间观念", "推理能力",
@@ -22,15 +25,39 @@ TASK_MAP = {
 BASE_DIR = Path(__file__).parent
 AUTOSAVE_DIR = BASE_DIR / ".autosave"
 
+# =========================
+# 样式
+# =========================
 st.markdown("""
 <style>
 .block-container {
-    padding-top: 1.0rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2.2rem !important;
+    padding-bottom: 1.5rem !important;
+    max-width: 96rem;
+}
+h1 {
+    font-size: 2.4rem !important;
+    margin-bottom: 0.4rem !important;
+}
+h2 {
+    font-size: 1.75rem !important;
+}
+h3 {
+    font-size: 1.35rem !important;
+}
+p, li, div, label, span {
+    font-size: 1.05rem !important;
+}
+[data-testid="stMarkdownContainer"] p {
+    line-height: 1.65;
 }
 .small-muted {
     color: #666;
-    font-size: 0.92rem;
+    font-size: 0.95rem !important;
+}
+.panel-title {
+    margin-top: 0.1rem;
+    margin-bottom: 0.6rem;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -131,6 +158,7 @@ def render_images(image_list, image_width: int):
 def sanitize_math_text(text: str) -> str:
     if not text:
         return ""
+
     s = str(text)
 
     s = s.replace("\\(", "$").replace("\\)", "$")
@@ -240,6 +268,9 @@ def init_session():
     if index_key not in st.session_state:
         st.session_state[index_key] = 0
 
+    if "needs_state_sync" not in st.session_state:
+        st.session_state["needs_state_sync"] = True
+
     st.session_state["teacher_key"] = teacher_key
 
 
@@ -296,6 +327,28 @@ def sync_widget_state(record: dict):
     st.session_state["needs_state_sync"] = False
 
 
+def request_apply_model():
+    st.session_state["pending_apply_model"] = True
+
+
+def apply_model_if_needed(record: dict):
+    if not st.session_state.get("pending_apply_model", False):
+        return
+
+    model_bloom = record.get("bloom_level")
+    model_primary = record.get("core_literacy_primary")
+    model_candidates = record.get("core_literacy_candidates", [])
+
+    st.session_state["edit_bloom"] = model_bloom if model_bloom in BLOOM_LEVELS else BLOOM_LEVELS[0]
+    st.session_state["edit_primary"] = model_primary if model_primary in CORE_LITERACIES else CORE_LITERACIES[0]
+    st.session_state["edit_candidates"] = ensure_candidates_include_primary(
+        st.session_state["edit_primary"], model_candidates
+    )
+    st.session_state["edit_accept"] = True
+    st.session_state["pending_apply_model"] = False
+    st.session_state["model_apply_feedback"] = "已同步大模型建议到标注区。"
+
+
 def save_current_record(show_toast: bool = True):
     teacher_key = st.session_state["teacher_key"]
     idx = get_current_index()
@@ -321,20 +374,6 @@ def save_current_record(show_toast: bool = True):
         st.toast("已保存当前题", icon="✅")
 
 
-def apply_model_suggestion(record: dict):
-    model_bloom = record.get("bloom_level")
-    model_primary = record.get("core_literacy_primary")
-    model_candidates = record.get("core_literacy_candidates", [])
-
-    st.session_state["edit_bloom"] = model_bloom if model_bloom in BLOOM_LEVELS else BLOOM_LEVELS[0]
-    st.session_state["edit_primary"] = model_primary if model_primary in CORE_LITERACIES else CORE_LITERACIES[0]
-    st.session_state["edit_candidates"] = ensure_candidates_include_primary(
-        st.session_state["edit_primary"], model_candidates
-    )
-    st.session_state["edit_accept"] = True
-    st.toast("已同步大模型建议到标注区", icon="🤖")
-
-
 def restore_saved_state(record: dict):
     bloom_val = record.get("human_bloom_level") or record.get("bloom_level")
     primary_val = record.get("human_core_literacy_primary") or record.get("core_literacy_primary")
@@ -348,14 +387,12 @@ def restore_saved_state(record: dict):
     st.session_state["edit_accept"] = bool(record.get("human_accept_model", False))
     st.session_state["edit_comment_bloom"] = record.get("human_comment_bloom", "")
     st.session_state["edit_comment_core"] = record.get("human_comment_core", "")
-    st.toast("已恢复到当前已保存状态", icon="↩️")
+    st.session_state["restore_feedback"] = "已恢复到当前已保存状态。"
 
 
 def on_accept_toggle():
     if st.session_state.get("edit_accept", False):
-        idx = get_current_index()
-        record = get_current_records()[idx]
-        apply_model_suggestion(record)
+        request_apply_model()
 
 
 def editor_differs_from_record(record: dict) -> bool:
@@ -389,7 +426,7 @@ records = get_current_records()
 total = len(records)
 
 st.title("数字题人工标注工具")
-st.caption("左侧题目区和右侧标注区使用独立滚动容器，避免长题时来回拖动。")
+st.caption("左侧题目区和右侧标注区使用独立滚动容器，避免长题来回拖动。")
 
 with st.sidebar:
     st.subheader("当前任务")
@@ -397,7 +434,7 @@ with st.sidebar:
     st.write(f"**参数：** `{teacher_key}`")
 
     panel_height = st.slider("左右面板高度", min_value=520, max_value=980, value=760, step=20)
-    image_width = st.slider("图片显示宽度", min_value=220, max_value=700, value=380, step=20)
+    image_width = st.slider("图片显示宽度", min_value=220, max_value=700, value=360, step=20)
 
     done_count = sum(1 for x in records if current_is_done(x))
     st.metric("总题数", total)
@@ -414,6 +451,7 @@ with st.sidebar:
         titles = list(title_map.keys())
         current_index = get_current_index()
         default_position = visible_indices.index(current_index) if current_index in visible_indices else 0
+
         selected_title = st.selectbox("题目列表", titles, index=default_position)
         jump_index = title_map[selected_title]
         if jump_index != current_index:
@@ -449,8 +487,9 @@ if st.session_state.get("loaded_from_autosave"):
 idx = get_current_index()
 record = records[idx]
 sync_widget_state(record)
+apply_model_if_needed(record)
 
-top1, top2, top3, top4 = st.columns([1, 1, 1, 1])
+top1, top2, top3, top4 = st.columns([1, 1, 1, 0.9])
 with top1:
     if st.button("⬅ 上一题", disabled=(idx == 0), use_container_width=True):
         move(-1)
@@ -466,12 +505,12 @@ with top3:
             move(1)
         st.rerun()
 with top4:
-    st.info(f"{teacher_label}：第 {idx + 1} / {total} 题")
+    st.info(f"{idx + 1} / {total}")
 
-left, right = st.columns([1.75, 1], gap="large")
+left, right = st.columns([1.78, 1], gap="large")
 
 with left:
-    st.markdown("## 题目区")
+    st.markdown('<div class="panel-title"><h2>题目区</h2></div>', unsafe_allow_html=True)
     with st.container(height=panel_height, border=True):
         st.markdown(f"**题目ID：** `{get_record_uid(record, idx)}`")
         st.markdown(f"**题型：** {record.get('type', '')}")
@@ -508,12 +547,19 @@ with left:
             render_images(record.get("analysis_images", []), image_width=image_width)
 
 with right:
-    st.markdown("## 标注区")
+    st.markdown('<div class="panel-title"><h2>标注区</h2></div>', unsafe_allow_html=True)
     with st.container(height=panel_height, border=True):
         if editor_differs_from_record(record):
             st.warning("当前右侧有未保存修改。")
         else:
             st.success("当前题修改已保存。")
+
+        if st.session_state.get("model_apply_feedback"):
+            st.info(st.session_state["model_apply_feedback"])
+            st.session_state["model_apply_feedback"] = ""
+        if st.session_state.get("restore_feedback"):
+            st.info(st.session_state["restore_feedback"])
+            st.session_state["restore_feedback"] = ""
 
         with st.container(border=True):
             st.markdown("### Bloom 标注")
@@ -525,7 +571,7 @@ with right:
                 horizontal=True,
                 label_visibility="collapsed",
             )
-            st.text_area("Bloom 备注", key="edit_comment_bloom", height=90)
+            st.text_area("Bloom 备注", key="edit_comment_bloom", height=100)
 
         st.write("")
 
@@ -538,36 +584,37 @@ with right:
             st.selectbox("核心素养主标签", options=CORE_LITERACIES, key="edit_primary")
             st.multiselect("核心素养候选（最多 3 个）", options=CORE_LITERACIES, key="edit_candidates", max_selections=3)
             st.checkbox(
-                "采纳大模型建议（勾选会自动同步下方标签）",
+                "采纳大模型建议（勾选会自动同步标签）",
                 key="edit_accept",
                 on_change=on_accept_toggle,
             )
-            st.text_area("核心素养备注", key="edit_comment_core", height=90)
+            st.text_area("核心素养备注", key="edit_comment_core", height=100)
 
         st.write("")
 
-        btn1, btn2, btn3 = st.columns(3)
-        with btn1:
+        row1, row2, row3 = st.columns(3)
+        with row1:
             if st.button("保存当前题", use_container_width=True):
                 save_current_record(show_toast=True)
                 st.rerun()
-        with btn2:
+        with row2:
             if st.button("恢复到已保存状态", use_container_width=True):
                 restore_saved_state(record)
                 st.rerun()
-        with btn3:
+        with row3:
             if st.button("填入模型建议", use_container_width=True):
-                apply_model_suggestion(record)
+                request_apply_model()
                 st.rerun()
 
         st.write("")
-        btn4, btn5 = st.columns(2)
-        with btn4:
+
+        row4, row5 = st.columns(2)
+        with row4:
             if st.button("跳过本题", use_container_width=True):
                 if idx < total - 1:
                     move(1)
                 st.rerun()
-        with btn5:
+        with row5:
             if st.button("清空两类备注", use_container_width=True):
                 st.session_state["edit_comment_bloom"] = ""
                 st.session_state["edit_comment_core"] = ""
@@ -576,4 +623,7 @@ with right:
         if st.session_state.get("last_autosave_ok") is False:
             st.caption(f"自动保存失败：{st.session_state.get('last_autosave_error', '')}")
         else:
-            st.markdown('<div class="small-muted">“采纳大模型建议”会自动同步 Bloom、主标签和候选标签；“恢复到已保存状态”会撤销你当前未保存的改动。</div>', unsafe_allow_html=True)
+            st.markdown(
+                '<div class="small-muted">“填入模型建议”会把模型的 Bloom、主标签和候选标签写入当前标注区；“恢复到已保存状态”会撤销你当前未保存的改动。</div>',
+                unsafe_allow_html=True,
+            )

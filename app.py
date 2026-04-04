@@ -253,6 +253,17 @@ def get_saved_status_text(record: dict) -> str:
     return "已保存" if current_is_done(record) else "未保存"
 
 
+GREEK_CHAR_MAP = {
+    "α": r"\alpha",
+    "β": r"\beta",
+    "γ": r"\gamma",
+    "θ": r"\theta",
+    "λ": r"\lambda",
+    "μ": r"\mu",
+    "π": r"\pi",
+}
+
+
 # =========================
 # 数学文本渲染
 # =========================
@@ -262,6 +273,7 @@ def sanitize_math_text(text: str) -> str:
 
     s = str(text)
     s = s.replace("\r\n", "\n").replace("\r", "\n")
+    s = re.sub(r"\\\((q+uad)\)", " ", s)
     s = s.replace("\\(", "$").replace("\\)", "$")
     s = s.replace("\\[", "$$").replace("\\]", "$$")
     s = s.replace("⩽", "\\leqslant")
@@ -269,43 +281,77 @@ def sanitize_math_text(text: str) -> str:
     s = s.replace("≤", "\\leq")
     s = s.replace("≥", "\\geq")
     s = s.replace("∠", "\\angle ")
+    s = s.replace("∵", "\\because ")
+    s = s.replace("∴", "\\therefore ")
+    s = s.replace("×", "\\times ")
+    s = s.replace("÷", "\\div ")
     s = s.replace("。。", "。")
-    s = re.sub(r"(?<!\.)\.{2,}(?!\.)", " ", s)
-
-    # 常见 OCR / 转义问题
+    s = s.replace("^^{", "^{")
+    s = s.replace("^^\\circ", "^\\circ")
     s = s.replace("^^{\\circ}", "^{\\circ}")
-    s = s.replace("^^\\circ", "^{\\circ}")
-    s = s.replace("{^\\circ}", "^{\\circ}")
-    s = s.replace("{\\circ}", "^{\\circ}")
-    s = re.sub(r"\^(\\circ)(?!\})", r"^{\\circ}", s)
-    s = re.sub(r"(\d+)\s*\{\s*\\\\circ\s*\}", r"\1^{\\circ}", s)
+    s = s.replace("^^{\\\\circ}", "^{\\circ}")
+    s = s.replace("^^\\\\circ", "^\\circ")
+
+    for k, v in GREEK_CHAR_MAP.items():
+        s = s.replace(k, v)
+
+    s = re.sub(r"(\d+)\s*\{\s*\\circ\s*\}", r"\1^{\\circ}", s)
     s = re.sub(r"(\d+)\s*\^\s*\{\s*\\circ\s*\}", r"\1^{\\circ}", s)
     s = re.sub(r"(\d+)\s*\^\s*\\circ", r"\1^{\\circ}", s)
+    s = re.sub(r"(\d+)\s*\\circ", r"\1^{\\circ}", s)
     s = re.sub(r"\\angle\s*([A-Za-z])", r"\\angle \1", s)
+    s = re.sub(r"(?<![A-Za-z])([A-Za-z]{2,})\s*//\s*([A-Za-z]{2,})", r"\1 \\parallel \2", s)
 
-    # 去掉明显的 markdown 干扰
     s = s.replace("\u00a0", " ")
     s = re.sub(r"[ \t]+", " ", s)
     s = re.sub(r"\n{3,}", "\n\n", s)
     return s.strip()
 
 
-
-def is_risky_math_block(text: str) -> bool:
+def latex_to_readable_text(text: str) -> str:
     if not text:
-        return False
+        return ""
 
-    # 这些情况容易让 markdown 的公式解析炸掉，直接降级为纯文本更稳
-    if text.count("$") % 2 == 1:
-        return True
-    if text.count("{") != text.count("}"):
-        return True
-    if "^^" in text:
-        return True
-    if "\\(" in text or "\\)" in text or "\\[" in text or "\\]" in text:
-        return True
-    return False
+    s = text
+    replacements = {
+        "$$": "",
+        "$": "",
+        r"\alpha": "α",
+        r"\beta": "β",
+        r"\gamma": "γ",
+        r"\theta": "θ",
+        r"\lambda": "λ",
+        r"\mu": "μ",
+        r"\pi": "π",
+        r"\angle": "∠",
+        r"\triangle": "△",
+        r"\parallel": "∥",
+        r"\perp": "⟂",
+        r"\because": "∵",
+        r"\therefore": "∴",
+        r"\leqslant": "≤",
+        r"\geqslant": "≥",
+        r"\leq": "≤",
+        r"\geq": "≥",
+        r"\times": "×",
+        r"\div": "÷",
+        r"\cdot": "·",
+        r"\quad": " ",
+        r"\qquad": "  ",
+    }
+    for k, v in replacements.items():
+        s = s.replace(k, v)
 
+    s = re.sub(r"\^\{\s*°\s*\}", "°", s)
+    s = re.sub(r"\^\{\s*\\circ\s*\}", "°", s)
+    s = re.sub(r"\{\s*\\circ\s*\}", "°", s)
+    s = re.sub(r"\\circ", "°", s)
+    s = re.sub(r"\^\{([^{}]+)\}", r"^\1", s)
+
+    s = s.replace("{", "").replace("}", "")
+    s = re.sub(r"[ \t]+", " ", s)
+    s = re.sub(r"\n{3,}", "\n\n", s)
+    return s.strip()
 
 
 def render_text_block(block: str):
@@ -313,15 +359,12 @@ def render_text_block(block: str):
     if not clean:
         return
 
-    if is_risky_math_block(clean):
-        st.write(clean)
-        return
+    readable = latex_to_readable_text(clean)
 
     try:
-        st.markdown(clean.replace("\n", "  \n"))
+        st.markdown(readable.replace("\n", "  \n"))
     except Exception:
-        st.write(clean)
-
+        st.write(readable)
 
 
 def render_rich_text(text: str, label: str = ""):
@@ -780,6 +823,19 @@ with right:
     saved_status = get_saved_status_text(record)
     draft_status = "有未保存修改" if has_unsaved_draft else "当前内容已与保存记录同步"
     st.markdown(f"<div class='status-line'>保存状态：{saved_status}｜当前状态：{draft_status}</div>", unsafe_allow_html=True)
+
+    with st.container(border=True):
+        model_bloom = record.get("bloom_level", "") or "无"
+        model_primary = record.get("core_literacy_primary", "") or "无"
+        model_candidates = record.get("core_literacy_candidates", []) or []
+        model_candidates_text = "、".join(model_candidates) if model_candidates else "无"
+
+        st.markdown("### 模型建议")
+        st.markdown(f"**Bloom：** {model_bloom}")
+        st.markdown(f"**核心素养主标签：** {model_primary}")
+        st.markdown(f"**核心素养候选：** {model_candidates_text}")
+
+    st.write("")
 
     with st.container(border=True):
         st.markdown("### Bloom 标注")

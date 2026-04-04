@@ -1,4 +1,3 @@
-
 import json
 from pathlib import Path
 from datetime import datetime
@@ -8,22 +7,31 @@ import streamlit as st
 
 st.set_page_config(page_title="数学题人工标注工具", layout="wide")
 
+# =========================
+# 基础配置
+# =========================
 BLOOM_LEVELS = ["记忆", "理解", "应用", "分析", "评价", "创造"]
 CORE_LITERACIES = [
     "抽象能力", "运算能力", "几何直观", "空间观念", "推理能力",
     "数据观念", "模型观念", "应用意识", "创新意识",
 ]
 
+# 统一使用 teacher1 / teacher2 / teacher3
 TASK_MAP = {
-    "1": {"name": "teacher_1", "file": "data/teacher1.json"},
-    "2": {"name": "teacher_2", "file": "data/teacher2.json"},
-    "3": {"name": "teacher_3", "file": "data/teacher3.json"},
+    "teacher1": {"label": "teacher1", "file": "data/teacher1.json"},
+    "teacher2": {"label": "teacher2", "file": "data/teacher2.json"},
+    "teacher3": {"label": "teacher3", "file": "data/teacher3.json"},
 }
 
-ALLOW_TEACHER_SWITCH = False
+# 建议保持 False：老师只访问自己的链接
+ALLOW_TASK_SWITCH = False
+
 BASE_DIR = Path(__file__).parent
 
 
+# =========================
+# 工具函数
+# =========================
 def load_json_records(path: Path):
     if not path.exists():
         st.error(f"未找到数据文件：{path}")
@@ -48,9 +56,16 @@ def dump_records_bytes(records):
 
 
 def get_query_teacher():
-    teacher = st.query_params.get("teacher", "zhang")
+    teacher = st.query_params.get("teacher", "teacher1")
+
+    if isinstance(teacher, list):
+        teacher = teacher[0] if teacher else "teacher1"
+
+    teacher = str(teacher).strip()
+
     if teacher not in TASK_MAP:
-        teacher = "zhang"
+        teacher = "teacher1"
+
     return teacher
 
 
@@ -81,22 +96,26 @@ def ensure_candidates_include_primary(primary, candidates):
     for x in candidates or []:
         if x in CORE_LITERACIES and x not in clean:
             clean.append(x)
+
     if primary in CORE_LITERACIES:
         if primary in clean:
             clean.remove(primary)
         clean = [primary] + clean
+
     return clean[:3]
 
 
 def resolve_media_path(raw_path: str):
     if not raw_path:
         return None
+
     p = Path(raw_path)
     candidates = [
         BASE_DIR / p,
         BASE_DIR / "images" / p.name,
         BASE_DIR / "image" / p.name,
     ]
+
     for c in candidates:
         if c.exists():
             return c
@@ -121,6 +140,7 @@ def render_rich_text(text: str):
 def build_annotated_record(record, annotator_name, bloom_value, primary_value, candidates_value, accept_model, comment):
     new_record = deepcopy(record)
     candidates_value = ensure_candidates_include_primary(primary_value, candidates_value)
+
     new_record["human_bloom_level"] = bloom_value
     new_record["human_core_literacy_primary"] = primary_value
     new_record["human_core_literacy_candidates"] = candidates_value
@@ -132,6 +152,14 @@ def build_annotated_record(record, annotator_name, bloom_value, primary_value, c
     return new_record
 
 
+def make_export_name(teacher_key: str):
+    t = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return f"{teacher_key}_annotations_{t}.json"
+
+
+# =========================
+# 会话状态
+# =========================
 def get_records_state_key(teacher_key: str) -> str:
     return f"records::{teacher_key}"
 
@@ -174,6 +202,7 @@ def set_current_index(index: int):
     teacher_key = st.session_state["teacher_key"]
     records = get_current_records()
     total = len(records)
+
     if total == 0:
         st.session_state[get_index_state_key(teacher_key)] = 0
     else:
@@ -184,9 +213,13 @@ def move(delta: int):
     set_current_index(get_current_index() + delta)
 
 
+# =========================
+# 表单状态同步
+# =========================
 def hydrate_form_state(record: dict, idx: int):
     record_uid = get_record_uid(record, idx)
     record_signature = f"{st.session_state['teacher_key']}::{record_uid}"
+
     if st.session_state.get("form_record_signature") == record_signature:
         return
 
@@ -215,14 +248,13 @@ def hydrate_form_state(record: dict, idx: int):
 
 def save_current_record(stay_on_page: bool = True):
     teacher_key = st.session_state["teacher_key"]
-    teacher_name = TASK_MAP[teacher_key]["name"]
     records = get_current_records()
     idx = get_current_index()
     record = records[idx]
 
     updated = build_annotated_record(
         record=record,
-        annotator_name=teacher_name,
+        annotator_name=teacher_key,
         bloom_value=st.session_state["form_bloom"],
         primary_value=st.session_state["form_primary"],
         candidates_value=st.session_state["form_candidates"],
@@ -252,33 +284,29 @@ def reset_form_to_model(record: dict, idx: int):
     st.session_state["form_record_signature"] = f"{st.session_state['teacher_key']}::{get_record_uid(record, idx)}"
 
 
-def make_export_name(teacher_key: str):
-    t = datetime.now().strftime("%Y%m%d_%H%M%S")
-    return f"{teacher_key}_annotations_{t}.json"
-
-
+# =========================
+# 页面
+# =========================
 init_session()
 
 teacher_key = st.session_state["teacher_key"]
-teacher_name = TASK_MAP[teacher_key]["name"]
+teacher_label = TASK_MAP[teacher_key]["label"]
 records = get_current_records()
 total = len(records)
 
 st.title("数学题人工标注工具")
-st.caption("老师通过各自链接进入，参考大模型建议后进行人工修订，最后下载结果 JSON。")
+st.caption("老师通过自己的链接进入，参考大模型建议后进行人工修订，最后下载结果 JSON。")
 
 with st.sidebar:
     st.subheader("当前任务")
-    st.write(f"**老师：** {teacher_name}")
-    st.write(f"**任务参数：** `{teacher_key}`")
+    st.write(f"**任务：** {teacher_label}")
+    st.write(f"**参数：** `{teacher_key}`")
 
-    if ALLOW_TEACHER_SWITCH:
-        teacher_label_to_key = {v["name"]: k for k, v in TASK_MAP.items()}
-        labels = list(teacher_label_to_key.keys())
-        selected_teacher_label = st.selectbox("切换老师任务", labels, index=labels.index(teacher_name))
-        selected_teacher_key = teacher_label_to_key[selected_teacher_label]
-        if selected_teacher_key != teacher_key:
-            set_query_teacher(selected_teacher_key)
+    if ALLOW_TASK_SWITCH:
+        task_labels = list(TASK_MAP.keys())
+        selected_task = st.selectbox("切换任务", task_labels, index=task_labels.index(teacher_key))
+        if selected_task != teacher_key:
+            set_query_teacher(selected_task)
             st.rerun()
 
     done_count = sum(1 for x in records if current_is_done(x))
@@ -289,16 +317,27 @@ with st.sidebar:
 
     st.divider()
     st.subheader("快速跳转")
+
     only_unfinished = st.checkbox("只看未完成题", value=False)
 
-    visible_indices = [i for i, r in enumerate(records) if (not only_unfinished) or (not current_is_done(r))]
+    visible_indices = [
+        i for i, r in enumerate(records)
+        if (not only_unfinished) or (not current_is_done(r))
+    ]
+
     if visible_indices:
         title_map = {get_record_title(i, records[i]): i for i in visible_indices}
         titles = list(title_map.keys())
+
         current_index = get_current_index()
         default_position = visible_indices.index(current_index) if current_index in visible_indices else 0
 
-        selected_title = st.selectbox("题目列表", titles, index=default_position, key=f"jump_selectbox::{teacher_key}")
+        selected_title = st.selectbox(
+            "题目列表",
+            titles,
+            index=default_position,
+            key=f"jump_selectbox::{teacher_key}",
+        )
         jump_index = title_map[selected_title]
         if jump_index != current_index:
             set_current_index(jump_index)
@@ -337,7 +376,7 @@ idx = get_current_index()
 record = records[idx]
 hydrate_form_state(record, idx)
 
-st.subheader(f"{teacher_name}：第 {idx + 1} / {total} 题")
+st.subheader(f"{teacher_label}：第 {idx + 1} / {total} 题")
 
 nav1, nav2, nav3, nav4 = st.columns([1, 1, 1, 3])
 with nav1:
@@ -353,7 +392,10 @@ with nav3:
         move(1)
         st.rerun()
 with nav4:
-    st.success("本题已完成") if current_is_done(record) else st.warning("本题未完成")
+    if current_is_done(record):
+        st.success("本题已完成")
+    else:
+        st.warning("本题未完成")
 
 left, right = st.columns([1.35, 1])
 
@@ -419,9 +461,11 @@ with right:
     if reset_model:
         reset_form_to_model(record, idx)
         st.rerun()
+
     if save_now:
         save_current_record(stay_on_page=True)
         st.rerun()
+
     if save_next:
         save_current_record(stay_on_page=False)
         st.rerun()

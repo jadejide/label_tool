@@ -32,9 +32,12 @@ st.markdown("""
     padding-top: 1.2rem;
     padding-bottom: 2rem;
 }
-.sticky-panel {
-    position: sticky;
-    top: 1rem;
+/* 全局限制图片的最高尺寸，彻底解决图片过大霸屏的问题 */
+[data-testid="stImage"] img {
+    max-height: 300px !important;
+    width: auto !important;
+    object-fit: contain;
+    border-radius: 4px;
 }
 .small-muted {
     color: #666;
@@ -66,11 +69,8 @@ def dump_records_bytes(records):
     return json.dumps(records, ensure_ascii=False, indent=2).encode("utf-8")
 
 def auto_save_to_disk():
-    """自动将当前进度落盘，防止刷新页面导致数据丢失"""
     teacher_key = st.session_state["teacher_key"]
     records = st.session_state[get_records_key(teacher_key)]
-    
-    # 存为一个 autosave 文件，避免直接覆盖原始文件出意外
     save_dir = BASE_DIR / "data"
     save_dir.mkdir(parents=True, exist_ok=True)
     save_path = save_dir / f"{teacher_key}_autosave.json"
@@ -130,12 +130,12 @@ def render_images(image_list):
     for img in image_list:
         resolved = resolve_media_path(img)
         if resolved and resolved.exists():
-            st.image(str(resolved), use_container_width=True)
+            # 移除了 use_container_width=True，配合上面的 CSS 限制高度
+            st.image(str(resolved))
         else:
             st.caption(f"图片文件未找到：{img}")
 
 def sanitize_math_text(text: str) -> str:
-    """修复版：去除容易报错的正则，只做安全的符号替换"""
     if not text:
         return ""
     s = str(text)
@@ -143,9 +143,16 @@ def sanitize_math_text(text: str) -> str:
     s = s.replace("\\[", "$$").replace("\\]", "$$")
     s = s.replace("⩽", "\\leqslant")
     s = s.replace("⩾", "\\geqslant")
-    s = re.sub(r'(\d+)\s*\{\s*\\\\circ\s*\}', r'\1^\\circ', s)
-    s = re.sub(r'(\d+)\s*\{\s*\\circ\s*\}', r'\1^\\circ', s)
+    
+    # 修复截图里的 30{^\circ} 乱码，自动转为正常的 LaTeX
+    s = s.replace("{^\\circ}", "^{\\circ}")
+    s = s.replace("{\\circ}", "^{\\circ}")
+    s = re.sub(r'(\d+)\s*\{\s*\\\\circ\s*\}', r'\1^{\\circ}', s)
     s = re.sub(r'[ \t]+', ' ', s)
+    
+    # 给落单的数字带度数的加上 $ 符号
+    s = re.sub(r'(?<!\$)(\d+\^\{\\circ\})(?!\$)', r'$\1$', s)
+    
     return s.strip()
 
 def render_rich_text(text: str, label: str = ""):
@@ -179,7 +186,6 @@ def init_session():
     records_key = get_records_key(teacher_key)
     index_key = get_index_key(teacher_key)
     
-    # 尝试加载自动保存的文件，如果没有则加载原始文件
     autosave_path = BASE_DIR / "data" / f"{teacher_key}_autosave.json"
     original_path = BASE_DIR / TASK_MAP[teacher_key]["file"]
     
@@ -209,41 +215,32 @@ def set_current_index(index: int):
     total = len(records)
     index = 0 if total == 0 else max(0, min(index, total - 1))
     st.session_state[get_index_key(st.session_state["teacher_key"])] = index
-    # 切换题目时，清除强制渲染标记，让界面重新读取记录数据
     st.session_state["needs_state_sync"] = True
 
 def move(delta: int):
     set_current_index(get_current_index() + delta)
 
 def sync_widget_state(record: dict):
-    """负责将数据中的值准确无误地推送到控件状态中"""
     if not st.session_state.get("needs_state_sync", True):
         return
 
-    # 获取模型值
     model_bloom = record.get("bloom_level", "")
     model_primary = record.get("core_literacy_primary", "")
     model_candidates = record.get("core_literacy_candidates", [])
 
-    # 判断是否已有手标值，没有则取模型值
     bloom_val = record.get("human_bloom_level") or model_bloom
     primary_val = record.get("human_core_literacy_primary") or model_primary
     candidates_val = record.get("human_core_literacy_candidates") or model_candidates
 
-    # 兜底校验
     if bloom_val not in BLOOM_LEVELS: bloom_val = BLOOM_LEVELS[0]
     if primary_val not in CORE_LITERACIES: primary_val = CORE_LITERACIES[0]
     
-    # 确保候选里包含主标签
     valid_candidates = ensure_candidates_include_primary(primary_val, candidates_val)
 
-    # 注入到 Session State 供控件消费
     st.session_state["edit_bloom"] = bloom_val
     st.session_state["edit_primary"] = primary_val
     st.session_state["edit_candidates"] = valid_candidates
     st.session_state["edit_accept"] = bool(record.get("human_accept_model", False))
-    
-    # 分离存储和读取备注，防止互相覆盖
     st.session_state["edit_comment_bloom"] = record.get("human_comment_bloom", "")
     st.session_state["edit_comment_core"] = record.get("human_comment_core", "")
 
@@ -254,7 +251,6 @@ def save_current_record():
     idx = get_current_index()
     records = get_current_records()
     
-    # 构建新记录，将备注分开存储，避免来回拆解出错
     record = deepcopy(records[idx])
     record["human_bloom_level"] = st.session_state["edit_bloom"]
     record["human_core_literacy_primary"] = st.session_state["edit_primary"]
@@ -273,7 +269,6 @@ def save_current_record():
     auto_save_to_disk()
 
 def reset_to_model(record: dict):
-    """纯粹的重置逻辑，只强制覆盖 session_state"""
     model_bloom = record.get("bloom_level")
     model_primary = record.get("core_literacy_primary")
     model_candidates = record.get("core_literacy_candidates", [])
@@ -287,8 +282,6 @@ def reset_to_model(record: dict):
     st.session_state["edit_accept"] = False
     st.session_state["edit_comment_bloom"] = ""
     st.session_state["edit_comment_core"] = ""
-    
-    # 标记状态已同步，阻止下一次运行被 hydrate 覆盖
     st.session_state["needs_state_sync"] = False
 
 
@@ -303,7 +296,6 @@ records = get_current_records()
 total = len(records)
 
 st.title("数字题人工标注工具")
-st.caption("左侧看题，右侧专门标注。题目较长时，右侧标注区会尽量固定在可视区域。")
 
 with st.sidebar:
     st.subheader("当前任务")
@@ -355,11 +347,11 @@ if total == 0:
     st.warning("当前没有可标注题目。")
     st.stop()
 
-# ======= 核心状态同步逻辑 =======
+# ======= 核心状态同步 =======
 idx = get_current_index()
 record = records[idx]
 sync_widget_state(record)
-# ==============================
+# ==========================
 
 top1, top2, top3, top4 = st.columns([1, 1, 1, 1])
 with top1:
@@ -379,44 +371,48 @@ with top3:
 with top4:
     st.info(f"{teacher_label}：第 {idx + 1} / {total} 题")
 
+
+# ============== 布局核心改动点 ==============
 left, right = st.columns([1.7, 1], gap="large")
 
 with left:
     st.markdown("## 题目区")
-    st.markdown(f"**题目ID：** `{get_record_uid(record, idx)}`")
-    st.markdown(f"**题型：** {record.get('type', '')}")
-    if record.get("difficulty"):
-        st.markdown(f"**难度：** {record.get('difficulty', '')}")
-    if record.get("grades"):
-        st.markdown(f"**年级：** {'、'.join(record.get('grades', []))}")
+    # 使用固定高度(750px)包裹左侧内容，使其产生内部独立的滚动条
+    # 这样浏览题干时再也不会引起页面整体下滑了！
+    with st.container(height=750, border=True):
+        st.markdown(f"**题目ID：** `{get_record_uid(record, idx)}`")
+        st.markdown(f"**题型：** {record.get('type', '')}")
+        if record.get("difficulty"):
+            st.markdown(f"**难度：** {record.get('difficulty', '')}")
+        if record.get("grades"):
+            st.markdown(f"**年级：** {'、'.join(record.get('grades', []))}")
 
-    st.markdown("### 题干")
-    render_rich_text(record.get("normalized_stem") or record.get("stem", ""), label="题干")
+        st.markdown("### 题干")
+        render_rich_text(record.get("normalized_stem") or record.get("stem", ""), label="题干")
 
-    if record.get("stem_images"):
-        st.markdown("### 题干图片")
-        render_images(record.get("stem_images", []))
+        if record.get("stem_images"):
+            st.markdown("### 题干图片")
+            render_images(record.get("stem_images", []))
 
-    if record.get("options"):
-        st.markdown("### 选项")
-        for option in record.get("options", []):
-            render_rich_text(f"**{option.get('index', '')}.** {option.get('text', '')}", label=f"选项{option.get('index', '')}")
-            if option.get("images"):
-                render_images(option.get("images", []))
+        if record.get("options"):
+            st.markdown("### 选项")
+            for option in record.get("options", []):
+                render_rich_text(f"**{option.get('index', '')}.** {option.get('text', '')}", label=f"选项{option.get('index', '')}")
+                if option.get("images"):
+                    render_images(option.get("images", []))
 
-    st.markdown("### 参考答案")
-    render_rich_text(str(record.get("answer", "")), label="答案")
+        st.markdown("### 参考答案")
+        render_rich_text(str(record.get("answer", "")), label="答案")
 
-    st.markdown("### 解析")
-    render_rich_text(record.get("normalized_analysis") or record.get("analysis", ""), label="解析")
+        st.markdown("### 解析")
+        render_rich_text(record.get("normalized_analysis") or record.get("analysis", ""), label="解析")
 
-    if record.get("analysis_images"):
-        st.markdown("### 解析图片")
-        render_images(record.get("analysis_images", []))
+        if record.get("analysis_images"):
+            st.markdown("### 解析图片")
+            render_images(record.get("analysis_images", []))
 
 with right:
-    st.markdown('<div class="sticky-panel">', unsafe_allow_html=True)
-
+    # 既然左侧被关进了滚动盒子里，右侧就不需要任何复杂 sticky 魔法了，它天然就是不动的
     with st.container(border=True):
         st.markdown("### Bloom 标注")
         st.caption(f"模型建议：{record.get('bloom_level', '无') or '无'}")
@@ -427,11 +423,7 @@ with right:
             horizontal=True,
             label_visibility="collapsed",
         )
-        st.text_area(
-            "Bloom 备注",
-            key="edit_comment_bloom",
-            height=80,
-        )
+        st.text_area("Bloom 备注", key="edit_comment_bloom", height=80)
 
     st.write("")
 
@@ -442,11 +434,7 @@ with right:
         st.caption(f"模型主标签：{model_primary}")
         st.caption(f"模型候选：{model_candidates}")
 
-        st.selectbox(
-            "核心素养主标签",
-            options=CORE_LITERACIES,
-            key="edit_primary",
-        )
+        st.selectbox("核心素养主标签", options=CORE_LITERACIES, key="edit_primary")
         st.multiselect(
             "核心素养候选（最多 3 个）",
             options=CORE_LITERACIES,
@@ -472,5 +460,3 @@ with right:
             if idx < total - 1:
                 move(1)
             st.rerun()
-
-    st.markdown('</div>', unsafe_allow_html=True)

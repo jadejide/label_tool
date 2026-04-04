@@ -21,9 +21,9 @@ CORE_LITERACIES = [
 ]
 
 TASK_MAP = {
-    "zhang": {"name": "张老师", "file": "data/teacher_zhang.json"},
-    "li": {"name": "李老师", "file": "data/teacher_li.json"},
-    "wang": {"name": "王老师", "file": "data/teacher_wang.json"},
+    "zhang": {"name": "teacher1", "file": "data/teacher1.json"},
+    "li": {"name": "teacher2", "file": "data/teacher2.json"},
+    "wang": {"name": "teacher3", "file": "data/teacher3.json"},
 }
 
 BASE_DIR = Path(__file__).parent

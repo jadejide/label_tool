@@ -260,7 +260,6 @@ def set_current_index(index: int):
     total = len(records)
     index = 0 if total == 0 else max(0, min(index, total - 1))
     st.session_state[get_index_key(st.session_state["teacher_key"])] = index
-    st.session_state["needs_state_sync"] = True
 
 
 def move(delta: int):
@@ -271,9 +270,6 @@ def move(delta: int):
 # 编辑器逻辑
 # =========================
 def sync_widget_state(record: dict):
-    if not st.session_state.get("needs_state_sync", True):
-        return
-
     model_bloom = record.get("bloom_level", "")
     model_primary = record.get("core_literacy_primary", "")
     model_candidates = record.get("core_literacy_candidates", [])
@@ -293,7 +289,6 @@ def sync_widget_state(record: dict):
     st.session_state["edit_accept"] = bool(record.get("human_accept_model", False))
     st.session_state["edit_comment_bloom"] = record.get("human_comment_bloom", "")
     st.session_state["edit_comment_core"] = record.get("human_comment_core", "")
-    st.session_state["needs_state_sync"] = False
 
 
 def save_current_record(show_toast: bool = True):
@@ -351,30 +346,22 @@ def restore_saved_state(record: dict):
     st.toast("已恢复到当前已保存状态", icon="↩️")
 
 
-def on_accept_toggle():
-    if st.session_state.get("edit_accept", False):
-        idx = get_current_index()
-        record = get_current_records()[idx]
-        apply_model_suggestion(record)
-
-
 def editor_differs_from_record(record: dict) -> bool:
     current_candidates = ensure_candidates_include_primary(
         st.session_state.get("edit_primary", ""),
         st.session_state.get("edit_candidates", []),
     )
-    saved_candidates = ensure_candidates_include_primary(
-        record.get("human_core_literacy_primary") or record.get("core_literacy_primary", ""),
-        record.get("human_core_literacy_candidates") or record.get("core_literacy_candidates", []),
-    )
+    saved_primary = record.get("human_core_literacy_primary") or record.get("core_literacy_primary", "")
+    saved_candidates = record.get("human_core_literacy_candidates") or record.get("core_literacy_candidates", [])
+    saved_candidates_clean = ensure_candidates_include_primary(saved_primary, saved_candidates)
 
     return any([
         st.session_state.get("edit_bloom", "") != (record.get("human_bloom_level") or record.get("bloom_level") or BLOOM_LEVELS[0]),
-        st.session_state.get("edit_primary", "") != (record.get("human_core_literacy_primary") or record.get("core_literacy_primary") or CORE_LITERACIES[0]),
-        current_candidates != saved_candidates,
+        st.session_state.get("edit_primary", "") != saved_primary,
+        current_candidates != saved_candidates_clean,
         bool(st.session_state.get("edit_accept", False)) != bool(record.get("human_accept_model", False)),
-        (st.session_state.get("edit_comment_bloom", "") or "").strip() != (record.get("human_comment_bloom", "") or "").strip(),
-        (st.session_state.get("edit_comment_core", "") or "").strip() != (record.get("human_comment_core", "") or "").strip(),
+        (st.session_state.get("edit_comment_bloom", "").strip()) != (record.get("human_comment_bloom", "").strip()),
+        (st.session_state.get("edit_comment_core", "").strip()) != (record.get("human_comment_core", "").strip()),
     ])
 
 
@@ -418,7 +405,6 @@ with st.sidebar:
         jump_index = title_map[selected_title]
         if jump_index != current_index:
             set_current_index(jump_index)
-            st.rerun()
 
         if st.button("跳到下一道未完成题", use_container_width=True):
             unfinished = [i for i, x in enumerate(records) if not current_is_done(x)]
@@ -426,7 +412,6 @@ with st.sidebar:
                 current = get_current_index()
                 target = next((i for i in unfinished if i > current), unfinished[0])
                 set_current_index(target)
-                st.rerun()
     else:
         st.success("当前任务已全部完成。")
 
@@ -454,17 +439,14 @@ top1, top2, top3, top4 = st.columns([1, 1, 1, 1])
 with top1:
     if st.button("⬅ 上一题", disabled=(idx == 0), use_container_width=True):
         move(-1)
-        st.rerun()
 with top2:
     if st.button("下一题 ➡", disabled=(idx == total - 1), use_container_width=True):
         move(1)
-        st.rerun()
 with top3:
     if st.button("保存并下一题", use_container_width=True, type="primary"):
         save_current_record(show_toast=False)
         if idx < total - 1:
             move(1)
-        st.rerun()
 with top4:
     st.info(f"{teacher_label}：第 {idx + 1} / {total} 题")
 
@@ -540,8 +522,9 @@ with right:
             st.checkbox(
                 "采纳大模型建议（勾选会自动同步下方标签）",
                 key="edit_accept",
-                on_change=on_accept_toggle,
             )
+            if st.session_state.get("edit_accept", False):
+                apply_model_suggestion(record)
             st.text_area("核心素养备注", key="edit_comment_core", height=90)
 
         st.write("")
@@ -550,15 +533,12 @@ with right:
         with btn1:
             if st.button("保存当前题", use_container_width=True):
                 save_current_record(show_toast=True)
-                st.rerun()
         with btn2:
             if st.button("恢复到已保存状态", use_container_width=True):
                 restore_saved_state(record)
-                st.rerun()
         with btn3:
             if st.button("填入模型建议", use_container_width=True):
                 apply_model_suggestion(record)
-                st.rerun()
 
         st.write("")
         btn4, btn5 = st.columns(2)
@@ -566,12 +546,10 @@ with right:
             if st.button("跳过本题", use_container_width=True):
                 if idx < total - 1:
                     move(1)
-                st.rerun()
         with btn5:
             if st.button("清空两类备注", use_container_width=True):
                 st.session_state["edit_comment_bloom"] = ""
                 st.session_state["edit_comment_core"] = ""
-                st.rerun()
 
         if st.session_state.get("last_autosave_ok") is False:
             st.caption(f"自动保存失败：{st.session_state.get('last_autosave_error', '')}")

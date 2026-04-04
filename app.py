@@ -1,3 +1,4 @@
+
 import json
 from pathlib import Path
 from datetime import datetime
@@ -9,23 +10,17 @@ st.set_page_config(page_title="数学题人工标注工具", layout="wide")
 
 BLOOM_LEVELS = ["记忆", "理解", "应用", "分析", "评价", "创造"]
 CORE_LITERACIES = [
-    "抽象能力",
-    "运算能力",
-    "几何直观",
-    "空间观念",
-    "推理能力",
-    "数据观念",
-    "模型观念",
-    "应用意识",
-    "创新意识",
+    "抽象能力", "运算能力", "几何直观", "空间观念", "推理能力",
+    "数据观念", "模型观念", "应用意识", "创新意识",
 ]
 
 TASK_MAP = {
-    "zhang": {"name": "teacher1", "file": "data/teacher1.json"},
-    "li": {"name": "teacher2", "file": "data/teacher2.json"},
-    "wang": {"name": "teacher3", "file": "data/teacher3.json"},
+    "1": {"name": "teacher_1", "file": "data/teacher1.json"},
+    "2": {"name": "teacher_2", "file": "data/teacher2.json"},
+    "3": {"name": "teacher_3", "file": "data/teacher3.json"},
 }
 
+ALLOW_TEACHER_SWITCH = False
 BASE_DIR = Path(__file__).parent
 
 
@@ -40,10 +35,15 @@ def load_json_records(path: Path):
 
     if path.suffix.lower() == ".jsonl":
         return [json.loads(line) for line in text.splitlines() if line.strip()]
-    return json.loads(text)
+
+    data = json.loads(text)
+    if not isinstance(data, list):
+        st.error("数据文件必须是 JSON 数组或 JSONL。")
+        st.stop()
+    return data
 
 
-def save_download_bytes(records):
+def dump_records_bytes(records):
     return json.dumps(records, ensure_ascii=False, indent=2).encode("utf-8")
 
 
@@ -58,43 +58,27 @@ def set_query_teacher(teacher_key: str):
     st.query_params["teacher"] = teacher_key
 
 
-def build_annotated_record(record, annotator_name, bloom_value, primary_value, candidates_value, accept_model, comment):
-    new_record = deepcopy(record)
-    new_record["human_bloom_level"] = bloom_value
-    new_record["human_core_literacy_primary"] = primary_value
-    new_record["human_core_literacy_candidates"] = candidates_value[:3]
-    new_record["human_accept_model"] = bool(accept_model)
-    new_record["human_comment"] = comment.strip()
-    new_record["human_annotator"] = annotator_name
-    new_record["human_updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    new_record["human_status"] = "已标注" if bloom_value and primary_value else "未完成"
-    return new_record
+def current_time_str():
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
-def current_is_done(record):
+def get_record_uid(record: dict, idx: int) -> str:
+    return str(record.get("id") or record.get("sample_id") or f"item_{idx}")
+
+
+def current_is_done(record: dict) -> bool:
     return bool(record.get("human_bloom_level")) and bool(record.get("human_core_literacy_primary"))
 
 
-def get_record_title(i, record):
-    qid = record.get("id", f"item_{i+1}")
+def get_record_title(i: int, record: dict) -> str:
+    qid = get_record_uid(record, i + 1)
     status = "✅" if current_is_done(record) else "⬜"
-    return f"{status} 第{i+1}题 · {qid}"
-
-
-def render_images(image_list):
-    if not image_list:
-        return
-    for img in image_list:
-        img_path = BASE_DIR / img
-        if img_path.exists():
-            st.image(str(img_path), use_container_width=True)
-        else:
-            st.caption(f"图片文件未找到：{img}")
+    return f"{status} 第{i + 1}题 · {qid}"
 
 
 def ensure_candidates_include_primary(primary, candidates):
     clean = []
-    for x in candidates:
+    for x in candidates or []:
         if x in CORE_LITERACIES and x not in clean:
             clean.append(x)
     if primary in CORE_LITERACIES:
@@ -104,35 +88,168 @@ def ensure_candidates_include_primary(primary, candidates):
     return clean[:3]
 
 
+def resolve_media_path(raw_path: str):
+    if not raw_path:
+        return None
+    p = Path(raw_path)
+    candidates = [
+        BASE_DIR / p,
+        BASE_DIR / "images" / p.name,
+        BASE_DIR / "image" / p.name,
+    ]
+    for c in candidates:
+        if c.exists():
+            return c
+    return None
+
+
+def render_images(image_list):
+    if not image_list:
+        return
+    for img in image_list:
+        resolved = resolve_media_path(img)
+        if resolved and resolved.exists():
+            st.image(str(resolved), use_container_width=True)
+        else:
+            st.caption(f"图片文件未找到：{img}")
+
+
+def render_rich_text(text: str):
+    st.markdown((text or "").replace("\n", "  \n"))
+
+
+def build_annotated_record(record, annotator_name, bloom_value, primary_value, candidates_value, accept_model, comment):
+    new_record = deepcopy(record)
+    candidates_value = ensure_candidates_include_primary(primary_value, candidates_value)
+    new_record["human_bloom_level"] = bloom_value
+    new_record["human_core_literacy_primary"] = primary_value
+    new_record["human_core_literacy_candidates"] = candidates_value
+    new_record["human_accept_model"] = bool(accept_model)
+    new_record["human_comment"] = comment.strip()
+    new_record["human_annotator"] = annotator_name
+    new_record["human_updated_at"] = current_time_str()
+    new_record["human_status"] = "已标注" if bloom_value and primary_value else "未完成"
+    return new_record
+
+
+def get_records_state_key(teacher_key: str) -> str:
+    return f"records::{teacher_key}"
+
+
+def get_index_state_key(teacher_key: str) -> str:
+    return f"current_index::{teacher_key}"
+
+
 def init_session():
     teacher_key = get_query_teacher()
+    records_key = get_records_state_key(teacher_key)
+    index_key = get_index_state_key(teacher_key)
 
-    if "teacher_key" not in st.session_state:
-        st.session_state.teacher_key = teacher_key
-
-    if st.session_state.teacher_key != teacher_key:
-        st.session_state.teacher_key = teacher_key
-        st.session_state.pop("records", None)
-        st.session_state.pop("current_index", None)
-
-    if "records" not in st.session_state:
+    if records_key not in st.session_state:
         file_path = BASE_DIR / TASK_MAP[teacher_key]["file"]
-        st.session_state.records = load_json_records(file_path)
+        st.session_state[records_key] = load_json_records(file_path)
 
-    if "current_index" not in st.session_state:
-        st.session_state.current_index = 0
+    if index_key not in st.session_state:
+        st.session_state[index_key] = 0
+
+    st.session_state["teacher_key"] = teacher_key
 
 
-def jump_to(index: int):
-    total = len(st.session_state.records)
+def get_current_records():
+    teacher_key = st.session_state["teacher_key"]
+    return st.session_state[get_records_state_key(teacher_key)]
+
+
+def set_current_records(records):
+    teacher_key = st.session_state["teacher_key"]
+    st.session_state[get_records_state_key(teacher_key)] = records
+
+
+def get_current_index():
+    teacher_key = st.session_state["teacher_key"]
+    return st.session_state[get_index_state_key(teacher_key)]
+
+
+def set_current_index(index: int):
+    teacher_key = st.session_state["teacher_key"]
+    records = get_current_records()
+    total = len(records)
     if total == 0:
-        st.session_state.current_index = 0
-        return
-    st.session_state.current_index = max(0, min(index, total - 1))
+        st.session_state[get_index_state_key(teacher_key)] = 0
+    else:
+        st.session_state[get_index_state_key(teacher_key)] = max(0, min(index, total - 1))
 
 
 def move(delta: int):
-    jump_to(st.session_state.current_index + delta)
+    set_current_index(get_current_index() + delta)
+
+
+def hydrate_form_state(record: dict, idx: int):
+    record_uid = get_record_uid(record, idx)
+    record_signature = f"{st.session_state['teacher_key']}::{record_uid}"
+    if st.session_state.get("form_record_signature") == record_signature:
+        return
+
+    model_bloom = record.get("bloom_level", "")
+    model_primary = record.get("core_literacy_primary", "")
+    model_candidates = record.get("core_literacy_candidates", [])
+
+    bloom_value = record.get("human_bloom_level") or model_bloom
+    if bloom_value not in BLOOM_LEVELS:
+        bloom_value = BLOOM_LEVELS[0]
+
+    primary_value = record.get("human_core_literacy_primary") or model_primary
+    if primary_value not in CORE_LITERACIES:
+        primary_value = CORE_LITERACIES[0]
+
+    candidates_value = record.get("human_core_literacy_candidates") or model_candidates
+    candidates_value = ensure_candidates_include_primary(primary_value, candidates_value)
+
+    st.session_state["form_bloom"] = bloom_value
+    st.session_state["form_primary"] = primary_value
+    st.session_state["form_candidates"] = candidates_value
+    st.session_state["form_accept_model"] = bool(record.get("human_accept_model", False))
+    st.session_state["form_comment"] = record.get("human_comment", "")
+    st.session_state["form_record_signature"] = record_signature
+
+
+def save_current_record(stay_on_page: bool = True):
+    teacher_key = st.session_state["teacher_key"]
+    teacher_name = TASK_MAP[teacher_key]["name"]
+    records = get_current_records()
+    idx = get_current_index()
+    record = records[idx]
+
+    updated = build_annotated_record(
+        record=record,
+        annotator_name=teacher_name,
+        bloom_value=st.session_state["form_bloom"],
+        primary_value=st.session_state["form_primary"],
+        candidates_value=st.session_state["form_candidates"],
+        accept_model=st.session_state["form_accept_model"],
+        comment=st.session_state["form_comment"],
+    )
+
+    records[idx] = updated
+    set_current_records(records)
+
+    if not stay_on_page:
+        move(1)
+
+    st.toast("已保存", icon="✅")
+
+
+def reset_form_to_model(record: dict, idx: int):
+    model_bloom = record.get("bloom_level") if record.get("bloom_level") in BLOOM_LEVELS else BLOOM_LEVELS[0]
+    model_primary = record.get("core_literacy_primary") if record.get("core_literacy_primary") in CORE_LITERACIES else CORE_LITERACIES[0]
+    model_candidates = ensure_candidates_include_primary(model_primary, record.get("core_literacy_candidates", []))
+
+    st.session_state["form_bloom"] = model_bloom
+    st.session_state["form_primary"] = model_primary
+    st.session_state["form_candidates"] = model_candidates
+    st.session_state["form_accept_model"] = False
+    st.session_state["form_comment"] = ""
+    st.session_state["form_record_signature"] = f"{st.session_state['teacher_key']}::{get_record_uid(record, idx)}"
 
 
 def make_export_name(teacher_key: str):
@@ -142,29 +259,27 @@ def make_export_name(teacher_key: str):
 
 init_session()
 
-teacher_key = st.session_state.teacher_key
+teacher_key = st.session_state["teacher_key"]
 teacher_name = TASK_MAP[teacher_key]["name"]
-records = st.session_state.records
+records = get_current_records()
 total = len(records)
 
 st.title("数学题人工标注工具")
-st.caption("老师直接打开链接即可标注；最后点击下载，把结果文件发回给我。")
+st.caption("老师通过各自链接进入，参考大模型建议后进行人工修订，最后下载结果 JSON。")
 
 with st.sidebar:
-    st.subheader("任务设置")
+    st.subheader("当前任务")
+    st.write(f"**老师：** {teacher_name}")
+    st.write(f"**任务参数：** `{teacher_key}`")
 
-    teacher_label_to_key = {v["name"]: k for k, v in TASK_MAP.items()}
-    labels = list(teacher_label_to_key.keys())
-    selected_teacher_label = st.selectbox(
-        "选择老师",
-        labels,
-        index=labels.index(teacher_name),
-    )
-    selected_teacher_key = teacher_label_to_key[selected_teacher_label]
-
-    if selected_teacher_key != teacher_key:
-        set_query_teacher(selected_teacher_key)
-        st.rerun()
+    if ALLOW_TEACHER_SWITCH:
+        teacher_label_to_key = {v["name"]: k for k, v in TASK_MAP.items()}
+        labels = list(teacher_label_to_key.keys())
+        selected_teacher_label = st.selectbox("切换老师任务", labels, index=labels.index(teacher_name))
+        selected_teacher_key = teacher_label_to_key[selected_teacher_label]
+        if selected_teacher_key != teacher_key:
+            set_query_teacher(selected_teacher_key)
+            st.rerun()
 
     done_count = sum(1 for x in records if current_is_done(x))
     st.metric("总题数", total)
@@ -174,43 +289,41 @@ with st.sidebar:
 
     st.divider()
     st.subheader("快速跳转")
+    only_unfinished = st.checkbox("只看未完成题", value=False)
 
-    titles = [get_record_title(i, r) for i, r in enumerate(records)]
-    if titles:
-        selected_title = st.selectbox(
-            "题目列表",
-            titles,
-            index=st.session_state.current_index,
-            key="jump_selectbox",
-        )
-        jump_index = titles.index(selected_title)
-        if jump_index != st.session_state.current_index:
-            jump_to(jump_index)
+    visible_indices = [i for i, r in enumerate(records) if (not only_unfinished) or (not current_is_done(r))]
+    if visible_indices:
+        title_map = {get_record_title(i, records[i]): i for i in visible_indices}
+        titles = list(title_map.keys())
+        current_index = get_current_index()
+        default_position = visible_indices.index(current_index) if current_index in visible_indices else 0
+
+        selected_title = st.selectbox("题目列表", titles, index=default_position, key=f"jump_selectbox::{teacher_key}")
+        jump_index = title_map[selected_title]
+        if jump_index != current_index:
+            set_current_index(jump_index)
             st.rerun()
 
-    only_unfinished = st.checkbox("只看未完成题", value=False)
-    if only_unfinished:
-        unfinished = [i for i, x in enumerate(records) if not current_is_done(x)]
-        if unfinished:
-            if st.button("跳到下一道未完成题", use_container_width=True):
-                current = st.session_state.current_index
+        if st.button("跳到下一道未完成题", use_container_width=True):
+            unfinished = [i for i, x in enumerate(records) if not current_is_done(x)]
+            if unfinished:
+                current = get_current_index()
                 target = None
-                for item_index in unfinished:
-                    if item_index > current:
-                        target = item_index
+                for i in unfinished:
+                    if i > current:
+                        target = i
                         break
                 if target is None:
                     target = unfinished[0]
-                jump_to(target)
+                set_current_index(target)
                 st.rerun()
-        else:
-            st.success("当前任务已全部完成。")
+    else:
+        st.success("当前任务已全部完成。")
 
     st.divider()
-    export_bytes = save_download_bytes(records)
     st.download_button(
         "下载当前标注结果 JSON",
-        data=export_bytes,
+        data=dump_records_bytes(records),
         file_name=make_export_name(teacher_key),
         mime="application/json",
         use_container_width=True,
@@ -220,26 +333,33 @@ if total == 0:
     st.warning("当前没有可标注题目。")
     st.stop()
 
-idx = st.session_state.current_index
+idx = get_current_index()
 record = records[idx]
+hydrate_form_state(record, idx)
 
 st.subheader(f"{teacher_name}：第 {idx + 1} / {total} 题")
-col_nav1, col_nav2, col_nav3 = st.columns([1, 1, 3])
-with col_nav1:
-    st.button("⬅ 上一题", on_click=move, args=(-1,), disabled=(idx == 0), use_container_width=True)
-with col_nav2:
-    st.button("下一题 ➡", on_click=move, args=(1,), disabled=(idx == total - 1), use_container_width=True)
-with col_nav3:
-    if current_is_done(record):
-        st.success("本题已完成")
-    else:
-        st.warning("本题未完成")
 
-left, right = st.columns([1.3, 1])
+nav1, nav2, nav3, nav4 = st.columns([1, 1, 1, 3])
+with nav1:
+    if st.button("⬅ 上一题", disabled=(idx == 0), use_container_width=True):
+        move(-1)
+        st.rerun()
+with nav2:
+    if st.button("下一题 ➡", disabled=(idx == total - 1), use_container_width=True):
+        move(1)
+        st.rerun()
+with nav3:
+    if st.button("跳过本题", use_container_width=True):
+        move(1)
+        st.rerun()
+with nav4:
+    st.success("本题已完成") if current_is_done(record) else st.warning("本题未完成")
+
+left, right = st.columns([1.35, 1])
 
 with left:
     st.markdown("### 题目信息")
-    st.markdown(f"**题目ID：** `{record.get('id', '')}`")
+    st.markdown(f"**题目ID：** `{get_record_uid(record, idx)}`")
     st.markdown(f"**题型：** {record.get('type', '')}")
     if record.get("difficulty"):
         st.markdown(f"**难度：** {record.get('difficulty', '')}")
@@ -247,115 +367,69 @@ with left:
         st.markdown(f"**年级：** {'、'.join(record.get('grades', []))}")
 
     st.markdown("#### 题干")
-    st.write(record.get("normalized_stem") or record.get("stem", ""))
+    render_rich_text(record.get("normalized_stem") or record.get("stem", ""))
 
-    stem_images = record.get("stem_images", [])
-    if stem_images:
+    if record.get("stem_images"):
         st.markdown("#### 题干图片")
-        render_images(stem_images)
+        render_images(record.get("stem_images", []))
 
-    options = record.get("options", [])
-    if options:
+    if record.get("options"):
         st.markdown("#### 选项")
-        for option in options:
-            option_text = option.get("text", "")
-            st.write(f"{option.get('index', '')}. {option_text}")
+        for option in record.get("options", []):
+            st.markdown(f"**{option.get('index', '')}.** {option.get('text', '')}")
             if option.get("images"):
-                render_images(option.get("images"))
+                render_images(option.get("images", []))
 
     st.markdown("#### 参考答案")
-    st.write(record.get("answer", ""))
+    render_rich_text(str(record.get("answer", "")))
 
     st.markdown("#### 解析")
-    st.write(record.get("normalized_analysis") or record.get("analysis", ""))
+    render_rich_text(record.get("normalized_analysis") or record.get("analysis", ""))
 
-    analysis_images = record.get("analysis_images", [])
-    if analysis_images:
+    if record.get("analysis_images"):
         st.markdown("#### 解析图片")
-        render_images(analysis_images)
+        render_images(record.get("analysis_images", []))
 
 with right:
     st.markdown("### 大模型建议")
-    model_bloom = record.get("bloom_level", "")
-    model_bloom_reason = record.get("bloom_reason", "")
-    model_primary = record.get("core_literacy_primary", "")
-    model_candidates = record.get("core_literacy_candidates", [])
-    model_reason = record.get("core_literacy_reason", "")
+    st.markdown(
+        f"""
+**Bloom 层级：** {record.get('bloom_level', '无') or '无'}  
+**Bloom 原因：** {record.get('bloom_reason', '无') or '无'}  
 
-    st.info(
-        f"**Bloom：** {model_bloom or '无'}\n\n"
-        f"**Bloom原因：** {model_bloom_reason or '无'}\n\n"
-        f"**核心素养主标签：** {model_primary or '无'}\n\n"
-        f"**核心素养候选：** {', '.join(model_candidates) if model_candidates else '无'}\n\n"
-        f"**核心素养原因：** {model_reason or '无'}"
+**核心素养主标签：** {record.get('core_literacy_primary', '无') or '无'}  
+**核心素养候选：** {", ".join(record.get('core_literacy_candidates', [])) if record.get('core_literacy_candidates') else '无'}  
+**核心素养原因：** {record.get('core_literacy_reason', '无') or '无'}
+"""
     )
 
     st.markdown("### 人工标注")
+    with st.form("annotation_form", clear_on_submit=False):
+        st.radio("Bloom 层级", options=BLOOM_LEVELS, key="form_bloom", horizontal=True)
+        st.selectbox("核心素养主标签", options=CORE_LITERACIES, key="form_primary")
+        st.multiselect("核心素养候选（最多 3 个）", options=CORE_LITERACIES, key="form_candidates", max_selections=3)
+        st.checkbox("采纳大模型建议", key="form_accept_model")
+        st.text_area("备注", key="form_comment", height=120)
 
-    current_primary = record.get("human_core_literacy_primary") or model_primary
-    current_candidates = record.get("human_core_literacy_candidates") or model_candidates
-    current_candidates = ensure_candidates_include_primary(current_primary, current_candidates)
+        c1, c2, c3 = st.columns(3)
+        save_now = c1.form_submit_button("保存当前题", use_container_width=True)
+        save_next = c2.form_submit_button("保存并下一题", use_container_width=True)
+        reset_model = c3.form_submit_button("恢复模型建议", use_container_width=True)
 
-    bloom_candidate = record.get("human_bloom_level") or model_bloom
-    default_bloom_index = BLOOM_LEVELS.index(bloom_candidate) if bloom_candidate in BLOOM_LEVELS else 0
-    default_primary_index = CORE_LITERACIES.index(current_primary) if current_primary in CORE_LITERACIES else 0
-
-    with st.form(key=f"annotate_form_{idx}", clear_on_submit=False):
-        bloom_value = st.radio(
-            "Bloom 层级",
-            options=BLOOM_LEVELS,
-            index=default_bloom_index,
-            horizontal=True,
-            key=f"bloom_{idx}",
-        )
-
-        primary_value = st.selectbox(
-            "核心素养主标签",
-            options=CORE_LITERACIES,
-            index=default_primary_index,
-            key=f"primary_{idx}",
-        )
-
-        candidates_value = st.multiselect(
-            "核心素养候选（最多 3 个）",
-            options=CORE_LITERACIES,
-            default=current_candidates,
-            max_selections=3,
-            key=f"candidates_{idx}",
-        )
-
-        accept_model = st.checkbox(
-            "采纳大模型建议",
-            value=bool(record.get("human_accept_model", False)),
-            key=f"accept_{idx}",
-        )
-
-        comment = st.text_area(
-            "备注",
-            value=record.get("human_comment", ""),
-            height=120,
-            key=f"comment_{idx}",
-        )
-
-        submitted = st.form_submit_button("保存当前题", use_container_width=True)
-
-    if submitted:
-        candidates_value = ensure_candidates_include_primary(primary_value, candidates_value)
-        st.session_state.records[idx] = build_annotated_record(
-            record=st.session_state.records[idx],
-            annotator_name=teacher_name,
-            bloom_value=bloom_value,
-            primary_value=primary_value,
-            candidates_value=candidates_value,
-            accept_model=accept_model,
-            comment=comment,
-        )
-        st.success("已保存当前题。")
+    if reset_model:
+        reset_form_to_model(record, idx)
+        st.rerun()
+    if save_now:
+        save_current_record(stay_on_page=True)
+        st.rerun()
+    if save_next:
+        save_current_record(stay_on_page=False)
+        st.rerun()
 
     st.divider()
     st.markdown("### 当前人工结果")
-    preview = st.session_state.records[idx]
-    st.write({
+    preview = get_current_records()[get_current_index()]
+    st.json({
         "human_bloom_level": preview.get("human_bloom_level", ""),
         "human_core_literacy_primary": preview.get("human_core_literacy_primary", ""),
         "human_core_literacy_candidates": preview.get("human_core_literacy_candidates", []),

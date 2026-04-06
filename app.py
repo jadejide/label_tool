@@ -49,7 +49,7 @@ st.markdown(
     """
 <style>
 .block-container {
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
 }
 [data-testid="stImage"] img {
@@ -788,7 +788,7 @@ left, right = st.columns([1.72, 1], gap="large")
 
 with left:
     st.markdown("## 题目区")
-    with st.container(height=1000, border=True):
+    with st.container(height=1200, border=True):
         st.markdown(f"**题目ID：** `{current_uid}`")
         type_text = current_record.get("type") or ""
         st.markdown(f"**题型：** {type_text}")

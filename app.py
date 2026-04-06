@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.set_page_config(page_title="数字题人工标注工具", layout="wide")
 
@@ -67,6 +68,18 @@ st.markdown(
     white-space: normal;
 }
 .math-text.compact { font-size: 17px; line-height: 1.75; }
+.katex-host {
+    font-size: 19px;
+    line-height: 1.9;
+    word-break: break-word;
+}
+.katex-host.compact {
+    font-size: 17px;
+    line-height: 1.75;
+}
+.katex-host .katex { font-size: 1em; }
+.katex-host .katex-display { margin: 0.35em 0; overflow-x: auto; overflow-y: hidden; }
+.katex-host br { line-height: 1.9; }
 .option-card {
     border: 1px solid #e5e7eb;
     border-radius: 14px;
@@ -184,9 +197,9 @@ def resolve_data_file(config_name: str) -> Path:
 def normalize_text(text: Any) -> str:
     s = "" if text is None else str(text)
     s = s.replace("\u00a0", " ")
-    s = s.replace("\\;", " ").replace("\\,", " ")
-    s = s.replace(" \\n", "\n").replace("\\n ", "\n")
-    s = s.replace("\\n", "\n")
+    s = s.replace(r"\;", " ").replace(r"\,", " ")
+    s = s.replace(" \n", "\n").replace("\n ", "\n")
+    s = s.replace("\n", "\n")
     return s.strip()
 
 
@@ -194,97 +207,69 @@ def escape_html(text: str) -> str:
     return html.escape(text, quote=False)
 
 
-def find_matching_brace(s: str, start: int) -> int:
-    depth = 0
-    for i in range(start, len(s)):
-        if s[i] == "{":
-            depth += 1
-        elif s[i] == "}":
-            depth -= 1
-            if depth == 0:
-                return i
-    return -1
+def looks_like_tex(text: str) -> bool:
+    tex_markers = [
+        "\\frac", "\\sqrt", "\\begin{", "\\end{", "\\left", "\\right",
+        "\\times", "\\div", "\\pm", "\\cdot", "\\le", "\\ge",
+        "\\angle", "\\triangle", "\\sin", "\\cos", "\\tan", "\\log",
+        "\\sum", "\\int", "\\lim", "\\alpha", "\\beta", "\\theta",
+        "^", "_",
+    ]
+    return any(marker in text for marker in tex_markers)
 
 
-def read_group(s: str, i: int):
-    if i >= len(s):
-        return "", i
-    if s[i] == "{":
-        end = find_matching_brace(s, i)
-        if end != -1:
-            return s[i + 1:end], end + 1
-    return s[i], i + 1
+def build_katex_html(text: str, compact: bool = False) -> str:
+    normalized = normalize_text(text)
+    escaped = escape_html(normalized).replace("\n", "<br>")
+    css_class = "katex-host compact" if compact else "katex-host"
 
+    has_delimiters = any(token in normalized for token in ["$$", "$", "\\(", "\\)", "\\[", "\\]"])
+    if looks_like_tex(normalized) and not has_delimiters:
+        content = f"\\({escaped}\\)"
+    else:
+        content = escaped
 
-def render_formula_html(text: str) -> str:
-    s = normalize_text(text)
+    delimiters = json.dumps([
+        {"left": "$$", "right": "$$", "display": True},
+        {"left": "\\[", "right": "\\]", "display": True},
+        {"left": "\\(", "right": "\\)", "display": False},
+        {"left": "$", "right": "$", "display": False},
+    ], ensure_ascii=False)
 
-    def parse(expr: str) -> str:
-        out: List[str] = []
-        i = 0
-        while i < len(expr):
-            if expr.startswith("\\frac", i):
-                num, p1 = read_group(expr, i + 5)
-                den, p2 = read_group(expr, p1)
-                out.append(f'<span class="frac"><span>{parse(num)}</span><span>{parse(den)}</span></span>')
-                i = p2
-                continue
-            if expr.startswith("\\sqrt", i):
-                body, p1 = read_group(expr, i + 5)
-                out.append(f'<span class="sqrt"><span class="sqrt-sign">√</span><span class="sqrt-body">{parse(body)}</span></span>')
-                i = p1
-                continue
-            if expr.startswith("\\overset", i):
-                top, p1 = read_group(expr, i + 8)
-                base, p2 = read_group(expr, p1)
-                out.append(f'<span class="overset"><span class="overset-top">{parse(top)}</span><span class="overset-base">{parse(base)}</span></span>')
-                i = p2
-                continue
-            if expr.startswith("\\begin{cases}", i):
-                end = expr.find("\\end{cases}", i)
-                if end != -1:
-                    body = expr[i + len("\\begin{cases}"):end]
-                    lines = [x.strip() for x in re.split(r"\\\\", body) if x.strip()]
-                    line_html = "".join(f'<div class="formula-line">{parse(line)}</div>' for line in lines)
-                    out.append(f'<span class="cases"><span class="cases-brace">{{</span><span class="cases-lines">{line_html}</span></span>')
-                    i = end + len("\\end{cases}")
-                    continue
-            ch = expr[i]
-            if ch == "^":
-                grp, ni = read_group(expr, i + 1)
-                out.append(f"<sup>{parse(grp)}</sup>")
-                i = ni
-                continue
-            if expr.startswith("____", i):
-                out.append('<span class="placeholder-line"></span>')
-                while expr.startswith("_", i):
-                    i += 1
-                continue
-            if ch == "_":
-                grp, ni = read_group(expr, i + 1)
-                g = grp.strip()
-                if len(g) >= 3 and set(g) <= {"_"}:
-                    out.append('<span class="placeholder-line"></span>')
-                else:
-                    out.append(f"<sub>{parse(grp)}</sub>")
-                i = ni
-                continue
-            if expr.startswith("\\\\", i):
-                out.append('<span class="sep-line"></span>')
-                i += 2
-                continue
-            if ch in "{}":
-                i += 1
-                continue
-            out.append(escape_html(ch))
-            i += 1
-        joined = "".join(out)
-        joined = joined.replace("-", "−")
-        return joined
+    return """
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <div class="{css_class}" id="katex-content">{content}</div>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+    <script>
+      const renderKatex = () => {{
+        const host = document.getElementById('katex-content');
+        if (!host || typeof renderMathInElement !== 'function') return;
+        renderMathInElement(host, {{
+          delimiters: {delimiters},
+          throwOnError: false,
+          strict: 'ignore',
+          trust: true
+        }});
+      }};
 
-    html_text = parse(s)
-    html_text = re.sub(r"\s{2,}", " ", html_text)
-    return html_text
+      const startKatex = () => {{
+        if (typeof renderMathInElement === 'function') {{
+          renderKatex();
+          return;
+        }}
+        setTimeout(startKatex, 120);
+      }};
+
+      if (document.readyState === 'loading') {{
+        document.addEventListener('DOMContentLoaded', startKatex);
+      }} else {{
+        startKatex();
+      }}
+      setTimeout(startKatex, 350);
+      setTimeout(startKatex, 900);
+    </script>
+    """.format(css_class=css_class, content=content, delimiters=delimiters)
 
 
 def render_text_block(text: Any, compact: bool = False) -> None:
@@ -293,27 +278,27 @@ def render_text_block(text: Any, compact: bool = False) -> None:
     if not normalized:
         st.markdown('<div class="small-muted">暂无内容</div>', unsafe_allow_html=True)
         return
-    css_class = "math-text compact" if compact else "math-text"
-    html_content = f'<div class="{css_class}">{normalized}</div>'
-    st.markdown(html_content, unsafe_allow_html=True)
+    html_content = build_katex_html(normalized, compact=compact)
+    height = 90 if compact else 140
+    extra = max(0, normalized.count("\n") - 1) * 28
+    components.html(html_content, height=height + extra, scrolling=False)
 
 
 def render_options(options: List[Dict[str, Any]]) -> None:
     if not options:
         return
-    blocks: List[str] = []
     for opt in options:
         label = escape_html(str(opt.get("index", "")))
-        text_html = render_formula_html(str(opt.get("text", "")))
-        blocks.append(
-            f'<div class="option-card"><div class="option-label">{label}</div><div class="math-text compact">{text_html}</div></div>'
-        )
-    st.markdown("".join(blocks), unsafe_allow_html=True)
+        option_html = build_katex_html(str(opt.get("text", "")), compact=True)
+        col1, col2 = st.columns([1, 18], vertical_alignment="top")
+        with col1:
+            st.markdown(f'<div class="option-label">{label}</div>', unsafe_allow_html=True)
+        with col2:
+            components.html(option_html, height=110, scrolling=False)
     for opt in options:
         imgs = opt.get("images") or []
         if imgs:
             render_images(imgs)
-
 
 def resolve_media_path(raw_path: str) -> Optional[Path]:
     if not raw_path:

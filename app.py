@@ -29,6 +29,16 @@ TASKS: Dict[str, Dict[str, str]] = {
     "teacher2": {"label": "教师 2", "data_file": "teacher_2.json"},
     "teacher3": {"label": "教师 3", "data_file": "teacher_3.json"},
 }
+task_from_url = st.query_params.get("task", "teacher1")
+if task_from_url not in TASKS:
+    st.error("无效任务链接")
+    st.stop()
+
+active_task = task_from_url
+task_label = TASKS[active_task]["label"]
+
+with st.sidebar:
+    st.markdown(f"**当前任务：{task_label}**")
 
 BASE_DIR = Path(__file__).parent
 

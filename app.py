@@ -823,30 +823,27 @@ with left:
             render_images(current_record.get("analysis_images", []))
 
 with right:
+    bloom_model = current_record.get("bloom_level") or "无"
+    bloom_reason = current_record.get("bloom_reason") or ""
+    core_model = current_record.get("core_literacy_primary") or "无"
+    core_candidates = current_record.get("core_literacy_candidates") or []
+    core_reason = current_record.get("core_literacy_reason") or ""
+
     with st.container(border=True):
-        bloom_model = current_record.get("bloom_level") or "无"
-        bloom_reason = current_record.get("bloom_reason") or ""
-        core_model = current_record.get("core_literacy_primary") or "无"
-        core_candidates = current_record.get("core_literacy_candidates") or []
-        core_reason = current_record.get("core_literacy_reason") or ""
+        st.markdown("### Bloom 标注")
+
         st.markdown(
             f"""
 <div class="model-card">
-  <div class="model-title">模型建议</div>
-  <div class="model-row"><b>Bloom：</b>{escape_html(str(bloom_model))}</div>
-  <div class="model-row"><b>Bloom 理由：</b>{escape_html(str(bloom_reason or '无'))}</div>
-  <div class="model-row"><b>核心素养主标签：</b>{escape_html(str(core_model))}</div>
-  <div class="model-row"><b>核心素养候选：</b>{escape_html('、'.join(core_candidates) if core_candidates else '无')}</div>
-  <div class="model-row"><b>核心素养理由：</b>{escape_html(str(core_reason or '无'))}</div>
+  <div class="model-title">Bloom 模型建议</div>
+  <div class="model-row"><b>建议层级：</b>{escape_html(str(bloom_model))}</div>
+  <div class="model-row"><b>建议理由：</b>{escape_html(str(bloom_reason or '无'))}</div>
 </div>
 """,
             unsafe_allow_html=True,
         )
 
-    st.write("")
-
-    with st.container(border=True):
-        st.markdown("### Bloom 标注")
+        st.caption("Bloom 层级")
         st.radio(
             "Bloom 层级",
             options=BLOOM_LEVELS,
@@ -860,6 +857,19 @@ with right:
 
     with st.container(border=True):
         st.markdown("### 核心素养标注")
+
+        st.markdown(
+            f"""
+<div class="model-card">
+  <div class="model-title">核心素养模型建议</div>
+  <div class="model-row"><b>主标签：</b>{escape_html(str(core_model))}</div>
+  <div class="model-row"><b>候选：</b>{escape_html('、'.join(core_candidates) if core_candidates else '无')}</div>
+  <div class="model-row"><b>建议理由：</b>{escape_html(str(core_reason or '无'))}</div>
+</div>
+""",
+            unsafe_allow_html=True,
+        )
+
         st.selectbox("核心素养主标签", options=PRIMARY_OPTIONS, key="edit_primary")
         st.multiselect(
             "核心素养候选（最多 3 个）",

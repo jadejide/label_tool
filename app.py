@@ -28,6 +28,7 @@ TASKS = {
 }
 
 BASE_DIR = Path(__file__).parent
+ASSET_DIRS = [BASE_DIR, BASE_DIR / "data", BASE_DIR / "images"]
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -563,7 +564,7 @@ with left:
         if meta:
             st.markdown(" · ".join(meta))
 
-        render_text_block("题干", record.get("normalized_stem") or record.get("stem") or "")
+        render_text_block("题干", record.get("normalized_stem") )
         if record.get("stem_images"):
             st.markdown("### 题干图片")
             render_images(record.get("stem_images", []))

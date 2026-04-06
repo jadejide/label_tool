@@ -193,60 +193,68 @@ def get_draft_file(task_key: str) -> Path:
 # =========================
 # 文本与公式渲染
 # =========================
+# def normalize_text(text: Any) -> str:
+#     s = "" if text is None else str(text)
+#     s = s.replace("\u00a0", " ")
+#     s = s.replace("\\left", "").replace("\\right", "")
+#     s = s.replace("\\qquad", " ").replace("\\quad", " ")
+#     s = s.replace("\\;", " ").replace("\\,", " ").replace("\\!", "")
+#     s = s.replace("\\displaystyle", "")
+#     s = s.replace("\\mathrm", "")
+#     s = s.replace("\\text", "")
+#     s = s.replace("\\operatorname", "")
+#     s = s.replace("\\cdot", "·")
+#     s = s.replace("\\times", "×")
+#     s = s.replace("\\div", "÷")
+#     s = s.replace("\\pm", "±")
+#     s = s.replace("\\mp", "∓")
+#     s = s.replace("\\leqslant", "≤").replace("\\leq", "≤")
+#     s = s.replace("\\geqslant", "≥").replace("\\geq", "≥")
+#     s = s.replace("\\neq", "≠")
+#     s = s.replace("\\approx", "≈")
+#     s = s.replace("\\because", "∵")
+#     s = s.replace("\\therefore", "∴")
+#     s = s.replace("\\angle", "∠")
+#     s = s.replace("\\triangle", "△")
+#     s = s.replace("\\parallel", "∥")
+#     s = s.replace("\\perp", "⟂")
+#     s = s.replace("\\circ", "°")
+#     s = s.replace("^^{°}", "°").replace("^^{\\circ}", "°")
+#     s = s.replace("^{°}", "°").replace("^{\\circ}", "°")
+#     s = s.replace("{°}", "°")
+#     s = s.replace("\\ldots", "…").replace("\\cdots", "…")
+#     s = re.sub(r"\\[dtc]?frac", r"\\frac", s)
+#     s = s.replace("\\%", "%")
+#     s = s.replace("\\(", "").replace("\\)", "")
+#     s = s.replace("\\[", "").replace("\\]", "")
+#     s = s.replace("$", "")
+
+#     greek_map = {
+#         r"\\alpha": "α", r"\\beta": "β", r"\\gamma": "γ", r"\\theta": "θ",
+#         r"\\lambda": "λ", r"\\mu": "μ", r"\\pi": "π", r"\\rho": "ρ",
+#         r"\\sigma": "σ", r"\\phi": "φ", r"\\omega": "ω",
+#     }
+#     for k, v in greek_map.items():
+#         s = re.sub(k + r"(?![A-Za-z])", v, s)
+
+#     s = re.sub(r"\\begin\{array\}\{[^}]*\}", r"\\begin{cases}", s)
+#     s = s.replace("\\end{array}", "\\end{cases}")
+#     s = re.sub(r"\{\s*\\circ\s*\}", "°", s)
+#     s = re.sub(r"\^\^+", "^", s)
+#     s = re.sub(r"(?<!\\)\\{3,}(?![A-Za-z])", " ____ ", s)
+#     s = re.sub(r"\\frac\s*([0-9A-Za-zα-ωΑ-Ω]+(?:\.[0-9]+)?)\s*([A-Za-zα-ωΑ-Ω][A-Za-zα-ωΑ-Ω0-9+\-*/()]*)", r"\\frac{\1}{\2}", s)
+#     s = re.sub(r"\s+", " ", s)
+#     s = s.replace(" \\n", "\\n").replace("\\n ", "\\n")
+#     return s.strip()
 def normalize_text(text: Any) -> str:
     s = "" if text is None else str(text)
+    # 只做最基本的清理，不要替换掉所有的 LaTeX 宏和 $ 符号
     s = s.replace("\u00a0", " ")
-    s = s.replace("\\left", "").replace("\\right", "")
-    s = s.replace("\\qquad", " ").replace("\\quad", " ")
-    s = s.replace("\\;", " ").replace("\\,", " ").replace("\\!", "")
-    s = s.replace("\\displaystyle", "")
-    s = s.replace("\\mathrm", "")
-    s = s.replace("\\text", "")
-    s = s.replace("\\operatorname", "")
-    s = s.replace("\\cdot", "·")
-    s = s.replace("\\times", "×")
-    s = s.replace("\\div", "÷")
-    s = s.replace("\\pm", "±")
-    s = s.replace("\\mp", "∓")
-    s = s.replace("\\leqslant", "≤").replace("\\leq", "≤")
-    s = s.replace("\\geqslant", "≥").replace("\\geq", "≥")
-    s = s.replace("\\neq", "≠")
-    s = s.replace("\\approx", "≈")
-    s = s.replace("\\because", "∵")
-    s = s.replace("\\therefore", "∴")
-    s = s.replace("\\angle", "∠")
-    s = s.replace("\\triangle", "△")
-    s = s.replace("\\parallel", "∥")
-    s = s.replace("\\perp", "⟂")
-    s = s.replace("\\circ", "°")
-    s = s.replace("^^{°}", "°").replace("^^{\\circ}", "°")
-    s = s.replace("^{°}", "°").replace("^{\\circ}", "°")
-    s = s.replace("{°}", "°")
-    s = s.replace("\\ldots", "…").replace("\\cdots", "…")
-    s = re.sub(r"\\[dtc]?frac", r"\\frac", s)
-    s = s.replace("\\%", "%")
-    s = s.replace("\\(", "").replace("\\)", "")
-    s = s.replace("\\[", "").replace("\\]", "")
-    s = s.replace("$", "")
-
-    greek_map = {
-        r"\\alpha": "α", r"\\beta": "β", r"\\gamma": "γ", r"\\theta": "θ",
-        r"\\lambda": "λ", r"\\mu": "μ", r"\\pi": "π", r"\\rho": "ρ",
-        r"\\sigma": "σ", r"\\phi": "φ", r"\\omega": "ω",
-    }
-    for k, v in greek_map.items():
-        s = re.sub(k + r"(?![A-Za-z])", v, s)
-
-    s = re.sub(r"\\begin\{array\}\{[^}]*\}", r"\\begin{cases}", s)
-    s = s.replace("\\end{array}", "\\end{cases}")
-    s = re.sub(r"\{\s*\\circ\s*\}", "°", s)
-    s = re.sub(r"\^\^+", "^", s)
-    s = re.sub(r"(?<!\\)\\{3,}(?![A-Za-z])", " ____ ", s)
-    s = re.sub(r"\\frac\s*([0-9A-Za-zα-ωΑ-Ω]+(?:\.[0-9]+)?)\s*([A-Za-zα-ωΑ-Ω][A-Za-zα-ωΑ-Ω0-9+\-*/()]*)", r"\\frac{\1}{\2}", s)
-    s = re.sub(r"\s+", " ", s)
-    s = s.replace(" \\n", "\\n").replace("\\n ", "\\n")
+    s = s.replace("\\;", " ").replace("\\,", " ")
+    # 处理不规范的换行
+    s = s.replace(" \\n", "\n").replace("\\n ", "\n")
+    s = s.replace("\\n", "\n")
     return s.strip()
-
 def escape_html(text: str) -> str:
     return html.escape(text, quote=False)
 
@@ -347,13 +355,17 @@ def render_formula_html(text: str) -> str:
 def render_text_block(text: Any, compact: bool = False) -> None:
     raw = "" if text is None else str(text)
     normalized = normalize_text(raw)
-    lines = [x.strip() for x in normalized.split("\n") if x.strip()]
-    if not lines:
+    
+    if not normalized:
         st.markdown('<div class="small-muted">暂无内容</div>', unsafe_allow_html=True)
         return
+    
+    # 动态应用外层紧凑样式
     css_class = "math-text compact" if compact else "math-text"
-    html_parts = [f'<div class="{css_class}">' + render_formula_html(line) + '</div>' for line in lines]
-    st.markdown("".join(html_parts), unsafe_allow_html=True)
+    
+    # 直接交给 Streamlit 的 Markdown 引擎，它会自动解析 $...$ 中的公式
+    html_content = f'<div class="{css_class}">{normalized}</div>'
+    st.markdown(html_content, unsafe_allow_html=True)
 
 
 def render_options(options: List[Dict[str, Any]]) -> None:

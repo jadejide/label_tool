@@ -667,7 +667,27 @@ drafts_map = st.session_state[f"drafts::{active_task}"]
 
 st.title("数字题人工标注工具")
 show_flash()
+total_count = len(base_records)
+current_no = current_index + 1
 
+st.markdown(
+    f"""
+    <div style="
+        display: inline-block;
+        padding: 10px 18px;
+        margin: 10px 0 18px 0;
+        border-radius: 14px;
+        background: #f8fbff;
+        border: 1px solid #dbeafe;
+        font-size: 30px;
+        font-weight: 800;
+        color: #1d4ed8;
+    ">
+        第 {current_no} / {total_count} 题
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 with st.sidebar:
 
     st.subheader("标注进度")

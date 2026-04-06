@@ -605,10 +605,10 @@ def get_active_task() -> str:
     return q if q in TASKS else "teacher1"
 
 
-def switch_task(task_key: str) -> None:
-    st.query_params["task"] = task_key
-    st.session_state["active_task"] = task_key
-    st.session_state["editor_synced_for"] = None
+# def switch_task(task_key: str) -> None:
+#     st.query_params["task"] = task_key
+#     st.session_state["active_task"] = task_key
+#     st.session_state["editor_synced_for"] = None
 
 
 def sync_editor_if_needed(task_key: str, record_uid: str, working_record: Dict[str, Any]) -> None:
@@ -669,18 +669,9 @@ st.title("数字题人工标注工具")
 show_flash()
 
 with st.sidebar:
-    st.subheader("标注进度")
 
-    task_options = {v["label"]: k for k, v in TASKS.items()}
-    selected_label = st.selectbox(
-        "当前任务",
-        options=list(task_options.keys()),
-        index=list(task_options.values()).index(active_task),
-    )
-    selected_task = task_options[selected_label]
-    if selected_task != active_task:
-        switch_task(selected_task)
-        st.rerun()
+    st.subheader("标注进度")
+    st.markdown(f"**当前任务：{TASKS[active_task]['label']}**")
 
     total = len(base_records)
     saved_count = sum(record_is_saved(get_record_uid(r, i), saved_map) for i, r in enumerate(base_records))

@@ -223,6 +223,7 @@ def normalize_text(text: Any) -> str:
     s = s.replace("^{°}", "°").replace("^{\\circ}", "°")
     s = s.replace("{°}", "°")
     s = s.replace("\\ldots", "…").replace("\\cdots", "…")
+    s = re.sub(r"\\[dtc]?frac", r"\\frac", s)
     s = s.replace("\\%", "%")
     s = s.replace("\\(", "").replace("\\)", "")
     s = s.replace("\\[", "").replace("\\]", "")
@@ -236,14 +237,15 @@ def normalize_text(text: Any) -> str:
     for k, v in greek_map.items():
         s = re.sub(k + r"(?![A-Za-z])", v, s)
 
-    s = re.sub(r"\\begin\{array\}\{[^}]*\}", "\\begin{cases}", s)
+    s = re.sub(r"\\begin\{array\}\{[^}]*\}", r"\\begin{cases}", s)
     s = s.replace("\\end{array}", "\\end{cases}")
     s = re.sub(r"\{\s*\\circ\s*\}", "°", s)
     s = re.sub(r"\^\^+", "^", s)
+    s = re.sub(r"(?<!\\)\\{3,}(?![A-Za-z])", " ____ ", s)
+    s = re.sub(r"\\frac\s*([0-9A-Za-zα-ωΑ-Ω]+(?:\.[0-9]+)?)\s*([A-Za-zα-ωΑ-Ω][A-Za-zα-ωΑ-Ω0-9+\-*/()]*)", r"\\frac{\1}{\2}", s)
     s = re.sub(r"\s+", " ", s)
     s = s.replace(" \\n", "\\n").replace("\\n ", "\\n")
     return s.strip()
-
 
 def escape_html(text: str) -> str:
     return html.escape(text, quote=False)
@@ -309,6 +311,11 @@ def render_formula_html(text: str) -> str:
                 grp, ni = read_group(expr, i + 1)
                 out.append(f"<sup>{parse(grp)}</sup>")
                 i = ni
+                continue
+            if expr.startswith("____", i):
+                out.append('<span class="placeholder-line"></span>')
+                while expr.startswith("_", i):
+                    i += 1
                 continue
             if ch == "_":
                 grp, ni = read_group(expr, i + 1)
@@ -674,28 +681,14 @@ st.title("数字题人工标注工具")
 show_flash()
 
 with st.sidebar:
-    st.subheader("任务入口")
-    labels = [f"{TASKS[k]['label']} · {k}" for k in TASKS]
-    keys = list(TASKS.keys())
-    current_radio = keys.index(active_task)
-    chosen_label = st.radio("选择老师任务", labels, index=current_radio, label_visibility="collapsed")
-    chosen_key = keys[labels.index(chosen_label)]
-    if chosen_key != active_task:
-        save_current_draft_before_move(active_task, current_uid)
-        switch_task(chosen_key)
-        st.rerun()
+    st.subheader("标注进度")
 
     total = len(base_records)
     saved_count = sum(record_is_saved(get_record_uid(r, i), saved_map) for i, r in enumerate(base_records))
-    draft_only_count = sum(
-        (not record_is_saved(get_record_uid(r, i), saved_map)) and get_draft_status(get_record_uid(r, i), drafts_map)
-        for i, r in enumerate(base_records)
-    )
-
     st.divider()
     st.metric("总题数", total)
     st.metric("已保存", saved_count)
-    st.metric("暂存未保存", draft_only_count)
+    st.metric("未保存", total - saved_count)
     st.progress(saved_count / total if total else 0)
     if st.session_state.get("last_save_msg"):
         st.caption(st.session_state["last_save_msg"])
@@ -707,10 +700,9 @@ with st.sidebar:
     for i, rec in enumerate(base_records):
         uid = get_record_uid(rec, i)
         is_saved = record_is_saved(uid, saved_map)
-        has_draft = get_draft_status(uid, drafts_map)
         if only_unfinished and is_saved:
             continue
-        status = "✅" if is_saved else ("📝" if has_draft else "⬜")
+        status = "✅" if is_saved else "⬜"
         title = f"{status} 第{i + 1}题 · {uid}"
         visible_indices.append(i)
         title_map[title] = i
@@ -740,33 +732,7 @@ with st.sidebar:
         use_container_width=True,
     )
 
-# 顶部导航
-nav1, nav2, nav3, nav4 = st.columns([1, 1, 1.15, 1.2])
-with nav1:
-    if st.button("⬅ 上一题", disabled=(current_index == 0), use_container_width=True):
-        save_current_draft_before_move(active_task, current_uid)
-        go_to_index(active_task, current_index - 1)
-        st.rerun()
-with nav2:
-    if st.button("下一题 ➡", disabled=(current_index == len(base_records) - 1), use_container_width=True):
-        save_current_draft_before_move(active_task, current_uid)
-        go_to_index(active_task, current_index + 1)
-        st.rerun()
-with nav3:
-    if st.button("保存并下一题", type="primary", use_container_width=True):
-        ok, msg = persist_save(active_task, current_uid)
-        if ok:
-            set_flash(msg, "success")
-            if current_index < len(base_records) - 1:
-                go_to_index(active_task, current_index + 1)
-        else:
-            set_flash(msg, "warning")
-        st.rerun()
-with nav4:
-    status_html = '<span class="saved-badge">已保存</span>' if record_is_saved(current_uid, saved_map) else (
-        '<span class="draft-badge">暂存未保存</span>' if get_draft_status(current_uid, drafts_map) else '<span class="empty-badge">未开始</span>'
-    )
-    st.markdown(f"第 **{current_index + 1} / {len(base_records)}** 题 · {status_html}", unsafe_allow_html=True)
+st.markdown(f'<div class="status-line">当前任务：{TASKS[active_task]["label"]} · 第 {current_index + 1} / {len(base_records)} 题</div>', unsafe_allow_html=True)
 
 left, right = st.columns([1.72, 1], gap="large")
 
@@ -851,15 +817,32 @@ with right:
         st.text_area("核心素养备注", key="edit_comment_core", height=88, placeholder="可选")
 
     st.write("")
-    b1, b2 = st.columns(2)
-    with b1:
+    nav1, nav2 = st.columns(2)
+    with nav1:
+        if st.button("⬅ 上一题", disabled=(current_index == 0), use_container_width=True):
+            save_current_draft_before_move(active_task, current_uid)
+            go_to_index(active_task, current_index - 1)
+            st.rerun()
+    with nav2:
+        if st.button("下一题 ➡", disabled=(current_index == len(base_records) - 1), use_container_width=True):
+            save_current_draft_before_move(active_task, current_uid)
+            go_to_index(active_task, current_index + 1)
+            st.rerun()
+
+    st.write("")
+    save1, save2 = st.columns(2)
+    with save1:
         if st.button("保存当前题", use_container_width=True):
             ok, msg = persist_save(active_task, current_uid)
             set_flash(msg, "success" if ok else "warning")
             st.rerun()
-    with b2:
-        if st.button("仅暂存草稿", use_container_width=True):
-            persist_draft(active_task, current_uid)
-            st.session_state["last_save_msg"] = f"已暂存：{current_uid}（{current_time_str()}）"
-            set_flash(st.session_state["last_save_msg"], "info")
+    with save2:
+        if st.button("保存并下一题", type="primary", use_container_width=True):
+            ok, msg = persist_save(active_task, current_uid)
+            if ok:
+                set_flash(msg, "success")
+                if current_index < len(base_records) - 1:
+                    go_to_index(active_task, current_index + 1)
+            else:
+                set_flash(msg, "warning")
             st.rerun()

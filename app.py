@@ -56,6 +56,73 @@ CORE_HINTS = {
 
 st.set_page_config(page_title="题目标注工具", layout="wide")
 
+LOCAL_COMPONENT_HTML = r"""<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/streamlit-component-lib@2.0.0/dist/index.js"></script>
+  </head>
+  <body>
+    <script>
+      const LS = {
+        get(key, fallbackValue="") {
+          try {
+            const value = window.localStorage.getItem(key);
+            return value === null ? fallbackValue : value;
+          } catch (e) {
+            return fallbackValue;
+          }
+        },
+        set(key, value) {
+          try {
+            window.localStorage.setItem(key, value ?? "");
+          } catch (e) {}
+        }
+      };
+
+      function sendValue() {
+        const args = window.Streamlit?.args || {};
+        const storageKey = args.storage_key || "";
+        const defaultValue = args.default ?? "";
+        const value = args.value;
+
+        if (storageKey) {
+          if (value !== undefined && value !== null) {
+            LS.set(storageKey, value);
+          }
+          const current = LS.get(storageKey, defaultValue);
+          window.Streamlit.setComponentValue(current);
+        } else {
+          window.Streamlit.setComponentValue(defaultValue);
+        }
+      }
+
+      function onRender(event) {
+        window.Streamlit.setFrameHeight(0);
+        sendValue();
+      }
+
+      window.addEventListener("storage", sendValue);
+      window.Streamlit.events.addEventListener(window.Streamlit.RENDER_EVENT, onRender);
+      window.Streamlit.setComponentReady();
+      window.Streamlit.setFrameHeight(0);
+    </script>
+  </body>
+</html>
+"""
+
+
+def ensure_local_component() -> Path:
+    component_dir = BASE_DIR / "components" / "local_storage"
+    component_dir.mkdir(parents=True, exist_ok=True)
+    index_file = component_dir / "index.html"
+    if (not index_file.exists()) or ("streamlit-component-lib" not in index_file.read_text(encoding="utf-8", errors="ignore")):
+        index_file.write_text(LOCAL_COMPONENT_HTML, encoding="utf-8")
+    return component_dir
+
+
+COMPONENT_DIR = ensure_local_component()
+
 LOCAL_STORAGE = components.declare_component(
     "local_storage_bridge",
     path=str(COMPONENT_DIR),

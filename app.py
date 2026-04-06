@@ -686,16 +686,27 @@ with st.sidebar:
     st.caption("说明：当前页会自动存为会话草稿；想跨刷新/跨电脑继续，请下载进度文件。")
 
     st.divider()
+    
     uploaded_progress = st.file_uploader(
-        "导入进度 JSON",
-        type=["json"],
-        key=f"importer::{active_task}",
-        help="支持导入之前下载的“当前进度备份 JSON”或“已保存结果 JSON”。",
+    "导入进度 JSON",
+    type=["json"],
+    key=f"importer::{active_task}",
+    help="支持导入之前下载的“当前进度备份 JSON”或“已保存结果 JSON”。",
     )
+
+    import_marker_key = f"imported_file_marker::{active_task}"
+    
     if uploaded_progress is not None:
-        ok, msg = import_progress_file(active_task, uploaded_progress, total)
-        set_flash(msg, "success" if ok else "warning")
-        st.rerun()
+        file_bytes = uploaded_progress.getvalue()
+        current_marker = (uploaded_progress.name, len(file_bytes), hash(file_bytes))
+    
+        if st.session_state.get(import_marker_key) != current_marker:
+            ok, msg = import_progress_file(active_task, uploaded_progress, total)
+            st.session_state[import_marker_key] = current_marker
+            set_flash(msg, "success" if ok else "warning")
+            st.rerun()
+    else:
+        st.session_state[import_marker_key] = None
 
     col_dl1, col_dl2 = st.columns(2)
     with col_dl1:

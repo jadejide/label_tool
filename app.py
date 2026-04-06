@@ -27,8 +27,8 @@ TASKS = {
     "teacher3": {"label": "教师 3", "data_file": "teacher_3.json"},
 }
 
-BASE_DIR = Path(__file__).parent
-ASSET_DIRS = [BASE_DIR, BASE_DIR / "data", BASE_DIR / "images"]
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -98,6 +98,20 @@ div[data-testid="stImage"] img {
 # =========================
 # I/O
 # =========================
+def resolve_data_file(path_like: Any) -> Path:
+    p = Path(path_like)
+    if p.is_absolute():
+        return p
+    candidates = [
+        BASE_DIR / p,
+        DATA_DIR / p.name,
+    ]
+    for c in candidates:
+        if c.exists():
+            return c
+    return BASE_DIR / p
+
+
 def load_json_records(path: Path) -> List[Dict[str, Any]]:
     if not path.exists():
         st.error(f"未找到数据文件：{path}")
@@ -427,7 +441,7 @@ def init_app_state() -> None:
     st.query_params["task"] = task_key
 
     if "loaded" not in st.session_state or st.session_state["loaded"] != task_key:
-        source_path = BASE_DIR / TASKS[task_key]["data_file"]
+        source_path = resolve_data_file(TASKS[task_key]["data_file"])
         paths = task_output_paths(task_key)
         base_records = load_json_records(source_path)
 
@@ -564,7 +578,7 @@ with left:
         if meta:
             st.markdown(" · ".join(meta))
 
-        render_text_block("题干", record.get("normalized_stem") )
+        render_text_block("题干", record.get("normalized_stem") or record.get("stem") or "")
         if record.get("stem_images"):
             st.markdown("### 题干图片")
             render_images(record.get("stem_images", []))

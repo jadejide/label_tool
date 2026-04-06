@@ -5,8 +5,6 @@ from copy import deepcopy
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-from urllib.parse import urlencode
-
 import streamlit as st
 
 st.set_page_config(page_title="数字题人工标注工具", layout="wide")
@@ -144,13 +142,6 @@ st.markdown(
 .overset { display: inline-flex; flex-direction: column; align-items: center; line-height: 1; vertical-align: middle; }
 .overset-top { font-size: 0.7em; margin-bottom: 1px; }
 .overset-base { line-height: 1; }
-.task-link-box {
-    border: 1px dashed #cbd5e1;
-    background: #f8fafc;
-    border-radius: 12px;
-    padding: 10px 12px;
-    font-size: 0.92rem;
-}
 .saved-badge { color: #15803d; font-weight: 700; }
 .draft-badge { color: #b45309; font-weight: 700; }
 .empty-badge { color: #64748b; font-weight: 700; }
@@ -496,6 +487,26 @@ def current_time_str() -> str:
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
+def set_flash(message: str, level: str = "info") -> None:
+    st.session_state["flash_message"] = message
+    st.session_state["flash_level"] = level
+
+
+def show_flash() -> None:
+    message = st.session_state.pop("flash_message", "")
+    level = st.session_state.pop("flash_level", "info")
+    if not message:
+        return
+    if level == "success":
+        st.success(message)
+    elif level == "warning":
+        st.warning(message)
+    elif level == "error":
+        st.error(message)
+    else:
+        st.info(message)
+
+
 def build_draft_payload(task_key: str, record_uid: str) -> Dict[str, Any]:
     primary = st.session_state.get("edit_primary", UNSELECTED)
     primary_value = primary if primary in CORE_LITERACIES else ""
@@ -528,15 +539,18 @@ def persist_draft(task_key: str, record_uid: str) -> None:
         write_json_file(get_draft_file(task_key), drafts)
 
 
-def persist_save(task_key: str, record_uid: str) -> None:
+def persist_save(task_key: str, record_uid: str):
     saved_key = f"saved::{task_key}"
     drafts_key = f"drafts::{task_key}"
     saved = deepcopy(st.session_state[saved_key])
     drafts = deepcopy(st.session_state[drafts_key])
 
     payload = build_draft_payload(task_key, record_uid)
+    if not payload.get("human_bloom_level") or not payload.get("human_core_literacy_primary"):
+        return False, "请至少选择 Bloom 层级和核心素养主标签后再保存。"
+
     payload["human_updated_at"] = current_time_str()
-    payload["human_status"] = "已标注" if payload.get("human_bloom_level") and payload.get("human_core_literacy_primary") else "未完成"
+    payload["human_status"] = "已标注"
 
     saved[record_uid] = payload
     drafts.pop(record_uid, None)
@@ -546,25 +560,28 @@ def persist_save(task_key: str, record_uid: str) -> None:
     write_json_file(get_saved_file(task_key), saved)
     write_json_file(get_draft_file(task_key), drafts)
     st.session_state["last_save_msg"] = f"已保存：{record_uid}（{payload['human_updated_at']}）"
+    return True, st.session_state["last_save_msg"]
 
 
-def export_merged_records(task_key: str) -> bytes:
-    base = st.session_state[f"base::{task_key}"]
+def export_saved_results(task_key: str) -> bytes:
     saved = st.session_state[f"saved::{task_key}"]
-    merged: List[Dict[str, Any]] = []
-    for i, rec in enumerate(base):
-        uid = get_record_uid(rec, i)
-        item = deepcopy(rec)
-        if uid in saved:
-            item.update(saved[uid])
-        merged.append(item)
-    return json.dumps(merged, ensure_ascii=False, indent=2).encode("utf-8")
-
-
-def build_task_url(task_key: str) -> str:
-    params = dict(st.query_params)
-    params["task"] = task_key
-    return "?" + urlencode(params, doseq=True)
+    rows: List[Dict[str, Any]] = []
+    for uid, rec in saved.items():
+        if not rec.get("human_bloom_level") or not rec.get("human_core_literacy_primary"):
+            continue
+        rows.append({
+            "id": uid,
+            "human_bloom_level": rec.get("human_bloom_level", ""),
+            "human_core_literacy_primary": rec.get("human_core_literacy_primary", ""),
+            "human_core_literacy_candidates": rec.get("human_core_literacy_candidates", []),
+            "human_comment_bloom": rec.get("human_comment_bloom", ""),
+            "human_comment_core": rec.get("human_comment_core", ""),
+            "human_annotator": rec.get("human_annotator", ""),
+            "human_updated_at": rec.get("human_updated_at", ""),
+            "human_status": rec.get("human_status", "已标注"),
+        })
+    rows.sort(key=lambda x: str(x.get("id", "")))
+    return json.dumps(rows, ensure_ascii=False, indent=2).encode("utf-8")
 
 
 # =========================
@@ -628,6 +645,8 @@ init_task_data(active_task)
 st.session_state.setdefault("active_task", active_task)
 st.session_state.setdefault("editor_synced_for", None)
 st.session_state.setdefault("last_save_msg", "")
+st.session_state.setdefault("flash_message", "")
+st.session_state.setdefault("flash_level", "info")
 
 if st.session_state.get("active_task") != active_task:
     st.session_state["active_task"] = active_task
@@ -652,6 +671,7 @@ persist_draft(active_task, current_uid)
 drafts_map = st.session_state[f"drafts::{active_task}"]
 
 st.title("数字题人工标注工具")
+show_flash()
 
 with st.sidebar:
     st.subheader("任务入口")
@@ -664,12 +684,6 @@ with st.sidebar:
         save_current_draft_before_move(active_task, current_uid)
         switch_task(chosen_key)
         st.rerun()
-
-    st.markdown('<div class="task-link-box">', unsafe_allow_html=True)
-    st.markdown("**三个直达链接**")
-    for k in keys:
-        st.markdown(f"- `{build_task_url(k)}`")
-    st.markdown("</div>", unsafe_allow_html=True)
 
     total = len(base_records)
     saved_count = sum(record_is_saved(get_record_uid(r, i), saved_map) for i, r in enumerate(base_records))
@@ -719,9 +733,9 @@ with st.sidebar:
 
     st.divider()
     st.download_button(
-        "下载已保存结果 JSON",
-        data=export_merged_records(active_task),
-        file_name=f"{active_task}_annotations_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+        "下载已保存标注结果 JSON",
+        data=export_saved_results(active_task),
+        file_name=f"{active_task}_saved_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
         mime="application/json",
         use_container_width=True,
     )
@@ -740,9 +754,13 @@ with nav2:
         st.rerun()
 with nav3:
     if st.button("保存并下一题", type="primary", use_container_width=True):
-        persist_save(active_task, current_uid)
-        if current_index < len(base_records) - 1:
-            go_to_index(active_task, current_index + 1)
+        ok, msg = persist_save(active_task, current_uid)
+        if ok:
+            set_flash(msg, "success")
+            if current_index < len(base_records) - 1:
+                go_to_index(active_task, current_index + 1)
+        else:
+            set_flash(msg, "warning")
         st.rerun()
 with nav4:
     status_html = '<span class="saved-badge">已保存</span>' if record_is_saved(current_uid, saved_map) else (
@@ -836,10 +854,12 @@ with right:
     b1, b2 = st.columns(2)
     with b1:
         if st.button("保存当前题", use_container_width=True):
-            persist_save(active_task, current_uid)
+            ok, msg = persist_save(active_task, current_uid)
+            set_flash(msg, "success" if ok else "warning")
             st.rerun()
     with b2:
         if st.button("仅暂存草稿", use_container_width=True):
             persist_draft(active_task, current_uid)
             st.session_state["last_save_msg"] = f"已暂存：{current_uid}（{current_time_str()}）"
+            set_flash(st.session_state["last_save_msg"], "info")
             st.rerun()

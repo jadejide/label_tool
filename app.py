@@ -289,7 +289,7 @@ def render_text_block(text: Any, compact: bool = False) -> None:
         st.markdown('<div class="small-muted">暂无内容</div>', unsafe_allow_html=True)
         return
     html_content = build_katex_html(normalized, compact=compact)
-    height = 110 if compact else 260
+    height = 110 if compact else 200
     extra = max(0, normalized.count("\n") - 1) * 32
     components.html(html_content, height=height + extra, scrolling=True)
 
@@ -843,7 +843,7 @@ with left:
             render_options(current_record.get("options", []))
 
         st.markdown("### 参考答案")
-        render_text_block(current_record.get("answer"), compact=True)
+        render_text_block(current_record.get("answer"), compact=False)
 
         st.markdown("### 解析")
         render_text_block(current_record.get("normalized_analysis") or current_record.get("analysis"))

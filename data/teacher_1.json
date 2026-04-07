@@ -8025,7 +8025,7 @@
       "掌握切线的概念",
       "探索并证明垂径定理：垂直于弦的直径平分弦以及弦所对的两条弧"
     ],
-    "normalized_stem": "如图，$PA$，$PB$ 分别与 $\\odot O$ 相切于点 $A$，$B$，点 $C$ 为 $\\overset{\frown}{AB}$ 上的点，过点 $C$ 的切线分别交 $PA$，$PB$ 于点 $M$，$N$。若 $\\triangle PMN$ 的周长为 $32$，则 $PA$ 的长为 $(\\quad)$ A. $16$ B. $15$ C. $30$ D. $26$",
+    "normalized_stem": "如图，$PA$，$PB$ 分别与 $\\odot O$ 相切于点 $A$，$B$，点 $C$ 为 $\\overset{\\frown}{AB}$ 上的点，过点 $C$ 的切线分别交 $PA$，$PB$ 于点 $M$，$N$。若 $\\triangle PMN$ 的周长为 $32$，则 $PA$ 的长为 $(\\quad)$ A. $16$ B. $15$ C. $30$ D. $26$",
     "normalized_analysis": "解：$\\because \\triangle PMN$ 的周长为 $32$， $\\therefore PM+MN+PN=32$， $\\therefore PM+MC+NC+PN=32$， $\\because PA$，$PB$ 分别与 $\\odot O$ 相切于点 $A$，$B$，过点 $C$ 的切线分别交 $PA$，$PB$ 于点 $M$，$N$， $\\therefore PA=PB$，$MA=MC$，$NB=NC$， $\\therefore PM+MA+NB+PN=32$， $\\therefore PA+PB=32$， $\\therefore PA=PB=16$， 故选：A。 根据三角形周长公式得到 $PM+MN+PN=32$，根据切线长定理得到 $PA=PB$，$MA=MC$，$NB=NC$，计算即可。 本题考查的是切线的性质，掌握切线长定理是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "运用切线长定理解决具体几何问题中的线段长度计算。",

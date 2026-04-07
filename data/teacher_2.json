@@ -1731,7 +1731,7 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "C",
-    "stem": "如图，圆的两条弦AB，CD相交于点E，且\\overset{\frown}{AD}=\\overset{\frown}{CB}，∠A=39°，则∠CEB的度数为(\\quad) A. 51° B. 61° C. 78° D. 90°",
+    "stem": "如图，圆的两条弦AB，CD相交于点E，且\\overset{\\frown}{AD}=\\overset{\\frown}{CB}，∠A=39°，则∠CEB的度数为(\\quad) A. 51° B. 61° C. 78° D. 90°",
     "stem_images": [
       "images/3df473d4_5_stem_0.png"
     ],
@@ -1757,7 +1757,7 @@
         "images": []
       }
     ],
-    "analysis": "解：∵\\overset{\frown}{AD}=\\overset{\frown}{CB}， ∴∠C=∠A=39°， ∴∠CEB=∠C+∠A=78°， 故选：C. 由\\overset{\frown}{AD}=\\overset{\frown}{CB}，根据圆周角定理得∠C=∠A=39°，则∠CEB=∠C+∠A=78°，于是得到问题的答案． 此题重点考查圆周角定理、三角形的一个外角等于与它不相邻的两个内角的和等知识，推导出∠C=∠A=39°是解题的关键．",
+    "analysis": "解：∵\\overset{\\frown}{AD}=\\overset{\\frown}{CB}， ∴∠C=∠A=39°， ∴∠CEB=∠C+∠A=78°， 故选：C. 由\\overset{\\frown}{AD}=\\overset{\\frown}{CB}，根据圆周角定理得∠C=∠A=39°，则∠CEB=∠C+∠A=78°，于是得到问题的答案． 此题重点考查圆周角定理、三角形的一个外角等于与它不相邻的两个内角的和等知识，推导出∠C=∠A=39°是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "圆周角定理",
@@ -1778,8 +1778,8 @@
       "了解并证明圆周角定理及其推论：圆周角等于它 所对弧上的圆心角的一半；直径所对的圆周角是直角，$90^\\circ$的圆周角 所对的弦是直径；圆内接四边形的对角互补",
       "理解圆、弧、弦、圆心角、圆周角的概念"
     ],
-    "normalized_stem": "如图，圆的两条弦 $AB$，$CD$ 相交于点 $E$，且 $\\overset{\frown}{AD}=\\overset{\frown}{CB}$，$\\angle A=39^{\\circ}$，则 $\\angle CEB$ 的度数为 $(\\quad)$ A. $51^{\\circ}$ B. $61^{\\circ}$ C. $78^{\\circ}$ D. $90^{\\circ}$",
-    "normalized_analysis": "解：∵ $\\overset{\frown}{AD}=\\overset{\frown}{CB}$， ∴ $\\angle C=\\angle A=39^{\\circ}$， ∴ $\\angle CEB=\\angle C+\\angle A=78^{\\circ}$， 故选：C. 由 $\\overset{\frown}{AD}=\\overset{\frown}{CB}$，根据圆周角定理得 $\\angle C=\\angle A=39^{\\circ}$，则 $\\angle CEB=\\angle C+\\angle A=78^{\\circ}$，于是得到问题的答案． 此题重点考查圆周角定理、三角形的一个外角等于与它不相邻的两个内角的和等知识，推导出 $\\angle C=\\angle A=39^{\\circ}$ 是解题的关键．",
+    "normalized_stem": "如图，圆的两条弦 $AB$，$CD$ 相交于点 $E$，且 $\\overset{\\frown}{AD}=\\overset{\\frown}{CB}$，$\\angle A=39^{\\circ}$，则 $\\angle CEB$ 的度数为 $(\\quad)$ A. $51^{\\circ}$ B. $61^{\\circ}$ C. $78^{\\circ}$ D. $90^{\\circ}$",
+    "normalized_analysis": "解：∵ $\\overset{\\frown}{AD}=\\overset{\\frown}{CB}$， ∴ $\\angle C=\\angle A=39^{\\circ}$， ∴ $\\angle CEB=\\angle C+\\angle A=78^{\\circ}$， 故选：C. 由 $\\overset{\\frown}{AD}=\\overset{\\frown}{CB}$，根据圆周角定理得 $\\angle C=\\angle A=39^{\\circ}$，则 $\\angle CEB=\\angle C+\\angle A=78^{\\circ}$，于是得到问题的答案． 此题重点考查圆周角定理、三角形的一个外角等于与它不相邻的两个内角的和等知识，推导出 $\\angle C=\\angle A=39^{\\circ}$ 是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用圆周角定理和三角形外角定理解决具体角度计算问题。",
     "core_literacy_primary": "推理能力",

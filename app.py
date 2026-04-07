@@ -640,7 +640,49 @@ def go_to_index(task_key: str, idx: int) -> None:
 def save_current_draft_before_move(task_key: str, record_uid: str) -> None:
     persist_draft(task_key, record_uid)
 
+def bind_shortcuts():
+    components.html(
+        """
+        <script>
+        const doc = window.parent.document;
 
+        if (!window.shortcutBound) {
+          window.shortcutBound = true;
+
+          doc.addEventListener("keydown", function(e) {
+            const tag = (document.activeElement?.tagName || "").toLowerCase();
+            const isTyping =
+              tag === "input" ||
+              tag === "textarea" ||
+              document.activeElement?.isContentEditable;
+
+            if (isTyping) return;
+
+            let action = null;
+
+            if (e.key === "ArrowLeft") {
+              e.preventDefault();
+              action = "prev";
+            } else if (e.key === "ArrowRight") {
+              e.preventDefault();
+              action = "next";
+            } else if (e.ctrlKey && e.key.toLowerCase() === "s") {
+              e.preventDefault();
+              action = "save_next";
+            }
+
+            if (action) {
+              const url = new URL(window.parent.location.href);
+              url.searchParams.set("hotkey", action + "_" + Date.now());
+              window.parent.history.replaceState({}, "", url);
+              window.parent.dispatchEvent(new PopStateEvent("popstate"));
+            }
+          });
+        }
+        </script>
+        """,
+        height=0,
+    )
 # =========================
 # 页面主体
 # =========================
@@ -670,11 +712,41 @@ current_uid = get_record_uid(current_record, current_index)
 working_record = build_working_record(current_record, saved_map.get(current_uid), drafts_map.get(current_uid))
 sync_editor_if_needed(active_task, current_uid, working_record)
 
+
+drafts_map = st.session_state[f"drafts::{active_task}"]
+# 快捷键
+bind_shortcuts()
+hotkey = st.query_params.get("hotkey", "")
+if isinstance(hotkey, list):
+    hotkey = hotkey[0] if hotkey else ""
+
+if hotkey.startswith("prev"):
+    save_current_draft_before_move(active_task, current_uid)
+    if current_index > 0:
+        go_to_index(active_task, current_index - 1)
+    st.query_params["hotkey"] = ""
+    st.rerun()
+
+if hotkey.startswith("next"):
+    save_current_draft_before_move(active_task, current_uid)
+    if current_index < len(base_records) - 1:
+        go_to_index(active_task, current_index + 1)
+    st.query_params["hotkey"] = ""
+    st.rerun()
+
+if hotkey.startswith("save_next"):
+    ok, msg = persist_save(active_task, current_uid)
+    if ok:
+        set_flash(msg, "success")
+        if current_index < len(base_records) - 1:
+            go_to_index(active_task, current_index + 1)
+    else:
+        set_flash(msg, "warning")
+    st.query_params["hotkey"] = ""
+    st.rerun()
 # 轻量级实时草稿保存：仅保存在当前会话内，刷新后需依靠导入文件恢复
 persist_draft(active_task, current_uid)
-drafts_map = st.session_state[f"drafts::{active_task}"]
-
-st.title("数字题人工标注工具")
+st.title("数学题标注")
 show_flash()
 total_count = len(base_records)
 current_no = current_index + 1
@@ -699,8 +771,8 @@ st.markdown(
 )
 with st.sidebar:
 
-    st.subheader("标注进度")
-    st.markdown(f"**当前任务：{TASKS[active_task]['label']}**")
+    # st.subheader("标注进度")
+    # st.markdown(f"**当前任务：{TASKS[active_task]['label']}**")
 
     total = len(base_records)
     saved_count = sum(record_is_saved(get_record_uid(r, i), saved_map) for i, r in enumerate(base_records))

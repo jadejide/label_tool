@@ -1253,7 +1253,7 @@
     "xkb_knowledges": [
       "探索并证明等腰三角形的性质定理： 等腰三角形的两个底角相等；底边上的高线、中线及顶角平分线重合"
     ],
-    "normalized_stem": "已知：如图1，角 $\\alpha$ 和线段 $m$。 (1)求作：等腰三角形 $ABC$，使得它的底角为 $\\alpha$，底边 $BC=m$。 作法：①作 $\\angle MBN=\\alpha$； ②在 $BN$ 上取点 $C$，使 $BC=m$； ③作线段 $BC$ 的垂直平分线，交射线 $BM$ 于点 $A$； ④连接 $AC$。 则 $\\triangle ABC$ 为所求作的等腰三角形。 用直尺和圆规在图2中补全图形(要求：保留作图痕迹)； 其中 $AC=AB$ 的依据是_； (2)求作：等腰三角形 $RPQ$，使得它的顶角 $\\angle PRQ=\\alpha$，底边 $PQ$ 上的高为 $m$。 作法：①作 $\\angle SRT=\\alpha$； ②作 $\\angle SRT$ 的角平分线 $RG$； ③在 $RG$ 上取点 $H$，使 $RH=m$； ④过点 $H$ 作 $RG$ 的垂线，分别交 $RS$，$RT$ 于点 $P$，点 $Q$； 则 $\\triangle RPQ$ 为所求作的等腰三角形。 用直尺和圆规在图3中补全图形(要求：保留作图痕迹)，并完成以下证明。 证明：$\\because RG$ 平分 $\\angle SRT$， $\\therefore\\angle___=\\angle___$。 $\\because PQ \\bot RG$， $\\therefore \\angle SRG+\\angle RPH=90^{\\circ}, \\angle TRG+\\angle RQH=90^{\\circ}$。 $\\therefore \\angle RPH=\\angle RQH$， $\\therefore RP=RQ$。(_______)(填推理的依据) $\\therefore \\triangle RPQ$ 为等腰三角形。",
+    "normalized_stem": "已知：如图1，角 $\\alpha$ 和线段 $m$。 (1)求作：等腰三角形 $ABC$，使得它的底角为 $\\alpha$，底边 $BC=m$。 作法：①作 $\\angle MBN=\\alpha$； ②在 $BN$ 上取点 $C$，使 $BC=m$； ③作线段 $BC$ 的垂直平分线，交射线 $BM$ 于点 $A$； ④连接 $AC$。 则 $\\triangle ABC$ 为所求作的等腰三角形。 用直尺和圆规在图2中补全图形(要求：保留作图痕迹)； 其中 $AC=AB$ 的依据是_； (2)求作：等腰三角形 $RPQ$，使得它的顶角 $\\angle PRQ=\\alpha$，底边 $PQ$ 上的高为 $m$。 作法：①作 $\\angle SRT=\\alpha$； ②作 $\\angle SRT$ 的角平分线 $RG$； ③在 $RG$ 上取点 $H$，使 $RH=m$； ④过点 $H$ 作 $RG$ 的垂线，分别交 $RS$，$RT$ 于点 $P$，点 $Q$； 则 $\\triangle RPQ$ 为所求作的等腰三角形。 用直尺和圆规在图3中补全图形(要求：保留作图痕迹)，并完成以下证明。 证明：$\\because RG$ 平分 $\\angle SRT$， $\\therefore\\angle\\underline{\\qquad}=\\angle\\underline{\\qquad}$。 $\\because PQ \\bot RG$， $\\therefore \\angle SRG+\\angle RPH=90^{\\circ}, \\angle TRG+\\angle RQH=90^{\\circ}$。 $\\therefore \\angle RPH=\\angle RQH$， $\\therefore RP=RQ$。(_______)(填推理的依据) $\\therefore \\triangle RPQ$ 为等腰三角形。",
     "normalized_analysis": "【分析】本题考查尺规作图，垂直平分线的性质，等腰三角形的判定，熟练掌握垂直平分线的性质和等腰三角形的性质是解题的关键。 (1)根据所给的作法和线段垂直平分线的作图方法画出对应的图形即可； (2)根据所给的作法和作垂线的方法画出图形即可，再根据等腰三角形的判定，等角对等边即可证得。",
     "bloom_level": "应用",
     "bloom_reason": "题目要求根据给定步骤进行尺规作图并证明，属于应用已知的几何性质和判定方法解决问题。",
@@ -1329,7 +1329,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "如图，已知线段 $a$，$b$ $(a < b)$，点 $A$，$M$。 (1)使用直尺和圆规，完成以下作图(保留作图痕迹)； ①作直线 $AM$； ②在射线 $AM$ 上作线段 $AB$，使 $AB = 2b - a$； ③作线段 $BC$，使点 $A$ 是线段 $BC$ 的中点。 (2)若 $a = 1.5\\text{cm}$，$b = 2.5\\text{cm}$，则(1)中线段 $BC$ 的长为 $______\\text{cm}$。",
+    "normalized_stem": "如图，已知线段 $a$，$b$ $(a < b)$，点 $A$，$M$。 (1)使用直尺和圆规，完成以下作图(保留作图痕迹)； ①作直线 $AM$； ②在射线 $AM$ 上作线段 $AB$，使 $AB = 2b - a$； ③作线段 $BC$，使点 $A$ 是线段 $BC$ 的中点。 (2)若 $a = 1.5\\text{cm}$，$b = 2.5\\text{cm}$，则(1)中线段 $BC$ 的长为 $\\underline{\\qquad}\\text{cm}$。",
     "normalized_analysis": "【分析】本题考查作图-复杂作图，直线，射线，线段等知识。 (1)①作直线 $AM$； ②以 $A$ 为圆心，线段 $b$ 长为半径画弧，在 $A$ 右边交直线 $AM$ 于 $E$，以 $E$ 为圆心，线段 $b$ 长为半径画弧，在 $E$ 右边交直线 $AM$ 于 $D$，以 $D$ 为圆心，线段 $a$ 长为半径画弧，在 $D$ 左边交直线 $AM$ 于 $B$，此时线段 $AB = 2b - a$； ③以 $A$ 为圆心，线段 $AB$ 长为半径画弧，在 $A$ 左边交直线 $AM$ 于 $C$，此时 $BC$，点 $A$ 是线段 $BC$ 的中点。 (2)求出 $AB = 3.5\\text{cm}$，再根据线段中点的定义求出 $BC$ 即可。",
     "bloom_level": "应用",
     "bloom_reason": "学生需根据题意和规则，运用尺规作图技能和线段计算解决具体问题。",
@@ -1366,7 +1366,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "如图，已知 $AB \\parallel CD$，$\\angle A=110^{\\circ}$，$\\angle D=25^{\\circ}$，求 $\\angle AED$ 的大小．请将下面的求解过程补充完整． 解：如图，过点 $E$ 作 $EF \\parallel AB$， $\\therefore \\angle AEF+\\angle A=180^{\\circ}$(\\quad). $\\because \\angle A=110^{\\circ}$， $\\therefore \\angle AEF=70^{\\circ}$. $\\because AB \\parallel CD$，$EF \\parallel AB$， $\\therefore EF \\parallel CD$(\\quad). $\\therefore \\angle DEF=\\angle D$(\\quad). $\\because \\angle D=25^{\\circ}$， $\\therefore \\angle DEF=25^{\\circ}$. $\\therefore \\angle AED=\\angle$_+\\angle_=_$^{\\circ}$.",
+    "normalized_stem": "如图，已知 $AB \\parallel CD$，$\\angle A=110^{\\circ}$，$\\angle D=25^{\\circ}$，求 $\\angle AED$ 的大小．请将下面的求解过程补充完整． 解：如图，过点 $E$ 作 $EF \\parallel AB$， $\\therefore \\angle AEF+\\angle A=180^{\\circ}(\\quad)$. $\\because \\angle A=110^{\\circ}$， $\\therefore \\angle AEF=70^{\\circ}$. $\\because AB \\parallel CD$，$EF \\parallel AB$， $\\therefore EF \\parallel CD(\\quad)$. $\\therefore \\angle DEF=\\angle D(\\quad)$. $\\because \\angle D=25^{\\circ}$， $\\therefore \\angle DEF=25^{\\circ}$. $\\therefore \\angle AED=\\angle\\underline{\\qquad}+\\angle\\underline{\\qquad}=\\underline{\\qquad}^{\\circ}$.",
     "normalized_analysis": "【分析】本题考查了平行线的性质、平行公理推论等知识，熟练掌握平行线的性质是解题关键．过点 $E$ 作 $EF \\parallel AB$，先根据平行线的性质可得 $\\angle AEF=70^{\\circ}$，再根据平行公理推论可得 $EF \\parallel CD$，根据平行线的性质可得 $\\angle DEF=25^{\\circ}$，然后根据角的和差即可得．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用平行线的性质与判定定理来求解具体角度。",

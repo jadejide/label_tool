@@ -646,38 +646,42 @@ def bind_shortcuts():
         <script>
         const doc = window.parent.document;
 
-        if (!window.shortcutBound) {
-          window.shortcutBound = true;
+        if (!window.__annotation_shortcuts_bound__) {
+          window.__annotation_shortcuts_bound__ = true;
 
           doc.addEventListener("keydown", function(e) {
-            const tag = (document.activeElement?.tagName || "").toLowerCase();
+            const active = doc.activeElement;
+            const tag = (active?.tagName || "").toLowerCase();
             const isTyping =
               tag === "input" ||
               tag === "textarea" ||
-              document.activeElement?.isContentEditable;
+              tag === "select" ||
+              active?.isContentEditable;
 
             if (isTyping) return;
 
-            let action = null;
+            let targetText = null;
 
             if (e.key === "ArrowLeft") {
               e.preventDefault();
-              action = "prev";
+              targetText = "⬅ 上一题";
             } else if (e.key === "ArrowRight") {
               e.preventDefault();
-              action = "next";
-            } else if (e.ctrlKey && e.key.toLowerCase() === "s") {
+              targetText = "下一题 ➡";
+            } else if (e.ctrlKey && !e.shiftKey && e.key.toLowerCase() === "s") {
               e.preventDefault();
-              action = "save_next";
+              targetText = "保存并下一题";
             }
 
-            if (action) {
-              const url = new URL(window.parent.location.href);
-              url.searchParams.set("hotkey", action + "_" + Date.now());
-              window.parent.history.replaceState({}, "", url);
-              window.parent.dispatchEvent(new PopStateEvent("popstate"));
+            if (!targetText) return;
+
+            const buttons = Array.from(doc.querySelectorAll("button"));
+            const btn = buttons.find(b => (b.innerText || "").trim() === targetText);
+
+            if (btn && !btn.disabled) {
+              btn.click();
             }
-          });
+          }, true);
         }
         </script>
         """,
@@ -716,34 +720,6 @@ sync_editor_if_needed(active_task, current_uid, working_record)
 drafts_map = st.session_state[f"drafts::{active_task}"]
 # 快捷键
 bind_shortcuts()
-hotkey = st.query_params.get("hotkey", "")
-if isinstance(hotkey, list):
-    hotkey = hotkey[0] if hotkey else ""
-
-if hotkey.startswith("prev"):
-    save_current_draft_before_move(active_task, current_uid)
-    if current_index > 0:
-        go_to_index(active_task, current_index - 1)
-    st.query_params["hotkey"] = ""
-    st.rerun()
-
-if hotkey.startswith("next"):
-    save_current_draft_before_move(active_task, current_uid)
-    if current_index < len(base_records) - 1:
-        go_to_index(active_task, current_index + 1)
-    st.query_params["hotkey"] = ""
-    st.rerun()
-
-if hotkey.startswith("save_next"):
-    ok, msg = persist_save(active_task, current_uid)
-    if ok:
-        set_flash(msg, "success")
-        if current_index < len(base_records) - 1:
-            go_to_index(active_task, current_index + 1)
-    else:
-        set_flash(msg, "warning")
-    st.query_params["hotkey"] = ""
-    st.rerun()
 # 轻量级实时草稿保存：仅保存在当前会话内，刷新后需依靠导入文件恢复
 persist_draft(active_task, current_uid)
 st.title("数学题标注")

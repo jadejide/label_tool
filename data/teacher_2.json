@@ -1128,7 +1128,7 @@
       "探索并掌握点与圆的位置关系",
       "理解平面直角坐标系的有关概念"
     ],
-    "normalized_stem": "在平面直角坐标系$xOy$中，$\\odot O$的半径为$5$，则点$P(3,4)$(\\quad) A. 在$\\odot O$外 B. 在$\\odot O$上 C. 在$\\odot O$内 D. 不确定",
+    "normalized_stem": "在平面直角坐标系$xOy$中，$\\odot O$的半径为$5$，则点$P(3,4)$$(\\quad)$ A. 在$\\odot O$外 B. 在$\\odot O$上 C. 在$\\odot O$内 D. 不确定",
     "normalized_analysis": "解：在平面直角坐标系$xOy$中，点$P(3,4)$，$\\therefore OP=\\sqrt{3^{2}+4^{2}}=5$，$\\because \\odot O$的半径为$5$，$\\therefore$点$P$在$\\odot O$上，故选：B。先根据题意求出$OP$的长，进而可得出结论。本题考查的是点与圆的位置关系，坐标与图形性质，熟知点与圆的三种位置关系是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "需要运用坐标计算距离，并应用点与圆的位置关系进行判断。",

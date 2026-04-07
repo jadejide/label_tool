@@ -291,7 +291,7 @@ def render_text_block(text: Any, compact: bool = False) -> None:
     html_content = build_katex_html(normalized, compact=compact)
     height = 110 if compact else 260
     extra = max(0, normalized.count("\n") - 1) * 32
-    components.html(html_content, height=height + extra, scrolling=False)
+    components.html(html_content, height=height + extra, scrolling=TRUE)
 
 
 def render_options(options: List[Dict[str, Any]]) -> None:

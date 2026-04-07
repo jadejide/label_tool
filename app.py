@@ -395,7 +395,13 @@ def sanitize_candidates(primary: str, candidates: List[str]) -> List[str]:
 
 
 def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
-    bloom = record.get("human_bloom_level") or UNSELECTED
+    bloom = record.get("human_bloom_level") or []
+    if isinstance(bloom, str):
+        bloom = [bloom] if bloom in BLOOM_LEVELS and bloom != UNSELECTED else []
+    elif isinstance(bloom, list):
+        bloom = [x for x in bloom if x in BLOOM_LEVELS and x != UNSELECTED]
+    else:
+        bloom = []
     primary = record.get("human_core_literacy_primary") or UNSELECTED
     if bloom not in BLOOM_LEVELS:
         bloom = UNSELECTED
@@ -437,9 +443,11 @@ def show_flash() -> None:
 def build_draft_payload(task_key: str, record_uid: str) -> Dict[str, Any]:
     primary = st.session_state.get("edit_primary", UNSELECTED)
     primary_value = primary if primary in CORE_LITERACIES else ""
+    selected_bloom = st.session_state.get("edit_bloom", [])
+    selected_bloom = [x for x in selected_bloom if x in BLOOM_LEVELS and x != UNSELECTED]
     return {
         "record_uid": record_uid,
-        "human_bloom_level": "" if st.session_state.get("edit_bloom") == UNSELECTED else st.session_state.get("edit_bloom", ""),
+        "human_bloom_level": selected_bloom,
         "human_core_literacy_primary": primary_value,
         "human_core_literacy_candidates": sanitize_candidates(primary_value, st.session_state.get("edit_candidates", [])),
         "human_comment_bloom": st.session_state.get("edit_comment_bloom", "").strip(),
@@ -524,6 +532,7 @@ def export_saved_results_csv(task_key: str) -> bytes:
     for row in rows:
         row = dict(row)
         row["human_core_literacy_candidates"] = "、".join(row.get("human_core_literacy_candidates", []))
+        row["human_bloom_level"] = "、".join(row.get("human_bloom_level", []))
         writer.writerow(row)
     return output.getvalue().encode("utf-8-sig")
 
@@ -864,12 +873,12 @@ with right:
         )
 
         st.caption("Bloom 层级")
-        st.radio(
+        st.multiselect(
             "Bloom 层级",
-            options=BLOOM_LEVELS,
+            options=BLOOM_LEVELS[1:],   # 一般不建议把“未选择”放进多选
             key="edit_bloom",
-            horizontal=True,
-            label_visibility="collapsed",
+            placeholder="可选择多个 Bloom 层级",
+            
         )
         st.text_area("Bloom 备注", key="edit_comment_bloom", height=88, placeholder="可选")
 

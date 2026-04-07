@@ -53,7 +53,7 @@
       "images/468b06de_24_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)当x=2时，m=y=|2-1|-2=-1， ∴m=-1； 描点，画出函数图象如下： 观察函数图象可得，当x\\leqslant-1或x\\geqslant 3时，|x-1|-2\\geqslant 0， ∴x\\leqslant-1或x\\geqslant 3. 故答案为：-1；x\\leqslant-1或x\\geqslant 3. (2)①∵y=|x-1|-2+b的图象上到x轴的距离等于1的点恰好有4个， ∴|x-1|-2+b=1有2个解，|x-1|-2+b=-1也有2个解， 即|x-1|-2=1-b和|x-1|-2=-1-b都有2个解， 由(1)中的函数图象可得，\\begin{cases}{1-b>-2}\\\\ {-1-b>-2}\\end{cases}， \\(∴b < 1.\\) 故答案为：\\(b < 1\\)； ②若k=0，y=-2，不符合题意； 若k≠0， ∵|kx-1|\\geqslant 0， ∴|kx-1|-2\\geqslant-2， ∴y=|kx-1|-2的最小值为-2， 令y=-2，则|kx-1|-2=-2， ∴x=\\dfrac{1}{k}， ∵当x\\geqslant 1时，y随x的增大而增大， ∴\\dfrac{1}{k}\\leqslant 1， ∴k\\geqslant 1. 故答案为：k\\geqslant 1. (1)代入x=2到y=|x-1|-2求出m的值，利用描点法画函数图象，根据函数图象即可求出不等式|x-1|-2\\geqslant 0的解集； (2)①由题意得，方程|x-1|-2+b=1有2个解，方程|x-1|-2+b=-1也有2个解，结合函数图象列出关于b的不等式即可求解；②分两种情况讨论：k=0和k≠0，结合函数图象可知y=|kx-1|-2的最小值为-2，求出此时x=\\dfrac{1}{k}，再结合当x\\geqslant 1时，y随x的增大而增大，列出关于k的不等式即可求解． 本题考查了一次函数的应用、描点法画函数图象、解一元一次不等式(组)，根据题意正确画出函数图象是解题的关键．",
+    "analysis": "(1)当x=2时，m=y=|2-1|-2=-1， ∴m=-1； 描点，画出函数图象如下： 观察函数图象可得，当x\\leqslant-1或x\\geqslant 3时，|x-1|-2\\geqslant 0， ∴x\\leqslant-1或x\\geqslant 3. 故答案为：-1；x\\leqslant-1或x\\geqslant 3. (2)①∵y=|x-1|-2+b的图象上到x轴的距离等于1的点恰好有4个， ∴|x-1|-2+b=1有2个解，|x-1|-2+b=-1也有2个解， 即|x-1|-2=1-b和|x-1|-2=-1-b都有2个解， 由(1)中的函数图象可得，\\begin{cases}{1-b>-2}\\\\ {-1-b>-2}\\end{cases}， \\(∴b < 1.\\) 故答案为：\\(b < 1\\)； ②若k=0，y=-2，不符合题意； 若k≠0， ∵|kx-1|\\geqslant 0， ∴|kx-1|-2\\geqslant-2， ∴y=|kx-1|-2的最小值为-2， 令y=-2，则|kx-1|-2=-2， ∴x=\\frac{1}{k}， ∵当x\\geqslant 1时，y随x的增大而增大， ∴\\frac{1}{k}\\leqslant 1， ∴k\\geqslant 1. 故答案为：k\\geqslant 1. (1)代入x=2到y=|x-1|-2求出m的值，利用描点法画函数图象，根据函数图象即可求出不等式|x-1|-2\\geqslant 0的解集； (2)①由题意得，方程|x-1|-2+b=1有2个解，方程|x-1|-2+b=-1也有2个解，结合函数图象列出关于b的不等式即可求解；②分两种情况讨论：k=0和k≠0，结合函数图象可知y=|kx-1|-2的最小值为-2，求出此时x=\\frac{1}{k}，再结合当x\\geqslant 1时，y随x的增大而增大，列出关于k的不等式即可求解． 本题考查了一次函数的应用、描点法画函数图象、解一元一次不等式(组)，根据题意正确画出函数图象是解题的关键．",
     "analysis_images": [
       "images/468b06de_24_analysis_0.png"
     ],
@@ -136,7 +136,7 @@
     "stem": "关于x，y的二元一次方程kx-y=1，且当x=2时，y=5. (1)k的值是 __________ ； (2)当x< 2时，对于每一个x的值，关于x的不等式x+n>kx-1总成立，则n的取值范围是 __________ .",
     "stem_images": [],
     "options": [],
-    "analysis": "解：(1)把x=2，y=5代入kx-y=1，可得2k-5=1， 解得k=3. 故答案为：3. (2)由(1) 可得k=3， \\therefore x+n>3x-1，解得：\\(x < \\dfrac{n+1}{2}\\)， \\because当\\(x < 2\\)时，对于每一个x的值，关于x的不等式x+n>kx-1总成立， \\therefore\\dfrac{n+1}{2}\\geqslant 2，解得：n\\geqslant 3， 故答案为：n\\geqslant 3.",
+    "analysis": "解：(1)把x=2，y=5代入kx-y=1，可得2k-5=1， 解得k=3. 故答案为：3. (2)由(1) 可得k=3， \\therefore x+n>3x-1，解得：\\(x < \\frac{n+1}{2}\\)， \\because当\\(x < 2\\)时，对于每一个x的值，关于x的不等式x+n>kx-1总成立， \\therefore\\frac{n+1}{2}\\geqslant 2，解得：n\\geqslant 3， 故答案为：n\\geqslant 3.",
     "analysis_images": [],
     "knowledges": [
       "一元一次不等式的解法",
@@ -280,12 +280,12 @@
     "type": "解答题",
     "score": 5.0,
     "answer": "平行四边形  对角线互相平分的四边形是平行四边形  BD  一组对边平行且相等的四边形是平行四边形",
-    "stem": "画出辅助线并补充完成证明过程. 已知：如图，D，E分别是\\triangle ABC的边AB，AC的中点. 求证：DE/\\!/BC，且DE=\\dfrac{1}{2}BC. 证明：延长DE至点F，使EF=DE，连接FC，DC，AF.(补全图形) ∵AE=EC，DE=EF， ∴四边形ADCF是______，(______)(填推理依据) ∴CF/\\!/DA且CF=DA. ∵D是AB的中点， ∴DA=______， ∴CF=BD且CF/\\!/BD， ∴四边形DBCF是平行四边形，(______)(填推理依据) ∴DF=BC且DF/\\!/BC. 又DE=\\dfrac{1}{2}DF. ∴DE/\\!/BC，且DE=\\dfrac{1}{2}BC.",
+    "stem": "画出辅助线并补充完成证明过程. 已知：如图，D，E分别是\\triangle ABC的边AB，AC的中点. 求证：DE/\\!/BC，且DE=\\frac{1}{2}BC. 证明：延长DE至点F，使EF=DE，连接FC，DC，AF.(补全图形) ∵AE=EC，DE=EF， ∴四边形ADCF是______，(______)(填推理依据) ∴CF/\\!/DA且CF=DA. ∵D是AB的中点， ∴DA=______， ∴CF=BD且CF/\\!/BD， ∴四边形DBCF是平行四边形，(______)(填推理依据) ∴DF=BC且DF/\\!/BC. 又DE=\\frac{1}{2}DF. ∴DE/\\!/BC，且DE=\\frac{1}{2}BC.",
     "stem_images": [
       "images/468b06de_18_stem_0.png"
     ],
     "options": [],
-    "analysis": "证明：延长DE至点F，使EF=DE，连接FC，DC，AF， ∵DE=EF，AE=EC， ∴四边形ADCF是平行四边形，(对角线互相平分的四边形是平行四边形) ∴CF=DA，CF/\\!/DA， ∵D是AB的中点， ∴DA=BD， ∴CF=BD，CF/\\!/BD， ∴四边形DBCF是平行四边形，(一组对边平行且相等的四边形是平行四边形) ∴DF=BC且DF/\\!/BC. 又DE=\\dfrac{1}{2}DF， ∴DE/\\!/BC，且DE=\\dfrac{1}{2}BC. 故答案为：平行四边形，对角线互相平分的四边形是平行四边形，BD，一组对边平行且相等的四边形是平行四边形． 先证四边形ADCF是平行四边形，则CF平行且等于DA，得CF平行且等于BD.再证四边形DBCF是平行四边形，得DF平行且等于BC，即可得出结论． 本题考查了平行四边形的判定与性质、三角形中位线定理等知识，熟练掌握平行四边形的判定和性质定理是解题的关键．",
+    "analysis": "证明：延长DE至点F，使EF=DE，连接FC，DC，AF， ∵DE=EF，AE=EC， ∴四边形ADCF是平行四边形，(对角线互相平分的四边形是平行四边形) ∴CF=DA，CF/\\!/DA， ∵D是AB的中点， ∴DA=BD， ∴CF=BD，CF/\\!/BD， ∴四边形DBCF是平行四边形，(一组对边平行且相等的四边形是平行四边形) ∴DF=BC且DF/\\!/BC. 又DE=\\frac{1}{2}DF， ∴DE/\\!/BC，且DE=\\frac{1}{2}BC. 故答案为：平行四边形，对角线互相平分的四边形是平行四边形，BD，一组对边平行且相等的四边形是平行四边形． 先证四边形ADCF是平行四边形，则CF平行且等于DA，得CF平行且等于BD.再证四边形DBCF是平行四边形，得DF平行且等于BC，即可得出结论． 本题考查了平行四边形的判定与性质、三角形中位线定理等知识，熟练掌握平行四边形的判定和性质定理是解题的关键．",
     "analysis_images": [
       "images/468b06de_18_analysis_0.png"
     ],
@@ -308,8 +308,8 @@
       "探索并证明平行四边形的判定定理：一 组对边平行且相等的四边形是平行四边形；两组对边分别相等的四边  形是平行四边形；对角线互相平分的四边形是平行四边形。",
       "探索并证明三角形的中位线定理"
     ],
-    "normalized_stem": "画出辅助线并补充完成证明过程. 已知：如图，$D$，$E$ 分别是 $\\triangle ABC$ 的边 $AB$，$AC$ 的中点. 求证：$DE \\parallel BC$，且 $DE=\\dfrac{1}{2}BC$. 证明：延长 $DE$ 至点 $F$，使 $EF=DE$，连接 $FC$，$DC$，$AF$.(补全图形) ∵ $AE=EC$，$DE=EF$， ∴ 四边形 $ADCF$ 是 ______，(______)(填推理依据) ∴ $CF \\parallel DA$ 且 $CF=DA$. ∵ $D$ 是 $AB$ 的中点， ∴ $DA=$ ______， ∴ $CF=BD$ 且 $CF \\parallel BD$， ∴ 四边形 $DBCF$ 是平行四边形，(______)(填推理依据) ∴ $DF=BC$ 且 $DF \\parallel BC$. 又 $DE=\\dfrac{1}{2}DF$. ∴ $DE \\parallel BC$，且 $DE=\\dfrac{1}{2}BC$.",
-    "normalized_analysis": "证明：延长 $DE$ 至点 $F$，使 $EF=DE$，连接 $FC$，$DC$，$AF$， ∵ $DE=EF$，$AE=EC$， ∴ 四边形 $ADCF$ 是平行四边形，(对角线互相平分的四边形是平行四边形) ∴ $CF=DA$，$CF \\parallel DA$， ∵ $D$ 是 $AB$ 的中点， ∴ $DA=BD$， ∴ $CF=BD$，$CF \\parallel BD$， ∴ 四边形 $DBCF$ 是平行四边形，(一组对边平行且相等的四边形是平行四边形) ∴ $DF=BC$ 且 $DF \\parallel BC$. 又 $DE=\\dfrac{1}{2}DF$， ∴ $DE \\parallel BC$，且 $DE=\\dfrac{1}{2}BC$. 故答案为：平行四边形，对角线互相平分的四边形是平行四边形，$BD$，一组对边平行且相等的四边形是平行四边形． 先证四边形 $ADCF$ 是平行四边形，则 $CF$ 平行且等于 $DA$，得 $CF$ 平行且等于 $BD$.再证四边形 $DBCF$ 是平行四边形，得 $DF$ 平行且等于 $BC$，即可得出结论． 本题考查了平行四边形的判定与性质、三角形中位线定理等知识，熟练掌握平行四边形的判定和性质定理是解题的关键．",
+    "normalized_stem": "画出辅助线并补充完成证明过程. 已知：如图，$D$，$E$ 分别是 $\\triangle ABC$ 的边 $AB$，$AC$ 的中点. 求证：$DE \\parallel BC$，且 $DE=\\frac{1}{2}BC$. 证明：延长 $DE$ 至点 $F$，使 $EF=DE$，连接 $FC$，$DC$，$AF$.(补全图形) ∵ $AE=EC$，$DE=EF$， ∴ 四边形 $ADCF$ 是 ______，(______)(填推理依据) ∴ $CF \\parallel DA$ 且 $CF=DA$. ∵ $D$ 是 $AB$ 的中点， ∴ $DA=$ ______， ∴ $CF=BD$ 且 $CF \\parallel BD$， ∴ 四边形 $DBCF$ 是平行四边形，(______)(填推理依据) ∴ $DF=BC$ 且 $DF \\parallel BC$. 又 $DE=\\frac{1}{2}DF$. ∴ $DE \\parallel BC$，且 $DE=\\frac{1}{2}BC$.",
+    "normalized_analysis": "证明：延长 $DE$ 至点 $F$，使 $EF=DE$，连接 $FC$，$DC$，$AF$， ∵ $DE=EF$，$AE=EC$， ∴ 四边形 $ADCF$ 是平行四边形，(对角线互相平分的四边形是平行四边形) ∴ $CF=DA$，$CF \\parallel DA$， ∵ $D$ 是 $AB$ 的中点， ∴ $DA=BD$， ∴ $CF=BD$，$CF \\parallel BD$， ∴ 四边形 $DBCF$ 是平行四边形，(一组对边平行且相等的四边形是平行四边形) ∴ $DF=BC$ 且 $DF \\parallel BC$. 又 $DE=\\frac{1}{2}DF$， ∴ $DE \\parallel BC$，且 $DE=\\frac{1}{2}BC$. 故答案为：平行四边形，对角线互相平分的四边形是平行四边形，$BD$，一组对边平行且相等的四边形是平行四边形． 先证四边形 $ADCF$ 是平行四边形，则 $CF$ 平行且等于 $DA$，得 $CF$ 平行且等于 $BD$.再证四边形 $DBCF$ 是平行四边形，得 $DF$ 平行且等于 $BC$，即可得出结论． 本题考查了平行四边形的判定与性质、三角形中位线定理等知识，熟练掌握平行四边形的判定和性质定理是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用平行四边形判定定理和中点性质，完成特定几何证明过程。",
     "core_literacy_primary": "推理能力",
@@ -494,11 +494,11 @@
     "id": "e40c232a_15",
     "type": "填空题",
     "score": 2.0,
-    "stem": "某学习小组对学校附近一超市2022年3月至10月西红柿价格进行调研，结果统计如下表：(价格：元/千克) 月份 3月 4月 5月 6月 7月 8月 9月 10月 价格 10 9 7 5 5 6 6 8 上表中西红柿价格的平均数为 ______ .",
+    "stem": "某学习小组对学校附近一超市2022年3月至10月西红柿价格进行调研，结果统计如下表：(价格：元/千克) 月份 3月 4月 5月 6月 7月 8月 9月 10月 价格 10 9 7 5 5 6 6 8 上表中西红柿价格的平均数为$\\underline{\\qquad\\qquad}$.",
     "stem_images": [],
     "options": [],
     "answer": "7千克",
-    "analysis": "解：由题意可知，上表中西红柿价格的平均数为： \\dfrac{1}{8}×(10+9+7+5+5+6+6+8)=7(千克). 故答案为：7千克． 根据平均数的定义列式计算即可． 本题考查了平均数：平均数是指在一组数据中所有数据之和再除以数据的个数．它是反映数据集中趋势的一项指标．掌握定义是解题的关键．",
+    "analysis": "解：由题意可知，上表中西红柿价格的平均数为： \\frac{1}{8}×(10+9+7+5+5+6+6+8)=7(千克). 故答案为：7千克． 根据平均数的定义列式计算即可． 本题考查了平均数：平均数是指在一组数据中所有数据之和再除以数据的个数．它是反映数据集中趋势的一项指标．掌握定义是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "算术平均数"
@@ -517,7 +517,7 @@
       "知道平均数、中位数、众数、加权平均数是对数据集中趋势的描述"
     ],
     "normalized_stem": "某学习小组对学校附近一超市2022年3月至10月西红柿价格进行调研，结果统计如下表：(价格：元/千克) 月份 3月 4月 5月 6月 7月 8月 9月 10月 价格 10 9 7 5 5 6 6 8 上表中西红柿价格的平均数为 ______ .",
-    "normalized_analysis": "解：由题意可知，上表中西红柿价格的平均数为： $\\dfrac{1}{8} \\times (10+9+7+5+5+6+6+8)=7$ (千克). 故答案为：7千克． 根据平均数的定义列式计算即可． 本题考查了平均数：平均数是指在一组数据中所有数据之和再除以数据的个数．它是反映数据集中趋势的一项指标．掌握定义是解题的关键．",
+    "normalized_analysis": "解：由题意可知，上表中西红柿价格的平均数为： $\\frac{1}{8} \\times (10+9+7+5+5+6+6+8)=7$ (千克). 故答案为：7千克． 根据平均数的定义列式计算即可． 本题考查了平均数：平均数是指在一组数据中所有数据之和再除以数据的个数．它是反映数据集中趋势的一项指标．掌握定义是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "直接套用平均数公式进行计算，属于程序性应用。",
     "core_literacy_primary": "运算能力",
@@ -532,7 +532,7 @@
     "id": "b9bedcf8_1",
     "type": "选择题",
     "score": 3.0,
-    "stem": "4的相反数是(\\quad) A. 4 B. -4 C.\\dfrac{1}{4} D. -\\dfrac{1}{4}",
+    "stem": "4的相反数是(\\quad) A. 4 B. -4 C.\\frac{1}{4} D. -\\frac{1}{4}",
     "stem_images": [],
     "options": [
       {
@@ -547,12 +547,12 @@
       },
       {
         "index": "C",
-        "text": "\\dfrac{1}{4}",
+        "text": "\\frac{1}{4}",
         "images": []
       },
       {
         "index": "D",
-        "text": "-\\dfrac{1}{4}",
+        "text": "-\\frac{1}{4}",
         "images": []
       }
     ],
@@ -575,7 +575,7 @@
     "xkb_knowledges": [
       "掌握求有理数的相反数和绝对值的方法"
     ],
-    "normalized_stem": "$4$ 的相反数是 $(\\quad)$ A. $4$ B. $-4$ C. $\\dfrac{1}{4}$ D. $-\\dfrac{1}{4}$",
+    "normalized_stem": "$4$ 的相反数是 $(\\quad)$ A. $4$ B. $-4$ C. $\\frac{1}{4}$ D. $-\\frac{1}{4}$",
     "normalized_analysis": "解：根据只有符号不同的两个数互为相反数解答． 所以 $4$ 的相反数是 $-4$。 故选 B。 本题考查相反数的概念。",
     "bloom_level": "记忆",
     "bloom_reason": "直接考查相反数的定义，属于概念识记。",
@@ -705,7 +705,7 @@
     "type": "计算题",
     "score": 6.0,
     "answer": "解：（1） ． （2） ． （3） ． （4） ．",
-    "stem": "计算： (1)6-\\left(-5\\right)+\\left(-18\\right)； (2)\\left(-4\\right)\\div\\dfrac{1}{7}\\times\\left(-0.75\\right)； (3)\\left(-42\\right)\\times\\left(\\dfrac{1}{6}+\\dfrac{3}{14}-\\dfrac{2}{7}\\right)； (4)-{1^4}+\\dfrac{1}{4}\\times{2^3}+{\\left(-3\\right)^2}.",
+    "stem": "计算： (1)6-\\left(-5\\right)+\\left(-18\\right)； (2)\\left(-4\\right)\\div\\frac{1}{7}\\times\\left(-0.75\\right)； (3)\\left(-42\\right)\\times\\left(\\frac{1}{6}+\\frac{3}{14}-\\frac{2}{7}\\right)； (4)-{1^4}+\\frac{1}{4}\\times{2^3}+{\\left(-3\\right)^2}.",
     "stem_images": [],
     "options": [],
     "analysis": "【分析】本题考查了有理数的乘方和四则混合运算，掌握运算法则是解题的关键． (1)根据去括号法则去掉括号，再从左到右依次计算； (2)将除法转换为乘法； (3)根据乘法的分配律进行计算； (4)先算乘方，再算乘法，最后算加减．",
@@ -722,7 +722,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "计算： (1)$6-\\left(-5\\right)+\\left(-18\\right)$； (2)$\\left(-4\\right)\\div\\dfrac{1}{7}\\times\\left(-0.75\\right)$； (3)$\\left(-42\\right)\\times\\left(\\dfrac{1}{6}+\\dfrac{3}{14}-\\dfrac{2}{7}\\right)$； (4)$-{1^4}+\\dfrac{1}{4}\\times{2^3}+{\\left(-3\\right)^2}$.",
+    "normalized_stem": "计算： (1)$6-\\left(-5\\right)+\\left(-18\\right)$； (2)$\\left(-4\\right)\\div\\frac{1}{7}\\times\\left(-0.75\\right)$； (3)$\\left(-42\\right)\\times\\left(\\frac{1}{6}+\\frac{3}{14}-\\frac{2}{7}\\right)$； (4)$-{1^4}+\\frac{1}{4}\\times{2^3}+{\\left(-3\\right)^2}$.",
     "normalized_analysis": "【分析】本题考查了有理数的乘方和四则混合运算，掌握运算法则是解题的关键． (1)根据去括号法则去掉括号，再从左到右依次计算； (2)将除法转换为乘法； (3)根据乘法的分配律进行计算； (4)先算乘方，再算乘法，最后算加减．",
     "bloom_level": "应用",
     "bloom_reason": "直接运用有理数运算法则进行计算，属于程序性应用。",
@@ -744,7 +744,7 @@
       "images/3df473d4_28_stem_0.png"
     ],
     "options": [],
-    "analysis": "解： (1)由图可知A_{1}B_{1}=2\\sqrt{2}>2，则A_{1}B_{1}无法为⊙O关于直线l的引入弦，A_{2}B_{2}与A_{3}B_{3}符合题意． 故答案为：A_{2}B_{2}、A_{3}B_{3}； (2)∵AB=2\\sqrt{2}， ∴要使得线段AB，AC和BC中，至少有一条线段是⊙O的引入弦，则AC与BC中较小的一个最小值得小于等于2， ∴C只能在如图红色线段上， ∴-1\\leqslant y\\leqslant 3； (3)MN是⊙O关于直线y=-x+b的引入弦，且MN=1，那么对称后的M'N'为⊙O上的一条弦，且M'N'=1， 那么我们可以通过确定好M'N'轨迹，从而判断出MN轨迹． ∵r=1，M'N'=1， ∴M'N'在⊙O运动时，可以生成一个半径为\\dfrac{\\sqrt{3}}{2}与半径为1的圆环， 那么MN就在以O'(b,b)为圆心，半径为\\dfrac{\\sqrt{3}}{2}与半径为1的圆环内， 要使得MN与EFGH有交点，则圆环O'与EFGH有交点． ①当半径为1的⊙O'过点G时，此时b=2+\\dfrac{1}{\\sqrt{2}}=2+\\dfrac{\\sqrt{2}}{2}； ②当半径为\\dfrac{\\sqrt{3}}{2}的⊙O'过点E时，此时b=1+\\dfrac{\\dfrac{\\sqrt{3}}{2}}{\\sqrt{2}}=1+\\dfrac{\\sqrt{6}}{4}； ③当半径为\\dfrac{\\sqrt{3}}{2}的⊙O'过点G时，此时b=2-\\dfrac{\\dfrac{\\sqrt{3}}{2}}{\\sqrt{2}}=2-\\dfrac{\\sqrt{6}}{4}； ④当半径为1的⊙O'过点E时，此时b=1-\\dfrac{1}{\\sqrt{2}}=1-\\dfrac{\\sqrt{2}}{2}； 综上所述，1-\\dfrac{\\sqrt{2}}{2}\\leqslant b\\leqslant 2-\\dfrac{\\sqrt{6}}{4}或1+\\dfrac{\\sqrt{6}}{4}\\leqslant b\\leqslant 2+\\dfrac{\\sqrt{2}}{2}. (1)依据新定义判断即可得解； (2)要使得线段AB，AC和BC中，至少有一条线段是⊙O的引入弦，则AC与BC中较小的一个最小值得小于等于2，据此画图求解即可； (3)由题可知MN是⊙O关于直线y=-x+b的引入弦，且MN=1，那么对称后的M'N'为⊙O上的一条弦，且M'N'=1，那么我们可以通过确定好M'N'轨迹，从而判断出MN轨迹．再分别画图求解即可． 本题主要以圆为背景考查了新定义题型，正确理解题意是解题的关键．",
+    "analysis": "解： (1)由图可知A_{1}B_{1}=2\\sqrt{2}>2，则A_{1}B_{1}无法为⊙O关于直线l的引入弦，A_{2}B_{2}与A_{3}B_{3}符合题意． 故答案为：A_{2}B_{2}、A_{3}B_{3}； (2)∵AB=2\\sqrt{2}， ∴要使得线段AB，AC和BC中，至少有一条线段是⊙O的引入弦，则AC与BC中较小的一个最小值得小于等于2， ∴C只能在如图红色线段上， ∴-1\\leqslant y\\leqslant 3； (3)MN是⊙O关于直线y=-x+b的引入弦，且MN=1，那么对称后的M'N'为⊙O上的一条弦，且M'N'=1， 那么我们可以通过确定好M'N'轨迹，从而判断出MN轨迹． ∵r=1，M'N'=1， ∴M'N'在⊙O运动时，可以生成一个半径为\\frac{\\sqrt{3}}{2}与半径为1的圆环， 那么MN就在以O'(b,b)为圆心，半径为\\frac{\\sqrt{3}}{2}与半径为1的圆环内， 要使得MN与EFGH有交点，则圆环O'与EFGH有交点． ①当半径为1的⊙O'过点G时，此时b=2+\\frac{1}{\\sqrt{2}}=2+\\frac{\\sqrt{2}}{2}； ②当半径为\\frac{\\sqrt{3}}{2}的⊙O'过点E时，此时b=1+\\frac{\\frac{\\sqrt{3}}{2}}{\\sqrt{2}}=1+\\frac{\\sqrt{6}}{4}； ③当半径为\\frac{\\sqrt{3}}{2}的⊙O'过点G时，此时b=2-\\frac{\\frac{\\sqrt{3}}{2}}{\\sqrt{2}}=2-\\frac{\\sqrt{6}}{4}； ④当半径为1的⊙O'过点E时，此时b=1-\\frac{1}{\\sqrt{2}}=1-\\frac{\\sqrt{2}}{2}； 综上所述，1-\\frac{\\sqrt{2}}{2}\\leqslant b\\leqslant 2-\\frac{\\sqrt{6}}{4}或1+\\frac{\\sqrt{6}}{4}\\leqslant b\\leqslant 2+\\frac{\\sqrt{2}}{2}. (1)依据新定义判断即可得解； (2)要使得线段AB，AC和BC中，至少有一条线段是⊙O的引入弦，则AC与BC中较小的一个最小值得小于等于2，据此画图求解即可； (3)由题可知MN是⊙O关于直线y=-x+b的引入弦，且MN=1，那么对称后的M'N'为⊙O上的一条弦，且M'N'=1，那么我们可以通过确定好M'N'轨迹，从而判断出MN轨迹．再分别画图求解即可． 本题主要以圆为背景考查了新定义题型，正确理解题意是解题的关键．",
     "analysis_images": [
       "images/3df473d4_28_analysis_0.png",
       "images/3df473d4_28_analysis_1.png",
@@ -770,7 +770,7 @@
       "了解并证明圆周角定理及其推论：圆周角等于它 所对弧上的圆心角的一半；直径所对的圆周角是直角，$90^\\circ$的圆周角 所对的弦是直径；圆内接四边形的对角互补"
     ],
     "normalized_stem": "在平面直角坐标系$xOy$中，对于半径为$1$的$\\odot O$，线段$AB$及直线$l$，给出如下定义：若线段$AB$关于直线$l$的对称线段$A'B'$是$\\odot O$的弦，则称线段$AB$为$\\odot O$关于直线$l$的引入弦. (1)如图1，点$A_{1}(-2,1)$，$B_{1}(0,3)$，$A_{2}(1,2)$，$B_{2}(3,2)$，$A_{3}(2,-1)$，$B_{3}(2,-2)$，线段$A_{1}B_{1}$，$A_{2}B_{2}$，$A_{3}B_{3}$中，是$\\odot O$关于某条直线的引入弦的为 ______ . (2)如图2，点$A(-1,3)$，$B(-3,1)$，点$C$在直线$y=x+2$上，若线段$AB$，$AC$和$BC$中，至少有一条线段是$\\odot O$的引入弦，直接写出点$C$的纵坐标$y_{c}$的取值范围. (3)如图3，线段$MN$是$\\odot O$关于直线$y=-x+b$的引入弦，且$MN=1$.以点$E(1,1)$，$F(1,2)$，$G(2,2)$，$H(2,1)$为顶点的正方形$EFGH$与线段$MN$有公共点，请直接写出$b$的取值范围.",
-    "normalized_analysis": "解： (1)由图可知$A_{1}B_{1}=2\\sqrt{2}>2$，则$A_{1}B_{1}$无法为$\\odot O$关于直线$l$的引入弦，$A_{2}B_{2}$与$A_{3}B_{3}$符合题意． 故答案为：$A_{2}B_{2}$、$A_{3}B_{3}$； (2)∵$AB=2\\sqrt{2}$， ∴要使得线段$AB$，$AC$和$BC$中，至少有一条线段是$\\odot O$的引入弦，则$AC$与$BC$中较小的一个最小值得小于等于$2$， ∴$C$只能在如图红色线段上， ∴$-1\\leqslant y\\leqslant 3$； (3)$MN$是$\\odot O$关于直线$y=-x+b$的引入弦，且$MN=1$，那么对称后的$M'N'$为$\\odot O$上的一条弦，且$M'N'=1$， 那么我们可以通过确定好$M'N'$轨迹，从而判断出$MN$轨迹． ∵$r=1$，$M'N'=1$， ∴$M'N'$在$\\odot O$运动时，可以生成一个半径为$\\dfrac{\\sqrt{3}}{2}$与半径为$1$的圆环， 那么$MN$就在以$O'(b,b)$为圆心，半径为$\\dfrac{\\sqrt{3}}{2}$与半径为$1$的圆环内， 要使得$MN$与$EFGH$有交点，则圆环$O'$与$EFGH$有交点． ①当半径为$1$的$\\odot O'$过点$G$时，此时$b=2+\\dfrac{1}{\\sqrt{2}}=2+\\dfrac{\\sqrt{2}}{2}$； ②当半径为$\\dfrac{\\sqrt{3}}{2}$的$\\odot O'$过点$E$时，此时$b=1+\\dfrac{\\dfrac{\\sqrt{3}}{2}}{\\sqrt{2}}=1+\\dfrac{\\sqrt{6}}{4}$； ③当半径为$\\dfrac{\\sqrt{3}}{2}$的$\\odot O'$过点$G$时，此时$b=2-\\dfrac{\\dfrac{\\sqrt{3}}{2}}{\\sqrt{2}}=2-\\dfrac{\\sqrt{6}}{4}$； ④当半径为$1$的$\\odot O'$过点$E$时，此时$b=1-\\dfrac{1}{\\sqrt{2}}=1-\\dfrac{\\sqrt{2}}{2}$； 综上所述，$1-\\dfrac{\\sqrt{2}}{2}\\leqslant b\\leqslant 2-\\dfrac{\\sqrt{6}}{4}$或$1+\\dfrac{\\sqrt{6}}{4}\\leqslant b\\leqslant 2+\\dfrac{\\sqrt{2}}{2}$. (1)依据新定义判断即可得解； (2)要使得线段$AB$，$AC$和$BC$中，至少有一条线段是$\\odot O$的引入弦，则$AC$与$BC$中较小的一个最小值得小于等于$2$，据此画图求解即可； (3)由题可知$MN$是$\\odot O$关于直线$y=-x+b$的引入弦，且$MN=1$，那么对称后的$M'N'$为$\\odot O$上的一条弦，且$M'N'=1$，那么我们可以通过确定好$M'N'$轨迹，从而判断出$MN$轨迹．再分别画图求解即可． 本题主要以圆为背景考查了新定义题型，正确理解题意是解题的关键．",
+    "normalized_analysis": "解： (1)由图可知$A_{1}B_{1}=2\\sqrt{2}>2$，则$A_{1}B_{1}$无法为$\\odot O$关于直线$l$的引入弦，$A_{2}B_{2}$与$A_{3}B_{3}$符合题意． 故答案为：$A_{2}B_{2}$、$A_{3}B_{3}$； (2)∵$AB=2\\sqrt{2}$， ∴要使得线段$AB$，$AC$和$BC$中，至少有一条线段是$\\odot O$的引入弦，则$AC$与$BC$中较小的一个最小值得小于等于$2$， ∴$C$只能在如图红色线段上， ∴$-1\\leqslant y\\leqslant 3$； (3)$MN$是$\\odot O$关于直线$y=-x+b$的引入弦，且$MN=1$，那么对称后的$M'N'$为$\\odot O$上的一条弦，且$M'N'=1$， 那么我们可以通过确定好$M'N'$轨迹，从而判断出$MN$轨迹． ∵$r=1$，$M'N'=1$， ∴$M'N'$在$\\odot O$运动时，可以生成一个半径为$\\frac{\\sqrt{3}}{2}$与半径为$1$的圆环， 那么$MN$就在以$O'(b,b)$为圆心，半径为$\\frac{\\sqrt{3}}{2}$与半径为$1$的圆环内， 要使得$MN$与$EFGH$有交点，则圆环$O'$与$EFGH$有交点． ①当半径为$1$的$\\odot O'$过点$G$时，此时$b=2+\\frac{1}{\\sqrt{2}}=2+\\frac{\\sqrt{2}}{2}$； ②当半径为$\\frac{\\sqrt{3}}{2}$的$\\odot O'$过点$E$时，此时$b=1+\\frac{\\frac{\\sqrt{3}}{2}}{\\sqrt{2}}=1+\\frac{\\sqrt{6}}{4}$； ③当半径为$\\frac{\\sqrt{3}}{2}$的$\\odot O'$过点$G$时，此时$b=2-\\frac{\\frac{\\sqrt{3}}{2}}{\\sqrt{2}}=2-\\frac{\\sqrt{6}}{4}$； ④当半径为$1$的$\\odot O'$过点$E$时，此时$b=1-\\frac{1}{\\sqrt{2}}=1-\\frac{\\sqrt{2}}{2}$； 综上所述，$1-\\frac{\\sqrt{2}}{2}\\leqslant b\\leqslant 2-\\frac{\\sqrt{6}}{4}$或$1+\\frac{\\sqrt{6}}{4}\\leqslant b\\leqslant 2+\\frac{\\sqrt{2}}{2}$. (1)依据新定义判断即可得解； (2)要使得线段$AB$，$AC$和$BC$中，至少有一条线段是$\\odot O$的引入弦，则$AC$与$BC$中较小的一个最小值得小于等于$2$，据此画图求解即可； (3)由题可知$MN$是$\\odot O$关于直线$y=-x+b$的引入弦，且$MN=1$，那么对称后的$M'N'$为$\\odot O$上的一条弦，且$M'N'=1$，那么我们可以通过确定好$M'N'$轨迹，从而判断出$MN$轨迹．再分别画图求解即可． 本题主要以圆为背景考查了新定义题型，正确理解题意是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用新定义“引入弦”解决具体几何问题，涉及计算与推理。",
     "core_literacy_primary": "几何直观",
@@ -792,7 +792,7 @@
       "images/22878d4c_24_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)证明：如图，过O作OP/\\!/AB， ∵AB/\\!/CD， ∴AB/\\!/CD/\\!/OP， ∴∠BEO=∠POE，∠DFO=∠POF， ∴∠POE+∠POF=∠BEO+∠DFO， ∴∠EOF=∠BEO+∠DFO； (2)①过点H作HQ/\\!/AB，如图， ∵n=2， ∴∠BEO=2∠GEO，∠CFO=2∠HFO，设∠GEO=x，则∠BEO=2∠GEO=2x， ∴∠BEG=x， ∵HQ/\\!/MAB， ∴∠QHG=∠BEG=x，∠EOF=110°由(1)可知∠EOF=∠BEO+∠DFO， ∴∠DFO=∠EOF-∠BEO=110°-2x， ∴∠CFO=180°-∠DFO=70°+2x， ∵∠CFO=2∠HFO， ∴∠CFH=∠HFO=35°+x， ∵AB/\\!/CD， ∴HQ/\\!/CD， ∴∠QHF=∠CFH=35°+x， ∴∠EHF=∠QHF-∠QHG=35°+x-x=35°； ②1)如图，点O在点M左侧，且在FE延长线与MN交点的左侧， ∴∠EHF=∠AEH+∠CFH=∠GEB+∠CFH，∠EOF=∠BEO-∠DFO=∠BEO-(180°-∠CFO)=(∠CFO+∠BEO)-180°， ∵∠GEB=2∠GEO，∠CFH=2∠HFO，∠CFO=3∠HFO，∠BEO=3∠GEO， ∴∠EHF=2∠GEO+2∠HFO=2(∠GEO+∠HFO)，∠EOF=(3∠HFO+3∠GEO)-180°=3(∠GEO+∠HFO)-180°，∠GEO+∠HFO=\\dfrac{∠EHF}{2}=\\dfrac{∠EOF+180°}{3}， ∴∠EHF-∠EOF=180°； 2)如图，点O在点M左侧，且在FE延长线与MN交点的右侧， ∴∠EHF=∠AEH+∠CFH=∠GEB+∠CFH，∠EOF=∠DFO-∠BEO=180°-∠CFO-∠BEO=180°-(∠CFO+∠BEO)， ∵∠GEB=2∠GEO，∠CFH=2∠HFO，∠CFO=3∠HFO，∠BEO=3∠GEO， ∴∠EHF=2∠GEO+2∠HFO=2(∠GEO+∠HFO)，∠EOF=180°-(3∠HFO+3∠GEO)=180°-3(∠GEO+∠HFO)，∠GEO+∠HFO=\\dfrac{∠EHF}{2}=\\dfrac{180°-∠EOF}{3}\\dfrac{3}{2}∠EHF+∠EOF=180°； 3)如图，当点O线段MN上时， ∴∠EHF=∠CFH-∠AEH=∠CFH-∠GEB，∠EOF=∠BEO+∠DFO=∠BEO+180°-∠CFO=180°+(∠BEO-∠CFO)， ∵∠GEB=2∠GEO，∠CFH=2∠HFO，∠CFO=3∠HFO，∠BEO=3∠GEO， ∴∠EHF=2∠HFO-2∠GEO=2(∠HFO-∠GEO)，∠EOF=180°+3∠GEO-3∠HFO=180°-3(∠HFO-∠GEO)， ∴∠HFO-∠GEO=\\dfrac{∠EHF}{2}=\\dfrac{180°-∠EOF}{3}\\dfrac{3}{2}∠EHF+∠EOF=180°； 4)当点O线段MN延长线上时，此时射线EG的反向延长线与射线FH无交点， 综上可知：\\dfrac{3}{2}∠EHF+∠EOF=180°或\\dfrac{3}{2}∠EHF-∠EOF=180°. (1)过O作OP/\\!/AB，则有AB/\\!/CD/\\!/OP，然后利用平行线的性质即可求解； (2)①过点H作HQAB，由n=2，则∠BEO=2∠GEO，∠CFO=2∠HFO，设∠GEO=x，则∠BEO=2∠GEO=2x，然后利用平行线的性质即可求解；②分点O在点M左侧，且在FE延长线与MN交点的左侧；点O在点M左侧，且在FE延长线与MN交点的右侧，当点O线段MN上时，当点O线段MN延长线上时四种情况分析即可． 本题考查了平行线的性质，平行公理推论，平行公理推论，掌握平行线的性质是解题的关键．",
+    "analysis": "(1)证明：如图，过O作OP/\\!/AB， ∵AB/\\!/CD， ∴AB/\\!/CD/\\!/OP， ∴∠BEO=∠POE，∠DFO=∠POF， ∴∠POE+∠POF=∠BEO+∠DFO， ∴∠EOF=∠BEO+∠DFO； (2)①过点H作HQ/\\!/AB，如图， ∵n=2， ∴∠BEO=2∠GEO，∠CFO=2∠HFO，设∠GEO=x，则∠BEO=2∠GEO=2x， ∴∠BEG=x， ∵HQ/\\!/MAB， ∴∠QHG=∠BEG=x，∠EOF=110°由(1)可知∠EOF=∠BEO+∠DFO， ∴∠DFO=∠EOF-∠BEO=110°-2x， ∴∠CFO=180°-∠DFO=70°+2x， ∵∠CFO=2∠HFO， ∴∠CFH=∠HFO=35°+x， ∵AB/\\!/CD， ∴HQ/\\!/CD， ∴∠QHF=∠CFH=35°+x， ∴∠EHF=∠QHF-∠QHG=35°+x-x=35°； ②1)如图，点O在点M左侧，且在FE延长线与MN交点的左侧， ∴∠EHF=∠AEH+∠CFH=∠GEB+∠CFH，∠EOF=∠BEO-∠DFO=∠BEO-(180°-∠CFO)=(∠CFO+∠BEO)-180°， ∵∠GEB=2∠GEO，∠CFH=2∠HFO，∠CFO=3∠HFO，∠BEO=3∠GEO， ∴∠EHF=2∠GEO+2∠HFO=2(∠GEO+∠HFO)，∠EOF=(3∠HFO+3∠GEO)-180°=3(∠GEO+∠HFO)-180°，∠GEO+∠HFO=\\frac{∠EHF}{2}=\\frac{∠EOF+180°}{3}， ∴∠EHF-∠EOF=180°； 2)如图，点O在点M左侧，且在FE延长线与MN交点的右侧， ∴∠EHF=∠AEH+∠CFH=∠GEB+∠CFH，∠EOF=∠DFO-∠BEO=180°-∠CFO-∠BEO=180°-(∠CFO+∠BEO)， ∵∠GEB=2∠GEO，∠CFH=2∠HFO，∠CFO=3∠HFO，∠BEO=3∠GEO， ∴∠EHF=2∠GEO+2∠HFO=2(∠GEO+∠HFO)，∠EOF=180°-(3∠HFO+3∠GEO)=180°-3(∠GEO+∠HFO)，∠GEO+∠HFO=\\frac{∠EHF}{2}=\\frac{180°-∠EOF}{3}\\frac{3}{2}∠EHF+∠EOF=180°； 3)如图，当点O线段MN上时， ∴∠EHF=∠CFH-∠AEH=∠CFH-∠GEB，∠EOF=∠BEO+∠DFO=∠BEO+180°-∠CFO=180°+(∠BEO-∠CFO)， ∵∠GEB=2∠GEO，∠CFH=2∠HFO，∠CFO=3∠HFO，∠BEO=3∠GEO， ∴∠EHF=2∠HFO-2∠GEO=2(∠HFO-∠GEO)，∠EOF=180°+3∠GEO-3∠HFO=180°-3(∠HFO-∠GEO)， ∴∠HFO-∠GEO=\\frac{∠EHF}{2}=\\frac{180°-∠EOF}{3}\\frac{3}{2}∠EHF+∠EOF=180°； 4)当点O线段MN延长线上时，此时射线EG的反向延长线与射线FH无交点， 综上可知：\\frac{3}{2}∠EHF+∠EOF=180°或\\frac{3}{2}∠EHF-∠EOF=180°. (1)过O作OP/\\!/AB，则有AB/\\!/CD/\\!/OP，然后利用平行线的性质即可求解； (2)①过点H作HQAB，由n=2，则∠BEO=2∠GEO，∠CFO=2∠HFO，设∠GEO=x，则∠BEO=2∠GEO=2x，然后利用平行线的性质即可求解；②分点O在点M左侧，且在FE延长线与MN交点的左侧；点O在点M左侧，且在FE延长线与MN交点的右侧，当点O线段MN上时，当点O线段MN延长线上时四种情况分析即可． 本题考查了平行线的性质，平行公理推论，平行公理推论，掌握平行线的性质是解题的关键．",
     "analysis_images": [
       "images/22878d4c_24_analysis_0.png",
       "images/22878d4c_24_analysis_1.png",
@@ -817,7 +817,7 @@
       "探索并证明平行线的性质定理Ⅱ:两条平行直线被第三条直线 所截，内错角相等(或同旁内角互补)"
     ],
     "normalized_stem": "如图1，直线 $AB \\parallel CD$，直线 $MN$ 分别与 $AB$，$CD$ 相交于点 $M$，$N$。点 $E$，$F$ 分别在 $AB$，$CD$ 上，且在 $MN$ 的同侧 $(NF>ME)$。点 $O$ 是直线 $MN$ 上的动点 (不与点 $M$，$N$ 重合)，连接 $OE$，$OF$。 (1)如图2，当点 $O$ 在线段 $MN$ 上时，求证：$\\angle EOF = \\angle BEO + \\angle DFO$； (2)在 $\\angle BEO$ 的内部作射线 $EG$，使 $\\angle BEO = n \\angle GEO$，在 $\\angle CFO$ 的内部作射线 $FH$，使 $\\angle CFO = n \\angle HFO$，射线 $EG$ 的反向延长线与射线 $FH$ 相交于点 $H$。 ①如图3，若 $n=2$，点 $O$ 在线段 $MN$ 上，且 $\\angle EOF = 110^{\\circ}$，求 $\\angle EHF$ 的度数； ②若 $n=3$，点 $O$ 在直线 $MN$ 上，用等式表示 $\\angle EOF$ 与 $\\angle EHF$ 的数量关系，直接写出结果。",
-    "normalized_analysis": "(1)证明：如图，过 $O$ 作 $OP \\parallel AB$， ∵ $AB \\parallel CD$， ∴ $AB \\parallel CD \\parallel OP$， ∴ $\\angle BEO = \\angle POE$，$\\angle DFO = \\angle POF$， ∴ $\\angle POE + \\angle POF = \\angle BEO + \\angle DFO$， ∴ $\\angle EOF = \\angle BEO + \\angle DFO$； (2)①过点 $H$ 作 $HQ \\parallel AB$，如图， ∵ $n=2$， ∴ $\\angle BEO = 2 \\angle GEO$，$\\angle CFO = 2 \\angle HFO$，设 $\\angle GEO = x$，则 $\\angle BEO = 2 \\angle GEO = 2x$， ∴ $\\angle BEG = x$， ∵ $HQ \\parallel AB$， ∴ $\\angle QHG = \\angle BEG = x$，$\\angle EOF = 110^{\\circ}$ 由(1)可知 $\\angle EOF = \\angle BEO + \\angle DFO$， ∴ $\\angle DFO = \\angle EOF - \\angle BEO = 110^{\\circ} - 2x$， ∴ $\\angle CFO = 180^{\\circ} - \\angle DFO = 70^{\\circ} + 2x$， ∵ $\\angle CFO = 2 \\angle HFO$， ∴ $\\angle CFH = \\angle HFO = 35^{\\circ} + x$， ∵ $AB \\parallel CD$， ∴ $HQ \\parallel CD$， ∴ $\\angle QHF = \\angle CFH = 35^{\\circ} + x$， ∴ $\\angle EHF = \\angle QHF - \\angle QHG = 35^{\\circ} + x - x = 35^{\\circ}$； ②1)如图，点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的左侧， ∴ $\\angle EHF = \\angle AEH + \\angle CFH = \\angle GEB + \\angle CFH$，$\\angle EOF = \\angle BEO - \\angle DFO = \\angle BEO - (180^{\\circ} - \\angle CFO) = (\\angle CFO + \\angle BEO) - 180^{\\circ}$， ∵ $\\angle GEB = 2 \\angle GEO$，$\\angle CFH = 2 \\angle HFO$，$\\angle CFO = 3 \\angle HFO$，$\\angle BEO = 3 \\angle GEO$， ∴ $\\angle EHF = 2 \\angle GEO + 2 \\angle HFO = 2(\\angle GEO + \\angle HFO)$，$\\angle EOF = (3 \\angle HFO + 3 \\angle GEO) - 180^{\\circ} = 3(\\angle GEO + \\angle HFO) - 180^{\\circ}$，$\\angle GEO + \\angle HFO = \\dfrac{\\angle EHF}{2} = \\dfrac{\\angle EOF + 180^{\\circ}}{3}$， ∴ $\\angle EHF - \\angle EOF = 180^{\\circ}$； 2)如图，点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的右侧， ∴ $\\angle EHF = \\angle AEH + \\angle CFH = \\angle GEB + \\angle CFH$，$\\angle EOF = \\angle DFO - \\angle BEO = 180^{\\circ} - \\angle CFO - \\angle BEO = 180^{\\circ} - (\\angle CFO + \\angle BEO)$， ∵ $\\angle GEB = 2 \\angle GEO$，$\\angle CFH = 2 \\angle HFO$，$\\angle CFO = 3 \\angle HFO$，$\\angle BEO = 3 \\angle GEO$， ∴ $\\angle EHF = 2 \\angle GEO + 2 \\angle HFO = 2(\\angle GEO + \\angle HFO)$，$\\angle EOF = 180^{\\circ} - (3 \\angle HFO + 3 \\angle GEO) = 180^{\\circ} - 3(\\angle GEO + \\angle HFO)$，$\\angle GEO + \\angle HFO = \\dfrac{\\angle EHF}{2} = \\dfrac{180^{\\circ} - \\angle EOF}{3}$，$\\dfrac{3}{2} \\angle EHF + \\angle EOF = 180^{\\circ}$； 3)如图，当点 $O$ 线段 $MN$ 上时， ∴ $\\angle EHF = \\angle CFH - \\angle AEH = \\angle CFH - \\angle GEB$，$\\angle EOF = \\angle BEO + \\angle DFO = \\angle BEO + 180^{\\circ} - \\angle CFO = 180^{\\circ} + (\\angle BEO - \\angle CFO)$， ∵ $\\angle GEB = 2 \\angle GEO$，$\\angle CFH = 2 \\angle HFO$，$\\angle CFO = 3 \\angle HFO$，$\\angle BEO = 3 \\angle GEO$， ∴ $\\angle EHF = 2 \\angle HFO - 2 \\angle GEO = 2(\\angle HFO - \\angle GEO)$，$\\angle EOF = 180^{\\circ} + 3 \\angle GEO - 3 \\angle HFO = 180^{\\circ} - 3(\\angle HFO - \\angle GEO)$， ∴ $\\angle HFO - \\angle GEO = \\dfrac{\\angle EHF}{2} = \\dfrac{180^{\\circ} - \\angle EOF}{3}$，$\\dfrac{3}{2} \\angle EHF + \\angle EOF = 180^{\\circ}$； 4)当点 $O$ 线段 $MN$ 延长线上时，此时射线 $EG$ 的反向延长线与射线 $FH$ 无交点， 综上可知：$\\dfrac{3}{2} \\angle EHF + \\angle EOF = 180^{\\circ}$ 或 $\\dfrac{3}{2} \\angle EHF - \\angle EOF = 180^{\\circ}$。 (1)过 $O$ 作 $OP \\parallel AB$，则有 $AB \\parallel CD \\parallel OP$，然后利用平行线的性质即可求解； (2)①过点 $H$ 作 $HQ \\parallel AB$，由 $n=2$，则 $\\angle BEO = 2 \\angle GEO$，$\\angle CFO = 2 \\angle HFO$，设 $\\angle GEO = x$，则 $\\angle BEO = 2 \\angle GEO = 2x$，然后利用平行线的性质即可求解；②分点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的左侧；点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的右侧，当点 $O$ 线段 $MN$ 上时，当点 $O$ 线段 $MN$ 延长线上时四种情况分析即可。 本题考查了平行线的性质，平行公理推论，掌握平行线的性质是解题的关键。",
+    "normalized_analysis": "(1)证明：如图，过 $O$ 作 $OP \\parallel AB$， ∵ $AB \\parallel CD$， ∴ $AB \\parallel CD \\parallel OP$， ∴ $\\angle BEO = \\angle POE$，$\\angle DFO = \\angle POF$， ∴ $\\angle POE + \\angle POF = \\angle BEO + \\angle DFO$， ∴ $\\angle EOF = \\angle BEO + \\angle DFO$； (2)①过点 $H$ 作 $HQ \\parallel AB$，如图， ∵ $n=2$， ∴ $\\angle BEO = 2 \\angle GEO$，$\\angle CFO = 2 \\angle HFO$，设 $\\angle GEO = x$，则 $\\angle BEO = 2 \\angle GEO = 2x$， ∴ $\\angle BEG = x$， ∵ $HQ \\parallel AB$， ∴ $\\angle QHG = \\angle BEG = x$，$\\angle EOF = 110^{\\circ}$ 由(1)可知 $\\angle EOF = \\angle BEO + \\angle DFO$， ∴ $\\angle DFO = \\angle EOF - \\angle BEO = 110^{\\circ} - 2x$， ∴ $\\angle CFO = 180^{\\circ} - \\angle DFO = 70^{\\circ} + 2x$， ∵ $\\angle CFO = 2 \\angle HFO$， ∴ $\\angle CFH = \\angle HFO = 35^{\\circ} + x$， ∵ $AB \\parallel CD$， ∴ $HQ \\parallel CD$， ∴ $\\angle QHF = \\angle CFH = 35^{\\circ} + x$， ∴ $\\angle EHF = \\angle QHF - \\angle QHG = 35^{\\circ} + x - x = 35^{\\circ}$； ②1)如图，点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的左侧， ∴ $\\angle EHF = \\angle AEH + \\angle CFH = \\angle GEB + \\angle CFH$，$\\angle EOF = \\angle BEO - \\angle DFO = \\angle BEO - (180^{\\circ} - \\angle CFO) = (\\angle CFO + \\angle BEO) - 180^{\\circ}$， ∵ $\\angle GEB = 2 \\angle GEO$，$\\angle CFH = 2 \\angle HFO$，$\\angle CFO = 3 \\angle HFO$，$\\angle BEO = 3 \\angle GEO$， ∴ $\\angle EHF = 2 \\angle GEO + 2 \\angle HFO = 2(\\angle GEO + \\angle HFO)$，$\\angle EOF = (3 \\angle HFO + 3 \\angle GEO) - 180^{\\circ} = 3(\\angle GEO + \\angle HFO) - 180^{\\circ}$，$\\angle GEO + \\angle HFO = \\frac{\\angle EHF}{2} = \\frac{\\angle EOF + 180^{\\circ}}{3}$， ∴ $\\angle EHF - \\angle EOF = 180^{\\circ}$； 2)如图，点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的右侧， ∴ $\\angle EHF = \\angle AEH + \\angle CFH = \\angle GEB + \\angle CFH$，$\\angle EOF = \\angle DFO - \\angle BEO = 180^{\\circ} - \\angle CFO - \\angle BEO = 180^{\\circ} - (\\angle CFO + \\angle BEO)$， ∵ $\\angle GEB = 2 \\angle GEO$，$\\angle CFH = 2 \\angle HFO$，$\\angle CFO = 3 \\angle HFO$，$\\angle BEO = 3 \\angle GEO$， ∴ $\\angle EHF = 2 \\angle GEO + 2 \\angle HFO = 2(\\angle GEO + \\angle HFO)$，$\\angle EOF = 180^{\\circ} - (3 \\angle HFO + 3 \\angle GEO) = 180^{\\circ} - 3(\\angle GEO + \\angle HFO)$，$\\angle GEO + \\angle HFO = \\frac{\\angle EHF}{2} = \\frac{180^{\\circ} - \\angle EOF}{3}$，$\\frac{3}{2} \\angle EHF + \\angle EOF = 180^{\\circ}$； 3)如图，当点 $O$ 线段 $MN$ 上时， ∴ $\\angle EHF = \\angle CFH - \\angle AEH = \\angle CFH - \\angle GEB$，$\\angle EOF = \\angle BEO + \\angle DFO = \\angle BEO + 180^{\\circ} - \\angle CFO = 180^{\\circ} + (\\angle BEO - \\angle CFO)$， ∵ $\\angle GEB = 2 \\angle GEO$，$\\angle CFH = 2 \\angle HFO$，$\\angle CFO = 3 \\angle HFO$，$\\angle BEO = 3 \\angle GEO$， ∴ $\\angle EHF = 2 \\angle HFO - 2 \\angle GEO = 2(\\angle HFO - \\angle GEO)$，$\\angle EOF = 180^{\\circ} + 3 \\angle GEO - 3 \\angle HFO = 180^{\\circ} - 3(\\angle HFO - \\angle GEO)$， ∴ $\\angle HFO - \\angle GEO = \\frac{\\angle EHF}{2} = \\frac{180^{\\circ} - \\angle EOF}{3}$，$\\frac{3}{2} \\angle EHF + \\angle EOF = 180^{\\circ}$； 4)当点 $O$ 线段 $MN$ 延长线上时，此时射线 $EG$ 的反向延长线与射线 $FH$ 无交点， 综上可知：$\\frac{3}{2} \\angle EHF + \\angle EOF = 180^{\\circ}$ 或 $\\frac{3}{2} \\angle EHF - \\angle EOF = 180^{\\circ}$。 (1)过 $O$ 作 $OP \\parallel AB$，则有 $AB \\parallel CD \\parallel OP$，然后利用平行线的性质即可求解； (2)①过点 $H$ 作 $HQ \\parallel AB$，由 $n=2$，则 $\\angle BEO = 2 \\angle GEO$，$\\angle CFO = 2 \\angle HFO$，设 $\\angle GEO = x$，则 $\\angle BEO = 2 \\angle GEO = 2x$，然后利用平行线的性质即可求解；②分点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的左侧；点 $O$ 在点 $M$ 左侧，且在 $FE$ 延长线与 $MN$ 交点的右侧，当点 $O$ 线段 $MN$ 上时，当点 $O$ 线段 $MN$ 延长线上时四种情况分析即可。 本题考查了平行线的性质，平行公理推论，掌握平行线的性质是解题的关键。",
     "bloom_level": "分析",
     "bloom_reason": "需要综合运用平行线性质，分析动点位置对角度关系的影响并进行分类讨论。",
     "core_literacy_primary": "推理能力",
@@ -951,7 +951,7 @@
     "type": "解答题",
     "score": 16.0,
     "answer": "解：（1）-7+（-3）-（-4）+（-6） =[-7+（-3）]-[（-4）-（-6）] =[-7+（-3）]-[（-4）+6] =-10-2 =-12． （2）原式= = = ． （3）原式= = =8-18+14 =4． （4）原式= =-1+4-3 =0．",
-    "stem": "计算： (1)-7+(-3)-(-4)+(-6)； (2)-8×(-\\dfrac{2}{15})÷\\dfrac{4}{5}； (3)(-\\dfrac{1}{3}+\\dfrac{3}{4}-\\dfrac{7}{12})÷(-\\dfrac{1}{24})； (4)-1^{2}+9×(\\dfrac{2}{3})^{2}-|-3|.",
+    "stem": "计算： (1)-7+(-3)-(-4)+(-6)； (2)-8×(-\\frac{2}{15})÷\\frac{4}{5}； (3)(-\\frac{1}{3}+\\frac{3}{4}-\\frac{7}{12})÷(-\\frac{1}{24})； (4)-1^{2}+9×(\\frac{2}{3})^{2}-|-3|.",
     "stem_images": [],
     "options": [],
     "analysis": "(1)运用加法结合律进行简便运算即可； (2)先化除为乘，然后按有理数乘法法则计算即可； (3)先化除为乘，然后按有理数乘法运算律计算即可； (4)先算乘方，然后按照有理数四则混合运算法则计算即可． 本题主要考查了有理数加减混合运算、有理数乘除混合运算、含乘方的有理数混合运算等知识点，掌握相关运算法则成为解题的关键．",
@@ -992,7 +992,7 @@
     "stem": "北京市三帆中学科技节的活动丰富多彩，其中体验类项目中“书本灯制作”和“自制充电宝”深受大家的欢迎，“科技状元榜”更是万众瞩目的竞赛类项目．初一某班共有42名同学，每名同学至少参与了其中一个项目，其中28人参与了“书本灯制作”，23个人参与了“自制充电宝”的体验，17人有“科技状元榜”的工作任务．因为赛程安排，“科技状元榜”和“自制充电宝”不能同时参与．现有以下结论： ①只参与了“书本灯制作”的学生有2人； ②同时参加了“书本灯制作”和“科技状元榜”的学生人数有可能等于只参加了“自制充电宝”的学生人数； ③只参加了一个项目的人数比参加了两个项目的人数少． 正确的结论是__________(填写序号).",
     "stem_images": [],
     "options": [],
-    "analysis": "【分析】本题考查了有理数的加法、一元一次方程的应用，根据“科技状元榜”和“自制充电宝”不能同时参与，并且可以计算出参与“科技状元榜”和“自制充电宝”的学生共有40人，可以计算出参与本次活动的共有68人，所以可知这次活动中有26人同时参与了两个项目，所以可得只参与了“书本灯制作”的学生有2人；同时参与了“书本灯制作”和“科技状元榜”的学生人数有x人，则同时参与了“书本灯制作”和“自制充电宝”的学生人数有\\left(26-x\\right)人，如果参加了“书本灯制作”和“科技状元榜”的学生人数相等，可得方程26-x=x-3，解方程可得：x=\\dfrac{29}{2}，因为x代表的是人数，不能是分数，所以同时参加了“书本灯制作”和“科技状元榜”的学生人数不可能等于只参加了“自制充电宝”的学生人数；由①可知，这次活动中有26人同时参与了两个项目，只参加了一个项目的人数是16人，所以只参加了一个项目的人数比参加了两个项目的人数少． 【详解】解：由题意可知：参与“科技状元榜”和“自制充电宝”的学生共有23+17=40人， \\because参与了“书本灯制作”的有28人， \\therefore参与本次活动的共有40+28=68人， \\because 68-42=26人， \\therefore这次活动中有26人同时参与了两个项目， \\because“科技状元榜”和“自制充电宝”不能同时参与， \\therefore同时参与两个项目的同学一定有一项是“书本灯制作”， \\because 28-26=2人， \\therefore只参与了“书本灯制作”的学生有2人， 故①正确； 设同时参与了“书本灯制作”和“科技状元榜”的学生人数有x人， 则同时参与了“书本灯制作”和“自制充电宝”的学生人数有\\left(26-x\\right)人， \\therefore只参加了“自制充电宝”的学生人数为23-\\left(26-x\\right)=\\left(x-3\\right)人， 根据题意可得：26-x=x-3， 解得：x=\\dfrac{29}{2}， \\because x必须是正整数， \\therefore同时参加了“书本灯制作”和“科技状元榜”的学生人数不可能等于只参加了“自制充电宝”的学生人数， 故②错误； 由①可知，这次活动中有26人同时参与了两个项目， \\therefore只参与了一个项目的人数有42-26=16人， \\(\\because 16 < 26\\)， \\therefore只参加了一个项目的人数比参加了两个项目的人数少， 故③正确． 综上所述，正确的结论是①③. 故答案为：①③.",
+    "analysis": "【分析】本题考查了有理数的加法、一元一次方程的应用，根据“科技状元榜”和“自制充电宝”不能同时参与，并且可以计算出参与“科技状元榜”和“自制充电宝”的学生共有40人，可以计算出参与本次活动的共有68人，所以可知这次活动中有26人同时参与了两个项目，所以可得只参与了“书本灯制作”的学生有2人；同时参与了“书本灯制作”和“科技状元榜”的学生人数有x人，则同时参与了“书本灯制作”和“自制充电宝”的学生人数有\\left(26-x\\right)人，如果参加了“书本灯制作”和“科技状元榜”的学生人数相等，可得方程26-x=x-3，解方程可得：x=\\frac{29}{2}，因为x代表的是人数，不能是分数，所以同时参加了“书本灯制作”和“科技状元榜”的学生人数不可能等于只参加了“自制充电宝”的学生人数；由①可知，这次活动中有26人同时参与了两个项目，只参加了一个项目的人数是16人，所以只参加了一个项目的人数比参加了两个项目的人数少． 【详解】解：由题意可知：参与“科技状元榜”和“自制充电宝”的学生共有23+17=40人， \\because参与了“书本灯制作”的有28人， \\therefore参与本次活动的共有40+28=68人， \\because 68-42=26人， \\therefore这次活动中有26人同时参与了两个项目， \\because“科技状元榜”和“自制充电宝”不能同时参与， \\therefore同时参与两个项目的同学一定有一项是“书本灯制作”， \\because 28-26=2人， \\therefore只参与了“书本灯制作”的学生有2人， 故①正确； 设同时参与了“书本灯制作”和“科技状元榜”的学生人数有x人， 则同时参与了“书本灯制作”和“自制充电宝”的学生人数有\\left(26-x\\right)人， \\therefore只参加了“自制充电宝”的学生人数为23-\\left(26-x\\right)=\\left(x-3\\right)人， 根据题意可得：26-x=x-3， 解得：x=\\frac{29}{2}， \\because x必须是正整数， \\therefore同时参加了“书本灯制作”和“科技状元榜”的学生人数不可能等于只参加了“自制充电宝”的学生人数， 故②错误； 由①可知，这次活动中有26人同时参与了两个项目， \\therefore只参与了一个项目的人数有42-26=16人， \\(\\because 16 < 26\\)， \\therefore只参加了一个项目的人数比参加了两个项目的人数少， 故③正确． 综上所述，正确的结论是①③. 故答案为：①③.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -1427,10 +1427,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "5",
-    "stem": "若单项式-\\dfrac{3}{4}{x^m}{y^n}是关于x，y的五次单项式，则m+n=__________.",
+    "stem": "若单项式-\\frac{3}{4}{x^m}{y^n}是关于x，y的五次单项式，则m+n=__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "本题主要考查了单项式的次数，熟练掌握单项式次数的定义，是解题的关键．根据单项式次数的定义，单项式的次数是所有字母的指数之和，因此由题意可得：m+n=5. 【详解】解：因为单项式-\\dfrac{3}{4}{x^m}{y^n}是关于x，y的五次单项式，所以m+n=5. 故答案为：5.",
+    "analysis": "本题主要考查了单项式的次数，熟练掌握单项式次数的定义，是解题的关键．根据单项式次数的定义，单项式的次数是所有字母的指数之和，因此由题意可得：m+n=5. 【详解】解：因为单项式-\\frac{3}{4}{x^m}{y^n}是关于x，y的五次单项式，所以m+n=5. 故答案为：5.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -1461,10 +1461,10 @@
     "type": "填空题",
     "score": 3.0,
     "answer": "",
-    "stem": "若分式\\dfrac{x+2}{x-1}有意义，则x的取值范围是__________.",
+    "stem": "若分式\\frac{x+2}{x-1}有意义，则x的取值范围是__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "【分析】此题主要考查了分式的意义，分式\\dfrac{x+2}{x-1}有意义的条件为x-1\\neq 0，即可求得x的范围，要求掌握意义：对于任意一个分式，分母都不能为0，否则分式无意义． 【详解】解：根据题意得：x-1\\neq 0，解得：x\\neq 1. 故答案为：x\\neq 1.",
+    "analysis": "【分析】此题主要考查了分式的意义，分式\\frac{x+2}{x-1}有意义的条件为x-1\\neq 0，即可求得x的范围，要求掌握意义：对于任意一个分式，分母都不能为0，否则分式无意义． 【详解】解：根据题意得：x-1\\neq 0，解得：x\\neq 1. 故答案为：x\\neq 1.",
     "analysis_images": [],
     "knowledges": [
       "分式有意义的条件"
@@ -1482,8 +1482,8 @@
     "xkb_knowledges": [
       "了解分式和最简分式的概念"
     ],
-    "normalized_stem": "若分式 $\\dfrac{x+2}{x-1}$ 有意义，则 $x$ 的取值范围是__________.",
-    "normalized_analysis": "【分析】此题主要考查了分式的意义，分式 $\\dfrac{x+2}{x-1}$ 有意义的条件为 $x-1 \\neq 0$，即可求得 $x$ 的范围，要求掌握意义：对于任意一个分式，分母都不能为 $0$，否则分式无意义． 【详解】解：根据题意得：$x-1 \\neq 0$，解得：$x \\neq 1$。 故答案为：$x \\neq 1$.",
+    "normalized_stem": "若分式 $\\frac{x+2}{x-1}$ 有意义，则 $x$ 的取值范围是__________.",
+    "normalized_analysis": "【分析】此题主要考查了分式的意义，分式 $\\frac{x+2}{x-1}$ 有意义的条件为 $x-1 \\neq 0$，即可求得 $x$ 的范围，要求掌握意义：对于任意一个分式，分母都不能为 $0$，否则分式无意义． 【详解】解：根据题意得：$x-1 \\neq 0$，解得：$x \\neq 1$。 故答案为：$x \\neq 1$.",
     "bloom_level": "理解",
     "bloom_reason": "题目要求理解分式有意义的条件，并据此确定变量的取值范围。",
     "core_literacy_primary": "运算能力",
@@ -1499,7 +1499,7 @@
     "type": "计算题",
     "score": 10.0,
     "answer": "解：（1） ; （2） ; （3） ; （4） .",
-    "stem": "计算： (1)\\left(-7\\right)-\\left(-4\\right)+\\left(-3\\right) (2)\\left(-\\dfrac{3}{5}\\right)\\times 1\\dfrac{1}{2}\\div\\left(-\\dfrac{9}{4}\\right) (3)\\left(-\\dfrac{3}{4}-\\dfrac{5}{9}+\\dfrac{7}{12}\\right)\\times(-36) (4)-{2^2}+(-3{)^3}\\times\\left(\\dfrac{8}{9}-1\\right)",
+    "stem": "计算： (1)\\left(-7\\right)-\\left(-4\\right)+\\left(-3\\right) (2)\\left(-\\frac{3}{5}\\right)\\times 1\\frac{1}{2}\\div\\left(-\\frac{9}{4}\\right) (3)\\left(-\\frac{3}{4}-\\frac{5}{9}+\\frac{7}{12}\\right)\\times(-36) (4)-{2^2}+(-3{)^3}\\times\\left(\\frac{8}{9}-1\\right)",
     "stem_images": [],
     "options": [],
     "analysis": "本题主要考查了有理数的混合运算，要熟练掌握，注意明确有理数混合运算顺序． (1)根据有理数的加减法可以解答本题； (2)根据有理数的乘除法可以解答本题； (3)根据乘法分配律计算； (4)先算乘方，再算乘法，最后算加减；如果有括号，要先做括号内的运算．",
@@ -1523,7 +1523,7 @@
       "掌握有理数的加、减、乘、除、乘方及简单的混合运算(以三步以内为主)",
       "能运用运算律简化运算"
     ],
-    "normalized_stem": "计算： (1) $\\left(-7\\right)-\\left(-4\\right)+\\left(-3\\right)$ (2) $\\left(-\\dfrac{3}{5}\\right)\\times 1\\dfrac{1}{2}\\div\\left(-\\dfrac{9}{4}\\right)$ (3) $\\left(-\\dfrac{3}{4}-\\dfrac{5}{9}+\\dfrac{7}{12}\\right)\\times(-36)$ (4) $-{2^2}+(-3{)^3}\\times\\left(\\dfrac{8}{9}-1\\right)$",
+    "normalized_stem": "计算： (1) $\\left(-7\\right)-\\left(-4\\right)+\\left(-3\\right)$ (2) $\\left(-\\frac{3}{5}\\right)\\times 1\\frac{1}{2}\\div\\left(-\\frac{9}{4}\\right)$ (3) $\\left(-\\frac{3}{4}-\\frac{5}{9}+\\frac{7}{12}\\right)\\times(-36)$ (4) $-{2^2}+(-3{)^3}\\times\\left(\\frac{8}{9}-1\\right)$",
     "normalized_analysis": "本题主要考查了有理数的混合运算，要熟练掌握，注意明确有理数混合运算顺序． (1)根据有理数的加减法可以解答本题； (2)根据有理数的乘除法可以解答本题； (3)根据乘法分配律计算； (4)先算乘方，再算乘法，最后算加减；如果有括号，要先做括号内的运算．",
     "bloom_level": "应用",
     "bloom_reason": "直接运用有理数运算法则和顺序进行计算，属于程序性应用。",
@@ -1540,7 +1540,7 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "（1）解： ； （2）解： ， ， ， ， ， 当 时，原式 ．",
-    "stem": "计算： (1)计算：\\left(2a-3b\\right)\\left(a+2b\\right)； (2)先化简，再求值：\\left(x-\\dfrac{{x^2}-2x+1}{{x^2}-1}\\right)\\div\\dfrac{{x^2}}{x+1}，其中x=3.",
+    "stem": "计算： (1)计算：\\left(2a-3b\\right)\\left(a+2b\\right)； (2)先化简，再求值：\\left(x-\\frac{{x^2}-2x+1}{{x^2}-1}\\right)\\div\\frac{{x^2}}{x+1}，其中x=3.",
     "stem_images": [],
     "options": [],
     "analysis": "【分析】本题考查分式的化简求值、整式的混合运算，熟练掌握运算法则是解答本题的关键． (1)根据多项式乘多项式将题目中的式子展开，然后合并同类项即可； (2)先算括号内的式子，再算括号外的除法，然后将x的值代入化简后的式子计算即可．",
@@ -1561,7 +1561,7 @@
     "xkb_knowledges": [
       "能进行简单的整式乘法运算(多项式乘法仅限于 一次式之间和一次式与二次式的乘法)"
     ],
-    "normalized_stem": "计算： (1)计算：$(2a-3b)(a+2b)$； (2)先化简，再求值：$\\left(x-\\dfrac{x^2-2x+1}{x^2-1}\\right)\\div\\dfrac{x^2}{x+1}$，其中$x=3$.",
+    "normalized_stem": "计算： (1)计算：$(2a-3b)(a+2b)$； (2)先化简，再求值：$\\left(x-\\frac{x^2-2x+1}{x^2-1}\\right)\\div\\frac{x^2}{x+1}$，其中$x=3$.",
     "normalized_analysis": "【分析】本题考查分式的化简求值、整式的混合运算，熟练掌握运算法则是解答本题的关键． (1)根据多项式乘多项式将题目中的式子展开，然后合并同类项即可； (2)先算括号内的式子，再算括号外的除法，然后将$x$的值代入化简后的式子计算即可．",
     "bloom_level": "应用",
     "bloom_reason": "题目要求直接应用多项式乘法和分式化简的运算法则进行计算。",
@@ -1614,7 +1614,7 @@
     "id": "b9bedcf8_6",
     "type": "选择题",
     "score": 3.0,
-    "stem": "若a=b，下列等式不一定成立的是(\\quad) A.a+5=b+5 B.a-5=b-5 C.ac=bc D.\\dfrac{a}{c}=\\dfrac{b}{c}",
+    "stem": "若a=b，下列等式不一定成立的是(\\quad) A.a+5=b+5 B.a-5=b-5 C.ac=bc D.\\frac{a}{c}=\\frac{b}{c}",
     "stem_images": [],
     "options": [
       {
@@ -1634,7 +1634,7 @@
       },
       {
         "index": "D",
-        "text": "\\dfrac{a}{c}=\\dfrac{b}{c}",
+        "text": "\\frac{a}{c}=\\frac{b}{c}",
         "images": []
       }
     ],
@@ -1657,7 +1657,7 @@
     "xkb_knowledges": [
       "掌握等式的基本性质"
     ],
-    "normalized_stem": "若 $a=b$，下列等式不一定成立的是(\\quad) A.$a+5=b+5$ B.$a-5=b-5$ C.$ac=bc$ D.$\\dfrac{a}{c}=\\dfrac{b}{c}$",
+    "normalized_stem": "若 $a=b$，下列等式不一定成立的是(\\quad) A.$a+5=b+5$ B.$a-5=b-5$ C.$ac=bc$ D.$\\frac{a}{c}=\\frac{b}{c}$",
     "normalized_analysis": "解：A、$a=b$ 两边都加上 $5$，等式成立，故本选项不符合题意； B、$a=b$ 两边都减去 $5$，等式成立，故本选项不符合题意； C、$a=b$ 两边都乘以 $c$，等式成立，故本选项不符合题意； D、$a=b$ 两边同时除以 $c$，当 $c\\neq 0$ 时才成立，则等式不一定成立，故本选项符合题意； 故选：D. 根据等式的基本性质对各选项分析判断后利用排除法求解． 本题主要考查了等式的基本性质，解题的关键是掌握等式性质：1、等式的两边同时加上或减去同一个数或字母，等式仍成立；2、等式的两边同时乘以或除以同一个不为 $0$ 数或字母，等式仍成立．",
     "bloom_level": "理解",
     "bloom_reason": "题目考查对等式基本性质的理解和辨析，需要判断等式变形的条件。",
@@ -1896,10 +1896,10 @@
     "type": "解答题",
     "score": 10.0,
     "answer": "（1）x=3  （2）x=-18",
-    "stem": "(1)解方程：x-7=8-4x； (2)解方程：-\\dfrac{1}{2}x-4=5.",
+    "stem": "(1)解方程：x-7=8-4x； (2)解方程：-\\frac{1}{2}x-4=5.",
     "stem_images": [],
     "options": [],
-    "analysis": "解： (1)x-7=8-4x， x+4x=7+8， 解得：x=3； (2)-\\dfrac{1}{2}x-4=5， -x-8=10， 解得：x=-18. (1)根据解一元一次方程的步骤“移项、合并同类项，系数化为1”解答即可； (2)根据解一元一次方程的步骤“去分母，移项、合并同类项”解答即可． 本题考查了解一元一次方程，掌握解一元一次方程的步骤是关键．",
+    "analysis": "解： (1)x-7=8-4x， x+4x=7+8， 解得：x=3； (2)-\\frac{1}{2}x-4=5， -x-8=10， 解得：x=-18. (1)根据解一元一次方程的步骤“移项、合并同类项，系数化为1”解答即可； (2)根据解一元一次方程的步骤“去分母，移项、合并同类项”解答即可． 本题考查了解一元一次方程，掌握解一元一次方程的步骤是关键．",
     "analysis_images": [],
     "knowledges": [
       "一元一次方程的解法"
@@ -1917,8 +1917,8 @@
     "xkb_knowledges": [
       "能解一元一次方程和可化为一元一次方程的分式方程"
     ],
-    "normalized_stem": "(1)解方程：$x-7=8-4x$； (2)解方程：$-\\dfrac{1}{2}x-4=5$.",
-    "normalized_analysis": "解： (1)$x-7=8-4x$， $x+4x=7+8$， 解得：$x=3$； (2)$-\\dfrac{1}{2}x-4=5$， $-x-8=10$， 解得：$x=-18$. (1)根据解一元一次方程的步骤“移项、合并同类项，系数化为1”解答即可； (2)根据解一元一次方程的步骤“去分母，移项、合并同类项”解答即可． 本题考查了解一元一次方程，掌握解一元一次方程的步骤是关键．",
+    "normalized_stem": "(1)解方程：$x-7=8-4x$； (2)解方程：$-\\frac{1}{2}x-4=5$.",
+    "normalized_analysis": "解： (1)$x-7=8-4x$， $x+4x=7+8$， 解得：$x=3$； (2)$-\\frac{1}{2}x-4=5$， $-x-8=10$， 解得：$x=-18$. (1)根据解一元一次方程的步骤“移项、合并同类项，系数化为1”解答即可； (2)根据解一元一次方程的步骤“去分母，移项、合并同类项”解答即可． 本题考查了解一元一次方程，掌握解一元一次方程的步骤是关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用一元一次方程的解法步骤解决具体方程问题。",
     "core_literacy_primary": "运算能力",
@@ -2256,7 +2256,7 @@
       "images/8ccee885_16_stem_0.png"
     ],
     "options": [],
-    "analysis": "【分析】本题考查了互补角的定义、角平分线的定义、垂直的定义等知识点，掌握理解各定义是解题关键． 先根据互补角的定义可得\\angle AOF=136{^\\circ}，再根据角平分线的定义可得\\angle COF=\\dfrac{1}{2}\\angle AOF=68{^\\circ}，然后根据垂直的定义可得\\angle BOE=46{^\\circ}，最后根据角的和差即可求解． 【详解】解：∵\\angle AOE=44{^\\circ}， ∴\\angle AOF=180{^\\circ}-\\angle AOE=136{^\\circ}， ∵OC平分\\angle AOF， ∴\\angle COF=\\dfrac{1}{2}\\angle AOF=68{^\\circ}， ∴\\angle DOE=\\angle COF=68{^\\circ}， ∵OA\\bot OB，即\\angle AOB=90{^\\circ}， ∴\\angle BOE=90{^\\circ}-\\angle AOE=46{^\\circ}， ∴\\angle BOD=\\angle DOE-\\angle BOE=22{^\\circ}. 故答案为：22",
+    "analysis": "【分析】本题考查了互补角的定义、角平分线的定义、垂直的定义等知识点，掌握理解各定义是解题关键． 先根据互补角的定义可得\\angle AOF=136{^\\circ}，再根据角平分线的定义可得\\angle COF=\\frac{1}{2}\\angle AOF=68{^\\circ}，然后根据垂直的定义可得\\angle BOE=46{^\\circ}，最后根据角的和差即可求解． 【详解】解：∵\\angle AOE=44{^\\circ}， ∴\\angle AOF=180{^\\circ}-\\angle AOE=136{^\\circ}， ∵OC平分\\angle AOF， ∴\\angle COF=\\frac{1}{2}\\angle AOF=68{^\\circ}， ∴\\angle DOE=\\angle COF=68{^\\circ}， ∵OA\\bot OB，即\\angle AOB=90{^\\circ}， ∴\\angle BOE=90{^\\circ}-\\angle AOE=46{^\\circ}， ∴\\angle BOD=\\angle DOE-\\angle BOE=22{^\\circ}. 故答案为：22",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -2863,12 +2863,12 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "FDE  DCF  CH  DH  CD  DF  DG （a 2 +b 2 ）",
-    "stem": "小高同学在学习“勾股定理”时，向全班展示了他通过查阅相关资料学到的证明思路和证明过程，具体如下. 制作学具：两张直角三角形纸片ABC和DEF，其中∠ACB=∠DFE=90°，BC=EF=a，AC=DF=b(a< b)，AB=DE=c. 证明思路：将两张纸片按如图所示方式摆放并固定，使纸片DEF的边EF落在纸片ABC的边AC上，点E与点C重合，连接AD，DB得到四边形ACBD，利用四边形ACBD的面积的两种不同表示方法证明a^{2}+b^{2}=c^{2}. 请根据小高同学的思路补全以下证明过程. 证明：如图，作DG⊥CB，垂足为点G，设AB与CD的交点为H. ∵BC=EF，AC=DF，AB=DE， ∴\\triangle ABC≌\\triangle DEF. ∴∠CAB=∠______. ∵∠FDE+∠ACH=90°， ∴∠CAB+∠______=90°. ∴∠AHC=90°. ∴AB⊥CD. ∴S_{四边形ACBD}=S_{\\triangle ACB}+S_{\\triangle ADB}=\\dfrac{1}{2}×AB×______+\\dfrac{1}{2}×AB×______=\\dfrac{1}{2}×AB×______=\\dfrac{1}{2}c^{2}. ∵∠CFD=∠FCB=∠G=90°， ∴四边形FCGD为矩形. ∴DG=FC=a. ∴S_{四边形ACBD}=S_{\\triangle ACD}+S_{\\triangle BCD}=\\dfrac{1}{2}×AC×______+\\dfrac{1}{2}×BC×______= ______. ∴a^{2}+b^{2}=c^{2}.",
+    "stem": "小高同学在学习“勾股定理”时，向全班展示了他通过查阅相关资料学到的证明思路和证明过程，具体如下. 制作学具：两张直角三角形纸片ABC和DEF，其中∠ACB=∠DFE=90°，BC=EF=a，AC=DF=b(a< b)，AB=DE=c. 证明思路：将两张纸片按如图所示方式摆放并固定，使纸片DEF的边EF落在纸片ABC的边AC上，点E与点C重合，连接AD，DB得到四边形ACBD，利用四边形ACBD的面积的两种不同表示方法证明a^{2}+b^{2}=c^{2}. 请根据小高同学的思路补全以下证明过程. 证明：如图，作DG⊥CB，垂足为点G，设AB与CD的交点为H. ∵BC=EF，AC=DF，AB=DE， ∴\\triangle ABC≌\\triangle DEF. ∴∠CAB=∠______. ∵∠FDE+∠ACH=90°， ∴∠CAB+∠______=90°. ∴∠AHC=90°. ∴AB⊥CD. ∴S_{四边形ACBD}=S_{\\triangle ACB}+S_{\\triangle ADB}=\\frac{1}{2}×AB×______+\\frac{1}{2}×AB×______=\\frac{1}{2}×AB×______=\\frac{1}{2}c^{2}. ∵∠CFD=∠FCB=∠G=90°， ∴四边形FCGD为矩形. ∴DG=FC=a. ∴S_{四边形ACBD}=S_{\\triangle ACD}+S_{\\triangle BCD}=\\frac{1}{2}×AC×______+\\frac{1}{2}×BC×______= ______. ∴a^{2}+b^{2}=c^{2}.",
     "stem_images": [
       "images/e324f91b_21_stem_0.png"
     ],
     "options": [],
-    "analysis": "证明：如图，作DG⊥CB，垂足为点G，设AB与CD的交点为H. ∵BC=EF，AC=DF，AB=DE， ∴\\triangle ABC≌\\triangle DEF(SSS). ∴∠CAB=∠FDE. ∵∠FDE+∠ACH=90°， ∴∠CAB+∠DCF=90°. ∴∠AHC=90°. ∴AB⊥CD. ∴S_{四边形ACBD}=S_{\\triangle ACB}+S_{\\triangle ADB}=\\dfrac{1}{2}×AB×CH+\\dfrac{1}{2}×AB×DH=\\dfrac{1}{2}×AB×CD=\\dfrac{1}{2}c^{2}. ∵∠CFD=∠FCB=∠G=90°， ∴四边形FCGD为矩形． ∴DG=FC=a. ∴S_{四边形ACBD}=S_{\\triangle ACD}+S_{\\triangle BCD}=\\dfrac{1}{2}×AC×DF+\\dfrac{1}{2}×BC×DG=\\dfrac{1}{2}(a^{2}+b^{2}). ∴a^{2}+b^{2}=c^{2}. 故答案为：FDE，DCF，CH，DH，CD，DF，DG，\\dfrac{1}{2}(a^{2}+b^{2}). 如图，作DG⊥CB，垂足为点G，设AB与CD的交点为H.根据全等三角形的性质得到∠CAB=∠EDF.得到AB⊥CD.根据三角形的面积公式得到S_{四边形ACBD}=S_{\\triangle ACB}+S_{\\triangle ADB}=\\dfrac{1}{2}×AB×CH+\\dfrac{1}{2}×AB×DH=\\dfrac{1}{2}×AB×CD=\\dfrac{1}{2}c^{2}.根据矩形的性质得到DG=FC=a.根据三角形的面积公式即可得到结论． 本题考查了矩形的判定和性质，全等三角形的判定和性质，三角形的面积的计算，勾股定理，熟练掌握矩形的判定和性质定理是解题的关键．",
+    "analysis": "证明：如图，作DG⊥CB，垂足为点G，设AB与CD的交点为H. ∵BC=EF，AC=DF，AB=DE， ∴\\triangle ABC≌\\triangle DEF(SSS). ∴∠CAB=∠FDE. ∵∠FDE+∠ACH=90°， ∴∠CAB+∠DCF=90°. ∴∠AHC=90°. ∴AB⊥CD. ∴S_{四边形ACBD}=S_{\\triangle ACB}+S_{\\triangle ADB}=\\frac{1}{2}×AB×CH+\\frac{1}{2}×AB×DH=\\frac{1}{2}×AB×CD=\\frac{1}{2}c^{2}. ∵∠CFD=∠FCB=∠G=90°， ∴四边形FCGD为矩形． ∴DG=FC=a. ∴S_{四边形ACBD}=S_{\\triangle ACD}+S_{\\triangle BCD}=\\frac{1}{2}×AC×DF+\\frac{1}{2}×BC×DG=\\frac{1}{2}(a^{2}+b^{2}). ∴a^{2}+b^{2}=c^{2}. 故答案为：FDE，DCF，CH，DH，CD，DF，DG，\\frac{1}{2}(a^{2}+b^{2}). 如图，作DG⊥CB，垂足为点G，设AB与CD的交点为H.根据全等三角形的性质得到∠CAB=∠EDF.得到AB⊥CD.根据三角形的面积公式得到S_{四边形ACBD}=S_{\\triangle ACB}+S_{\\triangle ADB}=\\frac{1}{2}×AB×CH+\\frac{1}{2}×AB×DH=\\frac{1}{2}×AB×CD=\\frac{1}{2}c^{2}.根据矩形的性质得到DG=FC=a.根据三角形的面积公式即可得到结论． 本题考查了矩形的判定和性质，全等三角形的判定和性质，三角形的面积的计算，勾股定理，熟练掌握矩形的判定和性质定理是解题的关键．",
     "analysis_images": [
       "images/e324f91b_21_analysis_0.png"
     ],
@@ -2894,8 +2894,8 @@
       "探索并证明矩形、菱形的判定定理：三个角是直角的四边形是矩形，对角线相等的平行四边形是矩形；四边相等的四边形是菱形，对角线互相垂直的平行四边形是菱形。正方形既是矩形，又是菱形",
       "证明定理：两角分别相等且其中一组等角的对边相等的两个三 角形全等"
     ],
-    "normalized_stem": "小高同学在学习“勾股定理”时，向全班展示了他通过查阅相关资料学到的证明思路和证明过程，具体如下. 制作学具：两张直角三角形纸片 $\\triangle ABC$ 和 $\\triangle DEF$，其中 $\\angle ACB = \\angle DFE = 90^{\\circ}$，$BC = EF = a$，$AC = DF = b$ $(a < b)$，$AB = DE = c$. 证明思路：将两张纸片按如图所示方式摆放并固定，使纸片 $\\triangle DEF$ 的边 $EF$ 落在纸片 $\\triangle ABC$ 的边 $AC$ 上，点 $E$ 与点 $C$ 重合，连接 $AD$，$DB$ 得到四边形 $ACBD$，利用四边形 $ACBD$ 的面积的两种不同表示方法证明 $a^{2} + b^{2} = c^{2}$. 请根据小高同学的思路补全以下证明过程. 证明：如图，作 $DG \\perp CB$，垂足为点 $G$，设 $AB$ 与 $CD$ 的交点为 $H$. ∵ $BC = EF$，$AC = DF$，$AB = DE$， ∴ $\\triangle ABC \\cong \\triangle DEF$. ∴ $\\angle CAB = \\angle$ ______. ∵ $\\angle FDE + \\angle ACH = 90^{\\circ}$， ∴ $\\angle CAB + \\angle$ ______ $= 90^{\\circ}$. ∴ $\\angle AHC = 90^{\\circ}$. ∴ $AB \\perp CD$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACB} + S_{\\triangle ADB} = \\dfrac{1}{2} \\times AB \\times$ ______ $+ \\dfrac{1}{2} \\times AB \\times$ ______ $= \\dfrac{1}{2} \\times AB \\times$ ______ $= \\dfrac{1}{2}c^{2}$. ∵ $\\angle CFD = \\angle FCB = \\angle G = 90^{\\circ}$， ∴ 四边形 $FCGD$ 为矩形. ∴ $DG = FC = a$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACD} + S_{\\triangle BCD} = \\dfrac{1}{2} \\times AC \\times$ ______ $+ \\dfrac{1}{2} \\times BC \\times$ ______ $=$ ______. ∴ $a^{2} + b^{2} = c^{2}$.",
-    "normalized_analysis": "证明：如图，作 $DG \\perp CB$，垂足为点 $G$，设 $AB$ 与 $CD$ 的交点为 $H$. ∵ $BC = EF$，$AC = DF$，$AB = DE$， ∴ $\\triangle ABC \\cong \\triangle DEF$ (SSS). ∴ $\\angle CAB = \\angle FDE$. ∵ $\\angle FDE + \\angle ACH = 90^{\\circ}$， ∴ $\\angle CAB + \\angle DCF = 90^{\\circ}$. ∴ $\\angle AHC = 90^{\\circ}$. ∴ $AB \\perp CD$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACB} + S_{\\triangle ADB} = \\dfrac{1}{2} \\times AB \\times CH + \\dfrac{1}{2} \\times AB \\times DH = \\dfrac{1}{2} \\times AB \\times CD = \\dfrac{1}{2}c^{2}$. ∵ $\\angle CFD = \\angle FCB = \\angle G = 90^{\\circ}$， ∴ 四边形 $FCGD$ 为矩形． ∴ $DG = FC = a$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACD} + S_{\\triangle BCD} = \\dfrac{1}{2} \\times AC \\times DF + \\dfrac{1}{2} \\times BC \\times DG = \\dfrac{1}{2}(a^{2} + b^{2})$. ∴ $a^{2} + b^{2} = c^{2}$. 故答案为：$FDE$，$DCF$，$CH$，$DH$，$CD$，$DF$，$DG$，$\\dfrac{1}{2}(a^{2} + b^{2})$. 如图，作 $DG \\perp CB$，垂足为点 $G$，设 $AB$ 与 $CD$ 的交点为 $H$.根据全等三角形的性质得到 $\\angle CAB = \\angle EDF$.得到 $AB \\perp CD$.根据三角形的面积公式得到 $S_{\\text{四边形}ACBD} = S_{\\triangle ACB} + S_{\\triangle ADB} = \\dfrac{1}{2} \\times AB \\times CH + \\dfrac{1}{2} \\times AB \\times DH = \\dfrac{1}{2} \\times AB \\times CD = \\dfrac{1}{2}c^{2}$.根据矩形的性质得到 $DG = FC = a$.根据三角形的面积公式即可得到结论． 本题考查了矩形的判定和性质，全等三角形的判定和性质，三角形的面积的计算，勾股定理，熟练掌握矩形的判定和性质定理是解题的关键．",
+    "normalized_stem": "小高同学在学习“勾股定理”时，向全班展示了他通过查阅相关资料学到的证明思路和证明过程，具体如下. 制作学具：两张直角三角形纸片 $\\triangle ABC$ 和 $\\triangle DEF$，其中 $\\angle ACB = \\angle DFE = 90^{\\circ}$，$BC = EF = a$，$AC = DF = b$ $(a < b)$，$AB = DE = c$. 证明思路：将两张纸片按如图所示方式摆放并固定，使纸片 $\\triangle DEF$ 的边 $EF$ 落在纸片 $\\triangle ABC$ 的边 $AC$ 上，点 $E$ 与点 $C$ 重合，连接 $AD$，$DB$ 得到四边形 $ACBD$，利用四边形 $ACBD$ 的面积的两种不同表示方法证明 $a^{2} + b^{2} = c^{2}$. 请根据小高同学的思路补全以下证明过程. 证明：如图，作 $DG \\perp CB$，垂足为点 $G$，设 $AB$ 与 $CD$ 的交点为 $H$. ∵ $BC = EF$，$AC = DF$，$AB = DE$， ∴ $\\triangle ABC \\cong \\triangle DEF$. ∴ $\\angle CAB = \\angle$ ______. ∵ $\\angle FDE + \\angle ACH = 90^{\\circ}$， ∴ $\\angle CAB + \\angle$ ______ $= 90^{\\circ}$. ∴ $\\angle AHC = 90^{\\circ}$. ∴ $AB \\perp CD$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACB} + S_{\\triangle ADB} = \\frac{1}{2} \\times AB \\times$ ______ $+ \\frac{1}{2} \\times AB \\times$ ______ $= \\frac{1}{2} \\times AB \\times$ ______ $= \\frac{1}{2}c^{2}$. ∵ $\\angle CFD = \\angle FCB = \\angle G = 90^{\\circ}$， ∴ 四边形 $FCGD$ 为矩形. ∴ $DG = FC = a$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACD} + S_{\\triangle BCD} = \\frac{1}{2} \\times AC \\times$ ______ $+ \\frac{1}{2} \\times BC \\times$ ______ $=$ ______. ∴ $a^{2} + b^{2} = c^{2}$.",
+    "normalized_analysis": "证明：如图，作 $DG \\perp CB$，垂足为点 $G$，设 $AB$ 与 $CD$ 的交点为 $H$. ∵ $BC = EF$，$AC = DF$，$AB = DE$， ∴ $\\triangle ABC \\cong \\triangle DEF$ (SSS). ∴ $\\angle CAB = \\angle FDE$. ∵ $\\angle FDE + \\angle ACH = 90^{\\circ}$， ∴ $\\angle CAB + \\angle DCF = 90^{\\circ}$. ∴ $\\angle AHC = 90^{\\circ}$. ∴ $AB \\perp CD$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACB} + S_{\\triangle ADB} = \\frac{1}{2} \\times AB \\times CH + \\frac{1}{2} \\times AB \\times DH = \\frac{1}{2} \\times AB \\times CD = \\frac{1}{2}c^{2}$. ∵ $\\angle CFD = \\angle FCB = \\angle G = 90^{\\circ}$， ∴ 四边形 $FCGD$ 为矩形． ∴ $DG = FC = a$. ∴ $S_{\\text{四边形}ACBD} = S_{\\triangle ACD} + S_{\\triangle BCD} = \\frac{1}{2} \\times AC \\times DF + \\frac{1}{2} \\times BC \\times DG = \\frac{1}{2}(a^{2} + b^{2})$. ∴ $a^{2} + b^{2} = c^{2}$. 故答案为：$FDE$，$DCF$，$CH$，$DH$，$CD$，$DF$，$DG$，$\\frac{1}{2}(a^{2} + b^{2})$. 如图，作 $DG \\perp CB$，垂足为点 $G$，设 $AB$ 与 $CD$ 的交点为 $H$.根据全等三角形的性质得到 $\\angle CAB = \\angle EDF$.得到 $AB \\perp CD$.根据三角形的面积公式得到 $S_{\\text{四边形}ACBD} = S_{\\triangle ACB} + S_{\\triangle ADB} = \\frac{1}{2} \\times AB \\times CH + \\frac{1}{2} \\times AB \\times DH = \\frac{1}{2} \\times AB \\times CD = \\frac{1}{2}c^{2}$.根据矩形的性质得到 $DG = FC = a$.根据三角形的面积公式即可得到结论． 本题考查了矩形的判定和性质，全等三角形的判定和性质，三角形的面积的计算，勾股定理，熟练掌握矩形的判定和性质定理是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需在给定证明框架下，运用全等、面积等知识补全具体步骤。",
     "core_literacy_primary": "几何直观",
@@ -2971,12 +2971,12 @@
     "type": "解答题",
     "score": 7.0,
     "answer": "①（5，5）；② ； 2≤m≤6； 或 或4≤n≤5",
-    "stem": "在平面直角坐标系xOy中，已知点S(a,b)，对于点T给出如下定义：先将点T向上(当b\\geqslant 0时)或向下(当b< 0时)平移|b|个单位长度，再关于直线x=a对称，得到点T'，则称点T'为点T的“S-制导点”. (1)如图1，点T坐标为(-3,2) ①当点S(1,3)时，点T的“S-制导点”T'的坐标为______； ②若点T'(2,-2)为点T的“S-制导点”，则点S的坐标为______； (2)如图2，点A(0,2)，B(0,-2)，C(1,0)，点S在\\triangle ABC边上，点T(0,4).若直线y=\\dfrac{1}{2}x+m\\text{上}存在点T的“S-制导点”，求m的取值范围； (3)如图3，点F(-n,n)，G(-n,-n)，H(n,-n)，I(n,n)，其中n>0，点S在正方形FGHI边上，点M(-5,4)，N(-4,5).若线段MN上存在点T(0,2n)的“S-制导点”，直接写出n的取值范围______.",
+    "stem": "在平面直角坐标系xOy中，已知点S(a,b)，对于点T给出如下定义：先将点T向上(当b\\geqslant 0时)或向下(当b< 0时)平移|b|个单位长度，再关于直线x=a对称，得到点T'，则称点T'为点T的“S-制导点”. (1)如图1，点T坐标为(-3,2) ①当点S(1,3)时，点T的“S-制导点”T'的坐标为______； ②若点T'(2,-2)为点T的“S-制导点”，则点S的坐标为______； (2)如图2，点A(0,2)，B(0,-2)，C(1,0)，点S在\\triangle ABC边上，点T(0,4).若直线y=\\frac{1}{2}x+m\\text{上}存在点T的“S-制导点”，求m的取值范围； (3)如图3，点F(-n,n)，G(-n,-n)，H(n,-n)，I(n,n)，其中n>0，点S在正方形FGHI边上，点M(-5,4)，N(-4,5).若线段MN上存在点T(0,2n)的“S-制导点”，直接写出n的取值范围______.",
     "stem_images": [
       "images/468b06de_26_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)①点T的“S-制导点”T'的坐标为T'(x,y)， ∵点S(1,3)，点T坐标为(-3,2)， ∴y=2+3，\\dfrac{-3+x}{2}=1， 解得y=5，x=5， ∴T'的坐标为(5,5)； ②点S的坐标为S(x_{1},y_{1})， ∵T坐标为(-3,2)，点T'(2,-2)为点T的“S-制导点”， ∴x_{1}=\\dfrac{-3+2}{2}=-\\dfrac{1}{2}，y_{1}=-2-2=-4， ∴点S的坐标为S(-\\dfrac{1}{2},-4)； (2)设S的坐标为S(x_{0},y_{0})，T'(x,y)，T(0,4)， ∴x_{0}=\\dfrac{x}{2}，y_{0}=y-4，则x=2x_{0}，y=y_{0}+4， ∵点S(x_{0},y_{0})在\\triangle ABC边上，A(0,2)，B(0,-2)，C(1,0)， ∴当S在AB上时，x_{0}=0，\\(-2 < y_{0} < 2\\)， ∴x=0，y=y_{0}+4， ∴2\\leqslant y\\leqslant 6； 把T'(x,y)代入y=\\dfrac{1}{2}x+m可得y=m，即2\\leqslant m\\leqslant 6； 当S在BC上时，设直线BC的解析式为y=kx+b， 则\\begin{cases}{0=k+b}\\\\ {b=-2}\\end{cases}， 解得\\begin{cases}{k=2}\\\\ {b=-2}\\end{cases}， ∴线段BC的解析式为y=2x-2(0\\leqslant x\\leqslant 1)，即y_{0}=2x_{0}-2(0\\leqslant x_{0}\\leqslant 1)， ∴x=2x_{0}，y=2x_{0}-2+4=2x_{0}+2， 把T'(x,y)代入y=\\dfrac{1}{2}x+m可得2x_{0}+2=\\dfrac{1}{2}×2x_{0}+m， ∴m=x_{0}+2， ∵0\\leqslant x_{0}\\leqslant 1， ∴2\\leqslant m\\leqslant 3； 当S在AC上时，设直线AC的解析式为y=mx+n，A(0,2)，B(0,-2)，C(1,0)， 则\\begin{cases}{0=m+n}\\\\ {2=n}\\end{cases}， 解得\\begin{cases}{m=-2}\\\\ {n=2}\\end{cases}， ∴线段BC的解析式为y=-2x+2(0\\leqslant x\\leqslant 1)，即y_{0}=-2x_{0}+2(0\\leqslant x_{0}\\leqslant 1)， ∴x=2x_{0}，y=-2x_{0}+2+4=-2x_{0}+6， 把T'(x,y)代入y=\\dfrac{1}{2}x+m可得-2x_{0}+6=\\dfrac{1}{2}×2x_{0}+m， ∴m=-3x_{0}+6， ∵0\\leqslant x_{0}\\leqslant 1， ∴3\\leqslant m\\leqslant 6； 综上，m的取值范围为2\\leqslant m\\leqslant 6； (3)设直线MN的解析式为y=hx+i， 则\\begin{cases}{4=-5h+i}\\\\ {5=-4h+i}\\end{cases}， 解得\\begin{cases}{h=1}\\\\ {j=9}\\end{cases}， ∴线段MN的解析式为\\(y=x+9(-5 < x < -4)\\)， 设\\(T'(m,g)(-5 < m < -4)(4 < g < 5)\\)，S的坐标为S(x_{0},y_{0})，T(0,2n)，则x_{0}=\\dfrac{m+0}{2},y_{0}=g-2n， ∴m=2x_{0}，g=y_{0}+2n，即-\\dfrac{5}{2}\\leqslant x_{0}\\leqslant-2，4\\leqslant y_{0}+2n\\leqslant 5， ∴T'(2x_{0},y_{0}+2n)， 把T'(2x_{0},y_{0}+2n)代入y=x+9可得：y_{0}+2n=2x_{0}+9， ∴y_{0}=2x_{0}+9-2n， ∵点S在正方形FGHI边上， ∴当点S在线段FI上时，-n\\leqslant x_{0}\\leqslant n，y_{0}=n， ∴n=2x_{0}+9-2n， 解得n=\\dfrac{2x_{0}+9}{3}， ∵-\\dfrac{5}{2}\\leqslant x_{0}\\leqslant-2， ∴\\dfrac{4}{3}\\leqslant n\\leqslant\\dfrac{5}{3}； 当点S在线段FG上时，x_{0}=-n，-n\\leqslant y_{0}\\leqslant n， ∴y_{0}+2n=-2n+9， 解得n=\\dfrac{9-(y_{0}+2n)}{2}， ∵4\\leqslant y_{0}+2n\\leqslant 5， ∴2\\leqslant n\\leqslant\\dfrac{5}{2}； ∴当点S在线段HG上时，-n\\leqslant x_{0}\\leqslant n，y_{0}=-n， ∴-n+2n=2x_{0}+9，即n=2x_{0}+9， \\(∵-\\dfrac{5}{2} < x_{0} < -2\\)， ∴4\\leqslant n\\leqslant 5； ∴当点S在线段HI上时，x_{0}=n，-n\\leqslant y_{0}\\leqslant n， ∴y_{0}+2n=2n+9，关于n的方程无解； 综上，n的取值范围为\\dfrac{4}{3}\\leqslant n\\leqslant\\dfrac{5}{3}或2\\leqslant n\\leqslant\\dfrac{5}{2}或4\\leqslant n\\leqslant 5. (1)①②直接根据“S-制导点”的定义求解即可； (2)设S的坐标为S(x_{0},y_{0})，T'(x,y)，T(0,4)，由“S-制导点”的定义可得x_{0}=\\dfrac{x}{2}，y_{0}=y-4，则x=2x_{0}，y=y_{0}+4，然后再跟点S在三角形的边AB、BC、AC上分别根据直角坐标系、一次函数解析式以及“S-制导点”的定义求解即可； (3)先求出线段MN的解析式为\\(y=x+9(-5 < x < -4,4\\leqslant y\\leqslant 5)\\)；设\\(T'(m,g)(-5 < m < -4)(4 < g < 5)\\)，S的坐标为S(x_{0},y_{0})，T(0,2n)，则x_{0}=\\dfrac{m+0}{2},y_{0}=g-2n，进而得到m=2x_{0}，g=y_{0}+2n，即-\\dfrac{5}{2}\\leqslant x_{0}\\leqslant-2，4\\leqslant y_{0}+2n\\leqslant 5，则T'(2x_{0},y_{0}+2n)；再把点T'(2x_{0},y_{0}+2n)代入y=x+9可得y_{0}=2x_{0}+9-2n；然后分点S在FI、FG、HG、HI上四组情况，分别列出关于n的方程求出n，然后再结合相关取值范围即可解答． 本题主要考查了平面直角坐标系、一次函数的应用、新定义、一元一次不等式的应用等知识点，理解新定义并掌握分类讨论思想成为解题的关键．",
+    "analysis": "(1)①点T的“S-制导点”T'的坐标为T'(x,y)， ∵点S(1,3)，点T坐标为(-3,2)， ∴y=2+3，\\frac{-3+x}{2}=1， 解得y=5，x=5， ∴T'的坐标为(5,5)； ②点S的坐标为S(x_{1},y_{1})， ∵T坐标为(-3,2)，点T'(2,-2)为点T的“S-制导点”， ∴x_{1}=\\frac{-3+2}{2}=-\\frac{1}{2}，y_{1}=-2-2=-4， ∴点S的坐标为S(-\\frac{1}{2},-4)； (2)设S的坐标为S(x_{0},y_{0})，T'(x,y)，T(0,4)， ∴x_{0}=\\frac{x}{2}，y_{0}=y-4，则x=2x_{0}，y=y_{0}+4， ∵点S(x_{0},y_{0})在\\triangle ABC边上，A(0,2)，B(0,-2)，C(1,0)， ∴当S在AB上时，x_{0}=0，\\(-2 < y_{0} < 2\\)， ∴x=0，y=y_{0}+4， ∴2\\leqslant y\\leqslant 6； 把T'(x,y)代入y=\\frac{1}{2}x+m可得y=m，即2\\leqslant m\\leqslant 6； 当S在BC上时，设直线BC的解析式为y=kx+b， 则\\begin{cases}{0=k+b}\\\\ {b=-2}\\end{cases}， 解得\\begin{cases}{k=2}\\\\ {b=-2}\\end{cases}， ∴线段BC的解析式为y=2x-2(0\\leqslant x\\leqslant 1)，即y_{0}=2x_{0}-2(0\\leqslant x_{0}\\leqslant 1)， ∴x=2x_{0}，y=2x_{0}-2+4=2x_{0}+2， 把T'(x,y)代入y=\\frac{1}{2}x+m可得2x_{0}+2=\\frac{1}{2}×2x_{0}+m， ∴m=x_{0}+2， ∵0\\leqslant x_{0}\\leqslant 1， ∴2\\leqslant m\\leqslant 3； 当S在AC上时，设直线AC的解析式为y=mx+n，A(0,2)，B(0,-2)，C(1,0)， 则\\begin{cases}{0=m+n}\\\\ {2=n}\\end{cases}， 解得\\begin{cases}{m=-2}\\\\ {n=2}\\end{cases}， ∴线段BC的解析式为y=-2x+2(0\\leqslant x\\leqslant 1)，即y_{0}=-2x_{0}+2(0\\leqslant x_{0}\\leqslant 1)， ∴x=2x_{0}，y=-2x_{0}+2+4=-2x_{0}+6， 把T'(x,y)代入y=\\frac{1}{2}x+m可得-2x_{0}+6=\\frac{1}{2}×2x_{0}+m， ∴m=-3x_{0}+6， ∵0\\leqslant x_{0}\\leqslant 1， ∴3\\leqslant m\\leqslant 6； 综上，m的取值范围为2\\leqslant m\\leqslant 6； (3)设直线MN的解析式为y=hx+i， 则\\begin{cases}{4=-5h+i}\\\\ {5=-4h+i}\\end{cases}， 解得\\begin{cases}{h=1}\\\\ {j=9}\\end{cases}， ∴线段MN的解析式为\\(y=x+9(-5 < x < -4)\\)， 设\\(T'(m,g)(-5 < m < -4)(4 < g < 5)\\)，S的坐标为S(x_{0},y_{0})，T(0,2n)，则x_{0}=\\frac{m+0}{2},y_{0}=g-2n， ∴m=2x_{0}，g=y_{0}+2n，即-\\frac{5}{2}\\leqslant x_{0}\\leqslant-2，4\\leqslant y_{0}+2n\\leqslant 5， ∴T'(2x_{0},y_{0}+2n)， 把T'(2x_{0},y_{0}+2n)代入y=x+9可得：y_{0}+2n=2x_{0}+9， ∴y_{0}=2x_{0}+9-2n， ∵点S在正方形FGHI边上， ∴当点S在线段FI上时，-n\\leqslant x_{0}\\leqslant n，y_{0}=n， ∴n=2x_{0}+9-2n， 解得n=\\frac{2x_{0}+9}{3}， ∵-\\frac{5}{2}\\leqslant x_{0}\\leqslant-2， ∴\\frac{4}{3}\\leqslant n\\leqslant\\frac{5}{3}； 当点S在线段FG上时，x_{0}=-n，-n\\leqslant y_{0}\\leqslant n， ∴y_{0}+2n=-2n+9， 解得n=\\frac{9-(y_{0}+2n)}{2}， ∵4\\leqslant y_{0}+2n\\leqslant 5， ∴2\\leqslant n\\leqslant\\frac{5}{2}； ∴当点S在线段HG上时，-n\\leqslant x_{0}\\leqslant n，y_{0}=-n， ∴-n+2n=2x_{0}+9，即n=2x_{0}+9， \\(∵-\\frac{5}{2} < x_{0} < -2\\)， ∴4\\leqslant n\\leqslant 5； ∴当点S在线段HI上时，x_{0}=n，-n\\leqslant y_{0}\\leqslant n， ∴y_{0}+2n=2n+9，关于n的方程无解； 综上，n的取值范围为\\frac{4}{3}\\leqslant n\\leqslant\\frac{5}{3}或2\\leqslant n\\leqslant\\frac{5}{2}或4\\leqslant n\\leqslant 5. (1)①②直接根据“S-制导点”的定义求解即可； (2)设S的坐标为S(x_{0},y_{0})，T'(x,y)，T(0,4)，由“S-制导点”的定义可得x_{0}=\\frac{x}{2}，y_{0}=y-4，则x=2x_{0}，y=y_{0}+4，然后再跟点S在三角形的边AB、BC、AC上分别根据直角坐标系、一次函数解析式以及“S-制导点”的定义求解即可； (3)先求出线段MN的解析式为\\(y=x+9(-5 < x < -4,4\\leqslant y\\leqslant 5)\\)；设\\(T'(m,g)(-5 < m < -4)(4 < g < 5)\\)，S的坐标为S(x_{0},y_{0})，T(0,2n)，则x_{0}=\\frac{m+0}{2},y_{0}=g-2n，进而得到m=2x_{0}，g=y_{0}+2n，即-\\frac{5}{2}\\leqslant x_{0}\\leqslant-2，4\\leqslant y_{0}+2n\\leqslant 5，则T'(2x_{0},y_{0}+2n)；再把点T'(2x_{0},y_{0}+2n)代入y=x+9可得y_{0}=2x_{0}+9-2n；然后分点S在FI、FG、HG、HI上四组情况，分别列出关于n的方程求出n，然后再结合相关取值范围即可解答． 本题主要考查了平面直角坐标系、一次函数的应用、新定义、一元一次不等式的应用等知识点，理解新定义并掌握分类讨论思想成为解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "一次函数综合"
@@ -2994,8 +2994,8 @@
     "xkb_knowledges": [
       "根据图象和表达式$y= kx+b(k\\neq 0)  $ 探索并理解k>0 和 k<0时图象的变化情况"
     ],
-    "normalized_stem": "在平面直角坐标系$xOy$中，已知点$S(a,b)$，对于点$T$给出如下定义：先将点$T$向上(当$b\\geqslant 0$时)或向下(当$b< 0$时)平移$|b|$个单位长度，再关于直线$x=a$对称，得到点$T'$，则称点$T'$为点$T$的“$S$-制导点”。 (1)如图1，点$T$坐标为$(-3,2)$ ①当点$S(1,3)$时，点$T$的“$S$-制导点”$T'$的坐标为______； ②若点$T'(2,-2)$为点$T$的“$S$-制导点”，则点$S$的坐标为______； (2)如图2，点$A(0,2)$，$B(0,-2)$，$C(1,0)$，点$S$在$\\triangle ABC$边上，点$T(0,4)$。若直线$y=\\dfrac{1}{2}x+m$上存在点$T$的“$S$-制导点”，求$m$的取值范围； (3)如图3，点$F(-n,n)$，$G(-n,-n)$，$H(n,-n)$，$I(n,n)$，其中$n>0$，点$S$在正方形$FGHI$边上，点$M(-5,4)$，$N(-4,5)$。若线段$MN$上存在点$T(0,2n)$的“$S$-制导点”，直接写出$n$的取值范围______。",
-    "normalized_analysis": "(1)①点$T$的“$S$-制导点”$T'$的坐标为$T'(x,y)$， ∵点$S(1,3)$，点$T$坐标为$(-3,2)$， ∴$y=2+3$，$\\dfrac{-3+x}{2}=1$， 解得$y=5$，$x=5$， ∴$T'$的坐标为$(5,5)$； ②点$S$的坐标为$S(x_{1},y_{1})$， ∵$T$坐标为$(-3,2)$，点$T'(2,-2)$为点$T$的“$S$-制导点”， ∴$x_{1}=\\dfrac{-3+2}{2}=-\\dfrac{1}{2}$，$y_{1}=-2-2=-4$， ∴点$S$的坐标为$S(-\\dfrac{1}{2},-4)$； (2)设$S$的坐标为$S(x_{0},y_{0})$，$T'(x,y)$，$T(0,4)$， ∴$x_{0}=\\dfrac{x}{2}$，$y_{0}=y-4$，则$x=2x_{0}$，$y=y_{0}+4$， ∵点$S(x_{0},y_{0})$在$\\triangle ABC$边上，$A(0,2)$，$B(0,-2)$，$C(1,0)$， ∴当$S$在$AB$上时，$x_{0}=0$，$-2 < y_{0} < 2$， ∴$x=0$，$y=y_{0}+4$， ∴$2\\leqslant y\\leqslant 6$； 把$T'(x,y)$代入$y=\\dfrac{1}{2}x+m$可得$y=m$，即$2\\leqslant m\\leqslant 6$； 当$S$在$BC$上时，设直线$BC$的解析式为$y=kx+b$， 则$\\begin{cases}0=k+b\\\\ b=-2\\end{cases}$， 解得$\\begin{cases}k=2\\\\ b=-2\\end{cases}$， ∴线段$BC$的解析式为$y=2x-2(0\\leqslant x\\leqslant 1)$，即$y_{0}=2x_{0}-2(0\\leqslant x_{0}\\leqslant 1)$， ∴$x=2x_{0}$，$y=2x_{0}-2+4=2x_{0}+2$， 把$T'(x,y)$代入$y=\\dfrac{1}{2}x+m$可得$2x_{0}+2=\\dfrac{1}{2}\\times 2x_{0}+m$， ∴$m=x_{0}+2$， ∵$0\\leqslant x_{0}\\leqslant 1$， ∴$2\\leqslant m\\leqslant 3$； 当$S$在$AC$上时，设直线$AC$的解析式为$y=mx+n$，$A(0,2)$，$B(0,-2)$，$C(1,0)$， 则$\\begin{cases}0=m+n\\\\ 2=n\\end{cases}$， 解得$\\begin{cases}m=-2\\\\ n=2\\end{cases}$， ∴线段$BC$的解析式为$y=-2x+2(0\\leqslant x\\leqslant 1)$，即$y_{0}=-2x_{0}+2(0\\leqslant x_{0}\\leqslant 1)$， ∴$x=2x_{0}$，$y=-2x_{0}+2+4=-2x_{0}+6$， 把$T'(x,y)$代入$y=\\dfrac{1}{2}x+m$可得$-2x_{0}+6=\\dfrac{1}{2}\\times 2x_{0}+m$， ∴$m=-3x_{0}+6$， ∵$0\\leqslant x_{0}\\leqslant 1$， ∴$3\\leqslant m\\leqslant 6$； 综上，$m$的取值范围为$2\\leqslant m\\leqslant 6$； (3)设直线$MN$的解析式为$y=hx+i$， 则$\\begin{cases}4=-5h+i\\\\ 5=-4h+i\\end{cases}$， 解得$\\begin{cases}h=1\\\\ i=9\\end{cases}$， ∴线段$MN$的解析式为$y=x+9(-5 < x < -4)$， 设$T'(m,g)(-5 < m < -4)(4 < g < 5)$，$S$的坐标为$S(x_{0},y_{0})$，$T(0,2n)$，则$x_{0}=\\dfrac{m+0}{2},y_{0}=g-2n$， ∴$m=2x_{0}$，$g=y_{0}+2n$，即$-\\dfrac{5}{2}\\leqslant x_{0}\\leqslant-2$，$4\\leqslant y_{0}+2n\\leqslant 5$， ∴$T'(2x_{0},y_{0}+2n)$， 把$T'(2x_{0},y_{0}+2n)$代入$y=x+9$可得：$y_{0}+2n=2x_{0}+9$， ∴$y_{0}=2x_{0}+9-2n$， ∵点$S$在正方形$FGHI$边上， ∴当点$S$在线段$FI$上时，$-n\\leqslant x_{0}\\leqslant n$，$y_{0}=n$， ∴$n=2x_{0}+9-2n$， 解得$n=\\dfrac{2x_{0}+9}{3}$， ∵$-\\dfrac{5}{2}\\leqslant x_{0}\\leqslant-2$， ∴$\\dfrac{4}{3}\\leqslant n\\leqslant\\dfrac{5}{3}$； 当点$S$在线段$FG$上时，$x_{0}=-n$，$-n\\leqslant y_{0}\\leqslant n$， ∴$y_{0}+2n=-2n+9$， 解得$n=\\dfrac{9-(y_{0}+2n)}{2}$， ∵$4\\leqslant y_{0}+2n\\leqslant 5$， ∴$2\\leqslant n\\leqslant\\dfrac{5}{2}$； ∴当点$S$在线段$HG$上时，$-n\\leqslant x_{0}\\leqslant n$，$y_{0}=-n$， ∴$-n+2n=2x_{0}+9$，即$n=2x_{0}+9$， $\\because-\\dfrac{5}{2} < x_{0} < -2$， ∴$4\\leqslant n\\leqslant 5$； ∴当点$S$在线段$HI$上时，$x_{0}=n$，$-n\\leqslant y_{0}\\leqslant n$， ∴$y_{0}+2n=2n+9$，关于$n$的方程无解； 综上，$n$的取值范围为$\\dfrac{4}{3}\\leqslant n\\leqslant\\dfrac{5}{3}$或$2\\leqslant n\\leqslant\\dfrac{5}{2}$或$4\\leqslant n\\leqslant 5$。 (1)①②直接根据“$S$-制导点”的定义求解即可； (2)设$S$的坐标为$S(x_{0},y_{0})$，$T'(x,y)$，$T(0,4)$，由“$S$-制导点”的定义可得$x_{0}=\\dfrac{x}{2}$，$y_{0}=y-4$，则$x=2x_{0}$，$y=y_{0}+4$，然后再跟点$S$在三角形的边$AB$、$BC$、$AC$上分别根据直角坐标系、一次函数解析式以及“$S$-制导点”的定义求解即可； (3)先求出线段$MN$的解析式为$y=x+9(-5 < x < -4,4\\leqslant y\\leqslant 5)$；设$T'(m,g)(-5 < m < -4)(4 < g < 5)$，$S$的坐标为$S(x_{0},y_{0})$，$T(0,2n)$，则$x_{0}=\\dfrac{m+0}{2},y_{0}=g-2n$，进而得到$m=2x_{0}$，$g=y_{0}+2n$，即$-\\dfrac{5}{2}\\leqslant x_{0}\\leqslant-2$，$4\\leqslant y_{0}+2n\\leqslant 5$，则$T'(2x_{0},y_{0}+2n)$；再把点$T'(2x_{0},y_{0}+2n)$代入$y=x+9$可得$y_{0}=2x_{0}+9-2n$；然后分点$S$在$FI$、$FG$、$HG$、$HI$上四组情况，分别列出关于$n$的方程求出$n$，然后再结合相关取值范围即可解答。 本题主要考查了平面直角坐标系、一次函数的应用、新定义、一元一次不等式的应用等知识点，理解新定义并掌握分类讨论思想成为解题的关键。",
+    "normalized_stem": "在平面直角坐标系$xOy$中，已知点$S(a,b)$，对于点$T$给出如下定义：先将点$T$向上(当$b\\geqslant 0$时)或向下(当$b< 0$时)平移$|b|$个单位长度，再关于直线$x=a$对称，得到点$T'$，则称点$T'$为点$T$的“$S$-制导点”。 (1)如图1，点$T$坐标为$(-3,2)$ ①当点$S(1,3)$时，点$T$的“$S$-制导点”$T'$的坐标为______； ②若点$T'(2,-2)$为点$T$的“$S$-制导点”，则点$S$的坐标为______； (2)如图2，点$A(0,2)$，$B(0,-2)$，$C(1,0)$，点$S$在$\\triangle ABC$边上，点$T(0,4)$。若直线$y=\\frac{1}{2}x+m$上存在点$T$的“$S$-制导点”，求$m$的取值范围； (3)如图3，点$F(-n,n)$，$G(-n,-n)$，$H(n,-n)$，$I(n,n)$，其中$n>0$，点$S$在正方形$FGHI$边上，点$M(-5,4)$，$N(-4,5)$。若线段$MN$上存在点$T(0,2n)$的“$S$-制导点”，直接写出$n$的取值范围______。",
+    "normalized_analysis": "(1)①点$T$的“$S$-制导点”$T'$的坐标为$T'(x,y)$， ∵点$S(1,3)$，点$T$坐标为$(-3,2)$， ∴$y=2+3$，$\\frac{-3+x}{2}=1$， 解得$y=5$，$x=5$， ∴$T'$的坐标为$(5,5)$； ②点$S$的坐标为$S(x_{1},y_{1})$， ∵$T$坐标为$(-3,2)$，点$T'(2,-2)$为点$T$的“$S$-制导点”， ∴$x_{1}=\\frac{-3+2}{2}=-\\frac{1}{2}$，$y_{1}=-2-2=-4$， ∴点$S$的坐标为$S(-\\frac{1}{2},-4)$； (2)设$S$的坐标为$S(x_{0},y_{0})$，$T'(x,y)$，$T(0,4)$， ∴$x_{0}=\\frac{x}{2}$，$y_{0}=y-4$，则$x=2x_{0}$，$y=y_{0}+4$， ∵点$S(x_{0},y_{0})$在$\\triangle ABC$边上，$A(0,2)$，$B(0,-2)$，$C(1,0)$， ∴当$S$在$AB$上时，$x_{0}=0$，$-2 < y_{0} < 2$， ∴$x=0$，$y=y_{0}+4$， ∴$2\\leqslant y\\leqslant 6$； 把$T'(x,y)$代入$y=\\frac{1}{2}x+m$可得$y=m$，即$2\\leqslant m\\leqslant 6$； 当$S$在$BC$上时，设直线$BC$的解析式为$y=kx+b$， 则$\\begin{cases}0=k+b\\\\ b=-2\\end{cases}$， 解得$\\begin{cases}k=2\\\\ b=-2\\end{cases}$， ∴线段$BC$的解析式为$y=2x-2(0\\leqslant x\\leqslant 1)$，即$y_{0}=2x_{0}-2(0\\leqslant x_{0}\\leqslant 1)$， ∴$x=2x_{0}$，$y=2x_{0}-2+4=2x_{0}+2$， 把$T'(x,y)$代入$y=\\frac{1}{2}x+m$可得$2x_{0}+2=\\frac{1}{2}\\times 2x_{0}+m$， ∴$m=x_{0}+2$， ∵$0\\leqslant x_{0}\\leqslant 1$， ∴$2\\leqslant m\\leqslant 3$； 当$S$在$AC$上时，设直线$AC$的解析式为$y=mx+n$，$A(0,2)$，$B(0,-2)$，$C(1,0)$， 则$\\begin{cases}0=m+n\\\\ 2=n\\end{cases}$， 解得$\\begin{cases}m=-2\\\\ n=2\\end{cases}$， ∴线段$BC$的解析式为$y=-2x+2(0\\leqslant x\\leqslant 1)$，即$y_{0}=-2x_{0}+2(0\\leqslant x_{0}\\leqslant 1)$， ∴$x=2x_{0}$，$y=-2x_{0}+2+4=-2x_{0}+6$， 把$T'(x,y)$代入$y=\\frac{1}{2}x+m$可得$-2x_{0}+6=\\frac{1}{2}\\times 2x_{0}+m$， ∴$m=-3x_{0}+6$， ∵$0\\leqslant x_{0}\\leqslant 1$， ∴$3\\leqslant m\\leqslant 6$； 综上，$m$的取值范围为$2\\leqslant m\\leqslant 6$； (3)设直线$MN$的解析式为$y=hx+i$， 则$\\begin{cases}4=-5h+i\\\\ 5=-4h+i\\end{cases}$， 解得$\\begin{cases}h=1\\\\ i=9\\end{cases}$， ∴线段$MN$的解析式为$y=x+9(-5 < x < -4)$， 设$T'(m,g)(-5 < m < -4)(4 < g < 5)$，$S$的坐标为$S(x_{0},y_{0})$，$T(0,2n)$，则$x_{0}=\\frac{m+0}{2},y_{0}=g-2n$， ∴$m=2x_{0}$，$g=y_{0}+2n$，即$-\\frac{5}{2}\\leqslant x_{0}\\leqslant-2$，$4\\leqslant y_{0}+2n\\leqslant 5$， ∴$T'(2x_{0},y_{0}+2n)$， 把$T'(2x_{0},y_{0}+2n)$代入$y=x+9$可得：$y_{0}+2n=2x_{0}+9$， ∴$y_{0}=2x_{0}+9-2n$， ∵点$S$在正方形$FGHI$边上， ∴当点$S$在线段$FI$上时，$-n\\leqslant x_{0}\\leqslant n$，$y_{0}=n$， ∴$n=2x_{0}+9-2n$， 解得$n=\\frac{2x_{0}+9}{3}$， ∵$-\\frac{5}{2}\\leqslant x_{0}\\leqslant-2$， ∴$\\frac{4}{3}\\leqslant n\\leqslant\\frac{5}{3}$； 当点$S$在线段$FG$上时，$x_{0}=-n$，$-n\\leqslant y_{0}\\leqslant n$， ∴$y_{0}+2n=-2n+9$， 解得$n=\\frac{9-(y_{0}+2n)}{2}$， ∵$4\\leqslant y_{0}+2n\\leqslant 5$， ∴$2\\leqslant n\\leqslant\\frac{5}{2}$； ∴当点$S$在线段$HG$上时，$-n\\leqslant x_{0}\\leqslant n$，$y_{0}=-n$， ∴$-n+2n=2x_{0}+9$，即$n=2x_{0}+9$， $\\because-\\frac{5}{2} < x_{0} < -2$， ∴$4\\leqslant n\\leqslant 5$； ∴当点$S$在线段$HI$上时，$x_{0}=n$，$-n\\leqslant y_{0}\\leqslant n$， ∴$y_{0}+2n=2n+9$，关于$n$的方程无解； 综上，$n$的取值范围为$\\frac{4}{3}\\leqslant n\\leqslant\\frac{5}{3}$或$2\\leqslant n\\leqslant\\frac{5}{2}$或$4\\leqslant n\\leqslant 5$。 (1)①②直接根据“$S$-制导点”的定义求解即可； (2)设$S$的坐标为$S(x_{0},y_{0})$，$T'(x,y)$，$T(0,4)$，由“$S$-制导点”的定义可得$x_{0}=\\frac{x}{2}$，$y_{0}=y-4$，则$x=2x_{0}$，$y=y_{0}+4$，然后再跟点$S$在三角形的边$AB$、$BC$、$AC$上分别根据直角坐标系、一次函数解析式以及“$S$-制导点”的定义求解即可； (3)先求出线段$MN$的解析式为$y=x+9(-5 < x < -4,4\\leqslant y\\leqslant 5)$；设$T'(m,g)(-5 < m < -4)(4 < g < 5)$，$S$的坐标为$S(x_{0},y_{0})$，$T(0,2n)$，则$x_{0}=\\frac{m+0}{2},y_{0}=g-2n$，进而得到$m=2x_{0}$，$g=y_{0}+2n$，即$-\\frac{5}{2}\\leqslant x_{0}\\leqslant-2$，$4\\leqslant y_{0}+2n\\leqslant 5$，则$T'(2x_{0},y_{0}+2n)$；再把点$T'(2x_{0},y_{0}+2n)$代入$y=x+9$可得$y_{0}=2x_{0}+9-2n$；然后分点$S$在$FI$、$FG$、$HG$、$HI$上四组情况，分别列出关于$n$的方程求出$n$，然后再结合相关取值范围即可解答。 本题主要考查了平面直角坐标系、一次函数的应用、新定义、一元一次不等式的应用等知识点，理解新定义并掌握分类讨论思想成为解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用新定义规则，在坐标系中进行坐标变换和计算。",
     "core_literacy_primary": "运算能力",
@@ -3012,7 +3012,7 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "解：（1）8x-4=2+5x, 移项、合并同类项，得3x=6， 将系数化为1，得x=2； （2） ， 去分母，得3（x+1）-6=2x, 去括号，得3x+3-6=2x, 移项、合并同类项，得x=3．",
-    "stem": "解方程： (1)8x-4=2+5x；(2)\\dfrac{x+1}{2}-1=\\dfrac{x}{3}.",
+    "stem": "解方程： (1)8x-4=2+5x；(2)\\frac{x+1}{2}-1=\\frac{x}{3}.",
     "stem_images": [],
     "options": [],
     "analysis": "(1)根据解一元一次方程的方法：移项，合并同类项，将系数化为1求解即可； (2)根据解一元一次方程的方法：去分母，去括号，移项，合并同类项，将系数化为1求解即可． 本题考查了解一元一次方程，熟练掌握解一元一次方程的方法是解题的关键．",
@@ -3033,7 +3033,7 @@
     "xkb_knowledges": [
       "能解一元一次方程和可化为一元一次方程的分式方程"
     ],
-    "normalized_stem": "解方程： (1) $8x-4=2+5x$；(2) $\\dfrac{x+1}{2}-1=\\dfrac{x}{3}$.",
+    "normalized_stem": "解方程： (1) $8x-4=2+5x$；(2) $\\frac{x+1}{2}-1=\\frac{x}{3}$.",
     "normalized_analysis": "(1)根据解一元一次方程的方法：移项，合并同类项，将系数化为$1$求解即可； (2)根据解一元一次方程的方法：去分母，去括号，移项，合并同类项，将系数化为$1$求解即可． 本题考查了解一元一次方程，熟练掌握解一元一次方程的方法是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用一元一次方程的标准解法步骤来求解具体方程。",
@@ -3120,7 +3120,7 @@
     "stem_images": [],
     "options": [],
     "answer": "解： C； a. 91，100； b. 70．",
-    "analysis": "解：由题意可得，从七年级随机选取10名男生、10名女生的竞赛成绩组成样本比较合理， 故答案为：C； a.由样本数据可得，中位数m=\\dfrac{91+91}{2}=91， 100出现的次数最多，众数n=100， 故答案为：91，100； b.200×\\dfrac{7}{20}=70(人)， 故答案为：70. 根据题意，可以选出最合理的抽查方式； a.根据题目给出的数据以及中位数、众数的定义即可解答本题； b.根据频数分布表中的数据，可以得出成绩不低于95分的有有多少人． 本题考查频数分布表、中位数、众数、用样本估计总体，解题的关键是熟练掌握基本知识．",
+    "analysis": "解：由题意可得，从七年级随机选取10名男生、10名女生的竞赛成绩组成样本比较合理， 故答案为：C； a.由样本数据可得，中位数m=\\frac{91+91}{2}=91， 100出现的次数最多，众数n=100， 故答案为：91，100； b.200×\\frac{7}{20}=70(人)， 故答案为：70. 根据题意，可以选出最合理的抽查方式； a.根据题目给出的数据以及中位数、众数的定义即可解答本题； b.根据频数分布表中的数据，可以得出成绩不低于95分的有有多少人． 本题考查频数分布表、中位数、众数、用样本估计总体，解题的关键是熟练掌握基本知识．",
     "analysis_images": [],
     "knowledges": [
       "总体、个体、样本、样本容量",
@@ -3233,12 +3233,12 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "C",
-    "stem": "我国古代数学名著《张邱建算经》中记载：“今有清酒一斗直粟十斗，醑酒一斗直粟三斗．今持粟三斛，得酒五斗，问清、醑酒各几何？”意思是：现在一斗清酒价值10斗谷子，一斗醑酒价值3斗谷子，现在拿30斗谷子，共换了5斗酒，问清、醑酒各几斗？如果设清酒x斗，那么可列方程为(\\quad) A.\\dfrac{x}{10}+\\dfrac{30-x}{3}=5  B. 3x+10(5-x)=30 C.10x+3(5-x)=30 D.\\dfrac{x}{3}+\\dfrac{30-x}{10}=5",
+    "stem": "我国古代数学名著《张邱建算经》中记载：“今有清酒一斗直粟十斗，醑酒一斗直粟三斗．今持粟三斛，得酒五斗，问清、醑酒各几何？”意思是：现在一斗清酒价值10斗谷子，一斗醑酒价值3斗谷子，现在拿30斗谷子，共换了5斗酒，问清、醑酒各几斗？如果设清酒x斗，那么可列方程为(\\quad) A.\\frac{x}{10}+\\frac{30-x}{3}=5  B. 3x+10(5-x)=30 C.10x+3(5-x)=30 D.\\frac{x}{3}+\\frac{30-x}{10}=5",
     "stem_images": [],
     "options": [
       {
         "index": "A",
-        "text": "\\dfrac{x}{10}+\\dfrac{30-x}{3}=5",
+        "text": "\\frac{x}{10}+\\frac{30-x}{3}=5",
         "images": []
       },
       {
@@ -3253,7 +3253,7 @@
       },
       {
         "index": "D",
-        "text": "\\dfrac{x}{3}+\\dfrac{30-x}{10}=5",
+        "text": "\\frac{x}{3}+\\frac{30-x}{10}=5",
         "images": []
       }
     ],
@@ -3276,7 +3276,7 @@
     "xkb_knowledges": [
       "能针对具体问题列出方程"
     ],
-    "normalized_stem": "我国古代数学名著《张邱建算经》中记载：“今有清酒一斗直粟十斗，醑酒一斗直粟三斗．今持粟三斛，得酒五斗，问清、醑酒各几何？”意思是：现在一斗清酒价值$10$斗谷子，一斗醑酒价值$3$斗谷子，现在拿$30$斗谷子，共换了$5$斗酒，问清、醑酒各几斗？如果设清酒$x$斗，那么可列方程为$(\\quad)$ A.$\\dfrac{x}{10}+\\dfrac{30-x}{3}=5$  B.$3x+10(5-x)=30$ C.$10x+3(5-x)=30$ D.$\\dfrac{x}{3}+\\dfrac{30-x}{10}=5$",
+    "normalized_stem": "我国古代数学名著《张邱建算经》中记载：“今有清酒一斗直粟十斗，醑酒一斗直粟三斗．今持粟三斛，得酒五斗，问清、醑酒各几何？”意思是：现在一斗清酒价值$10$斗谷子，一斗醑酒价值$3$斗谷子，现在拿$30$斗谷子，共换了$5$斗酒，问清、醑酒各几斗？如果设清酒$x$斗，那么可列方程为$(\\quad)$ A.$\\frac{x}{10}+\\frac{30-x}{3}=5$  B.$3x+10(5-x)=30$ C.$10x+3(5-x)=30$ D.$\\frac{x}{3}+\\frac{30-x}{10}=5$",
     "normalized_analysis": "解：设清酒$x$斗，则醑酒$(5-x)$斗， 由题意可得：$10x+3(5-x)=30$， 故选：C. 根据共换了$5$斗酒，其中清酒$x$斗，则可得到醑酒$(5-x)$斗，再根据拿$30$斗谷子，共换了$5$斗酒，即可列出相应的方程． 本题考查由实际问题抽象出一元一次方程，解答本题的关键是明确题意，列出相应的方程．",
     "bloom_level": "应用",
     "bloom_reason": "将实际问题转化为一元一次方程，属于知识应用层面。",
@@ -3417,7 +3417,7 @@
     "stem": "在平面直角坐标系xOy中，函数y=kx+b(k≠0)的图象经过点A(2,1)和B(0,-1). (1)求该函数的表达式； (2)当x>3时，对于x的每一个值，函数y=ax+1(a≠0)的值小于函数y=kx+b的值且大于0，直接写出a的取值范围.",
     "stem_images": [],
     "options": [],
-    "analysis": "解： (1)把点A(2,1)和B(0,-1)代入y=kx+b， 则\\begin{cases}{2k+b=1}\\\\ {b=-1}\\end{cases}， 解得\\begin{cases}{k=1}\\\\ {b=-1}\\end{cases}， ∴该函数解析式为y=x-1； (2)由y=x-1知，当x=3时，y=2； 在平面直角坐标系中画出直线y=x-1和满足条件的直线y=ax+1，如图： ∵当x>3时，函数y=ax+1(a≠0)的值小于函数y=kx+b的值， ∴当y=ax+1过点(3,2)时满足题意， ∴3a+1=2， 解得a=\\dfrac{1}{3}； ∵当x>3时，函数y=ax+1的值大于0， ∴当y=ax+1过点(3,0)时满足题意， ∴3a+1=0， 解得a=-\\dfrac{1}{3}， 综上所述，满足条件的a的取值范围为\\(0 < a\\leqslant\\dfrac{1}{3}\\)或a\\leqslant-\\dfrac{1}{3}. (1)利用待定系数法可求出函数解析式即可； (2)根据函数图象得出当y=ax+1过点(3,2)时满足题意，当y=ax+1过点(3,0)时满足题意，分别代入点(3,2)，(3,0)代入解析式分别求出a的值，再结合图象求出a的取值范围即可． 本题考查了一次函数的图象和性质，待定系数法的应用，一次函数图象上点的坐标特征，熟练掌握数形结合思想的应用是解题的关键．",
+    "analysis": "解： (1)把点A(2,1)和B(0,-1)代入y=kx+b， 则\\begin{cases}{2k+b=1}\\\\ {b=-1}\\end{cases}， 解得\\begin{cases}{k=1}\\\\ {b=-1}\\end{cases}， ∴该函数解析式为y=x-1； (2)由y=x-1知，当x=3时，y=2； 在平面直角坐标系中画出直线y=x-1和满足条件的直线y=ax+1，如图： ∵当x>3时，函数y=ax+1(a≠0)的值小于函数y=kx+b的值， ∴当y=ax+1过点(3,2)时满足题意， ∴3a+1=2， 解得a=\\frac{1}{3}； ∵当x>3时，函数y=ax+1的值大于0， ∴当y=ax+1过点(3,0)时满足题意， ∴3a+1=0， 解得a=-\\frac{1}{3}， 综上所述，满足条件的a的取值范围为\\(0 < a\\leqslant\\frac{1}{3}\\)或a\\leqslant-\\frac{1}{3}. (1)利用待定系数法可求出函数解析式即可； (2)根据函数图象得出当y=ax+1过点(3,2)时满足题意，当y=ax+1过点(3,0)时满足题意，分别代入点(3,2)，(3,0)代入解析式分别求出a的值，再结合图象求出a的取值范围即可． 本题考查了一次函数的图象和性质，待定系数法的应用，一次函数图象上点的坐标特征，熟练掌握数形结合思想的应用是解题的关键．",
     "analysis_images": [
       "images/3df473d4_23_analysis_0.png"
     ],
@@ -3444,7 +3444,7 @@
       "根据图象和表达式$y= kx+b(k\\neq 0)  $ 探索并理解k>0 和 k<0时图象的变化情况"
     ],
     "normalized_stem": "在平面直角坐标系$xOy$中，函数$y=kx+b$($k\\neq0$)的图象经过点$A(2,1)$和$B(0,-1)$. (1)求该函数的表达式； (2)当$x>3$时，对于$x$的每一个值，函数$y=ax+1$($a\\neq0$)的值小于函数$y=kx+b$的值且大于$0$，直接写出$a$的取值范围.",
-    "normalized_analysis": "解： (1)把点$A(2,1)$和$B(0,-1)$代入$y=kx+b$， 则$\\begin{cases}2k+b=1\\\\ b=-1\\end{cases}$， 解得$\\begin{cases}k=1\\\\ b=-1\\end{cases}$， $\\therefore$该函数解析式为$y=x-1$； (2)由$y=x-1$知，当$x=3$时，$y=2$； 在平面直角坐标系中画出直线$y=x-1$和满足条件的直线$y=ax+1$，如图： $\\because$当$x>3$时，函数$y=ax+1$($a\\neq0$)的值小于函数$y=kx+b$的值， $\\therefore$当$y=ax+1$过点$(3,2)$时满足题意， $\\therefore 3a+1=2$， 解得$a=\\dfrac{1}{3}$； $\\because$当$x>3$时，函数$y=ax+1$的值大于$0$， $\\therefore$当$y=ax+1$过点$(3,0)$时满足题意， $\\therefore 3a+1=0$， 解得$a=-\\dfrac{1}{3}$， 综上所述，满足条件的$a$的取值范围为$0 < a\\leqslant\\dfrac{1}{3}$或$a\\leqslant-\\dfrac{1}{3}$. (1)利用待定系数法可求出函数解析式即可； (2)根据函数图象得出当$y=ax+1$过点$(3,2)$时满足题意，当$y=ax+1$过点$(3,0)$时满足题意，分别代入点$(3,2)$，$(3,0)$代入解析式分别求出$a$的值，再结合图象求出$a$的取值范围即可． 本题考查了一次函数的图象和性质，待定系数法的应用，一次函数图象上点的坐标特征，熟练掌握数形结合思想的应用是解题的关键．",
+    "normalized_analysis": "解： (1)把点$A(2,1)$和$B(0,-1)$代入$y=kx+b$， 则$\\begin{cases}2k+b=1\\\\ b=-1\\end{cases}$， 解得$\\begin{cases}k=1\\\\ b=-1\\end{cases}$， $\\therefore$该函数解析式为$y=x-1$； (2)由$y=x-1$知，当$x=3$时，$y=2$； 在平面直角坐标系中画出直线$y=x-1$和满足条件的直线$y=ax+1$，如图： $\\because$当$x>3$时，函数$y=ax+1$($a\\neq0$)的值小于函数$y=kx+b$的值， $\\therefore$当$y=ax+1$过点$(3,2)$时满足题意， $\\therefore 3a+1=2$， 解得$a=\\frac{1}{3}$； $\\because$当$x>3$时，函数$y=ax+1$的值大于$0$， $\\therefore$当$y=ax+1$过点$(3,0)$时满足题意， $\\therefore 3a+1=0$， 解得$a=-\\frac{1}{3}$， 综上所述，满足条件的$a$的取值范围为$0 < a\\leqslant\\frac{1}{3}$或$a\\leqslant-\\frac{1}{3}$. (1)利用待定系数法可求出函数解析式即可； (2)根据函数图象得出当$y=ax+1$过点$(3,2)$时满足题意，当$y=ax+1$过点$(3,0)$时满足题意，分别代入点$(3,2)$，$(3,0)$代入解析式分别求出$a$的值，再结合图象求出$a$的取值范围即可． 本题考查了一次函数的图象和性质，待定系数法的应用，一次函数图象上点的坐标特征，熟练掌握数形结合思想的应用是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "需要运用一次函数知识解决求解析式和参数范围的实际问题。",
     "core_literacy_primary": "模型观念",
@@ -3496,10 +3496,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "【小题1】 【小题2】 ①④",
-    "stem": "对任意两个有理数a，b定义一种新运算：a\\odot b=\\dfrac{a+b-\\left|a-b\\right|}{4}. (1) 计算：3\\odot\\left(-1\\right)=__________； (2) 有下列四个结论(括号的作用与它在有理数运算中的作用相同)： ①a\\odot b=b\\odot a； ②\\left(-a\\right)\\odot\\left(-b\\right)=-\\left(b\\odot a\\right)； ③a\\odot\\left(b+c\\right)=\\dfrac{a\\odot b+a\\odot c}{2}； ④\\left(a\\odot b\\right)\\odot\\left(\\dfrac{1}{2}c\\right)=\\left(\\dfrac{1}{2}a\\right)\\odot\\left(b\\odot c\\right). 其中所有正确结论的序号是__________.",
+    "stem": "对任意两个有理数a，b定义一种新运算：a\\odot b=\\frac{a+b-\\left|a-b\\right|}{4}. (1) 计算：3\\odot\\left(-1\\right)=__________； (2) 有下列四个结论(括号的作用与它在有理数运算中的作用相同)： ①a\\odot b=b\\odot a； ②\\left(-a\\right)\\odot\\left(-b\\right)=-\\left(b\\odot a\\right)； ③a\\odot\\left(b+c\\right)=\\frac{a\\odot b+a\\odot c}{2}； ④\\left(a\\odot b\\right)\\odot\\left(\\frac{1}{2}c\\right)=\\left(\\frac{1}{2}a\\right)\\odot\\left(b\\odot c\\right). 其中所有正确结论的序号是__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "1.  本题考查了新运算定义，绝对值的化简及整式的化简． 直接代入新运算定义计算； 【详解】解：根据定义a\\odot b=\\dfrac{a+b-\\left|a-b\\right|}{4}，代入得3\\odot\\left(-1\\right)=\\dfrac{3+\\left(-1\\right)-\\left|3-\\left(-1\\right)\\right|}{4}=\\dfrac{2-4}{4}=-\\dfrac{1}{2}， 故答案为：-\\dfrac{1}{2}. 2.  利用新运算分别计算各式子，逐一验证各结论． 解：结论①：a\\odot b=\\dfrac{a+b-\\left|a-b\\right|}{4}，b\\odot a=\\dfrac{b+a-\\left|b-a\\right|}{4}， ∵\\left|b-a\\right|=\\left|a-b\\right|， ∴a+b-\\left|a-b\\right|=b+a-\\left|b-a\\right|， ∴a\\odot b=b\\odot a，正确； 结论②：\\left(-a\\right)\\odot\\left(-b\\right)=\\dfrac{-a+\\left(-b\\right)-\\left|-a-\\left(-b\\right)\\right|}{4}=\\dfrac{-a-b-\\left|b-a\\right|}{4}， -\\left(b\\odot a\\right)=\\dfrac{-b-a+\\left|b-a\\right|}{4}， \\dfrac{-a-b-\\left|b-a\\right|}{4}与\\dfrac{-b-a+\\left|b-a\\right|}{4}，仅当\\left|b-a\\right|=0，即a=b时相等，一般情况下不相等，错误； 结论③：a\\odot\\left(b+c\\right)=\\dfrac{a+b+c-\\left|a-\\left(b+c\\right)\\right|}{4}=\\dfrac{a+b+c-\\left|a-b-c\\right|}{4}， \\dfrac{a\\odot b+a\\odot c}{2}=\\dfrac{\\dfrac{a+b-\\left|a-b\\right|}{4}+\\dfrac{a+c-\\left|a-c\\right|}{4}}{2}=\\dfrac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}， \\dfrac{a+b+c-\\left|a-b-c\\right|}{4}=\\dfrac{a+b+c-\\left(a-b-c\\right)}{4}=\\dfrac{b+c}{2}， \\dfrac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}=\\dfrac{b+c}{4}， ∴\\dfrac{b+c}{2}\\neq\\dfrac{b+c}{4}， 仅当a=1，b=2，c=3时，\\dfrac{a+b+c-\\left|a-b-c\\right|}{4}=\\dfrac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}，一般情况下不相等，错误； 结论④：\\left(a\\odot b\\right)\\odot\\left(\\dfrac{1}{2}c\\right)=\\dfrac{\\dfrac{a+b-\\left|a-b\\right|}{4}+\\dfrac{1}{2}c-\\left|\\dfrac{a+b-\\left|a-b\\right|}{4}-\\dfrac{1}{2}c\\right|}{4}， \\left(\\dfrac{1}{2}a\\right)\\odot\\left(b\\odot c\\right)=\\dfrac{\\dfrac{1}{2}a+\\dfrac{b+c-\\left|b-c\\right|}{4}-\\left|\\dfrac{1}{2}a-\\dfrac{b+c-\\left|b-c\\right|}{4}\\right|}{4}， \\dfrac{\\dfrac{a+b-\\left|a-b\\right|}{4}+\\dfrac{1}{2}c-\\left|\\dfrac{a+b-\\left|a-b\\right|}{4}-\\dfrac{1}{2}c\\right|}{4}=\\dfrac{c}{4}， \\dfrac{\\dfrac{1}{2}a+\\dfrac{b+c-\\left|b-c\\right|}{4}-\\left|\\dfrac{1}{2}a-\\dfrac{b+c-\\left|b-c\\right|}{4}\\right|}{4}=\\dfrac{c}{4}， ∴\\dfrac{c}{4}=\\dfrac{c}{4}，正确， ∴正确结论的序号是①④， 故答案为：①④．",
+    "analysis": "1.  本题考查了新运算定义，绝对值的化简及整式的化简． 直接代入新运算定义计算； 【详解】解：根据定义a\\odot b=\\frac{a+b-\\left|a-b\\right|}{4}，代入得3\\odot\\left(-1\\right)=\\frac{3+\\left(-1\\right)-\\left|3-\\left(-1\\right)\\right|}{4}=\\frac{2-4}{4}=-\\frac{1}{2}， 故答案为：-\\frac{1}{2}. 2.  利用新运算分别计算各式子，逐一验证各结论． 解：结论①：a\\odot b=\\frac{a+b-\\left|a-b\\right|}{4}，b\\odot a=\\frac{b+a-\\left|b-a\\right|}{4}， ∵\\left|b-a\\right|=\\left|a-b\\right|， ∴a+b-\\left|a-b\\right|=b+a-\\left|b-a\\right|， ∴a\\odot b=b\\odot a，正确； 结论②：\\left(-a\\right)\\odot\\left(-b\\right)=\\frac{-a+\\left(-b\\right)-\\left|-a-\\left(-b\\right)\\right|}{4}=\\frac{-a-b-\\left|b-a\\right|}{4}， -\\left(b\\odot a\\right)=\\frac{-b-a+\\left|b-a\\right|}{4}， \\frac{-a-b-\\left|b-a\\right|}{4}与\\frac{-b-a+\\left|b-a\\right|}{4}，仅当\\left|b-a\\right|=0，即a=b时相等，一般情况下不相等，错误； 结论③：a\\odot\\left(b+c\\right)=\\frac{a+b+c-\\left|a-\\left(b+c\\right)\\right|}{4}=\\frac{a+b+c-\\left|a-b-c\\right|}{4}， \\frac{a\\odot b+a\\odot c}{2}=\\frac{\\frac{a+b-\\left|a-b\\right|}{4}+\\frac{a+c-\\left|a-c\\right|}{4}}{2}=\\frac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}， \\frac{a+b+c-\\left|a-b-c\\right|}{4}=\\frac{a+b+c-\\left(a-b-c\\right)}{4}=\\frac{b+c}{2}， \\frac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}=\\frac{b+c}{4}， ∴\\frac{b+c}{2}\\neq\\frac{b+c}{4}， 仅当a=1，b=2，c=3时，\\frac{a+b+c-\\left|a-b-c\\right|}{4}=\\frac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}，一般情况下不相等，错误； 结论④：\\left(a\\odot b\\right)\\odot\\left(\\frac{1}{2}c\\right)=\\frac{\\frac{a+b-\\left|a-b\\right|}{4}+\\frac{1}{2}c-\\left|\\frac{a+b-\\left|a-b\\right|}{4}-\\frac{1}{2}c\\right|}{4}， \\left(\\frac{1}{2}a\\right)\\odot\\left(b\\odot c\\right)=\\frac{\\frac{1}{2}a+\\frac{b+c-\\left|b-c\\right|}{4}-\\left|\\frac{1}{2}a-\\frac{b+c-\\left|b-c\\right|}{4}\\right|}{4}， \\frac{\\frac{a+b-\\left|a-b\\right|}{4}+\\frac{1}{2}c-\\left|\\frac{a+b-\\left|a-b\\right|}{4}-\\frac{1}{2}c\\right|}{4}=\\frac{c}{4}， \\frac{\\frac{1}{2}a+\\frac{b+c-\\left|b-c\\right|}{4}-\\left|\\frac{1}{2}a-\\frac{b+c-\\left|b-c\\right|}{4}\\right|}{4}=\\frac{c}{4}， ∴\\frac{c}{4}=\\frac{c}{4}，正确， ∴正确结论的序号是①④， 故答案为：①④．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -3513,8 +3513,8 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "对任意两个有理数 $a$，$b$ 定义一种新运算：$a\\odot b=\\dfrac{a+b-\\left|a-b\\right|}{4}$。 (1) 计算：$3\\odot\\left(-1\\right)=$__________； (2) 有下列四个结论（括号的作用与它在有理数运算中的作用相同）： ① $a\\odot b=b\\odot a$； ② $\\left(-a\\right)\\odot\\left(-b\\right)=-\\left(b\\odot a\\right)$； ③ $a\\odot\\left(b+c\\right)=\\dfrac{a\\odot b+a\\odot c}{2}$； ④ $\\left(a\\odot b\\right)\\odot\\left(\\dfrac{1}{2}c\\right)=\\left(\\dfrac{1}{2}a\\right)\\odot\\left(b\\odot c\\right)$。 其中所有正确结论的序号是__________。",
-    "normalized_analysis": "1.  本题考查了新运算定义，绝对值的化简及整式的化简。直接代入新运算定义计算； 【详解】解：根据定义 $a\\odot b=\\dfrac{a+b-\\left|a-b\\right|}{4}$，代入得 $3\\odot\\left(-1\\right)=\\dfrac{3+\\left(-1\\right)-\\left|3-\\left(-1\\right)\\right|}{4}=\\dfrac{2-4}{4}=-\\dfrac{1}{2}$， 故答案为：$-\\dfrac{1}{2}$。 2.  利用新运算分别计算各式子，逐一验证各结论。 解：结论①：$a\\odot b=\\dfrac{a+b-\\left|a-b\\right|}{4}$，$b\\odot a=\\dfrac{b+a-\\left|b-a\\right|}{4}$， ∵ $\\left|b-a\\right|=\\left|a-b\\right|$， ∴ $a+b-\\left|a-b\\right|=b+a-\\left|b-a\\right|$， ∴ $a\\odot b=b\\odot a$，正确； 结论②：$\\left(-a\\right)\\odot\\left(-b\\right)=\\dfrac{-a+\\left(-b\\right)-\\left|-a-\\left(-b\\right)\\right|}{4}=\\dfrac{-a-b-\\left|b-a\\right|}{4}$， $-\\left(b\\odot a\\right)=\\dfrac{-b-a+\\left|b-a\\right|}{4}$， $\\dfrac{-a-b-\\left|b-a\\right|}{4}$ 与 $\\dfrac{-b-a+\\left|b-a\\right|}{4}$，仅当 $\\left|b-a\\right|=0$，即 $a=b$ 时相等，一般情况下不相等，错误； 结论③：$a\\odot\\left(b+c\\right)=\\dfrac{a+b+c-\\left|a-\\left(b+c\\right)\\right|}{4}=\\dfrac{a+b+c-\\left|a-b-c\\right|}{4}$， $\\dfrac{a\\odot b+a\\odot c}{2}=\\dfrac{\\dfrac{a+b-\\left|a-b\\right|}{4}+\\dfrac{a+c-\\left|a-c\\right|}{4}}{2}=\\dfrac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}$， $\\dfrac{a+b+c-\\left|a-b-c\\right|}{4}=\\dfrac{a+b+c-\\left(a-b-c\\right)}{4}=\\dfrac{b+c}{2}$， $\\dfrac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}=\\dfrac{b+c}{4}$， ∴ $\\dfrac{b+c}{2}\\neq\\dfrac{b+c}{4}$， 仅当 $a=1$，$b=2$，$c=3$ 时，$\\dfrac{a+b+c-\\left|a-b-c\\right|}{4}=\\dfrac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}$，一般情况下不相等，错误； 结论④：$\\left(a\\odot b\\right)\\odot\\left(\\dfrac{1}{2}c\\right)=\\dfrac{\\dfrac{a+b-\\left|a-b\\right|}{4}+\\dfrac{1}{2}c-\\left|\\dfrac{a+b-\\left|a-b\\right|}{4}-\\dfrac{1}{2}c\\right|}{4}$， $\\left(\\dfrac{1}{2}a\\right)\\odot\\left(b\\odot c\\right)=\\dfrac{\\dfrac{1}{2}a+\\dfrac{b+c-\\left|b-c\\right|}{4}-\\left|\\dfrac{1}{2}a-\\dfrac{b+c-\\left|b-c\\right|}{4}\\right|}{4}$， $\\dfrac{\\dfrac{a+b-\\left|a-b\\right|}{4}+\\dfrac{1}{2}c-\\left|\\dfrac{a+b-\\left|a-b\\right|}{4}-\\dfrac{1}{2}c\\right|}{4}=\\dfrac{c}{4}$， $\\dfrac{\\dfrac{1}{2}a+\\dfrac{b+c-\\left|b-c\\right|}{4}-\\left|\\dfrac{1}{2}a-\\dfrac{b+c-\\left|b-c\\right|}{4}\\right|}{4}=\\dfrac{c}{4}$， ∴ $\\dfrac{c}{4}=\\dfrac{c}{4}$，正确， ∴ 正确结论的序号是①④， 故答案为：①④。",
+    "normalized_stem": "对任意两个有理数 $a$，$b$ 定义一种新运算：$a\\odot b=\\frac{a+b-\\left|a-b\\right|}{4}$。 (1) 计算：$3\\odot\\left(-1\\right)=$__________； (2) 有下列四个结论（括号的作用与它在有理数运算中的作用相同）： ① $a\\odot b=b\\odot a$； ② $\\left(-a\\right)\\odot\\left(-b\\right)=-\\left(b\\odot a\\right)$； ③ $a\\odot\\left(b+c\\right)=\\frac{a\\odot b+a\\odot c}{2}$； ④ $\\left(a\\odot b\\right)\\odot\\left(\\frac{1}{2}c\\right)=\\left(\\frac{1}{2}a\\right)\\odot\\left(b\\odot c\\right)$。 其中所有正确结论的序号是__________。",
+    "normalized_analysis": "1.  本题考查了新运算定义，绝对值的化简及整式的化简。直接代入新运算定义计算； 【详解】解：根据定义 $a\\odot b=\\frac{a+b-\\left|a-b\\right|}{4}$，代入得 $3\\odot\\left(-1\\right)=\\frac{3+\\left(-1\\right)-\\left|3-\\left(-1\\right)\\right|}{4}=\\frac{2-4}{4}=-\\frac{1}{2}$， 故答案为：$-\\frac{1}{2}$。 2.  利用新运算分别计算各式子，逐一验证各结论。 解：结论①：$a\\odot b=\\frac{a+b-\\left|a-b\\right|}{4}$，$b\\odot a=\\frac{b+a-\\left|b-a\\right|}{4}$， ∵ $\\left|b-a\\right|=\\left|a-b\\right|$， ∴ $a+b-\\left|a-b\\right|=b+a-\\left|b-a\\right|$， ∴ $a\\odot b=b\\odot a$，正确； 结论②：$\\left(-a\\right)\\odot\\left(-b\\right)=\\frac{-a+\\left(-b\\right)-\\left|-a-\\left(-b\\right)\\right|}{4}=\\frac{-a-b-\\left|b-a\\right|}{4}$， $-\\left(b\\odot a\\right)=\\frac{-b-a+\\left|b-a\\right|}{4}$， $\\frac{-a-b-\\left|b-a\\right|}{4}$ 与 $\\frac{-b-a+\\left|b-a\\right|}{4}$，仅当 $\\left|b-a\\right|=0$，即 $a=b$ 时相等，一般情况下不相等，错误； 结论③：$a\\odot\\left(b+c\\right)=\\frac{a+b+c-\\left|a-\\left(b+c\\right)\\right|}{4}=\\frac{a+b+c-\\left|a-b-c\\right|}{4}$， $\\frac{a\\odot b+a\\odot c}{2}=\\frac{\\frac{a+b-\\left|a-b\\right|}{4}+\\frac{a+c-\\left|a-c\\right|}{4}}{2}=\\frac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}$， $\\frac{a+b+c-\\left|a-b-c\\right|}{4}=\\frac{a+b+c-\\left(a-b-c\\right)}{4}=\\frac{b+c}{2}$， $\\frac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}=\\frac{b+c}{4}$， ∴ $\\frac{b+c}{2}\\neq\\frac{b+c}{4}$， 仅当 $a=1$，$b=2$，$c=3$ 时，$\\frac{a+b+c-\\left|a-b-c\\right|}{4}=\\frac{2a+b+c-\\left|a-b\\right|-\\left|a-c\\right|}{8}$，一般情况下不相等，错误； 结论④：$\\left(a\\odot b\\right)\\odot\\left(\\frac{1}{2}c\\right)=\\frac{\\frac{a+b-\\left|a-b\\right|}{4}+\\frac{1}{2}c-\\left|\\frac{a+b-\\left|a-b\\right|}{4}-\\frac{1}{2}c\\right|}{4}$， $\\left(\\frac{1}{2}a\\right)\\odot\\left(b\\odot c\\right)=\\frac{\\frac{1}{2}a+\\frac{b+c-\\left|b-c\\right|}{4}-\\left|\\frac{1}{2}a-\\frac{b+c-\\left|b-c\\right|}{4}\\right|}{4}$， $\\frac{\\frac{a+b-\\left|a-b\\right|}{4}+\\frac{1}{2}c-\\left|\\frac{a+b-\\left|a-b\\right|}{4}-\\frac{1}{2}c\\right|}{4}=\\frac{c}{4}$， $\\frac{\\frac{1}{2}a+\\frac{b+c-\\left|b-c\\right|}{4}-\\left|\\frac{1}{2}a-\\frac{b+c-\\left|b-c\\right|}{4}\\right|}{4}=\\frac{c}{4}$， ∴ $\\frac{c}{4}=\\frac{c}{4}$，正确， ∴ 正确结论的序号是①④， 故答案为：①④。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要将新定义的运算规则应用于具体计算和性质判断。",
     "core_literacy_primary": "运算能力",
@@ -3691,7 +3691,7 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "D",
-    "stem": "下列说法正确的是(\\quad) A. “通常加热到100{^\\circ}\\mathrm{C}时，水沸腾”是随机事件 B. 重复抛掷同一枚矿泉水瓶盖50次，发现这枚瓶盖落地后盖面向上的次数为20次，盖面向下的次数为30次，由此估计抛掷这枚瓶盖落地后盖面向上的概率为\\dfrac{2}{3} C. 抛掷一枚质地均匀的硬币，正面朝上的概率为\\dfrac{1}{2}.在某次试验中，小明前三次抛掷硬币的过程中有1次正面朝上，2次正面朝下，那么第四次抛掷该硬币一定是正面朝上 D. 小东通过大量重复的定点投篮练习，用频率估计出自己投中的概率为0.4.在接下来的投篮练习中，小东10次投篮可能投中3次",
+    "stem": "下列说法正确的是(\\quad) A. “通常加热到100{^\\circ}\\mathrm{C}时，水沸腾”是随机事件 B. 重复抛掷同一枚矿泉水瓶盖50次，发现这枚瓶盖落地后盖面向上的次数为20次，盖面向下的次数为30次，由此估计抛掷这枚瓶盖落地后盖面向上的概率为\\frac{2}{3} C. 抛掷一枚质地均匀的硬币，正面朝上的概率为\\frac{1}{2}.在某次试验中，小明前三次抛掷硬币的过程中有1次正面朝上，2次正面朝下，那么第四次抛掷该硬币一定是正面朝上 D. 小东通过大量重复的定点投篮练习，用频率估计出自己投中的概率为0.4.在接下来的投篮练习中，小东10次投篮可能投中3次",
     "stem_images": [],
     "options": [
       {
@@ -3701,12 +3701,12 @@
       },
       {
         "index": "B",
-        "text": "重复抛掷同一枚矿泉水瓶盖50次，发现这枚瓶盖落地后盖面向上的次数为20次，盖面向下的次数为30次，由此估计抛掷这枚瓶盖落地后盖面向上的概率为\\dfrac{2}{3}",
+        "text": "重复抛掷同一枚矿泉水瓶盖50次，发现这枚瓶盖落地后盖面向上的次数为20次，盖面向下的次数为30次，由此估计抛掷这枚瓶盖落地后盖面向上的概率为\\frac{2}{3}",
         "images": []
       },
       {
         "index": "C",
-        "text": "抛掷一枚质地均匀的硬币，正面朝上的概率为\\dfrac{1}{2}.在某次试验中，小明前三次抛掷硬币的过程中有1次正面朝上，2次正面朝下，那么第四次抛掷该硬币一定是正面朝上",
+        "text": "抛掷一枚质地均匀的硬币，正面朝上的概率为\\frac{1}{2}.在某次试验中，小明前三次抛掷硬币的过程中有1次正面朝上，2次正面朝下，那么第四次抛掷该硬币一定是正面朝上",
         "images": []
       },
       {
@@ -3715,7 +3715,7 @@
         "images": []
       }
     ],
-    "analysis": "本题考查概率与事件的概念，A选项为必然事件，B选项频率与概率不符，C选项忽略独立性，D选项符合概率的意义，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解： A、水在标准大气压下加热到100{^\\circ}\\mathrm{C}必然沸腾，是必然事件，不是随机事件，故A错误； B、盖面向上的频率为\\dfrac{20}{50}=0.4，但估计概率为\\dfrac{2}{3}\\approx 0.666，与频率不符，故B错误； C、抛掷硬币每次独立，第四次结果不确定，不一定是正面朝上，故C错误； D、概率0.4表示每次投篮投中的可能性，10次投篮可能投中3次，符合概率的随机性，故D正确； 故选：D.",
+    "analysis": "本题考查概率与事件的概念，A选项为必然事件，B选项频率与概率不符，C选项忽略独立性，D选项符合概率的意义，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解： A、水在标准大气压下加热到100{^\\circ}\\mathrm{C}必然沸腾，是必然事件，不是随机事件，故A错误； B、盖面向上的频率为\\frac{20}{50}=0.4，但估计概率为\\frac{2}{3}\\approx 0.666，与频率不符，故B错误； C、抛掷硬币每次独立，第四次结果不确定，不一定是正面朝上，故C错误； D、概率0.4表示每次投篮投中的可能性，10次投篮可能投中3次，符合概率的随机性，故D正确； 故选：D.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -3729,8 +3729,8 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "下列说法正确的是($\\quad$) A. “通常加热到$100^{\\circ}\\mathrm{C}$时，水沸腾”是随机事件 B. 重复抛掷同一枚矿泉水瓶盖$50$次，发现这枚瓶盖落地后盖面向上的次数为$20$次，盖面向下的次数为$30$次，由此估计抛掷这枚瓶盖落地后盖面向上的概率为$\\dfrac{2}{3}$ C. 抛掷一枚质地均匀的硬币，正面朝上的概率为$\\dfrac{1}{2}$。在某次试验中，小明前三次抛掷硬币的过程中有$1$次正面朝上，$2$次正面朝下，那么第四次抛掷该硬币一定是正面朝上 D. 小东通过大量重复的定点投篮练习，用频率估计出自己投中的概率为$0.4$。在接下来的投篮练习中，小东$10$次投篮可能投中$3$次",
-    "normalized_analysis": "本题考查概率与事件的概念，A选项为必然事件，B选项频率与概率不符，C选项忽略独立性，D选项符合概率的意义，熟练掌握以上知识点并灵活运用是解此题的关键。 【详解】解： A、水在标准大气压下加热到$100^{\\circ}\\mathrm{C}$必然沸腾，是必然事件，不是随机事件，故A错误； B、盖面向上的频率为$\\dfrac{20}{50}=0.4$，但估计概率为$\\dfrac{2}{3}\\approx 0.666$，与频率不符，故B错误； C、抛掷硬币每次独立，第四次结果不确定，不一定是正面朝上，故C错误； D、概率$0.4$表示每次投篮投中的可能性，$10$次投篮可能投中$3$次，符合概率的随机性，故D正确； 故选：D。",
+    "normalized_stem": "下列说法正确的是($\\quad$) A. “通常加热到$100^{\\circ}\\mathrm{C}$时，水沸腾”是随机事件 B. 重复抛掷同一枚矿泉水瓶盖$50$次，发现这枚瓶盖落地后盖面向上的次数为$20$次，盖面向下的次数为$30$次，由此估计抛掷这枚瓶盖落地后盖面向上的概率为$\\frac{2}{3}$ C. 抛掷一枚质地均匀的硬币，正面朝上的概率为$\\frac{1}{2}$。在某次试验中，小明前三次抛掷硬币的过程中有$1$次正面朝上，$2$次正面朝下，那么第四次抛掷该硬币一定是正面朝上 D. 小东通过大量重复的定点投篮练习，用频率估计出自己投中的概率为$0.4$。在接下来的投篮练习中，小东$10$次投篮可能投中$3$次",
+    "normalized_analysis": "本题考查概率与事件的概念，A选项为必然事件，B选项频率与概率不符，C选项忽略独立性，D选项符合概率的意义，熟练掌握以上知识点并灵活运用是解此题的关键。 【详解】解： A、水在标准大气压下加热到$100^{\\circ}\\mathrm{C}$必然沸腾，是必然事件，不是随机事件，故A错误； B、盖面向上的频率为$\\frac{20}{50}=0.4$，但估计概率为$\\frac{2}{3}\\approx 0.666$，与频率不符，故B错误； C、抛掷硬币每次独立，第四次结果不确定，不一定是正面朝上，故C错误； D、概率$0.4$表示每次投篮投中的可能性，$10$次投篮可能投中$3$次，符合概率的随机性，故D正确； 故选：D。",
     "bloom_level": "理解",
     "bloom_reason": "题目要求辨析概率与事件的基本概念，属于对知识的理解和判断。",
     "core_literacy_primary": "数据观念",
@@ -3878,10 +3878,10 @@
     "type": "解答题",
     "score": 6.0,
     "answer": "10 n-1 （2）",
-    "stem": "科学家发现了一种奇怪传播的病毒，母体病毒每天只传染1只动物，但一直有传染性，但被它传染的动物，第二天可以传染10只动物后就失去了传染性，也就是每一个被新传染的动物都可以传染给另外10只健康的动物，然后就失去了传染性，科学家为了找出被传染的动物总数与天数的关系列表建立了这一问题的数学模型： 设第n天被感染的动物数量为S_{n}，列表建立数学模型如下： 1 2 3 … n 1 1 1+10 1+10+10^{2} … 1+10+⋯⋯+10^{n-1} 2 1 1+10 … 1+10+⋯⋯+10^{n-2} 3 1 … (\\quad) 4 … … … … n S_{1}=1 (\\quad) S_{3}=1+(1+10)+(1+10+10^{2}) … S_{n}=S_{n-1}+(\\quad) (1)根据列表可知： S_{n}=n+(n-1)10+(n-2)10^{2}+⋯⋯+______ ； (2)有人想算一算第9天有多少被传染的动物，做了如下计算 S_{9}=10^{8}+2×10^{7}+3×10^{6}+⋯⋯+9⋯⋯① ①×10得 10S_{9}=10^{9}+2×10^{8}+3×10^{7}+⋯⋯+9×10…② ②-①得 9S_{9}=10^{9}+10^{8}+⋯⋯+10-9 为了得到10^{9}+10^{8}+⋯⋯+10的值. 聪明的洋洋想到了一种方法： 设M=10^{9}+10^{8}+⋯⋯+10， 则10M=10^{10}+10^{9}+⋯⋯+10^{2} 因此9M=10^{10}-10 ∴就得到M=\\dfrac{10^{10}-10}{9} 因此得到S_{9}=123456789 请你模仿洋洋的方法求出10^{n}+10^{n-1}+⋯⋯+10的表达公式. 解答： (3)请你利用(2)中的结论求出天数n与被感染的动物数量为S_{n}(不包含母体)的关系式：______",
+    "stem": "科学家发现了一种奇怪传播的病毒，母体病毒每天只传染1只动物，但一直有传染性，但被它传染的动物，第二天可以传染10只动物后就失去了传染性，也就是每一个被新传染的动物都可以传染给另外10只健康的动物，然后就失去了传染性，科学家为了找出被传染的动物总数与天数的关系列表建立了这一问题的数学模型： 设第n天被感染的动物数量为S_{n}，列表建立数学模型如下： 1 2 3 … n 1 1 1+10 1+10+10^{2} … 1+10+⋯⋯+10^{n-1} 2 1 1+10 … 1+10+⋯⋯+10^{n-2} 3 1 … (\\quad) 4 … … … … n S_{1}=1 (\\quad) S_{3}=1+(1+10)+(1+10+10^{2}) … S_{n}=S_{n-1}+(\\quad) (1)根据列表可知： S_{n}=n+(n-1)10+(n-2)10^{2}+⋯⋯+______ ； (2)有人想算一算第9天有多少被传染的动物，做了如下计算 S_{9}=10^{8}+2×10^{7}+3×10^{6}+⋯⋯+9⋯⋯① ①×10得 10S_{9}=10^{9}+2×10^{8}+3×10^{7}+⋯⋯+9×10…② ②-①得 9S_{9}=10^{9}+10^{8}+⋯⋯+10-9 为了得到10^{9}+10^{8}+⋯⋯+10的值. 聪明的洋洋想到了一种方法： 设M=10^{9}+10^{8}+⋯⋯+10， 则10M=10^{10}+10^{9}+⋯⋯+10^{2} 因此9M=10^{10}-10 ∴就得到M=\\frac{10^{10}-10}{9} 因此得到S_{9}=123456789 请你模仿洋洋的方法求出10^{n}+10^{n-1}+⋯⋯+10的表达公式. 解答： (3)请你利用(2)中的结论求出天数n与被感染的动物数量为S_{n}(不包含母体)的关系式：______",
     "stem_images": [],
     "options": [],
-    "analysis": "解： (1)由题意可得： S_{n}=n+(n-1)×10+(n-2)×10^{2}+⋯+1×10^{n-1}， 从表格和模型可知，表达式的最后一项对应指数为 n-1 的项，且系数为 1，因此空白处应填 10^{n-1}， 故答案为：10^{n-1}； (2)设 P=10^{n}+10^{n-1}+⋯+10， 则10P=10^{2}+10^{3}+⋯+10^{n+1}， 两式相减： 10P-P=(10^{2}+10^{3}+⋯+10^{n+1})-(10+10^{2}+⋯+10^{n})， 化简得：9P=10^{n+1}-10， 因此：P=\\dfrac{10^{n+1}-10}{9}， ∴10^{n}+10^{n-1}+⋯⋯+10=\\dfrac{10^{n+1}-10}{9}； (3)由(1)可知， S_{n}=n(1+10+10^{2}+…+10^{n-1})-(10+2×10^{2}+…+(n-1)×10^{n-1})①， 10S_{n}=n(10+10^{2}+…+10^{n})-[10^{2}+2×10^{3}+…+(n-1)×10^{n}]②， ②-①得：9S_{n}=n(10^{n}-1)+(10+10^{2}+…+10^{n})-n×10^{n}， 即9S_{n}=n(10^{n}-1)+\\dfrac{10^{n+1}-10}{9}-n10^{n}， ∴S_{n}=\\dfrac{10^{n+1}-9n-10}{81}. (1)通过观察表格中S_{n}的规律来确定最后一项； (2)利用错位相减法的思路，设 P=10^{n}+10^{n-1}+⋯+10并通过计算10P-P来推导公式； (3)将(2)的结论代入S_{n}的表达式进行化简，即可求解． 本题主要考查了通过找规律、错位相减法来推导公式，正确进行计算是解题关键．",
+    "analysis": "解： (1)由题意可得： S_{n}=n+(n-1)×10+(n-2)×10^{2}+⋯+1×10^{n-1}， 从表格和模型可知，表达式的最后一项对应指数为 n-1 的项，且系数为 1，因此空白处应填 10^{n-1}， 故答案为：10^{n-1}； (2)设 P=10^{n}+10^{n-1}+⋯+10， 则10P=10^{2}+10^{3}+⋯+10^{n+1}， 两式相减： 10P-P=(10^{2}+10^{3}+⋯+10^{n+1})-(10+10^{2}+⋯+10^{n})， 化简得：9P=10^{n+1}-10， 因此：P=\\frac{10^{n+1}-10}{9}， ∴10^{n}+10^{n-1}+⋯⋯+10=\\frac{10^{n+1}-10}{9}； (3)由(1)可知， S_{n}=n(1+10+10^{2}+…+10^{n-1})-(10+2×10^{2}+…+(n-1)×10^{n-1})①， 10S_{n}=n(10+10^{2}+…+10^{n})-[10^{2}+2×10^{3}+…+(n-1)×10^{n}]②， ②-①得：9S_{n}=n(10^{n}-1)+(10+10^{2}+…+10^{n})-n×10^{n}， 即9S_{n}=n(10^{n}-1)+\\frac{10^{n+1}-10}{9}-n10^{n}， ∴S_{n}=\\frac{10^{n+1}-9n-10}{81}. (1)通过观察表格中S_{n}的规律来确定最后一项； (2)利用错位相减法的思路，设 P=10^{n}+10^{n-1}+⋯+10并通过计算10P-P来推导公式； (3)将(2)的结论代入S_{n}的表达式进行化简，即可求解． 本题主要考查了通过找规律、错位相减法来推导公式，正确进行计算是解题关键．",
     "analysis_images": [],
     "knowledges": [
       "数式规律问题"
@@ -3899,8 +3899,8 @@
     "xkb_knowledges": [
       "了解代数推理"
     ],
-    "normalized_stem": "科学家发现了一种奇怪传播的病毒，母体病毒每天只传染$1$只动物，但一直有传染性，但被它传染的动物，第二天可以传染$10$只动物后就失去了传染性，也就是每一个被新传染的动物都可以传染给另外$10$只健康的动物，然后就失去了传染性，科学家为了找出被传染的动物总数与天数的关系列表建立了这一问题的数学模型： 设第$n$天被感染的动物数量为$S_{n}$，列表建立数学模型如下： $1$ $2$ $3$ $\\ldots$ $n$ $1$ $1$ $1+10$ $1+10+10^{2}$ $\\ldots$ $1+10+\\cdots+10^{n-1}$ $2$ $1$ $1+10$ $\\ldots$ $1+10+\\cdots+10^{n-2}$ $3$ $1$ $\\ldots$ $(\\quad)$ $4$ $\\ldots$ $\\ldots$ $\\ldots$ $\\ldots$ $n$ $S_{1}=1$ $(\\quad)$ $S_{3}=1+(1+10)+(1+10+10^{2})$ $\\ldots$ $S_{n}=S_{n-1}+(\\quad)$ (1)根据列表可知： $S_{n}=n+(n-1)10+(n-2)10^{2}+\\cdots+______$ ； (2)有人想算一算第$9$天有多少被传染的动物，做了如下计算 $S_{9}=10^{8}+2\\times10^{7}+3\\times10^{6}+\\cdots+9\\cdots\\cdots①$ $①\\times10$得 $10S_{9}=10^{9}+2\\times10^{8}+3\\times10^{7}+\\cdots+9\\times10\\ldots②$ $②-①$得 $9S_{9}=10^{9}+10^{8}+\\cdots+10-9$ 为了得到$10^{9}+10^{8}+\\cdots+10$的值. 聪明的洋洋想到了一种方法： 设$M=10^{9}+10^{8}+\\cdots+10$， 则$10M=10^{10}+10^{9}+\\cdots+10^{2}$ 因此$9M=10^{10}-10$ $\\therefore$就得到$M=\\dfrac{10^{10}-10}{9}$ 因此得到$S_{9}=123456789$ 请你模仿洋洋的方法求出$10^{n}+10^{n-1}+\\cdots+10$的表达公式. 解答： (3)请你利用(2)中的结论求出天数$n$与被感染的动物数量为$S_{n}$(不包含母体)的关系式：______",
-    "normalized_analysis": "解： (1)由题意可得： $S_{n}=n+(n-1)\\times10+(n-2)\\times10^{2}+\\cdots+1\\times10^{n-1}$， 从表格和模型可知，表达式的最后一项对应指数为 $n-1$ 的项，且系数为 $1$，因此空白处应填 $10^{n-1}$， 故答案为：$10^{n-1}$； (2)设 $P=10^{n}+10^{n-1}+\\cdots+10$， 则$10P=10^{2}+10^{3}+\\cdots+10^{n+1}$， 两式相减： $10P-P=(10^{2}+10^{3}+\\cdots+10^{n+1})-(10+10^{2}+\\cdots+10^{n})$， 化简得：$9P=10^{n+1}-10$， 因此：$P=\\dfrac{10^{n+1}-10}{9}$， $\\therefore10^{n}+10^{n-1}+\\cdots+10=\\dfrac{10^{n+1}-10}{9}$； (3)由(1)可知， $S_{n}=n(1+10+10^{2}+\\ldots+10^{n-1})-(10+2\\times10^{2}+\\ldots+(n-1)\\times10^{n-1})①$， $10S_{n}=n(10+10^{2}+\\ldots+10^{n})-[10^{2}+2\\times10^{3}+\\ldots+(n-1)\\times10^{n}]②$， $②-①$得：$9S_{n}=n(10^{n}-1)+(10+10^{2}+\\ldots+10^{n})-n\\times10^{n}$， 即$9S_{n}=n(10^{n}-1)+\\dfrac{10^{n+1}-10}{9}-n10^{n}$， $\\therefore S_{n}=\\dfrac{10^{n+1}-9n-10}{81}$. (1)通过观察表格中$S_{n}$的规律来确定最后一项； (2)利用错位相减法的思路，设 $P=10^{n}+10^{n-1}+\\cdots+10$并通过计算$10P-P$来推导公式； (3)将(2)的结论代入$S_{n}$的表达式进行化简，即可求解． 本题主要考查了通过找规律、错位相减法来推导公式，正确进行计算是解题关键．",
+    "normalized_stem": "科学家发现了一种奇怪传播的病毒，母体病毒每天只传染$1$只动物，但一直有传染性，但被它传染的动物，第二天可以传染$10$只动物后就失去了传染性，也就是每一个被新传染的动物都可以传染给另外$10$只健康的动物，然后就失去了传染性，科学家为了找出被传染的动物总数与天数的关系列表建立了这一问题的数学模型： 设第$n$天被感染的动物数量为$S_{n}$，列表建立数学模型如下： $1$ $2$ $3$ $\\ldots$ $n$ $1$ $1$ $1+10$ $1+10+10^{2}$ $\\ldots$ $1+10+\\cdots+10^{n-1}$ $2$ $1$ $1+10$ $\\ldots$ $1+10+\\cdots+10^{n-2}$ $3$ $1$ $\\ldots$ $(\\quad)$ $4$ $\\ldots$ $\\ldots$ $\\ldots$ $\\ldots$ $n$ $S_{1}=1$ $(\\quad)$ $S_{3}=1+(1+10)+(1+10+10^{2})$ $\\ldots$ $S_{n}=S_{n-1}+(\\quad)$ (1)根据列表可知： $S_{n}=n+(n-1)10+(n-2)10^{2}+\\cdots+______$ ； (2)有人想算一算第$9$天有多少被传染的动物，做了如下计算 $S_{9}=10^{8}+2\\times10^{7}+3\\times10^{6}+\\cdots+9\\cdots\\cdots①$ $①\\times10$得 $10S_{9}=10^{9}+2\\times10^{8}+3\\times10^{7}+\\cdots+9\\times10\\ldots②$ $②-①$得 $9S_{9}=10^{9}+10^{8}+\\cdots+10-9$ 为了得到$10^{9}+10^{8}+\\cdots+10$的值. 聪明的洋洋想到了一种方法： 设$M=10^{9}+10^{8}+\\cdots+10$， 则$10M=10^{10}+10^{9}+\\cdots+10^{2}$ 因此$9M=10^{10}-10$ $\\therefore$就得到$M=\\frac{10^{10}-10}{9}$ 因此得到$S_{9}=123456789$ 请你模仿洋洋的方法求出$10^{n}+10^{n-1}+\\cdots+10$的表达公式. 解答： (3)请你利用(2)中的结论求出天数$n$与被感染的动物数量为$S_{n}$(不包含母体)的关系式：______",
+    "normalized_analysis": "解： (1)由题意可得： $S_{n}=n+(n-1)\\times10+(n-2)\\times10^{2}+\\cdots+1\\times10^{n-1}$， 从表格和模型可知，表达式的最后一项对应指数为 $n-1$ 的项，且系数为 $1$，因此空白处应填 $10^{n-1}$， 故答案为：$10^{n-1}$； (2)设 $P=10^{n}+10^{n-1}+\\cdots+10$， 则$10P=10^{2}+10^{3}+\\cdots+10^{n+1}$， 两式相减： $10P-P=(10^{2}+10^{3}+\\cdots+10^{n+1})-(10+10^{2}+\\cdots+10^{n})$， 化简得：$9P=10^{n+1}-10$， 因此：$P=\\frac{10^{n+1}-10}{9}$， $\\therefore10^{n}+10^{n-1}+\\cdots+10=\\frac{10^{n+1}-10}{9}$； (3)由(1)可知， $S_{n}=n(1+10+10^{2}+\\ldots+10^{n-1})-(10+2\\times10^{2}+\\ldots+(n-1)\\times10^{n-1})①$， $10S_{n}=n(10+10^{2}+\\ldots+10^{n})-[10^{2}+2\\times10^{3}+\\ldots+(n-1)\\times10^{n}]②$， $②-①$得：$9S_{n}=n(10^{n}-1)+(10+10^{2}+\\ldots+10^{n})-n\\times10^{n}$， 即$9S_{n}=n(10^{n}-1)+\\frac{10^{n+1}-10}{9}-n10^{n}$， $\\therefore S_{n}=\\frac{10^{n+1}-9n-10}{81}$. (1)通过观察表格中$S_{n}$的规律来确定最后一项； (2)利用错位相减法的思路，设 $P=10^{n}+10^{n-1}+\\cdots+10$并通过计算$10P-P$来推导公式； (3)将(2)的结论代入$S_{n}$的表达式进行化简，即可求解． 本题主要考查了通过找规律、错位相减法来推导公式，正确进行计算是解题关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要将错位相减法应用于新情境，推导等比数列求和公式。",
     "core_literacy_primary": "模型观念",
@@ -3956,7 +3956,7 @@
     "type": "解答题",
     "score": 5.0,
     "answer": "解：因为（x+2） 2 +|y-3|=0， 所以x+2=0，y-3=0， 解得：x=-2，y=3， 原式=3x 2 -3xy 2 -6xy-2xy 2 +6xy-3x 2 =3x 2 -3x 2 +6xy-6xy-3xy 2 -2xy 2 =-5xy 2 =-5×（-2）×3 2 =-5×（-2）×9 =90．",
-    "stem": "先化简，再求值：3(x^{2}-xy^{2}-2xy)-2(xy^{2}-3xy+\\dfrac{3}{2}x^{2})，其中(x+2)^{2}+|y-3|=0.",
+    "stem": "先化简，再求值：3(x^{2}-xy^{2}-2xy)-2(xy^{2}-3xy+\\frac{3}{2}x^{2})，其中(x+2)^{2}+|y-3|=0.",
     "stem_images": [],
     "options": [],
     "analysis": "先根据偶次方和绝对值的非负性，列出关于x、y的方程，求出x、y，再利用去括号法则和合并同类项法则进行化简，最后把x、y的值代入化简后的式子进行计算即可． 本题主要考查了整式的化简求值，解题关键是熟练掌握偶次方与绝对值的非负性、去括号法则和合并同类项法则．",
@@ -3983,7 +3983,7 @@
       "理解乘方的意义",
       "掌握求有理数的相反数和绝对值的方法"
     ],
-    "normalized_stem": "先化简，再求值：$3(x^{2}-xy^{2}-2xy)-2(xy^{2}-3xy+\\dfrac{3}{2}x^{2})$，其中$(x+2)^{2}+|y-3|=0$.",
+    "normalized_stem": "先化简，再求值：$3(x^{2}-xy^{2}-2xy)-2(xy^{2}-3xy+\\frac{3}{2}x^{2})$，其中$(x+2)^{2}+|y-3|=0$.",
     "normalized_analysis": "先根据偶次方和绝对值的非负性，列出关于 $x$、$y$ 的方程，求出 $x$、$y$，再利用去括号法则和合并同类项法则进行化简，最后把 $x$、$y$ 的值代入化简后的式子进行计算即可．本题主要考查了整式的化简求值，解题关键是熟练掌握偶次方与绝对值的非负性、去括号法则和合并同类项法则．",
     "bloom_level": "应用",
     "bloom_reason": "需要应用非负性、去括号、合并同类项等法则完成化简求值。",
@@ -4043,7 +4043,7 @@
       "images/e324f91b_14_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：∵∠ACB=∠ADB=90°，E为边AB的中点， ∴CE=\\dfrac{1}{2}AB，DE=\\dfrac{1}{2}AB， ∴CE=DE， ∵∠CED=26°， ∴∠CDE=∠DCE=\\dfrac{1}{2}×(180°-26°)=77°. 故答案为：77. 由直角三角形斜边中线的性质推出CE=\\dfrac{1}{2}AB，DE=\\dfrac{1}{2}AB，得到CE=DE，推出∠CDE=∠DCE=\\dfrac{1}{2}×(180°-26°)=77°. 本题考查直角三角形斜边中线的性质，等腰三角形的判定和性质，关键是由直角三角形斜边中线的性质推出CE=DE.",
+    "analysis": "解：∵∠ACB=∠ADB=90°，E为边AB的中点， ∴CE=\\frac{1}{2}AB，DE=\\frac{1}{2}AB， ∴CE=DE， ∵∠CED=26°， ∴∠CDE=∠DCE=\\frac{1}{2}×(180°-26°)=77°. 故答案为：77. 由直角三角形斜边中线的性质推出CE=\\frac{1}{2}AB，DE=\\frac{1}{2}AB，得到CE=DE，推出∠CDE=∠DCE=\\frac{1}{2}×(180°-26°)=77°. 本题考查直角三角形斜边中线的性质，等腰三角形的判定和性质，关键是由直角三角形斜边中线的性质推出CE=DE.",
     "analysis_images": [],
     "knowledges": [
       "直角三角形斜边上的中线",
@@ -4120,32 +4120,32 @@
     "id": "b9bedcf8_8",
     "type": "选择题",
     "score": 3.0,
-    "stem": "“-a的4次方与b的商”用代数式表示为(\\quad) A.\\dfrac{-{a^4}}{b} B.\\dfrac{{\\left(-a\\right)^4}}{b} C.{\\left(\\dfrac{-a}{b}\\right)^4} D.-\\dfrac{{a^4}}{b}",
+    "stem": "“-a的4次方与b的商”用代数式表示为(\\quad) A.\\frac{-{a^4}}{b} B.\\frac{{\\left(-a\\right)^4}}{b} C.{\\left(\\frac{-a}{b}\\right)^4} D.-\\frac{{a^4}}{b}",
     "stem_images": [],
     "options": [
       {
         "index": "A",
-        "text": "\\dfrac{-{a^4}}{b}",
+        "text": "\\frac{-{a^4}}{b}",
         "images": []
       },
       {
         "index": "B",
-        "text": "\\dfrac{{\\left(-a\\right)^4}}{b}",
+        "text": "\\frac{{\\left(-a\\right)^4}}{b}",
         "images": []
       },
       {
         "index": "C",
-        "text": "{\\left(\\dfrac{-a}{b}\\right)^4}",
+        "text": "{\\left(\\frac{-a}{b}\\right)^4}",
         "images": []
       },
       {
         "index": "D",
-        "text": "-\\dfrac{{a^4}}{b}",
+        "text": "-\\frac{{a^4}}{b}",
         "images": []
       }
     ],
     "answer": "B",
-    "analysis": "解：“ -a的4次方与 b的商”用代数式表示为 \\dfrac{{\\left(-a\\right)^4}}{b} ， 故选B 本题考查的是列代数式，先表示 -a的4次方再除以 b 是列式的关键．",
+    "analysis": "解：“ -a的4次方与 b的商”用代数式表示为 \\frac{{\\left(-a\\right)^4}}{b} ， 故选B 本题考查的是列代数式，先表示 -a的4次方再除以 b 是列式的关键．",
     "analysis_images": [],
     "knowledges": [
       "列代数式"
@@ -4163,8 +4163,8 @@
     "xkb_knowledges": [
       "能根据特定的问题查阅资料，找到所需的公式"
     ],
-    "normalized_stem": "“$-a$ 的 $4$ 次方与 $b$ 的商”用代数式表示为$(\\quad)$ A.$\\dfrac{-a^{4}}{b}$ B.$\\dfrac{(-a)^{4}}{b}$ C.$\\left(\\dfrac{-a}{b}\\right)^{4}$ D.$-\\dfrac{a^{4}}{b}$",
-    "normalized_analysis": "解：“$-a$ 的 $4$ 次方与 $b$ 的商”用代数式表示为 $\\dfrac{(-a)^{4}}{b}$，故选 B。本题考查的是列代数式，先表示 $(-a)^{4}$ 再除以 $b$ 是列式的关键。",
+    "normalized_stem": "“$-a$ 的 $4$ 次方与 $b$ 的商”用代数式表示为$(\\quad)$ A.$\\frac{-a^{4}}{b}$ B.$\\frac{(-a)^{4}}{b}$ C.$\\left(\\frac{-a}{b}\\right)^{4}$ D.$-\\frac{a^{4}}{b}$",
+    "normalized_analysis": "解：“$-a$ 的 $4$ 次方与 $b$ 的商”用代数式表示为 $\\frac{(-a)^{4}}{b}$，故选 B。本题考查的是列代数式，先表示 $(-a)^{4}$ 再除以 $b$ 是列式的关键。",
     "bloom_level": "理解",
     "bloom_reason": "需要理解代数式表述的含义，并将其转化为正确的数学符号形式。",
     "core_literacy_primary": "抽象能力",
@@ -4180,7 +4180,7 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "B",
-    "stem": "若a>b，则下列各式中正确的是(\\quad) A. a+2< b+2 B. -4a< -4b C.\\dfrac{a}{3}<  \\dfrac {b}{3} D. b-a>0",
+    "stem": "若a>b，则下列各式中正确的是(\\quad) A. a+2< b+2 B. -4a< -4b C.\\frac{a}{3}<  \\frac {b}{3} D. b-a>0",
     "stem_images": [],
     "options": [
       {
@@ -4195,7 +4195,7 @@
       },
       {
         "index": "C",
-        "text": "\\(\\dfrac{a}{3} < \\dfrac {b}{3}\\)",
+        "text": "\\(\\frac{a}{3} < \\frac {b}{3}\\)",
         "images": []
       },
       {
@@ -4204,7 +4204,7 @@
         "images": []
       }
     ],
-    "analysis": "解：若a>b， 两边同时加上2得a+2>b+2，则A不符合题意， 两边同时乘以-4得\\(-4a < -4b\\)，则B符合题意， 两边同时除以3得\\dfrac{a}{3}>\\dfrac{b}{3}，则C不符合题意， 两边同时减去a得0>b-a，则D不符合题意， 故选：B. 利用不等式的性质逐项判断即可． 本题考查不等式的性质，熟练掌握其性质是解题的关键．",
+    "analysis": "解：若a>b， 两边同时加上2得a+2>b+2，则A不符合题意， 两边同时乘以-4得\\(-4a < -4b\\)，则B符合题意， 两边同时除以3得\\frac{a}{3}>\\frac{b}{3}，则C不符合题意， 两边同时减去a得0>b-a，则D不符合题意， 故选：B. 利用不等式的性质逐项判断即可． 本题考查不等式的性质，熟练掌握其性质是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "不等式的基本性质"
@@ -4222,8 +4222,8 @@
     "xkb_knowledges": [
       "结合具体问题，探索不等式的基本性质"
     ],
-    "normalized_stem": "若 $a>b$，则下列各式中正确的是(\\quad) A. $a+2< b+2$ B. $-4a< -4b$ C. $\\dfrac{a}{3}< \\dfrac {b}{3}$ D. $b-a>0$",
-    "normalized_analysis": "解：若 $a>b$， 两边同时加上 $2$ 得 $a+2>b+2$，则 A 不符合题意， 两边同时乘以 $-4$ 得 $-4a < -4b$，则 B 符合题意， 两边同时除以 $3$ 得 $\\dfrac{a}{3}>\\dfrac{b}{3}$，则 C 不符合题意， 两边同时减去 $a$ 得 $0>b-a$，则 D 不符合题意， 故选：B. 利用不等式的性质逐项判断即可． 本题考查不等式的性质，熟练掌握其性质是解题的关键．",
+    "normalized_stem": "若 $a>b$，则下列各式中正确的是(\\quad) A. $a+2< b+2$ B. $-4a< -4b$ C. $\\frac{a}{3}< \\frac {b}{3}$ D. $b-a>0$",
+    "normalized_analysis": "解：若 $a>b$， 两边同时加上 $2$ 得 $a+2>b+2$，则 A 不符合题意， 两边同时乘以 $-4$ 得 $-4a < -4b$，则 B 符合题意， 两边同时除以 $3$ 得 $\\frac{a}{3}>\\frac{b}{3}$，则 C 不符合题意， 两边同时减去 $a$ 得 $0>b-a$，则 D 不符合题意， 故选：B. 利用不等式的性质逐项判断即可． 本题考查不等式的性质，熟练掌握其性质是解题的关键．",
     "bloom_level": "理解",
     "bloom_reason": "题目要求根据已知不等式，运用不等式的性质判断变形后的不等式是否成立。",
     "core_literacy_primary": "运算能力",
@@ -4363,7 +4363,7 @@
         "images": []
       }
     ],
-    "analysis": "【分析】根据平行线的性质结合题意可证\\angle OCE=\\angle BOC=15{^\\circ}，即得出OE=CE，故①正确；由平行线的性质结合题意可证\\angle ECF=90{^\\circ}，又可求出\\angle CEF=30{^\\circ}，即得出CF=\\dfrac{1}{2}EF，结合勾股定理即可求出OE=CE=\\dfrac{\\sqrt{3}}{2}EF，故②错误；过点C作CG\\bot OB于点G，根据角平分线的性质定理得出CG=CD，再由\\angle CEG=30{^\\circ}，即得出CE=2CG=2CD，故③正确；由题意可求\\angle AOB=30{^\\circ}，即得出DF=\\dfrac{1}{2}OF，根据OE=CE=\\dfrac{\\sqrt{3}}{2}EF，即CE\\neq\\dfrac{1}{2}OF，可证CE\\neq DF，故④错误． 【详解】解：∵CE/\\!/OA， ∴\\angle OCE=\\angle AOC=15{^\\circ}， ∴\\angle OCE=\\angle BOC=15{^\\circ}， ∴OE=CE，故①正确； ∵CE/\\!/OA，CD\\bot OA， ∴FC\\bot CE，即\\angle ECF=90{^\\circ}. ∵\\angle CEF=\\angle OCE+\\angle BOC=30{^\\circ}， ∴CF=\\dfrac{1}{2}EF， ∴OE=CE=\\sqrt{E{F^2}-C{F^2}}=\\sqrt{E{F^2}-{\\left(\\dfrac{1}{2}EF\\right)^2}}=\\dfrac{\\sqrt{3}}{2}EF，故②错误； 如图，过点C作CG\\bot OB于点G， ∵\\angle AOC=\\angle BOC=15{^\\circ},CD\\bot OA， ∴CG=CD. ∵\\angle CEG=30{^\\circ}， ∴CE=2CG=2CD，故③正确； ∵\\angle AOC=\\angle BOC=15{^\\circ}， ∴\\angle AOB=30{^\\circ}. ∵CD\\bot OA， ∴DF=\\dfrac{1}{2}OF. ∵OE=CE=\\dfrac{\\sqrt{3}}{2}EF，即CE\\neq\\dfrac{1}{2}OF， ∴CE\\neq DF，故④错误． 综上可知正确结论是①③ 故选B. 【点睛】本题考查平行线的性质，含30度角的直角三角形的性质，勾股定理，角平分线的性质定理，等腰三角形的判定和性质，三角形外角的性质等知识，熟练掌握上述知识是解题关键．",
+    "analysis": "【分析】根据平行线的性质结合题意可证\\angle OCE=\\angle BOC=15{^\\circ}，即得出OE=CE，故①正确；由平行线的性质结合题意可证\\angle ECF=90{^\\circ}，又可求出\\angle CEF=30{^\\circ}，即得出CF=\\frac{1}{2}EF，结合勾股定理即可求出OE=CE=\\frac{\\sqrt{3}}{2}EF，故②错误；过点C作CG\\bot OB于点G，根据角平分线的性质定理得出CG=CD，再由\\angle CEG=30{^\\circ}，即得出CE=2CG=2CD，故③正确；由题意可求\\angle AOB=30{^\\circ}，即得出DF=\\frac{1}{2}OF，根据OE=CE=\\frac{\\sqrt{3}}{2}EF，即CE\\neq\\frac{1}{2}OF，可证CE\\neq DF，故④错误． 【详解】解：∵CE/\\!/OA， ∴\\angle OCE=\\angle AOC=15{^\\circ}， ∴\\angle OCE=\\angle BOC=15{^\\circ}， ∴OE=CE，故①正确； ∵CE/\\!/OA，CD\\bot OA， ∴FC\\bot CE，即\\angle ECF=90{^\\circ}. ∵\\angle CEF=\\angle OCE+\\angle BOC=30{^\\circ}， ∴CF=\\frac{1}{2}EF， ∴OE=CE=\\sqrt{E{F^2}-C{F^2}}=\\sqrt{E{F^2}-{\\left(\\frac{1}{2}EF\\right)^2}}=\\frac{\\sqrt{3}}{2}EF，故②错误； 如图，过点C作CG\\bot OB于点G， ∵\\angle AOC=\\angle BOC=15{^\\circ},CD\\bot OA， ∴CG=CD. ∵\\angle CEG=30{^\\circ}， ∴CE=2CG=2CD，故③正确； ∵\\angle AOC=\\angle BOC=15{^\\circ}， ∴\\angle AOB=30{^\\circ}. ∵CD\\bot OA， ∴DF=\\frac{1}{2}OF. ∵OE=CE=\\frac{\\sqrt{3}}{2}EF，即CE\\neq\\frac{1}{2}OF， ∴CE\\neq DF，故④错误． 综上可知正确结论是①③ 故选B. 【点睛】本题考查平行线的性质，含30度角的直角三角形的性质，勾股定理，角平分线的性质定理，等腰三角形的判定和性质，三角形外角的性质等知识，熟练掌握上述知识是解题关键．",
     "analysis_images": [
       "images/d228ad66_7_analysis_0.png"
     ],
@@ -4564,7 +4564,7 @@
         "images": []
       }
     ],
-    "analysis": "解：A.任意非零数的圈3次方都等于它的倒数，故不符合题意． B.当n为偶数时，1^{ⓝ}=1÷1÷⋯÷1=1，(-1)^{ⓝ}=(-1)÷(-1)÷⋯÷(-1)=1，即圈n次方等于它本身的数是1(n为任意正偶数)； 当n为奇数时，1^{ⓝ}=1÷1÷⋯÷1=1，(-1)^{ⓝ}=(-1)÷(-1)÷⋯÷(-1)=-1，圈n次方等于它本身的数是1或-1(n为任意正奇数). 故符合题意． C.设这两个互为相反数的数为a与-a. 当n为偶数时，a^{ⓝ}=a÷a÷⋯÷a=\\dfrac{1}{a^{n-2}}，(-a)^{ⓝ}=(-a)÷(-a)÷⋯÷(-a)=\\dfrac{1}{a^{n-2}}，此时结果相等； 当n为奇数时，a^{ⓝ}=a÷a÷⋯÷a=\\dfrac{1}{a^{n-2}}，(-a)^{ⓝ}=(-a)÷(-a)÷⋯÷(-a)=-\\dfrac{1}{a^{n-2}}，此时互为相反数的两个数的圈n次方互为相反数； 故不符合题意． D.设两个数为a与\\dfrac{1}{a}. 则a^{ⓝ}=a÷a÷⋯÷a=\\dfrac{1}{a^{n-2}}，(\\dfrac{1}{a})^{ⓝ}=\\dfrac{1}{a}÷\\dfrac{1}{a}÷⋯÷\\dfrac{1}{a}=a^{n-2}，即互为倒数的两个数的圈n次方互为倒数， 故不符合题意． 故选：B. 根据新运算“除方”的定义，a^{ⓝ}即为n个a相除，进行计算．运算时注意指数运算、相反数的性质、倒数的概念的应用即可． 本题考查了新定义运算，出现在乘方一节，能够类比乘方的运算，理解并运用除方的运算规则，准确的计算和推理是本题的关键．",
+    "analysis": "解：A.任意非零数的圈3次方都等于它的倒数，故不符合题意． B.当n为偶数时，1^{ⓝ}=1÷1÷⋯÷1=1，(-1)^{ⓝ}=(-1)÷(-1)÷⋯÷(-1)=1，即圈n次方等于它本身的数是1(n为任意正偶数)； 当n为奇数时，1^{ⓝ}=1÷1÷⋯÷1=1，(-1)^{ⓝ}=(-1)÷(-1)÷⋯÷(-1)=-1，圈n次方等于它本身的数是1或-1(n为任意正奇数). 故符合题意． C.设这两个互为相反数的数为a与-a. 当n为偶数时，a^{ⓝ}=a÷a÷⋯÷a=\\frac{1}{a^{n-2}}，(-a)^{ⓝ}=(-a)÷(-a)÷⋯÷(-a)=\\frac{1}{a^{n-2}}，此时结果相等； 当n为奇数时，a^{ⓝ}=a÷a÷⋯÷a=\\frac{1}{a^{n-2}}，(-a)^{ⓝ}=(-a)÷(-a)÷⋯÷(-a)=-\\frac{1}{a^{n-2}}，此时互为相反数的两个数的圈n次方互为相反数； 故不符合题意． D.设两个数为a与\\frac{1}{a}. 则a^{ⓝ}=a÷a÷⋯÷a=\\frac{1}{a^{n-2}}，(\\frac{1}{a})^{ⓝ}=\\frac{1}{a}÷\\frac{1}{a}÷⋯÷\\frac{1}{a}=a^{n-2}，即互为倒数的两个数的圈n次方互为倒数， 故不符合题意． 故选：B. 根据新运算“除方”的定义，a^{ⓝ}即为n个a相除，进行计算．运算时注意指数运算、相反数的性质、倒数的概念的应用即可． 本题考查了新定义运算，出现在乘方一节，能够类比乘方的运算，理解并运用除方的运算规则，准确的计算和推理是本题的关键．",
     "analysis_images": [],
     "knowledges": [
       "有理数的混合运算"
@@ -4603,7 +4603,7 @@
     "stem": "若x=3时，代数式ax^{3}+2x^{2}+bx+5的值为-1982；则x=-3时，这个代数式的值为______  .",
     "stem_images": [],
     "options": [],
-    "analysis": "解：当x=3时，ax^{3}+2x^{2}+bx+5=27a+3b+23=-1982， ∴9a+b=-\\dfrac{2005}{3}， ∴当x=-3时，ax^{3}+2x^{2}+bx+5=-27a-3b+23=-3(9a+b)+23=-3×(-\\dfrac{2005}{3})+23=2028. 故答案为：2028. 利用代入法，代入所求的式子即可． 本题考查代数式求值，按照代数式规定的运算，计算的结果就是代数式的值．",
+    "analysis": "解：当x=3时，ax^{3}+2x^{2}+bx+5=27a+3b+23=-1982， ∴9a+b=-\\frac{2005}{3}， ∴当x=-3时，ax^{3}+2x^{2}+bx+5=-27a-3b+23=-3(9a+b)+23=-3×(-\\frac{2005}{3})+23=2028. 故答案为：2028. 利用代入法，代入所求的式子即可． 本题考查代数式求值，按照代数式规定的运算，计算的结果就是代数式的值．",
     "analysis_images": [],
     "knowledges": [
       "代数式求值"
@@ -4707,7 +4707,7 @@
       "images/e324f91b_24_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)证明：∵四边形ABCD为矩形， ∴∠BAD=90°，AB=CD， ∵AH=AB， ∴AH=CD. ∵∠BAD的平分线交边BC于点E， ∴∠DAE=\\dfrac{1}{2}∠BAD=45°， ∵DH⊥AE， ∴\\triangle AHD为等腰直角三角形， ∴AH=DH， ∴DH=DC； (2)①证明：连接CH，如图， ∵四边形ABCD为矩形， ∴∠ADC=∠BCD=90°，∠BAD=90°，AB=CD， ∵∠BAD的平分线交边BC于点E， ∴∠BAE=∠DAE=\\dfrac{1}{2}∠BAD=45°， ∵DH⊥AE， ∴\\triangle AHD为等腰直角三角形， ∴AH=DH，∠ADH=45°， ∴∠HDC=∠ADC-∠ADH=45°， ∴∠HDC=∠BAH=45°， 在\\triangle ABH和\\triangle DCH中， \\begin{cases}AB=DC\\\\ ∠BAH=∠CDH\\\\ AH=DH\\end{cases}， ∴\\triangle ABH≌\\triangle DCH(SAS)， ∴BH=CH. ∴∠HBC=∠HCB， ∵∠HBC+∠BGC=90°，∠HCB+∠HCG=90°， ∴∠BGC=∠HCG， ∴HC=HG， ∴BH=HG， ∴点H为线段BG的中点； ②解：BG与DE的数量关系为BG=\\sqrt{2}DE，证明： 连接HC，取DE的中点M，连接HM，CM，如图， 由(2)①知：CH=BH=HC， ∴BG=2CH. ∵点M为DE的中点，DH⊥AE，DC⊥BC， ∴HM=DM=EM=\\dfrac{1}{2}DE，CM=ME=DM=\\dfrac{1}{2}DE， ∴MH=MC=\\dfrac{1}{2}DE. ∵MH=MD， ∴∠MHD=∠MDH， ∴∠HME=∠MHD+∠MDH=2∠MDH， 同理可得：∠CME=2∠CDM， ∴∠HMC=∠HME+∠CDM=2(∠HDM+∠CDM)=2∠HDC. 由(2)①知：∠HDC=45°， ∴∠HMC=90°， ∴\\triangle MHC为等腰直角三角形， ∴MH=\\dfrac{\\sqrt{2}}{2}HC， ∴DH=\\dfrac{\\sqrt{2}}{2}CH， ∴\\dfrac{1}{2}DE=\\dfrac{\\sqrt{2}}{2}×\\dfrac{1}{2}BG， ∴BG=\\sqrt{2}DE. (1)利用矩形的性质，角平分线的定义和等腰直角三角形的判定与性质解答即可； (2)①连接CH，利用矩形的性质和等腰直角三角形的判定与性质得到\\triangle AHD为等腰直角三角形，∠HDC=∠BAH=45°，利用全等三角形的判定与性质得到BH=CH；利用等腰三角形的性质，三角形的外角的性质得到∠HME=∠MHD+∠MDH=2∠MDH，∠CME=2∠CDM，进而得到\\triangle MHC为等腰直角三角形，进而得到MH=\\dfrac{\\sqrt{2}}{2}HC，再利用等式的性质解答即可得出结论． 本题主要考查了矩形的性质，角平分线的定义，等腰直角三角形的性质与判定，全等三角形的判定与性质，直角三角形的性质，直角三角形的斜边上的中线的性质，等腰三角形的性质，三角形的内角和定理及其推论，添加适当的辅助线构造等腰三角形和全等三角形是解题的关键．",
+    "analysis": "(1)证明：∵四边形ABCD为矩形， ∴∠BAD=90°，AB=CD， ∵AH=AB， ∴AH=CD. ∵∠BAD的平分线交边BC于点E， ∴∠DAE=\\frac{1}{2}∠BAD=45°， ∵DH⊥AE， ∴\\triangle AHD为等腰直角三角形， ∴AH=DH， ∴DH=DC； (2)①证明：连接CH，如图， ∵四边形ABCD为矩形， ∴∠ADC=∠BCD=90°，∠BAD=90°，AB=CD， ∵∠BAD的平分线交边BC于点E， ∴∠BAE=∠DAE=\\frac{1}{2}∠BAD=45°， ∵DH⊥AE， ∴\\triangle AHD为等腰直角三角形， ∴AH=DH，∠ADH=45°， ∴∠HDC=∠ADC-∠ADH=45°， ∴∠HDC=∠BAH=45°， 在\\triangle ABH和\\triangle DCH中， \\begin{cases}AB=DC\\\\ ∠BAH=∠CDH\\\\ AH=DH\\end{cases}， ∴\\triangle ABH≌\\triangle DCH(SAS)， ∴BH=CH. ∴∠HBC=∠HCB， ∵∠HBC+∠BGC=90°，∠HCB+∠HCG=90°， ∴∠BGC=∠HCG， ∴HC=HG， ∴BH=HG， ∴点H为线段BG的中点； ②解：BG与DE的数量关系为BG=\\sqrt{2}DE，证明： 连接HC，取DE的中点M，连接HM，CM，如图， 由(2)①知：CH=BH=HC， ∴BG=2CH. ∵点M为DE的中点，DH⊥AE，DC⊥BC， ∴HM=DM=EM=\\frac{1}{2}DE，CM=ME=DM=\\frac{1}{2}DE， ∴MH=MC=\\frac{1}{2}DE. ∵MH=MD， ∴∠MHD=∠MDH， ∴∠HME=∠MHD+∠MDH=2∠MDH， 同理可得：∠CME=2∠CDM， ∴∠HMC=∠HME+∠CDM=2(∠HDM+∠CDM)=2∠HDC. 由(2)①知：∠HDC=45°， ∴∠HMC=90°， ∴\\triangle MHC为等腰直角三角形， ∴MH=\\frac{\\sqrt{2}}{2}HC， ∴DH=\\frac{\\sqrt{2}}{2}CH， ∴\\frac{1}{2}DE=\\frac{\\sqrt{2}}{2}×\\frac{1}{2}BG， ∴BG=\\sqrt{2}DE. (1)利用矩形的性质，角平分线的定义和等腰直角三角形的判定与性质解答即可； (2)①连接CH，利用矩形的性质和等腰直角三角形的判定与性质得到\\triangle AHD为等腰直角三角形，∠HDC=∠BAH=45°，利用全等三角形的判定与性质得到BH=CH；利用等腰三角形的性质，三角形的外角的性质得到∠HME=∠MHD+∠MDH=2∠MDH，∠CME=2∠CDM，进而得到\\triangle MHC为等腰直角三角形，进而得到MH=\\frac{\\sqrt{2}}{2}HC，再利用等式的性质解答即可得出结论． 本题主要考查了矩形的性质，角平分线的定义，等腰直角三角形的性质与判定，全等三角形的判定与性质，直角三角形的性质，直角三角形的斜边上的中线的性质，等腰三角形的性质，三角形的内角和定理及其推论，添加适当的辅助线构造等腰三角形和全等三角形是解题的关键．",
     "analysis_images": [
       "images/e324f91b_24_analysis_0.png",
       "images/e324f91b_24_analysis_1.png"
@@ -4746,7 +4746,7 @@
     "id": "74b790b3_4",
     "type": "选择题",
     "score": 3.0,
-    "stem": "实数a，b在数轴上的对应点的位置如图所示，表示实数c的点在原点右侧，且| c | <  | a |，下列结论中正确的是 A.a+b<  0 B.a+c<  0 C.a-c>0 D.\\dfrac{a}{b}>0",
+    "stem": "实数a，b在数轴上的对应点的位置如图所示，表示实数c的点在原点右侧，且| c | <  | a |，下列结论中正确的是 A.a+b<  0 B.a+c<  0 C.a-c>0 D.\\frac{a}{b}>0",
     "stem_images": [
       "images/74b790b3_4_stem_0.png"
     ],
@@ -4768,7 +4768,7 @@
       },
       {
         "index": "D",
-        "text": "\\dfrac{a}{b}>0",
+        "text": "\\frac{a}{b}>0",
         "images": []
       }
     ],
@@ -4791,7 +4791,7 @@
     "xkb_knowledges": [
       "能用数轴上的点表示实数"
     ],
-    "normalized_stem": "实数 $a$，$b$ 在数轴上的对应点的位置如图所示，表示实数 $c$ 的点在原点右侧，且 $|c| < |a|$，下列结论中正确的是 A.$a+b<0$ B.$a+c<0$ C.$a-c>0$ D.$\\dfrac{a}{b}>0$",
+    "normalized_stem": "实数 $a$，$b$ 在数轴上的对应点的位置如图所示，表示实数 $c$ 的点在原点右侧，且 $|c| < |a|$，下列结论中正确的是 A.$a+b<0$ B.$a+c<0$ C.$a-c>0$ D.$\\frac{a}{b}>0$",
     "normalized_analysis": "略",
     "bloom_level": "应用",
     "bloom_reason": "需要根据数轴位置和绝对值条件，应用不等式性质判断选项正误。",
@@ -4843,10 +4843,10 @@
     "type": "填空题",
     "score": 3.0,
     "answer": "①③④",
-    "stem": "在平面直角坐标系xOy中，抛物线y=a{x^2}+bx+c\\left(a>0\\right)经过点O和点A\\left(-3,-3a\\right)，下面有四个结论： ①b=4a； ②a+b+c<  0； ③若点\\left(1,m\\right)在该抛物线上，则方程a{x^2}+bx+c-m=0的两个根为{x_1}=1，{x_2}=-5； ④过点T\\left(t,0\\right)\\left(t>-3\\right)作x轴的垂线，交该抛物线于点B，交直线y=ax于点C，若线段BC的长度随t的增大而减小，则t的取值范围是-\\dfrac{3}{2}\\leqslant t<  0. 其中所有正确结论的序号是__________.",
+    "stem": "在平面直角坐标系xOy中，抛物线y=a{x^2}+bx+c\\left(a>0\\right)经过点O和点A\\left(-3,-3a\\right)，下面有四个结论： ①b=4a； ②a+b+c<  0； ③若点\\left(1,m\\right)在该抛物线上，则方程a{x^2}+bx+c-m=0的两个根为{x_1}=1，{x_2}=-5； ④过点T\\left(t,0\\right)\\left(t>-3\\right)作x轴的垂线，交该抛物线于点B，交直线y=ax于点C，若线段BC的长度随t的增大而减小，则t的取值范围是-\\frac{3}{2}\\leqslant t<  0. 其中所有正确结论的序号是__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "本题考查了二次函数的性质、待定系数法求解析式、二次函数与一元二次方程的关系以及函数图象上点的坐标特征．解题的关键是根据已知条件求出抛物线解析式中系数的关系，并结合函数性质对每个结论进行逐一验证．由抛物线经过原点可得c=0，代入点A坐标得b=4a；由a>0知a+b+c=5a>0；点\\left(1,m\\right)在抛物线上则m=5a，方程化为{x^2}+4x-5=0，根为1和-5；BC长度为a\\left|{t^2}+3t\\right|，分析单调性得当\\(-\\dfrac{3}{2}\\leqslant t < 0\\)时，BC随t增大而减小． 【详解】解：抛物线y=a{x^2}+bx+c\\left(a>0\\right)经过点O\\left(0,0\\right)，代入得c=0；经过点A\\left(-3,-3a\\right)，代入得-3a=9a-3b，解得b=4a，故①正确； a+b+c=a+4a+0=5a>0，故②错误； 点\\left(1,m\\right)在抛物线上，则m=a+b+c=5a，方程a{x^2}+bx+c-m=0，即a{x^2}+4ax-5a=0，除以a得{x^2}+4x-5=0，解得x=1或x=-5，故③正确； 过点T\\left(t,0\\right)\\left(t>-3\\right)作x轴垂线，交抛物线于点B\\left(t,a{t^2}+4at\\right)，交直线y=ax于点C\\left(t,at\\right)，则BC=\\left|a{t^2}+4at-at\\right|=a\\left|{t^2}+3t\\right|， 当\\(-3 < t < 0\\)时，\\({t^2}+3t < 0\\)，BC=a\\left(-{t^2}-3t\\right)，该二次函数开口向下，对称轴为t=-\\dfrac{3}{2}，在\\(-\\dfrac{3}{2}\\leqslant t < 0\\)上，BC随t的增大而减小，当t\\geqslant 0时，BC随t的增大而增大，故BC随t增大而减小当且仅当\\(-\\dfrac{3}{2}\\leqslant t < 0\\)，故④正确． 故答案为：①③④．",
+    "analysis": "本题考查了二次函数的性质、待定系数法求解析式、二次函数与一元二次方程的关系以及函数图象上点的坐标特征．解题的关键是根据已知条件求出抛物线解析式中系数的关系，并结合函数性质对每个结论进行逐一验证．由抛物线经过原点可得c=0，代入点A坐标得b=4a；由a>0知a+b+c=5a>0；点\\left(1,m\\right)在抛物线上则m=5a，方程化为{x^2}+4x-5=0，根为1和-5；BC长度为a\\left|{t^2}+3t\\right|，分析单调性得当\\(-\\frac{3}{2}\\leqslant t < 0\\)时，BC随t增大而减小． 【详解】解：抛物线y=a{x^2}+bx+c\\left(a>0\\right)经过点O\\left(0,0\\right)，代入得c=0；经过点A\\left(-3,-3a\\right)，代入得-3a=9a-3b，解得b=4a，故①正确； a+b+c=a+4a+0=5a>0，故②错误； 点\\left(1,m\\right)在抛物线上，则m=a+b+c=5a，方程a{x^2}+bx+c-m=0，即a{x^2}+4ax-5a=0，除以a得{x^2}+4x-5=0，解得x=1或x=-5，故③正确； 过点T\\left(t,0\\right)\\left(t>-3\\right)作x轴垂线，交抛物线于点B\\left(t,a{t^2}+4at\\right)，交直线y=ax于点C\\left(t,at\\right)，则BC=\\left|a{t^2}+4at-at\\right|=a\\left|{t^2}+3t\\right|， 当\\(-3 < t < 0\\)时，\\({t^2}+3t < 0\\)，BC=a\\left(-{t^2}-3t\\right)，该二次函数开口向下，对称轴为t=-\\frac{3}{2}，在\\(-\\frac{3}{2}\\leqslant t < 0\\)上，BC随t的增大而减小，当t\\geqslant 0时，BC随t的增大而增大，故BC随t增大而减小当且仅当\\(-\\frac{3}{2}\\leqslant t < 0\\)，故④正确． 故答案为：①③④．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -4860,8 +4860,8 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "在平面直角坐标系$xOy$中，抛物线$y=ax^{2}+bx+c$ $(a>0)$经过点$O$和点$A(-3,-3a)$，下面有四个结论： ①$b=4a$； ②$a+b+c<0$； ③若点$(1,m)$在该抛物线上，则方程$ax^{2}+bx+c-m=0$的两个根为$x_{1}=1$，$x_{2}=-5$； ④过点$T(t,0)$ $(t>-3)$作$x$轴的垂线，交该抛物线于点$B$，交直线$y=ax$于点$C$，若线段$BC$的长度随$t$的增大而减小，则$t$的取值范围是$-\\dfrac{3}{2}\\leqslant t<0$。 其中所有正确结论的序号是__________。",
-    "normalized_analysis": "本题考查了二次函数的性质、待定系数法求解析式、二次函数与一元二次方程的关系以及函数图象上点的坐标特征。解题的关键是根据已知条件求出抛物线解析式中系数的关系，并结合函数性质对每个结论进行逐一验证。由抛物线经过原点可得$c=0$，代入点$A$坐标得$b=4a$；由$a>0$知$a+b+c=5a>0$；点$(1,m)$在抛物线上则$m=5a$，方程化为$x^{2}+4x-5=0$，根为$1$和$-5$；$BC$长度为$a\\left|t^{2}+3t\\right|$，分析单调性得当$-\\dfrac{3}{2}\\leqslant t<0$时，$BC$随$t$增大而减小。 【详解】解：抛物线$y=ax^{2}+bx+c$ $(a>0)$经过点$O(0,0)$，代入得$c=0$；经过点$A(-3,-3a)$，代入得$-3a=9a-3b$，解得$b=4a$，故①正确； $a+b+c=a+4a+0=5a>0$，故②错误； 点$(1,m)$在抛物线上，则$m=a+b+c=5a$，方程$ax^{2}+bx+c-m=0$，即$ax^{2}+4ax-5a=0$，除以$a$得$x^{2}+4x-5=0$，解得$x=1$或$x=-5$，故③正确； 过点$T(t,0)$ $(t>-3)$作$x$轴垂线，交抛物线于点$B(t,at^{2}+4at)$，交直线$y=ax$于点$C(t,at)$，则$BC=\\left|at^{2}+4at-at\\right|=a\\left|t^{2}+3t\\right|$， 当$-3<t<0$时，$t^{2}+3t<0$，$BC=a(-t^{2}-3t)$，该二次函数开口向下，对称轴为$t=-\\dfrac{3}{2}$，在$-\\dfrac{3}{2}\\leqslant t<0$上，$BC$随$t$的增大而减小，当$t\\geqslant0$时，$BC$随$t$的增大而增大，故$BC$随$t$增大而减小当且仅当$-\\dfrac{3}{2}\\leqslant t<0$，故④正确。 故答案为：①③④。",
+    "normalized_stem": "在平面直角坐标系$xOy$中，抛物线$y=ax^{2}+bx+c$ $(a>0)$经过点$O$和点$A(-3,-3a)$，下面有四个结论： ①$b=4a$； ②$a+b+c<0$； ③若点$(1,m)$在该抛物线上，则方程$ax^{2}+bx+c-m=0$的两个根为$x_{1}=1$，$x_{2}=-5$； ④过点$T(t,0)$ $(t>-3)$作$x$轴的垂线，交该抛物线于点$B$，交直线$y=ax$于点$C$，若线段$BC$的长度随$t$的增大而减小，则$t$的取值范围是$-\\frac{3}{2}\\leqslant t<0$。 其中所有正确结论的序号是__________。",
+    "normalized_analysis": "本题考查了二次函数的性质、待定系数法求解析式、二次函数与一元二次方程的关系以及函数图象上点的坐标特征。解题的关键是根据已知条件求出抛物线解析式中系数的关系，并结合函数性质对每个结论进行逐一验证。由抛物线经过原点可得$c=0$，代入点$A$坐标得$b=4a$；由$a>0$知$a+b+c=5a>0$；点$(1,m)$在抛物线上则$m=5a$，方程化为$x^{2}+4x-5=0$，根为$1$和$-5$；$BC$长度为$a\\left|t^{2}+3t\\right|$，分析单调性得当$-\\frac{3}{2}\\leqslant t<0$时，$BC$随$t$增大而减小。 【详解】解：抛物线$y=ax^{2}+bx+c$ $(a>0)$经过点$O(0,0)$，代入得$c=0$；经过点$A(-3,-3a)$，代入得$-3a=9a-3b$，解得$b=4a$，故①正确； $a+b+c=a+4a+0=5a>0$，故②错误； 点$(1,m)$在抛物线上，则$m=a+b+c=5a$，方程$ax^{2}+bx+c-m=0$，即$ax^{2}+4ax-5a=0$，除以$a$得$x^{2}+4x-5=0$，解得$x=1$或$x=-5$，故③正确； 过点$T(t,0)$ $(t>-3)$作$x$轴垂线，交抛物线于点$B(t,at^{2}+4at)$，交直线$y=ax$于点$C(t,at)$，则$BC=\\left|at^{2}+4at-at\\right|=a\\left|t^{2}+3t\\right|$， 当$-3<t<0$时，$t^{2}+3t<0$，$BC=a(-t^{2}-3t)$，该二次函数开口向下，对称轴为$t=-\\frac{3}{2}$，在$-\\frac{3}{2}\\leqslant t<0$上，$BC$随$t$的增大而减小，当$t\\geqslant0$时，$BC$随$t$的增大而增大，故$BC$随$t$增大而减小当且仅当$-\\frac{3}{2}\\leqslant t<0$，故④正确。 故答案为：①③④。",
     "bloom_level": "分析",
     "bloom_reason": "需要综合运用二次函数性质，分析多个结论的真伪，涉及推理和判断。",
     "core_literacy_primary": "推理能力",
@@ -4881,7 +4881,7 @@
     "stem": "若一个扇形的圆心角是50{^\\circ}，半径为1，则它的弧长是__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "本题考查了求弧长，直接根据扇形的弧长公式进行计算，熟练掌握弧长公式是解此题的关键． 【详解】解：∵一个扇形的圆心角是50{^\\circ}，半径为1， ∴它的弧长是\\dfrac{50\\times\\pi\\times 1}{180}=\\dfrac{50\\pi}{180}=\\dfrac{5\\pi}{18}， 故答案为：\\dfrac{5\\pi}{18}.",
+    "analysis": "本题考查了求弧长，直接根据扇形的弧长公式进行计算，熟练掌握弧长公式是解此题的关键． 【详解】解：∵一个扇形的圆心角是50{^\\circ}，半径为1， ∴它的弧长是\\frac{50\\times\\pi\\times 1}{180}=\\frac{50\\pi}{180}=\\frac{5\\pi}{18}， 故答案为：\\frac{5\\pi}{18}.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -4896,7 +4896,7 @@
     "bnu_knowledges": [],
     "xkb_knowledges": [],
     "normalized_stem": "若一个扇形的圆心角是 $50^{\\circ}$，半径为 $1$，则它的弧长是__________.",
-    "normalized_analysis": "本题考查了求弧长，直接根据扇形的弧长公式进行计算，熟练掌握弧长公式是解此题的关键． 【详解】解：∵一个扇形的圆心角是 $50^{\\circ}$，半径为 $1$， ∴它的弧长是 $\\dfrac{50\\times\\pi\\times 1}{180}=\\dfrac{50\\pi}{180}=\\dfrac{5\\pi}{18}$， 故答案为：$\\dfrac{5\\pi}{18}$.",
+    "normalized_analysis": "本题考查了求弧长，直接根据扇形的弧长公式进行计算，熟练掌握弧长公式是解此题的关键． 【详解】解：∵一个扇形的圆心角是 $50^{\\circ}$，半径为 $1$， ∴它的弧长是 $\\frac{50\\times\\pi\\times 1}{180}=\\frac{50\\pi}{180}=\\frac{5\\pi}{18}$， 故答案为：$\\frac{5\\pi}{18}$.",
     "bloom_level": "应用",
     "bloom_reason": "直接套用弧长公式进行计算，属于知识点的直接应用。",
     "core_literacy_primary": "运算能力",
@@ -4917,7 +4917,7 @@
       "images/f4973101_18_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：(1)游戏结束时，每人手中的徽章数为：\\dfrac{7+11+3+14+15}{5}=10(个)， ∵游戏成功， ∴A从B那里得到了10-(7-1)=4，E给D的徽章数为：15+1-10=6， ∴此时，B手里有11-4=7，D手里有14+6=20， ∴D给C的数量为：20-10=10，C给B的数量为：10-7=3， ∴流动徽章数为：1+4+6+10+3=24(枚)； 故答案为：24； (2)要想一轮成功，A需要接受3个，B需要给出1个，C需要接受7个，D需要给出4个，E需要给出五个， \\(∵1+4 < 7\\)， ∴C需要从E那里得到徽章， 而E到C的最短距离是E→D→C， ∴当E给A三个，AB没有赠与，B给C1个，D给C4个，E通过D给C两个，流动徽章最少， 即3+1+4+2+2=12. 故答案为：12. (1)先求出成功时，每人手上的数量，从E，A开始推理，依次判断AB，ED，DC，CB之间交流的数量，求和即为所求； (2)先判断每个人需要给出或接受的数量，尽量从相邻的同学那里获取，从而进行判断即可． 本题主要考查了逻辑推理，先求出游戏成功时每人手里的数量是本题解题的关键．",
+    "analysis": "解：(1)游戏结束时，每人手中的徽章数为：\\frac{7+11+3+14+15}{5}=10(个)， ∵游戏成功， ∴A从B那里得到了10-(7-1)=4，E给D的徽章数为：15+1-10=6， ∴此时，B手里有11-4=7，D手里有14+6=20， ∴D给C的数量为：20-10=10，C给B的数量为：10-7=3， ∴流动徽章数为：1+4+6+10+3=24(枚)； 故答案为：24； (2)要想一轮成功，A需要接受3个，B需要给出1个，C需要接受7个，D需要给出4个，E需要给出五个， \\(∵1+4 < 7\\)， ∴C需要从E那里得到徽章， 而E到C的最短距离是E→D→C， ∴当E给A三个，AB没有赠与，B给C1个，D给C4个，E通过D给C两个，流动徽章最少， 即3+1+4+2+2=12. 故答案为：12. (1)先求出成功时，每人手上的数量，从E，A开始推理，依次判断AB，ED，DC，CB之间交流的数量，求和即为所求； (2)先判断每个人需要给出或接受的数量，尽量从相邻的同学那里获取，从而进行判断即可． 本题主要考查了逻辑推理，先求出游戏成功时每人手里的数量是本题解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "推理与论证"
@@ -4937,7 +4937,7 @@
       "通过实例体会反证法的含义"
     ],
     "normalized_stem": "2025年HOSA生物与健康未来领袖挑战赛在长沙举行，师大二附中也参加了此次活动，在自我交流环节中，部分学校的代表组织了一些游戏，其中有一个游戏叫做徽章交流游戏，规则如下： ①5位来自不同学校的代表围坐在一张圆形桌子周围，每个人只跟左右两边的同学进行徽章交流； ②从手里徽章最多的同学开始，按顺时针方向，按顺序交流. 例如：如图所示，若A手里徽章最多，那么首先是A和B交流，接着是B和C，再是C和D、D和E，最后是E和A，算一次循环交流结束； ③每一次的交流都是单向的. 例如：A在和B的交流中，要么A把自己手里的徽章给B，或者B把自己手里的徽章给A，不能互相交换； ④每一次交流中，假设A手里有$m$个徽章，若A送给B，那么送出去的个数可以是$0$到$m$之间的任意个数，B送给A也是同样道理； ⑤当一次循环交流结束后，五位同学手里的徽章个数都相同那么算游戏成功.每一次交流中送出去的徽章个数总和为流动徽章数，若流动徽章数越小游戏越成功. 如图，现在有5位学生代表围坐在一张桌子上，A有$7$枚徽章，B有$11$枚徽章，C有$3$枚徽章，D有$14$枚徽章，E有$15$枚徽章. (1)当第一次E和A的交流中，A给E了$1$枚徽章，若游戏成功，本次游戏中产生的流动徽章数为______枚； (2)若想游戏越来越成功，流动徽章数最少为______枚.",
-    "normalized_analysis": "解：(1)游戏结束时，每人手中的徽章数为：$\\dfrac{7+11+3+14+15}{5}=10$(个)， $\\because$游戏成功， $\\therefore$A从B那里得到了$10-(7-1)=4$，E给D的徽章数为：$15+1-10=6$， $\\therefore$此时，B手里有$11-4=7$，D手里有$14+6=20$， $\\therefore$D给C的数量为：$20-10=10$，C给B的数量为：$10-7=3$， $\\therefore$流动徽章数为：$1+4+6+10+3=24$(枚)； 故答案为：$24$； (2)要想一轮成功，A需要接受$3$个，B需要给出$1$个，C需要接受$7$个，D需要给出$4$个，E需要给出五个， $\\because 1+4 < 7$， $\\therefore$C需要从E那里得到徽章， 而E到C的最短距离是E$\\rightarrow$D$\\rightarrow$C， $\\therefore$当E给A三个，AB没有赠与，B给C$1$个，D给C$4$个，E通过D给C两个，流动徽章最少， 即$3+1+4+2+2=12$. 故答案为：$12$. (1)先求出成功时，每人手上的数量，从E，A开始推理，依次判断AB，ED，DC，CB之间交流的数量，求和即为所求； (2)先判断每个人需要给出或接受的数量，尽量从相邻的同学那里获取，从而进行判断即可． 本题主要考查了逻辑推理，先求出游戏成功时每人手里的数量是本题解题的关键．",
+    "normalized_analysis": "解：(1)游戏结束时，每人手中的徽章数为：$\\frac{7+11+3+14+15}{5}=10$(个)， $\\because$游戏成功， $\\therefore$A从B那里得到了$10-(7-1)=4$，E给D的徽章数为：$15+1-10=6$， $\\therefore$此时，B手里有$11-4=7$，D手里有$14+6=20$， $\\therefore$D给C的数量为：$20-10=10$，C给B的数量为：$10-7=3$， $\\therefore$流动徽章数为：$1+4+6+10+3=24$(枚)； 故答案为：$24$； (2)要想一轮成功，A需要接受$3$个，B需要给出$1$个，C需要接受$7$个，D需要给出$4$个，E需要给出五个， $\\because 1+4 < 7$， $\\therefore$C需要从E那里得到徽章， 而E到C的最短距离是E$\\rightarrow$D$\\rightarrow$C， $\\therefore$当E给A三个，AB没有赠与，B给C$1$个，D给C$4$个，E通过D给C两个，流动徽章最少， 即$3+1+4+2+2=12$. 故答案为：$12$. (1)先求出成功时，每人手上的数量，从E，A开始推理，依次判断AB，ED，DC，CB之间交流的数量，求和即为所求； (2)先判断每个人需要给出或接受的数量，尽量从相邻的同学那里获取，从而进行判断即可． 本题主要考查了逻辑推理，先求出游戏成功时每人手里的数量是本题解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需在给定规则下，应用数学运算和逻辑推理解决具体问题。",
     "core_literacy_primary": "推理能力",
@@ -5251,7 +5251,7 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "解： ， ， ， ， ， ， 所以它的所有负整数解为 ， ．",
-    "stem": "解不等式：\\dfrac{5x-4}{2}\\leqslant 4x+1，并写出它的所有负整数解．",
+    "stem": "解不等式：\\frac{5x-4}{2}\\leqslant 4x+1，并写出它的所有负整数解．",
     "stem_images": [],
     "options": [],
     "analysis": "【分析】本题考查了解一元一次不等式，熟练掌握不等式的解法是解题关键．按照去分母、去括号、移项、合并同类项、系数化为1的步骤解不等式，再求出它的所有负整数解即可得．",
@@ -5268,7 +5268,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "解不等式：$\\dfrac{5x-4}{2}\\leqslant 4x+1$，并写出它的所有负整数解．",
+    "normalized_stem": "解不等式：$\\frac{5x-4}{2}\\leqslant 4x+1$，并写出它的所有负整数解．",
     "normalized_analysis": "【分析】本题考查了解一元一次不等式，熟练掌握不等式的解法是解题关键．按照去分母、去括号、移项、合并同类项、系数化为$1$的步骤解不等式，再求出它的所有负整数解即可得．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用解一元一次不等式的标准步骤来求解具体问题。",
@@ -5285,10 +5285,10 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "9； 点P的坐标为（-5，-2），（-2，-5）或（5，5）； 3≤a≤6．",
-    "stem": "在平面直角坐标系中，对于点P_{1}(x_{1},y_{1})，P_{2}(x_{2},y_{2})，…，P_{n}(x_{n},y_{n})，给出如下定义：把x_{1}+y_{1}，x_{2}+y_{2}，⋯，x_{n}+y_{n}这n个数中的最大值记为d_{\\max}，最小值记为d_{\\min}，将d_{\\max}-d_{\\min}称为点P_{1}，P_{2}，⋯，P_{n}的“特征值”，记作T[P_{1},P_{2},⋯,P_{n}]. 已知点A(3,3)，B(-\\dfrac{5}{2},-\\dfrac{1}{2})，C(-6,7).正方形DEFG的顶点坐标分别是D(-a,a)，E(-a,-a)，F(a,-a)，G(a,a)，其中a>0. (1)T[A,B,C]= ______； (2)当a=5时，若点P在正方形DEFG的边上，且T[A,B,C,P]=13，直接写出点P的坐标； (3)点Q是正方形DEFG的边FG上的动点，将T[A,Q]的最大值记为T_{1}，T[A,Q]的最小值记为T_{2}，若T_{1}-T_{2}=6，直接写出a的取值范围.",
+    "stem": "在平面直角坐标系中，对于点P_{1}(x_{1},y_{1})，P_{2}(x_{2},y_{2})，…，P_{n}(x_{n},y_{n})，给出如下定义：把x_{1}+y_{1}，x_{2}+y_{2}，⋯，x_{n}+y_{n}这n个数中的最大值记为d_{\\max}，最小值记为d_{\\min}，将d_{\\max}-d_{\\min}称为点P_{1}，P_{2}，⋯，P_{n}的“特征值”，记作T[P_{1},P_{2},⋯,P_{n}]. 已知点A(3,3)，B(-\\frac{5}{2},-\\frac{1}{2})，C(-6,7).正方形DEFG的顶点坐标分别是D(-a,a)，E(-a,-a)，F(a,-a)，G(a,a)，其中a>0. (1)T[A,B,C]= ______； (2)当a=5时，若点P在正方形DEFG的边上，且T[A,B,C,P]=13，直接写出点P的坐标； (3)点Q是正方形DEFG的边FG上的动点，将T[A,Q]的最大值记为T_{1}，T[A,Q]的最小值记为T_{2}，若T_{1}-T_{2}=6，直接写出a的取值范围.",
     "stem_images": [],
     "options": [],
-    "analysis": "(1)∵A(3,3)，B(-\\dfrac{5}{2},-\\dfrac{1}{2})，C(-6,7)， ∴3+3=6，-\\dfrac{5}{2}-\\dfrac{1}{2}=-3，-6+7=1， ∴d_{\\max}=6，d_{\\min}=-3， 则T[A,B,C]=6-(-3)=9. 故答案为：9. (2)∵正方形DEFG的顶点坐标分别是D(-a,a)，E(-a,-a)，F(a,-a)，G(a,a)，a=5， ∴D(-5,5)，E(-5,-5)，F(5,-5)，G(5,5)， 设点P的坐标为(m,n)， ①当点P在DE上时，m=-5时，则m+n=n-5，\\(-5 < n < 5\\)， \\(∴-10 < n-5 < 0\\)， ∵A(3,3)，B(-\\dfrac{5}{2},-\\dfrac{1}{2})，C(-6,7)，T[A,B,C]=6-(-3)=9， T[A,B,C,P]=13，d_{\\min}=n-5，即6-(n-5)=13，解得n=-2. ∴点P的坐标为(-5,-2). ②当点P在EF上时，n=-5时，则m+n=m-5，\\(-5 < m < 5\\)， \\(∴-10 < m-5 < 0\\)， ∵A(3,3)，B(-\\dfrac{5}{2},-\\dfrac{1}{2})C(-6,7)，T[A,B,C]=6-(-3)=9，T[A,B,C,P]=13， ∴d_{\\min}=m-5，即6-(m-5)=13，解得m=-2. ∴点P的坐标为(-2,-5). ③当点P在FG上时，m=5时，则m+n=5+n，\\(-5 < n < 5\\)， \\(∴0 < 5+n < 10\\$\\)， ∵A(3,3)，B(-\\dfrac{5}{2},-\\dfrac{1}{2})C(-6,7)，T[A,B,C]=6-(-3)=9，T[A,B,C,P]=13， ∴d_{\\max}=n+5，即n+5-(-3)=13，解得n=5. ∴点P的坐标为(5,5). ④当点P在GD上时，同理可得点P的坐标为(5,5). 综上所述，点P的坐标为 (-5,-2)，(-2,-5)或 (5,5). 故答案为：点P的坐标为(-5,-2)，(-2,-5)或(5,5). (3)∵点Q是正方形DEFG的边FG上的动点，F(a,-a)，G(a,a)，A(3,3)， ∴设点Q的坐标为(a,b)，则-a\\leqslant b\\leqslant a， ∴0\\leqslant a+b\\leqslant 2a， ∴T[A,Q]=|6-(a+b)|，且6-2a\\leqslant 6-(a+b)\\leqslant 6， 将T[A,Q]的最大值记为T_{1}T[A,Q]的最小值记为T_{2}且T_{1}-T_{2}=6. ∴-6\\leqslant 6-2a\\leqslant 0， 解得3\\leqslant a\\leqslant 6. (1)根据“特征值”的定义，即可解答． (2)先求出正方形的顶点坐标，再逐一分类讨论，即可解答； (3)设点Q的坐标为(a,b)，则-a\\leqslant b\\leqslant a，求出0\\leqslant a+b\\leqslant 2a，根据“特征值”的定义可得T[A,Q]=|6-(a+b)|，且6-2a\\leqslant 6-(a+b)\\leqslant 6，由将T[A,Q]的最大值记为T_{1}T[A,Q]的最小值记为T_{2}且T_{1}-T_{2}=6.列出一元一次不等式组-6\\leqslant 6-2a\\leqslant 0，即可解答． 本题考查四边形综合，正方形的判定与性质，一元一次不等式(组)，一元一次方程，点的坐标，理解“特征值”是解题的关键．",
+    "analysis": "(1)∵A(3,3)，B(-\\frac{5}{2},-\\frac{1}{2})，C(-6,7)， ∴3+3=6，-\\frac{5}{2}-\\frac{1}{2}=-3，-6+7=1， ∴d_{\\max}=6，d_{\\min}=-3， 则T[A,B,C]=6-(-3)=9. 故答案为：9. (2)∵正方形DEFG的顶点坐标分别是D(-a,a)，E(-a,-a)，F(a,-a)，G(a,a)，a=5， ∴D(-5,5)，E(-5,-5)，F(5,-5)，G(5,5)， 设点P的坐标为(m,n)， ①当点P在DE上时，m=-5时，则m+n=n-5，\\(-5 < n < 5\\)， \\(∴-10 < n-5 < 0\\)， ∵A(3,3)，B(-\\frac{5}{2},-\\frac{1}{2})，C(-6,7)，T[A,B,C]=6-(-3)=9， T[A,B,C,P]=13，d_{\\min}=n-5，即6-(n-5)=13，解得n=-2. ∴点P的坐标为(-5,-2). ②当点P在EF上时，n=-5时，则m+n=m-5，\\(-5 < m < 5\\)， \\(∴-10 < m-5 < 0\\)， ∵A(3,3)，B(-\\frac{5}{2},-\\frac{1}{2})C(-6,7)，T[A,B,C]=6-(-3)=9，T[A,B,C,P]=13， ∴d_{\\min}=m-5，即6-(m-5)=13，解得m=-2. ∴点P的坐标为(-2,-5). ③当点P在FG上时，m=5时，则m+n=5+n，\\(-5 < n < 5\\)， \\(∴0 < 5+n < 10\\$\\)， ∵A(3,3)，B(-\\frac{5}{2},-\\frac{1}{2})C(-6,7)，T[A,B,C]=6-(-3)=9，T[A,B,C,P]=13， ∴d_{\\max}=n+5，即n+5-(-3)=13，解得n=5. ∴点P的坐标为(5,5). ④当点P在GD上时，同理可得点P的坐标为(5,5). 综上所述，点P的坐标为 (-5,-2)，(-2,-5)或 (5,5). 故答案为：点P的坐标为(-5,-2)，(-2,-5)或(5,5). (3)∵点Q是正方形DEFG的边FG上的动点，F(a,-a)，G(a,a)，A(3,3)， ∴设点Q的坐标为(a,b)，则-a\\leqslant b\\leqslant a， ∴0\\leqslant a+b\\leqslant 2a， ∴T[A,Q]=|6-(a+b)|，且6-2a\\leqslant 6-(a+b)\\leqslant 6， 将T[A,Q]的最大值记为T_{1}T[A,Q]的最小值记为T_{2}且T_{1}-T_{2}=6. ∴-6\\leqslant 6-2a\\leqslant 0， 解得3\\leqslant a\\leqslant 6. (1)根据“特征值”的定义，即可解答． (2)先求出正方形的顶点坐标，再逐一分类讨论，即可解答； (3)设点Q的坐标为(a,b)，则-a\\leqslant b\\leqslant a，求出0\\leqslant a+b\\leqslant 2a，根据“特征值”的定义可得T[A,Q]=|6-(a+b)|，且6-2a\\leqslant 6-(a+b)\\leqslant 6，由将T[A,Q]的最大值记为T_{1}T[A,Q]的最小值记为T_{2}且T_{1}-T_{2}=6.列出一元一次不等式组-6\\leqslant 6-2a\\leqslant 0，即可解答． 本题考查四边形综合，正方形的判定与性质，一元一次不等式(组)，一元一次方程，点的坐标，理解“特征值”是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "四边形综合"
@@ -5306,8 +5306,8 @@
     "xkb_knowledges": [
       "理解矩形、菱形、正  方形之间的包含关系"
     ],
-    "normalized_stem": "在平面直角坐标系中，对于点 $P_{1}(x_{1},y_{1})$，$P_{2}(x_{2},y_{2})$，…，$P_{n}(x_{n},y_{n})$，给出如下定义：把 $x_{1}+y_{1}$，$x_{2}+y_{2}$，$\\cdots$，$x_{n}+y_{n}$ 这 $n$ 个数中的最大值记为 $d_{\\max}$，最小值记为 $d_{\\min}$，将 $d_{\\max}-d_{\\min}$ 称为点 $P_{1}$，$P_{2}$，$\\cdots$，$P_{n}$ 的“特征值”，记作 $T[P_{1},P_{2},\\cdots,P_{n}]$。已知点 $A(3,3)$，$B(-\\dfrac{5}{2},-\\dfrac{1}{2})$，$C(-6,7)$。正方形 $DEFG$ 的顶点坐标分别是 $D(-a,a)$，$E(-a,-a)$，$F(a,-a)$，$G(a,a)$，其中 $a>0$。 (1)$T[A,B,C]=$ ______； (2)当 $a=5$ 时，若点 $P$ 在正方形 $DEFG$ 的边上，且 $T[A,B,C,P]=13$，直接写出点 $P$ 的坐标； (3)点 $Q$ 是正方形 $DEFG$ 的边 $FG$ 上的动点，将 $T[A,Q]$ 的最大值记为 $T_{1}$，$T[A,Q]$ 的最小值记为 $T_{2}$，若 $T_{1}-T_{2}=6$，直接写出 $a$ 的取值范围。",
-    "normalized_analysis": "(1)∵ $A(3,3)$，$B(-\\dfrac{5}{2},-\\dfrac{1}{2})$，$C(-6,7)$，∴ $3+3=6$，$-\\dfrac{5}{2}-\\dfrac{1}{2}=-3$，$-6+7=1$，∴ $d_{\\max}=6$，$d_{\\min}=-3$，则 $T[A,B,C]=6-(-3)=9$。故答案为：$9$。 (2)∵正方形 $DEFG$ 的顶点坐标分别是 $D(-a,a)$，$E(-a,-a)$，$F(a,-a)$，$G(a,a)$，$a=5$，∴ $D(-5,5)$，$E(-5,-5)$，$F(5,-5)$，$G(5,5)$，设点 $P$ 的坐标为 $(m,n)$，①当点 $P$ 在 $DE$ 上时，$m=-5$ 时，则 $m+n=n-5$，$-5 < n < 5$，∴ $-10 < n-5 < 0$，∵ $A(3,3)$，$B(-\\dfrac{5}{2},-\\dfrac{1}{2})$，$C(-6,7)$，$T[A,B,C]=6-(-3)=9$，$T[A,B,C,P]=13$，$d_{\\min}=n-5$，即 $6-(n-5)=13$，解得 $n=-2$。∴点 $P$ 的坐标为 $(-5,-2)$。②当点 $P$ 在 $EF$ 上时，$n=-5$ 时，则 $m+n=m-5$，$-5 < m < 5$，∴ $-10 < m-5 < 0$，∵ $A(3,3)$，$B(-\\dfrac{5}{2},-\\dfrac{1}{2})$，$C(-6,7)$，$T[A,B,C]=6-(-3)=9$，$T[A,B,C,P]=13$，∴ $d_{\\min}=m-5$，即 $6-(m-5)=13$，解得 $m=-2$。∴点 $P$ 的坐标为 $(-2,-5)$。③当点 $P$ 在 $FG$ 上时，$m=5$ 时，则 $m+n=5+n$，$-5 < n < 5$，∴ $0 < 5+n < 10$，∵ $A(3,3)$，$B(-\\dfrac{5}{2},-\\dfrac{1}{2})$，$C(-6,7)$，$T[A,B,C]=6-(-3)=9$，$T[A,B,C,P]=13$，∴ $d_{\\max}=n+5$，即 $n+5-(-3)=13$，解得 $n=5$。∴点 $P$ 的坐标为 $(5,5)$。④当点 $P$ 在 $GD$ 上时，同理可得点 $P$ 的坐标为 $(5,5)$。综上所述，点 $P$ 的坐标为 $(-5,-2)$，$(-2,-5)$ 或 $(5,5)$。故答案为：点 $P$ 的坐标为 $(-5,-2)$，$(-2,-5)$ 或 $(5,5)$。 (3)∵点 $Q$ 是正方形 $DEFG$ 的边 $FG$ 上的动点，$F(a,-a)$，$G(a,a)$，$A(3,3)$，∴设点 $Q$ 的坐标为 $(a,b)$，则 $-a\\leqslant b\\leqslant a$，∴ $0\\leqslant a+b\\leqslant 2a$，∴ $T[A,Q]=|6-(a+b)|$，且 $6-2a\\leqslant 6-(a+b)\\leqslant 6$，将 $T[A,Q]$ 的最大值记为 $T_{1}$，$T[A,Q]$ 的最小值记为 $T_{2}$ 且 $T_{1}-T_{2}=6$。∴ $-6\\leqslant 6-2a\\leqslant 0$，解得 $3\\leqslant a\\leqslant 6$。 (1)根据“特征值”的定义，即可解答。 (2)先求出正方形的顶点坐标，再逐一分类讨论，即可解答； (3)设点 $Q$ 的坐标为 $(a,b)$，则 $-a\\leqslant b\\leqslant a$，求出 $0\\leqslant a+b\\leqslant 2a$，根据“特征值”的定义可得 $T[A,Q]=|6-(a+b)|$，且 $6-2a\\leqslant 6-(a+b)\\leqslant 6$，由将 $T[A,Q]$ 的最大值记为 $T_{1}$，$T[A,Q]$ 的最小值记为 $T_{2}$ 且 $T_{1}-T_{2}=6$。列出一元一次不等式组 $-6\\leqslant 6-2a\\leqslant 0$，即可解答。本题考查四边形综合，正方形的判定与性质，一元一次不等式(组)，一元一次方程，点的坐标，理解“特征值”是解题的关键。",
+    "normalized_stem": "在平面直角坐标系中，对于点 $P_{1}(x_{1},y_{1})$，$P_{2}(x_{2},y_{2})$，…，$P_{n}(x_{n},y_{n})$，给出如下定义：把 $x_{1}+y_{1}$，$x_{2}+y_{2}$，$\\cdots$，$x_{n}+y_{n}$ 这 $n$ 个数中的最大值记为 $d_{\\max}$，最小值记为 $d_{\\min}$，将 $d_{\\max}-d_{\\min}$ 称为点 $P_{1}$，$P_{2}$，$\\cdots$，$P_{n}$ 的“特征值”，记作 $T[P_{1},P_{2},\\cdots,P_{n}]$。已知点 $A(3,3)$，$B(-\\frac{5}{2},-\\frac{1}{2})$，$C(-6,7)$。正方形 $DEFG$ 的顶点坐标分别是 $D(-a,a)$，$E(-a,-a)$，$F(a,-a)$，$G(a,a)$，其中 $a>0$。 (1)$T[A,B,C]=$ ______； (2)当 $a=5$ 时，若点 $P$ 在正方形 $DEFG$ 的边上，且 $T[A,B,C,P]=13$，直接写出点 $P$ 的坐标； (3)点 $Q$ 是正方形 $DEFG$ 的边 $FG$ 上的动点，将 $T[A,Q]$ 的最大值记为 $T_{1}$，$T[A,Q]$ 的最小值记为 $T_{2}$，若 $T_{1}-T_{2}=6$，直接写出 $a$ 的取值范围。",
+    "normalized_analysis": "(1)∵ $A(3,3)$，$B(-\\frac{5}{2},-\\frac{1}{2})$，$C(-6,7)$，∴ $3+3=6$，$-\\frac{5}{2}-\\frac{1}{2}=-3$，$-6+7=1$，∴ $d_{\\max}=6$，$d_{\\min}=-3$，则 $T[A,B,C]=6-(-3)=9$。故答案为：$9$。 (2)∵正方形 $DEFG$ 的顶点坐标分别是 $D(-a,a)$，$E(-a,-a)$，$F(a,-a)$，$G(a,a)$，$a=5$，∴ $D(-5,5)$，$E(-5,-5)$，$F(5,-5)$，$G(5,5)$，设点 $P$ 的坐标为 $(m,n)$，①当点 $P$ 在 $DE$ 上时，$m=-5$ 时，则 $m+n=n-5$，$-5 < n < 5$，∴ $-10 < n-5 < 0$，∵ $A(3,3)$，$B(-\\frac{5}{2},-\\frac{1}{2})$，$C(-6,7)$，$T[A,B,C]=6-(-3)=9$，$T[A,B,C,P]=13$，$d_{\\min}=n-5$，即 $6-(n-5)=13$，解得 $n=-2$。∴点 $P$ 的坐标为 $(-5,-2)$。②当点 $P$ 在 $EF$ 上时，$n=-5$ 时，则 $m+n=m-5$，$-5 < m < 5$，∴ $-10 < m-5 < 0$，∵ $A(3,3)$，$B(-\\frac{5}{2},-\\frac{1}{2})$，$C(-6,7)$，$T[A,B,C]=6-(-3)=9$，$T[A,B,C,P]=13$，∴ $d_{\\min}=m-5$，即 $6-(m-5)=13$，解得 $m=-2$。∴点 $P$ 的坐标为 $(-2,-5)$。③当点 $P$ 在 $FG$ 上时，$m=5$ 时，则 $m+n=5+n$，$-5 < n < 5$，∴ $0 < 5+n < 10$，∵ $A(3,3)$，$B(-\\frac{5}{2},-\\frac{1}{2})$，$C(-6,7)$，$T[A,B,C]=6-(-3)=9$，$T[A,B,C,P]=13$，∴ $d_{\\max}=n+5$，即 $n+5-(-3)=13$，解得 $n=5$。∴点 $P$ 的坐标为 $(5,5)$。④当点 $P$ 在 $GD$ 上时，同理可得点 $P$ 的坐标为 $(5,5)$。综上所述，点 $P$ 的坐标为 $(-5,-2)$，$(-2,-5)$ 或 $(5,5)$。故答案为：点 $P$ 的坐标为 $(-5,-2)$，$(-2,-5)$ 或 $(5,5)$。 (3)∵点 $Q$ 是正方形 $DEFG$ 的边 $FG$ 上的动点，$F(a,-a)$，$G(a,a)$，$A(3,3)$，∴设点 $Q$ 的坐标为 $(a,b)$，则 $-a\\leqslant b\\leqslant a$，∴ $0\\leqslant a+b\\leqslant 2a$，∴ $T[A,Q]=|6-(a+b)|$，且 $6-2a\\leqslant 6-(a+b)\\leqslant 6$，将 $T[A,Q]$ 的最大值记为 $T_{1}$，$T[A,Q]$ 的最小值记为 $T_{2}$ 且 $T_{1}-T_{2}=6$。∴ $-6\\leqslant 6-2a\\leqslant 0$，解得 $3\\leqslant a\\leqslant 6$。 (1)根据“特征值”的定义，即可解答。 (2)先求出正方形的顶点坐标，再逐一分类讨论，即可解答； (3)设点 $Q$ 的坐标为 $(a,b)$，则 $-a\\leqslant b\\leqslant a$，求出 $0\\leqslant a+b\\leqslant 2a$，根据“特征值”的定义可得 $T[A,Q]=|6-(a+b)|$，且 $6-2a\\leqslant 6-(a+b)\\leqslant 6$，由将 $T[A,Q]$ 的最大值记为 $T_{1}$，$T[A,Q]$ 的最小值记为 $T_{2}$ 且 $T_{1}-T_{2}=6$。列出一元一次不等式组 $-6\\leqslant 6-2a\\leqslant 0$，即可解答。本题考查四边形综合，正方形的判定与性质，一元一次不等式(组)，一元一次方程，点的坐标，理解“特征值”是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用新定义的“特征值”概念，在具体几何情境中解决问题。",
     "core_literacy_primary": "模型观念",
@@ -5519,7 +5519,7 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "（1）解：①∵ ， ECD= CAB, ∴ ，即 ； ②∵ ECD= CAB, ∴ ， ∵CD=AB, ∴ ， ∴ ． ∵ ， ∴ ， ∴ ， ∴ ， ∴ ； （2）解： ， 证明：如图，在线段 上取 ， ∵ ， ， ∴ ， ∴ ． 设 ，则 ， ∴ ， ∴ ， ∴ ， ∴ ， ∴ ．",
-    "stem": "在Rt\\vartriangle ABC 中，\\angle ABC=90{^\\circ} ，点D在边AC 上，CD=AB .点E在\\vartriangle ABC 的边上或内部，连接CE、DE ，\\angle ECD=\\angle CAB,\\angle EDC=\\dfrac{1}{2}\\angle ACB . (1)如图1，当点E在边BC 上时，连接BD . ①\\angle ACB= ________°； ②求证：DE=BD ； (2)如图2，当点E在\\vartriangle ABC 的内部时，用等式表示线段CE,BC,AC 的数量关系，并证明．",
+    "stem": "在Rt\\vartriangle ABC 中，\\angle ABC=90{^\\circ} ，点D在边AC 上，CD=AB .点E在\\vartriangle ABC 的边上或内部，连接CE、DE ，\\angle ECD=\\angle CAB,\\angle EDC=\\frac{1}{2}\\angle ACB . (1)如图1，当点E在边BC 上时，连接BD . ①\\angle ACB= ________°； ②求证：DE=BD ； (2)如图2，当点E在\\vartriangle ABC 的内部时，用等式表示线段CE,BC,AC 的数量关系，并证明．",
     "stem_images": [
       "images/d228ad66_23_stem_0.png"
     ],
@@ -5542,7 +5542,7 @@
     "xkb_knowledges": [
       "证明定理：两角分别相等且其中一组等角的对边相等的两个三 角形全等"
     ],
-    "normalized_stem": "在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle ABC=90^{\\circ}$，点 $D$ 在边 $AC$ 上，$CD=AB$。点 $E$ 在 $\\triangle ABC$ 的边上或内部，连接 $CE$、$DE$，$\\angle ECD=\\angle CAB$，$\\angle EDC=\\dfrac{1}{2}\\angle ACB$。 (1)如图1，当点 $E$ 在边 $BC$ 上时，连接 $BD$。 ① $\\angle ACB=$ ________$^{\\circ}$； ②求证：$DE=BD$； (2)如图2，当点 $E$ 在 $\\triangle ABC$ 的内部时，用等式表示线段 $CE,BC,AC$ 的数量关系，并证明。",
+    "normalized_stem": "在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle ABC=90^{\\circ}$，点 $D$ 在边 $AC$ 上，$CD=AB$。点 $E$ 在 $\\triangle ABC$ 的边上或内部，连接 $CE$、$DE$，$\\angle ECD=\\angle CAB$，$\\angle EDC=\\frac{1}{2}\\angle ACB$。 (1)如图1，当点 $E$ 在边 $BC$ 上时，连接 $BD$。 ① $\\angle ACB=$ ________$^{\\circ}$； ②求证：$DE=BD$； (2)如图2，当点 $E$ 在 $\\triangle ABC$ 的内部时，用等式表示线段 $CE,BC,AC$ 的数量关系，并证明。",
     "normalized_analysis": "【分析】(1)①根据三角形内角和定理结合题意即可求得 $\\angle ACB=45^{\\circ}$； ②根据题意易证 $AB=BC$，即得出 $BC=CD$，结合三角形内角和定理和等腰三角形的性质可求出 $\\angle CBD=\\angle CDB=67.5^{\\circ}$。由题意可求出 $\\angle EDC=22.5^{\\circ}$，根据三角形外角性质得出 $\\angle CBD=\\angle BED=67.5^{\\circ}$，即得出 $DE=BD$； (2)在线段 $AC$ 上取 $AF=CE$，易证 $\\triangle ECD \\cong \\triangle FAB$（$SAS$），得出 $\\angle ABF=\\angle CDE$。设 $\\angle ABF=\\angle CDE=x$，则 $\\angle ACB=2x$，可求出 $\\angle FBC=\\angle BFC=90^{\\circ}-x$，即得出 $BC=FC$，从而得 $AC=AF+CF=CE+BC$。 【点睛】本题考查等腰三角形的判定和性质，三角形内角和定理，三角形外角的性质，三角形全等的判定和性质，熟练掌握等腰三角形的判定和性质是解题关键。",
     "bloom_level": "应用",
     "bloom_reason": "需要运用三角形全等、等腰三角形等几何知识进行证明和关系推导。",
@@ -5646,7 +5646,7 @@
         "images": []
       }
     ],
-    "analysis": "解：由折线统计图可以看出甲成绩的波动小于乙成绩的波动，即甲的成绩比乙的成绩稳定，故选项A正确，符合题意； 由折线统计图可以看，甲的最好成绩为9，乙的最好成绩为10， 所以甲的最好成绩比乙的最好成绩低，故选项B不正确，不符合题意； 甲的成绩的平均数为\\dfrac{3×8+9+7}{5}=8(个)，乙的成绩的平均数为\\dfrac{6+7+10+8+9}{5}=8(个)， 所以甲的成绩的平均数与乙的成绩的平均数相同，故选项C不正确，不符合题意； 甲的成绩的中位数与乙的成绩的中位数均为8个，故选项D不正确，不符合题意． 故选：A. 根据统计量的确定方法确定相应的统计量，再判断即可． 本题考查了折线统计图，平均数、中位数与方差．从折线图中得到必要的信息是解决问题的关键．",
+    "analysis": "解：由折线统计图可以看出甲成绩的波动小于乙成绩的波动，即甲的成绩比乙的成绩稳定，故选项A正确，符合题意； 由折线统计图可以看，甲的最好成绩为9，乙的最好成绩为10， 所以甲的最好成绩比乙的最好成绩低，故选项B不正确，不符合题意； 甲的成绩的平均数为\\frac{3×8+9+7}{5}=8(个)，乙的成绩的平均数为\\frac{6+7+10+8+9}{5}=8(个)， 所以甲的成绩的平均数与乙的成绩的平均数相同，故选项C不正确，不符合题意； 甲的成绩的中位数与乙的成绩的中位数均为8个，故选项D不正确，不符合题意． 故选：A. 根据统计量的确定方法确定相应的统计量，再判断即可． 本题考查了折线统计图，平均数、中位数与方差．从折线图中得到必要的信息是解决问题的关键．",
     "analysis_images": [],
     "knowledges": [
       "折线统计图",
@@ -5673,7 +5673,7 @@
       "知道平均数、中位数、众数、加权平均数是对数据集中趋势的描述"
     ],
     "normalized_stem": "如图是甲、乙两名同学的$5$次引体向上练习成绩的折线统计图，下列判断正确的是$(\\quad)$ A. 甲的成绩比乙的成绩稳定 B. 甲的最好成绩比乙的最好成绩高 C. 甲的成绩的平均数比乙的成绩的平均数大 D. 甲的成绩的中位数比乙的成绩的中位数大",
-    "normalized_analysis": "解：由折线统计图可以看出甲成绩的波动小于乙成绩的波动，即甲的成绩比乙的成绩稳定，故选项A正确，符合题意； 由折线统计图可以看，甲的最好成绩为$9$，乙的最好成绩为$10$， 所以甲的最好成绩比乙的最好成绩低，故选项B不正确，不符合题意； 甲的成绩的平均数为$\\dfrac{3\\times8+9+7}{5}=8$(个)，乙的成绩的平均数为$\\dfrac{6+7+10+8+9}{5}=8$(个)， 所以甲的成绩的平均数与乙的成绩的平均数相同，故选项C不正确，不符合题意； 甲的成绩的中位数与乙的成绩的中位数均为$8$个，故选项D不正确，不符合题意． 故选：A. 根据统计量的确定方法确定相应的统计量，再判断即可． 本题考查了折线统计图，平均数、中位数与方差．从折线图中得到必要的信息是解决问题的关键．",
+    "normalized_analysis": "解：由折线统计图可以看出甲成绩的波动小于乙成绩的波动，即甲的成绩比乙的成绩稳定，故选项A正确，符合题意； 由折线统计图可以看，甲的最好成绩为$9$，乙的最好成绩为$10$， 所以甲的最好成绩比乙的最好成绩低，故选项B不正确，不符合题意； 甲的成绩的平均数为$\\frac{3\\times8+9+7}{5}=8$(个)，乙的成绩的平均数为$\\frac{6+7+10+8+9}{5}=8$(个)， 所以甲的成绩的平均数与乙的成绩的平均数相同，故选项C不正确，不符合题意； 甲的成绩的中位数与乙的成绩的中位数均为$8$个，故选项D不正确，不符合题意． 故选：A. 根据统计量的确定方法确定相应的统计量，再判断即可． 本题考查了折线统计图，平均数、中位数与方差．从折线图中得到必要的信息是解决问题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "需要应用统计量（方差、平均数、中位数）的概念分析折线图数据并判断结论。",
     "core_literacy_primary": "数据观念",
@@ -5695,7 +5695,7 @@
       "images/468b06de_25_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)补全图形，如图1即为所求； ∵四边形ABCD是正方形， ∴AB=BC，∠ABC=∠C=∠BAD=90°，∠ABD=∠CBD=45°， ∵∠DBF=α， ∴∠FBC=45°-α， ∵AE⊥BE， ∴∠AEB=90°=∠C=∠ABC， ∴∠FBC=90°-∠ABE=∠BAE=45°-α， ∴∠DAE=90°-45°+α=45°+α； (2)AB^{2}+MN^{2}=2BN^{2}. 证明：如图2，连接CN，AN，AC，AN交BD于O， ∵四边形ABCD是正方形， ∴∠ACB=45°， 由(1)得：∠FBC=∠BAE=45°-α，AB=BC， 在\\triangle ABM和\\triangle BCN中， \\begin{cases}AB=BC\\\\ ∠BAM=∠CBN\\\\ AM=BN\\end{cases}， ∴\\triangle ABM≌\\triangle BCN(SAS)， ∴∠ABM=∠BCN=45°， ∴∠ACB=∠BCN， ∴A，O，N，C共线， ∵四边形ABCD是正方形， ∴OA=OB，AC⊥BD，∠BAC=45°， ∴∠AOM=∠BON=90°， 在直角三角形AOB中，由勾股定理得：AB^{2}=OA^{2}+OB^{2}=2OB^{2}， ∵∠FBC=∠BAE=45°-α， ∴∠OAM=∠OBN=α， 在\\triangle AOM和\\triangle BON中， \\begin{cases}∠AOM=∠BON\\\\ OA=OB\\\\ ∠OAM=∠OBN\\end{cases}， ∴\\triangle AOM≌\\triangle BON(ASA)， ∴OM=ON， ∴MN^{2}=OM^{2}+ON^{2}=2ON^{2}， ∵AC⊥BD， ∴BN^{2}=BO^{2}+ON^{2}， ∴BN^{2}=\\dfrac{1}{2}AB^{2}+\\dfrac{1}{2}MN^{2}， ∴AB^{2}+MN^{2}=2BN^{2}； (3)线段CE长度的最小值为2\\sqrt{5}-2.理由如下： 如图3，取AB的中点K，连接KE，CE，CK， ∵AB=4，∠AEB=90°，四边形ABCD是正方形， ∴AK=BK=EK=2，∠ABC=90°，AB=BC=4， ∴CK=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}， ∵CE\\geqslant CK-EK， ∴线段CE长度的最小值为2\\sqrt{5}-2. (1)根据题意先补全图形，根据∠ABD=∠CBD=45°，∠FBC=90°-∠ABE=∠BAE=45°-α，再进一步可得答案； (2)如图2，连接CN，AN，AC，AN交BD于O，证明\\triangle ABM≌\\triangle BCN，可得A，O，N，C共线，证明\\triangle AOM≌\\triangle BON，再进一步利用勾股定理解答即可； (3)如图3，取AB的中点K，连接KE，CE，CK，证明AK=BK=EK=2，∠ABC=90°，AB=BC=4，求解CK=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}，结合CE\\geqslant CK-EK，可得线段CE长度的最小值为2\\sqrt{5}-2. 本题属于四边形综合题，主要考查的是互余的性质，全等三角形的判定与性质，勾股定理的应用，正方形的性质，等腰直角三角形的判定与性质，化为最简二次根式，添加合适的辅助线是解答本题的关键．",
+    "analysis": "(1)补全图形，如图1即为所求； ∵四边形ABCD是正方形， ∴AB=BC，∠ABC=∠C=∠BAD=90°，∠ABD=∠CBD=45°， ∵∠DBF=α， ∴∠FBC=45°-α， ∵AE⊥BE， ∴∠AEB=90°=∠C=∠ABC， ∴∠FBC=90°-∠ABE=∠BAE=45°-α， ∴∠DAE=90°-45°+α=45°+α； (2)AB^{2}+MN^{2}=2BN^{2}. 证明：如图2，连接CN，AN，AC，AN交BD于O， ∵四边形ABCD是正方形， ∴∠ACB=45°， 由(1)得：∠FBC=∠BAE=45°-α，AB=BC， 在\\triangle ABM和\\triangle BCN中， \\begin{cases}AB=BC\\\\ ∠BAM=∠CBN\\\\ AM=BN\\end{cases}， ∴\\triangle ABM≌\\triangle BCN(SAS)， ∴∠ABM=∠BCN=45°， ∴∠ACB=∠BCN， ∴A，O，N，C共线， ∵四边形ABCD是正方形， ∴OA=OB，AC⊥BD，∠BAC=45°， ∴∠AOM=∠BON=90°， 在直角三角形AOB中，由勾股定理得：AB^{2}=OA^{2}+OB^{2}=2OB^{2}， ∵∠FBC=∠BAE=45°-α， ∴∠OAM=∠OBN=α， 在\\triangle AOM和\\triangle BON中， \\begin{cases}∠AOM=∠BON\\\\ OA=OB\\\\ ∠OAM=∠OBN\\end{cases}， ∴\\triangle AOM≌\\triangle BON(ASA)， ∴OM=ON， ∴MN^{2}=OM^{2}+ON^{2}=2ON^{2}， ∵AC⊥BD， ∴BN^{2}=BO^{2}+ON^{2}， ∴BN^{2}=\\frac{1}{2}AB^{2}+\\frac{1}{2}MN^{2}， ∴AB^{2}+MN^{2}=2BN^{2}； (3)线段CE长度的最小值为2\\sqrt{5}-2.理由如下： 如图3，取AB的中点K，连接KE，CE，CK， ∵AB=4，∠AEB=90°，四边形ABCD是正方形， ∴AK=BK=EK=2，∠ABC=90°，AB=BC=4， ∴CK=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}， ∵CE\\geqslant CK-EK， ∴线段CE长度的最小值为2\\sqrt{5}-2. (1)根据题意先补全图形，根据∠ABD=∠CBD=45°，∠FBC=90°-∠ABE=∠BAE=45°-α，再进一步可得答案； (2)如图2，连接CN，AN，AC，AN交BD于O，证明\\triangle ABM≌\\triangle BCN，可得A，O，N，C共线，证明\\triangle AOM≌\\triangle BON，再进一步利用勾股定理解答即可； (3)如图3，取AB的中点K，连接KE，CE，CK，证明AK=BK=EK=2，∠ABC=90°，AB=BC=4，求解CK=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}，结合CE\\geqslant CK-EK，可得线段CE长度的最小值为2\\sqrt{5}-2. 本题属于四边形综合题，主要考查的是互余的性质，全等三角形的判定与性质，勾股定理的应用，正方形的性质，等腰直角三角形的判定与性质，化为最简二次根式，添加合适的辅助线是解答本题的关键．",
     "analysis_images": [
       "images/468b06de_25_analysis_0.png",
       "images/468b06de_25_analysis_1.png",
@@ -5735,17 +5735,17 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "C",
-    "stem": "2的相反数是(\\quad) A.-\\dfrac{1}{2} B.\\dfrac{1}{2} C. -2 D. 2",
+    "stem": "2的相反数是(\\quad) A.-\\frac{1}{2} B.\\frac{1}{2} C. -2 D. 2",
     "stem_images": [],
     "options": [
       {
         "index": "A",
-        "text": "-\\dfrac{1}{2}",
+        "text": "-\\frac{1}{2}",
         "images": []
       },
       {
         "index": "B",
-        "text": "\\dfrac{1}{2}",
+        "text": "\\frac{1}{2}",
         "images": []
       },
       {
@@ -6060,14 +6060,14 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "D",
-    "stem": "小新以长方形ABCD的四条边为边向外作四个正方形，设计“中”字图案，如图所示.若四个正方形的周长之和为40，四个正方形面积之和为26，则长方形ABCD的面积为(\\quad) A.\\dfrac{13}{5} B. 4 C. 5 D. 6",
+    "stem": "小新以长方形ABCD的四条边为边向外作四个正方形，设计“中”字图案，如图所示.若四个正方形的周长之和为40，四个正方形面积之和为26，则长方形ABCD的面积为(\\quad) A.\\frac{13}{5} B. 4 C. 5 D. 6",
     "stem_images": [
       "images/12c1ae1c_8_stem_0.png"
     ],
     "options": [
       {
         "index": "A",
-        "text": "\\dfrac{13}{5}",
+        "text": "\\frac{13}{5}",
         "images": []
       },
       {
@@ -6105,7 +6105,7 @@
     "xkb_knowledges": [
       "了解乘法公式(a+b)(a-b)=a²-b²,(a±b)²=a²±2ab+b²的几何背景"
     ],
-    "normalized_stem": "小新以长方形 $ABCD$ 的四条边为边向外作四个正方形，设计“中”字图案，如图所示.若四个正方形的周长之和为 $40$，四个正方形面积之和为 $26$，则长方形 $ABCD$ 的面积为 $(\\quad)$ A.$\\dfrac{13}{5}$ B.$4$ C.$5$ D.$6$",
+    "normalized_stem": "小新以长方形 $ABCD$ 的四条边为边向外作四个正方形，设计“中”字图案，如图所示.若四个正方形的周长之和为 $40$，四个正方形面积之和为 $26$，则长方形 $ABCD$ 的面积为 $(\\quad)$ A.$\\frac{13}{5}$ B.$4$ C.$5$ D.$6$",
     "normalized_analysis": "解：设 $AB=a$，$AD=b$， 所以 $4a \\times 2 + 4b \\times 2 = 40$，$2a^{2} + 2b^{2} = 26$， 解得：$a+b=5$，$a^{2}+b^{2}=13$， 所以 $2ab = (a+b)^{2} - (a^{2}+b^{2}) = 25-13 = 12$， 所以 $ab=6$， 所以长方形 $ABCD$ 的面积为 $6$. 故选：D. 设 $AB=a$，$AD=b$，根据已知易得：$4a \\times 2 + 4b \\times 2 = 40$，$2a^{2} + 2b^{2} = 26$，从而可得：$a+b=5$，$a^{2}+b^{2}=13$，然后利用完全平方公式进行计算即可解答． 本题考查了完全平方公式的几何背景，掌握完全平方公式的定义是关键．",
     "bloom_level": "应用",
     "bloom_reason": "需要将完全平方公式应用于几何图形，建立方程并求解面积。",
@@ -6149,7 +6149,7 @@
         "images": []
       }
     ],
-    "analysis": "解：已知抛物线y=ax^{2}+bx+c(a≠0)经过(3,0)，对称轴是x=1，结合图象开口向下，因此\\(a < 0\\)， 抛物线与y轴交于正半轴，故c>0，又\\(a < 0\\)， \\(∴ac < 0\\)，A错误； 抛物线与x轴有2个交点，说明一元二次方程ax^{2}+bx+c=0有两个不相等的实数根， ∴判别式Δ=b^{2}-4ac>0，即b^{2}>4ac，B错误； 当x=2时，函数值为y=4a+2b+c， 由对称轴x=1，抛物线关于x=1对称，x=2与x=0关于x=1对称；而x=0时y=c>0，因此x=2时y=4a+2b+c>0，错误； 对称轴公式x=-\\dfrac{b}{2a} =1，整理-b=2a，即2a+b=0，D正确． 故选：D. 根据抛物线的开口方向、对称轴、与坐标轴的交点等性质，逐一分析选项即可． 本题考查了抛物线的性质，核心是利用抛物线的开口方向、对称轴、与坐标轴的交点，结合特殊点的函数值，判别式分析代数式的符号．",
+    "analysis": "解：已知抛物线y=ax^{2}+bx+c(a≠0)经过(3,0)，对称轴是x=1，结合图象开口向下，因此\\(a < 0\\)， 抛物线与y轴交于正半轴，故c>0，又\\(a < 0\\)， \\(∴ac < 0\\)，A错误； 抛物线与x轴有2个交点，说明一元二次方程ax^{2}+bx+c=0有两个不相等的实数根， ∴判别式Δ=b^{2}-4ac>0，即b^{2}>4ac，B错误； 当x=2时，函数值为y=4a+2b+c， 由对称轴x=1，抛物线关于x=1对称，x=2与x=0关于x=1对称；而x=0时y=c>0，因此x=2时y=4a+2b+c>0，错误； 对称轴公式x=-\\frac{b}{2a} =1，整理-b=2a，即2a+b=0，D正确． 故选：D. 根据抛物线的开口方向、对称轴、与坐标轴的交点等性质，逐一分析选项即可． 本题考查了抛物线的性质，核心是利用抛物线的开口方向、对称轴、与坐标轴的交点，结合特殊点的函数值，判别式分析代数式的符号．",
     "analysis_images": [],
     "knowledges": [
       "二次函数图象上点的坐标特征",
@@ -6171,7 +6171,7 @@
       "通过对实际问题的分析，体会二次函数的意义"
     ],
     "normalized_stem": "如图，抛物线 $y=ax^{2}+bx+c$ $(a\\neq0)$ 经过点 $(3,0)$，对称轴是直线 $x=1$，下面结论中正确的是 $(\\quad)$\nA. $ac>0$\nB. $b^{2}<4ac$\nC. $4a+2b+c<0$\nD. $2a+b=0$",
-    "normalized_analysis": "解：已知抛物线 $y=ax^{2}+bx+c$ $(a\\neq0)$ 经过 $(3,0)$，对称轴是 $x=1$，结合图象开口向下，因此 $a<0$， 抛物线与 $y$ 轴交于正半轴，故 $c>0$，又 $a<0$， $\\therefore ac<0$，A错误； 抛物线与 $x$ 轴有 $2$ 个交点，说明一元二次方程 $ax^{2}+bx+c=0$ 有两个不相等的实数根， $\\therefore$ 判别式 $\\Delta=b^{2}-4ac>0$，即 $b^{2}>4ac$，B错误； 当 $x=2$ 时，函数值为 $y=4a+2b+c$， 由对称轴 $x=1$，抛物线关于 $x=1$ 对称，$x=2$ 与 $x=0$ 关于 $x=1$ 对称；而 $x=0$ 时 $y=c>0$，因此 $x=2$ 时 $y=4a+2b+c>0$，错误； 对称轴公式 $x=-\\dfrac{b}{2a}=1$，整理 $-b=2a$，即 $2a+b=0$，D正确． 故选：D. 根据抛物线的开口方向、对称轴、与坐标轴的交点等性质，逐一分析选项即可． 本题考查了抛物线的性质，核心是利用抛物线的开口方向、对称轴、与坐标轴的交点，结合特殊点的函数值，判别式分析代数式的符号．",
+    "normalized_analysis": "解：已知抛物线 $y=ax^{2}+bx+c$ $(a\\neq0)$ 经过 $(3,0)$，对称轴是 $x=1$，结合图象开口向下，因此 $a<0$， 抛物线与 $y$ 轴交于正半轴，故 $c>0$，又 $a<0$， $\\therefore ac<0$，A错误； 抛物线与 $x$ 轴有 $2$ 个交点，说明一元二次方程 $ax^{2}+bx+c=0$ 有两个不相等的实数根， $\\therefore$ 判别式 $\\Delta=b^{2}-4ac>0$，即 $b^{2}>4ac$，B错误； 当 $x=2$ 时，函数值为 $y=4a+2b+c$， 由对称轴 $x=1$，抛物线关于 $x=1$ 对称，$x=2$ 与 $x=0$ 关于 $x=1$ 对称；而 $x=0$ 时 $y=c>0$，因此 $x=2$ 时 $y=4a+2b+c>0$，错误； 对称轴公式 $x=-\\frac{b}{2a}=1$，整理 $-b=2a$，即 $2a+b=0$，D正确． 故选：D. 根据抛物线的开口方向、对称轴、与坐标轴的交点等性质，逐一分析选项即可． 本题考查了抛物线的性质，核心是利用抛物线的开口方向、对称轴、与坐标轴的交点，结合特殊点的函数值，判别式分析代数式的符号．",
     "bloom_level": "应用",
     "bloom_reason": "需要运用二次函数图象与系数的关系，分析具体条件并判断结论。",
     "core_literacy_primary": "推理能力",
@@ -6228,7 +6228,7 @@
     "id": "74b790b3_17",
     "type": "解答题",
     "score": 8.0,
-    "stem": "计算：(\\dfrac{1}{3}{)^{-1}}+\\sqrt{18}+\\left|-\\left.\\sqrt{2}\\right|\\right.-4\\cos 45^\\circ。",
+    "stem": "计算：(\\frac{1}{3}{)^{-1}}+\\sqrt{18}+\\left|-\\left.\\sqrt{2}\\right|\\right.-4\\cos 45^\\circ。",
     "stem_images": [],
     "options": [],
     "answer": "原式",
@@ -6250,7 +6250,7 @@
     "xkb_knowledges": [
       "知道$30^\\circ,45^\\circ,60^\\circ$角的三角函数值"
     ],
-    "normalized_stem": "计算：$\\left(\\dfrac{1}{3}\\right)^{-1}+\\sqrt{18}+\\left|-\\sqrt{2}\\right|-4\\cos 45^{\\circ}$。",
+    "normalized_stem": "计算：$\\left(\\frac{1}{3}\\right)^{-1}+\\sqrt{18}+\\left|-\\sqrt{2}\\right|-4\\cos 45^{\\circ}$。",
     "normalized_analysis": "略",
     "bloom_level": "应用",
     "bloom_reason": "需要运用负指数、根式化简、绝对值、特殊角三角函数等规则进行计算。",
@@ -6304,10 +6304,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "＞ ＞",
-    "stem": "比较大小：|-7|__________(-2)^{2},-\\dfrac{1}{6}__________-\\dfrac{1}{2}.",
+    "stem": "比较大小：|-7|__________(-2)^{2},-\\frac{1}{6}__________-\\frac{1}{2}.",
     "stem_images": [],
     "options": [],
-    "analysis": "解：∵(-2)^{2}=4，|-7|=7， ∴|-7|>(-2)^{2}. ∵|-\\dfrac{1}{2}|=\\dfrac{1}{2}=\\dfrac{3}{6}，|-\\dfrac{1}{6}|=\\dfrac{1}{6}，且\\dfrac{3}{6}>\\dfrac{1}{6}， ∴-\\dfrac{1}{6}>-\\dfrac{1}{2}. 故答案为：>；>. 先化简绝对值、计算有理数的乘方，再根据有理数的大小比较法则即可得． 本题考查了化简绝对值、有理数的乘方、有理数的大小比较，熟练掌握有理数的大小比较法则是解题关键．",
+    "analysis": "解：∵(-2)^{2}=4，|-7|=7， ∴|-7|>(-2)^{2}. ∵|-\\frac{1}{2}|=\\frac{1}{2}=\\frac{3}{6}，|-\\frac{1}{6}|=\\frac{1}{6}，且\\frac{3}{6}>\\frac{1}{6}， ∴-\\frac{1}{6}>-\\frac{1}{2}. 故答案为：>；>. 先化简绝对值、计算有理数的乘方，再根据有理数的大小比较法则即可得． 本题考查了化简绝对值、有理数的乘方、有理数的大小比较，熟练掌握有理数的大小比较法则是解题关键．",
     "analysis_images": [],
     "knowledges": [
       "有理数的乘方",
@@ -6578,10 +6578,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "",
-    "stem": "比较大小：-\\dfrac{2}{5}__________-\\dfrac{3}{5}(填“>”“<  ”或“=”).",
+    "stem": "比较大小：-\\frac{2}{5}__________-\\frac{3}{5}(填“>”“<  ”或“=”).",
     "stem_images": [],
     "options": [],
-    "analysis": "本题主要考查了有理数大小的比较，熟练掌握两个负数比较大小，绝对值大的反而小，是解题的关键．根据有理数的大小比较法则，两个负数比较大小，绝对值大的反而小． 【详解】解：因为\\left|-\\dfrac{2}{5}\\right|=\\dfrac{2}{5}，\\left|-\\dfrac{3}{5}\\right|=\\dfrac{3}{5}，且\\(\\dfrac{2}{5} < \\dfrac{3}{5}\\)， 所以-\\dfrac{2}{5}>-\\dfrac{3}{5}. 故答案为：>.",
+    "analysis": "本题主要考查了有理数大小的比较，熟练掌握两个负数比较大小，绝对值大的反而小，是解题的关键．根据有理数的大小比较法则，两个负数比较大小，绝对值大的反而小． 【详解】解：因为\\left|-\\frac{2}{5}\\right|=\\frac{2}{5}，\\left|-\\frac{3}{5}\\right|=\\frac{3}{5}，且\\(\\frac{2}{5} < \\frac{3}{5}\\)， 所以-\\frac{2}{5}>-\\frac{3}{5}. 故答案为：>.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -6654,7 +6654,7 @@
     "stem": "某校七年级“数学节”活动设计了A，B，C，D四款徽章，为了解学生对徽章的喜爱情况，老师随机抽取了20名学生，请他们从中选出最喜爱的一款徽章，结果如下： D A A C C B C B B D D D C C B C A C D A 那么这些学生中，最喜爱C款徽章的学生所占百分比为 ______.",
     "stem_images": [],
     "options": [],
-    "analysis": "解：由题意得：最喜爱C款徽章的学生所占百分比=\\dfrac{7}{20}×100％=35％， 故答案为：35％. 利用最喜爱C款徽章的学生人数÷总人数进行计算，即可解答． 本题考查了百分数的应用，比的应用，准确熟练地进行计算是解题的关键．",
+    "analysis": "解：由题意得：最喜爱C款徽章的学生所占百分比=\\frac{7}{20}×100％=35％， 故答案为：35％. 利用最喜爱C款徽章的学生人数÷总人数进行计算，即可解答． 本题考查了百分数的应用，比的应用，准确熟练地进行计算是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -6669,7 +6669,7 @@
     "bnu_knowledges": [],
     "xkb_knowledges": [],
     "normalized_stem": "某校七年级“数学节”活动设计了A，B，C，D四款徽章，为了解学生对徽章的喜爱情况，老师随机抽取了$20$名学生，请他们从中选出最喜爱的一款徽章，结果如下： D A A C C B C B B D D D C C B C A C D A 那么这些学生中，最喜爱C款徽章的学生所占百分比为 ______.",
-    "normalized_analysis": "解：由题意得：最喜爱C款徽章的学生所占百分比 $=\\dfrac{7}{20} \\times 100\\% = 35\\%$， 故答案为：$35\\%$。 利用最喜爱C款徽章的学生人数 $\\div$ 总人数进行计算，即可解答。 本题考查了百分数的应用，比的应用，准确熟练地进行计算是解题的关键。",
+    "normalized_analysis": "解：由题意得：最喜爱C款徽章的学生所占百分比 $=\\frac{7}{20} \\times 100\\% = 35\\%$， 故答案为：$35\\%$。 利用最喜爱C款徽章的学生人数 $\\div$ 总人数进行计算，即可解答。 本题考查了百分数的应用，比的应用，准确熟练地进行计算是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要将统计概念应用于具体数据，计算百分比。",
     "core_literacy_primary": "数据观念",
@@ -6952,13 +6952,13 @@
     "id": "b9bedcf8_28",
     "type": "解答题",
     "score": 8.0,
-    "stem": "通过学习我们知道，\\left|x\\right|的几何意义是：数轴上表示数x的点到原点的距离．由于\\left|x\\right|可以看作\\left|x-0\\right|，那么\\left|x-0\\right|的几何意义为数轴上表示数x与0的两点间的距离．这个结论还可以推广为：\\left|x-a\\right|的几何意义为数轴上表示数x与a的两点间的距离． 例如，\\left|x-5\\right|的几何意义为数轴上表示数x与5的两点间的距离，若\\left|x-5\\right|=1，则x的值为4或6. 给出定义：数轴上表示数x的点与表示数a，b的点之间的距离之和\\left|x-a\\right|+\\left|x-b\\right|称为x与a，b的“关联距离”．例如，\\left|x-1\\right|+\\left|x+2\\right|为x与1，-2的“关联距离”； \\left|x-1\\right|+\\left|x-2\\right|+\\left|x+3\\right|为x与1，2，-3的“关联距离”． (1)若\\left|x-2\\right|=1，则x的值为________； (2)若x与1，-1的“关联距离”为2，写出一个满足条件的x的值________； (3)请化简“关联距离”\\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|，并直接写出该“关联距离”的最小值________.",
+    "stem": "通过学习我们知道，\\left|x\\right|的几何意义是：数轴上表示数x的点到原点的距离．由于\\left|x\\right|可以看作\\left|x-0\\right|，那么\\left|x-0\\right|的几何意义为数轴上表示数x与0的两点间的距离．这个结论还可以推广为：\\left|x-a\\right|的几何意义为数轴上表示数x与a的两点间的距离． 例如，\\left|x-5\\right|的几何意义为数轴上表示数x与5的两点间的距离，若\\left|x-5\\right|=1，则x的值为4或6. 给出定义：数轴上表示数x的点与表示数a，b的点之间的距离之和\\left|x-a\\right|+\\left|x-b\\right|称为x与a，b的“关联距离”．例如，\\left|x-1\\right|+\\left|x+2\\right|为x与1，-2的“关联距离”； \\left|x-1\\right|+\\left|x-2\\right|+\\left|x+3\\right|为x与1，2，-3的“关联距离”． (1)若\\left|x-2\\right|=1，则x的值为________； (2)若x与1，-1的“关联距离”为2，写出一个满足条件的x的值________； (3)请化简“关联距离”\\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|，并直接写出该“关联距离”的最小值________.",
     "stem_images": [
       "images/b9bedcf8_28_stem_0.png"
     ],
     "options": [],
     "answer": "解：(1) 3 或 1； (2) （答案不唯一）； (3)化简分为下列4种情况： ①当 时， ； ②当 时， ； ③当 时, ； ④当 时， . 3 .​​​​​​​",
-    "analysis": "本题考查数轴上两点之间的距离，绝对值，分类讨论思想． (1)根据 x 与 2 的距离为1，即可求解． (2) x 与1， -1 的“关联距离”为2，即 \\left|x-1\\right|+\\left|x+1\\right|=2 ，可得 -1\\leqslant x\\leqslant 1 中的任意一个数都符合题意； (3)根据题意， \\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right| 表示点 x 到 \\dfrac{1}{2} ，-1， 2 的距离的和，则分 \\(x\\leqslant-1,-1 < x\\leqslant\\dfrac{1}{2},\\dfrac{1}{2} < x\\leqslant 2,x>2\\) 四种情况化简绝对值，进而根据 x=\\dfrac{1}{2} 时取得最小值，即可求解． 解：(1)因为 \\left|x-2\\right|=1 ，表示 x 与 2 的距离为1， 所以 x=3 或 1 .故答案为： 3 或 1 . (2)依题意， x 与1， -1 的“关联距离”为2，即 \\left|x-1\\right|+\\left|x+1\\right|=2 则 -1\\leqslant x\\leqslant 1 中的任意一个数都符合题意， 故答案为： 1 (答案不唯一). (3)见答案 . 因为\\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right| 表示点 x 到 -1,\\dfrac{1}{2} ， 2 的距离的和， 所以当 x=\\dfrac{1}{2} 时， \\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right| 取得最小值， 即 \\left|\\dfrac{1}{2}-\\dfrac{1}{2}\\right|+\\left|\\dfrac{1}{2}+1\\right|+\\left|\\dfrac{1}{2}-2\\right|=3 所以“关联距离”最小值为 3 . 故答案为： 3 .",
+    "analysis": "本题考查数轴上两点之间的距离，绝对值，分类讨论思想． (1)根据 x 与 2 的距离为1，即可求解． (2) x 与1， -1 的“关联距离”为2，即 \\left|x-1\\right|+\\left|x+1\\right|=2 ，可得 -1\\leqslant x\\leqslant 1 中的任意一个数都符合题意； (3)根据题意， \\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right| 表示点 x 到 \\frac{1}{2} ，-1， 2 的距离的和，则分 \\(x\\leqslant-1,-1 < x\\leqslant\\frac{1}{2},\\frac{1}{2} < x\\leqslant 2,x>2\\) 四种情况化简绝对值，进而根据 x=\\frac{1}{2} 时取得最小值，即可求解． 解：(1)因为 \\left|x-2\\right|=1 ，表示 x 与 2 的距离为1， 所以 x=3 或 1 .故答案为： 3 或 1 . (2)依题意， x 与1， -1 的“关联距离”为2，即 \\left|x-1\\right|+\\left|x+1\\right|=2 则 -1\\leqslant x\\leqslant 1 中的任意一个数都符合题意， 故答案为： 1 (答案不唯一). (3)见答案 . 因为\\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right| 表示点 x 到 -1,\\frac{1}{2} ， 2 的距离的和， 所以当 x=\\frac{1}{2} 时， \\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right| 取得最小值， 即 \\left|\\frac{1}{2}-\\frac{1}{2}\\right|+\\left|\\frac{1}{2}+1\\right|+\\left|\\frac{1}{2}-2\\right|=3 所以“关联距离”最小值为 3 . 故答案为： 3 .",
     "analysis_images": [],
     "knowledges": [
       "数轴",
@@ -6984,8 +6984,8 @@
       "能用配方法、公式法、因式分解法解数字系数的 一元二次方程",
       "掌握求有理数的相反数和绝对值的方法"
     ],
-    "normalized_stem": "通过学习我们知道，$\\left|x\\right|$的几何意义是：数轴上表示数$x$的点到原点的距离．由于$\\left|x\\right|$可以看作$\\left|x-0\\right|$，那么$\\left|x-0\\right|$的几何意义为数轴上表示数$x$与$0$的两点间的距离．这个结论还可以推广为：$\\left|x-a\\right|$的几何意义为数轴上表示数$x$与$a$的两点间的距离． 例如，$\\left|x-5\\right|$的几何意义为数轴上表示数$x$与$5$的两点间的距离，若$\\left|x-5\\right|=1$，则$x$的值为$4$或$6$。 给出定义：数轴上表示数$x$的点与表示数$a$，$b$的点之间的距离之和$\\left|x-a\\right|+\\left|x-b\\right|$称为$x$与$a$，$b$的“关联距离”．例如，$\\left|x-1\\right|+\\left|x+2\\right|$为$x$与$1$，$-2$的“关联距离”； $\\left|x-1\\right|+\\left|x-2\\right|+\\left|x+3\\right|$为$x$与$1$，$2$，$-3$的“关联距离”． (1)若$\\left|x-2\\right|=1$，则$x$的值为________； (2)若$x$与$1$，$-1$的“关联距离”为$2$，写出一个满足条件的$x$的值________； (3)请化简“关联距离”$\\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$，并直接写出该“关联距离”的最小值________。",
-    "normalized_analysis": "本题考查数轴上两点之间的距离，绝对值，分类讨论思想． (1)根据 $x$ 与 $2$ 的距离为$1$，即可求解． (2) $x$ 与$1$， $-1$ 的“关联距离”为$2$，即 $\\left|x-1\\right|+\\left|x+1\\right|=2$ ，可得 $-1\\leqslant x\\leqslant 1$ 中的任意一个数都符合题意； (3)根据题意， $\\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$ 表示点 $x$ 到 $\\dfrac{1}{2}$ ，$-1$， $2$ 的距离的和，则分 $x\\leqslant-1$，$-1 < x\\leqslant\\dfrac{1}{2}$，$\\dfrac{1}{2} < x\\leqslant 2$，$x>2$ 四种情况化简绝对值，进而根据 $x=\\dfrac{1}{2}$ 时取得最小值，即可求解． 解：(1)因为 $\\left|x-2\\right|=1$ ，表示 $x$ 与 $2$ 的距离为$1$， 所以 $x=3$ 或 $1$ 。故答案为： $3$ 或 $1$ 。 (2)依题意， $x$ 与$1$， $-1$ 的“关联距离”为$2$，即 $\\left|x-1\\right|+\\left|x+1\\right|=2$ 则 $-1\\leqslant x\\leqslant 1$ 中的任意一个数都符合题意， 故答案为： $1$ (答案不唯一)。 (3)见答案 。 因为$\\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$ 表示点 $x$ 到 $-1$，$\\dfrac{1}{2}$ ， $2$ 的距离的和， 所以当 $x=\\dfrac{1}{2}$ 时， $\\left|x-\\dfrac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$ 取得最小值， 即 $\\left|\\dfrac{1}{2}-\\dfrac{1}{2}\\right|+\\left|\\dfrac{1}{2}+1\\right|+\\left|\\dfrac{1}{2}-2\\right|=3$ 所以“关联距离”最小值为 $3$ 。 故答案为： $3$ 。",
+    "normalized_stem": "通过学习我们知道，$\\left|x\\right|$的几何意义是：数轴上表示数$x$的点到原点的距离．由于$\\left|x\\right|$可以看作$\\left|x-0\\right|$，那么$\\left|x-0\\right|$的几何意义为数轴上表示数$x$与$0$的两点间的距离．这个结论还可以推广为：$\\left|x-a\\right|$的几何意义为数轴上表示数$x$与$a$的两点间的距离． 例如，$\\left|x-5\\right|$的几何意义为数轴上表示数$x$与$5$的两点间的距离，若$\\left|x-5\\right|=1$，则$x$的值为$4$或$6$。 给出定义：数轴上表示数$x$的点与表示数$a$，$b$的点之间的距离之和$\\left|x-a\\right|+\\left|x-b\\right|$称为$x$与$a$，$b$的“关联距离”．例如，$\\left|x-1\\right|+\\left|x+2\\right|$为$x$与$1$，$-2$的“关联距离”； $\\left|x-1\\right|+\\left|x-2\\right|+\\left|x+3\\right|$为$x$与$1$，$2$，$-3$的“关联距离”． (1)若$\\left|x-2\\right|=1$，则$x$的值为________； (2)若$x$与$1$，$-1$的“关联距离”为$2$，写出一个满足条件的$x$的值________； (3)请化简“关联距离”$\\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$，并直接写出该“关联距离”的最小值________。",
+    "normalized_analysis": "本题考查数轴上两点之间的距离，绝对值，分类讨论思想． (1)根据 $x$ 与 $2$ 的距离为$1$，即可求解． (2) $x$ 与$1$， $-1$ 的“关联距离”为$2$，即 $\\left|x-1\\right|+\\left|x+1\\right|=2$ ，可得 $-1\\leqslant x\\leqslant 1$ 中的任意一个数都符合题意； (3)根据题意， $\\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$ 表示点 $x$ 到 $\\frac{1}{2}$ ，$-1$， $2$ 的距离的和，则分 $x\\leqslant-1$，$-1 < x\\leqslant\\frac{1}{2}$，$\\frac{1}{2} < x\\leqslant 2$，$x>2$ 四种情况化简绝对值，进而根据 $x=\\frac{1}{2}$ 时取得最小值，即可求解． 解：(1)因为 $\\left|x-2\\right|=1$ ，表示 $x$ 与 $2$ 的距离为$1$， 所以 $x=3$ 或 $1$ 。故答案为： $3$ 或 $1$ 。 (2)依题意， $x$ 与$1$， $-1$ 的“关联距离”为$2$，即 $\\left|x-1\\right|+\\left|x+1\\right|=2$ 则 $-1\\leqslant x\\leqslant 1$ 中的任意一个数都符合题意， 故答案为： $1$ (答案不唯一)。 (3)见答案 。 因为$\\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$ 表示点 $x$ 到 $-1$，$\\frac{1}{2}$ ， $2$ 的距离的和， 所以当 $x=\\frac{1}{2}$ 时， $\\left|x-\\frac{1}{2}\\right|+\\left|x+1\\right|+\\left|x-2\\right|$ 取得最小值， 即 $\\left|\\frac{1}{2}-\\frac{1}{2}\\right|+\\left|\\frac{1}{2}+1\\right|+\\left|\\frac{1}{2}-2\\right|=3$ 所以“关联距离”最小值为 $3$ 。 故答案为： $3$ 。",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用绝对值几何意义的新定义解决化简和求最值问题。",
     "core_literacy_primary": "抽象能力",
@@ -7063,7 +7063,7 @@
       "images/edefda7a_15_stem_0.png"
     ],
     "options": [],
-    "analysis": "本题考查了一次函数的性质、等腰三角形的判定与性质、解直角三角形，令直线l与y轴交于点C，求出OA=OC=\\sqrt{5}得出\\angle CAO=45{^\\circ}，再结合旋转的性质可得\\angle BAO=60{^\\circ}，最后解直角三角形即可得出结果，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解：如图：令直线l与y轴交于点C， ∵直线l：y=x+\\sqrt{5}， ∴当x=0时，y=\\sqrt{5}，即C\\left(0,\\sqrt{5}\\right)， 当y=0时，x+\\sqrt{5}=0，解得x=-\\sqrt{5}，即A\\left(-\\sqrt{5},0\\right)， ∴OA=OC=\\sqrt{5}， ∴\\angle CAO=45{^\\circ}， ∵将直线l绕点A逆时针旋转15{^\\circ}得到直线{l_1}， ∴\\angle BAO=15{^\\circ}+45{^\\circ}=60{^\\circ}， ∵\\angle AOB=90{^\\circ}， ∴AB=\\dfrac{OA}{\\cos 60{^\\circ}}=\\dfrac{\\sqrt{5}}{\\dfrac{1}{2}}=2\\sqrt{5}， 故答案为：2\\sqrt{5}.",
+    "analysis": "本题考查了一次函数的性质、等腰三角形的判定与性质、解直角三角形，令直线l与y轴交于点C，求出OA=OC=\\sqrt{5}得出\\angle CAO=45{^\\circ}，再结合旋转的性质可得\\angle BAO=60{^\\circ}，最后解直角三角形即可得出结果，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解：如图：令直线l与y轴交于点C， ∵直线l：y=x+\\sqrt{5}， ∴当x=0时，y=\\sqrt{5}，即C\\left(0,\\sqrt{5}\\right)， 当y=0时，x+\\sqrt{5}=0，解得x=-\\sqrt{5}，即A\\left(-\\sqrt{5},0\\right)， ∴OA=OC=\\sqrt{5}， ∴\\angle CAO=45{^\\circ}， ∵将直线l绕点A逆时针旋转15{^\\circ}得到直线{l_1}， ∴\\angle BAO=15{^\\circ}+45{^\\circ}=60{^\\circ}， ∵\\angle AOB=90{^\\circ}， ∴AB=\\frac{OA}{\\cos 60{^\\circ}}=\\frac{\\sqrt{5}}{\\frac{1}{2}}=2\\sqrt{5}， 故答案为：2\\sqrt{5}.",
     "analysis_images": [
       "images/edefda7a_15_analysis_0.png"
     ],
@@ -7523,10 +7523,10 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "-1≤x＜2，整数解为-1，0、1．",
-    "stem": "解不等式组\\begin{cases}{3(x+2)\\geqslant x+4}\\\\ {\\dfrac{2x-1}{3}>x-1}\\end{cases}，并写出它的所有整数解.",
+    "stem": "解不等式组\\begin{cases}{3(x+2)\\geqslant x+4}\\\\ {\\frac{2x-1}{3}>x-1}\\end{cases}，并写出它的所有整数解.",
     "stem_images": [],
     "options": [],
-    "analysis": "解：解不等式3(x+2)\\geqslant x+4，得：x\\geqslant-1， 解不等式\\dfrac{2x-1}{3}>x-1，得：\\(x < 2\\)， 则不等式组的解集为\\(-1\\leqslant x < 2\\)， 所以不等式组的整数解为-1，0、1. 分别求出每一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集，从而得出答案． 本题考查的是一元一次不等式组的整数解，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键．",
+    "analysis": "解：解不等式3(x+2)\\geqslant x+4，得：x\\geqslant-1， 解不等式\\frac{2x-1}{3}>x-1，得：\\(x < 2\\)， 则不等式组的解集为\\(-1\\leqslant x < 2\\)， 所以不等式组的整数解为-1，0、1. 分别求出每一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集，从而得出答案． 本题考查的是一元一次不等式组的整数解，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键．",
     "analysis_images": [],
     "knowledges": [
       "一元一次不等式组的解法",
@@ -7546,8 +7546,8 @@
     "xkb_knowledges": [
       "能解数字系数的一元一次不等式"
     ],
-    "normalized_stem": "解不等式组 $\\begin{cases}3(x+2)\\geqslant x+4\\\\ \\dfrac{2x-1}{3}>x-1\\end{cases}$，并写出它的所有整数解.",
-    "normalized_analysis": "解：解不等式 $3(x+2)\\geqslant x+4$，得：$x\\geqslant-1$， 解不等式 $\\dfrac{2x-1}{3}>x-1$，得：$x < 2$， 则不等式组的解集为 $-1\\leqslant x < 2$， 所以不等式组的整数解为 $-1$，$0$、$1$。 分别求出每一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集，从而得出答案。 本题考查的是一元一次不等式组的整数解，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键。",
+    "normalized_stem": "解不等式组 $\\begin{cases}3(x+2)\\geqslant x+4\\\\ \\frac{2x-1}{3}>x-1\\end{cases}$，并写出它的所有整数解.",
+    "normalized_analysis": "解：解不等式 $3(x+2)\\geqslant x+4$，得：$x\\geqslant-1$， 解不等式 $\\frac{2x-1}{3}>x-1$，得：$x < 2$， 则不等式组的解集为 $-1\\leqslant x < 2$， 所以不等式组的整数解为 $-1$，$0$、$1$。 分别求出每一个不等式的解集，根据口诀：同大取大、同小取小、大小小大中间找、大大小小无解了确定不等式组的解集，从而得出答案。 本题考查的是一元一次不等式组的整数解，正确求出每一个不等式解集是基础，熟知“同大取大；同小取小；大小小大中间找；大大小小找不到”的原则是解答此题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用解不等式组的步骤和口诀来求解具体问题。",
     "core_literacy_primary": "运算能力",
@@ -7568,7 +7568,7 @@
       "images/e324f91b_22_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)补全直方图如下： (2)由题意知m=86，n=\\dfrac{88+89}{2}=88.5， 故答案为：86，88.5； (3)七年级学生排名更靠前， 因为88分大于七年级学生测试成绩的中位数85， 所以七年级该学生超过七年级一半学生， 故七年级学生排名更靠前； (4)300×\\dfrac{30-4-5}{30}=210(名)， 答：估计八年级学生成绩优秀的人数为210名． (1)根据总人数为30人即可补全图形． (2)根据众数和中位数的定义求解即可； (3)根据中位数的意义求解即可； (4)总人数乘以样本中优秀人数所占比例即可． 此题考查了频数(率)分布直方图，利用统计图获取信息时，必须认真观察、分析、研究统计图，才能作出正确的判断和解决问题．",
+    "analysis": "(1)补全直方图如下： (2)由题意知m=86，n=\\frac{88+89}{2}=88.5， 故答案为：86，88.5； (3)七年级学生排名更靠前， 因为88分大于七年级学生测试成绩的中位数85， 所以七年级该学生超过七年级一半学生， 故七年级学生排名更靠前； (4)300×\\frac{30-4-5}{30}=210(名)， 答：估计八年级学生成绩优秀的人数为210名． (1)根据总人数为30人即可补全图形． (2)根据众数和中位数的定义求解即可； (3)根据中位数的意义求解即可； (4)总人数乘以样本中优秀人数所占比例即可． 此题考查了频数(率)分布直方图，利用统计图获取信息时，必须认真观察、分析、研究统计图，才能作出正确的判断和解决问题．",
     "analysis_images": [
       "images/e324f91b_22_analysis_0.png"
     ],
@@ -7841,7 +7841,7 @@
       "images/a72f328b_25_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)解：∵\\triangle ABC是等边三角形，点P与点A重合， ∴∠BAC=∠ABC=60°， ∴∠BAB'=180°-60°=120°， ∵点B关于l的对称点B'，点P与点A重合， ∴∠B'AN=∠BAN=60°=∠ABC， ∴直线l/\\!/BC，即当直线l/\\!/BC时，点P与点A重合， 故答案为：/\\!/； (2)①解：作点B关于l的对称点B'，直线CB'与直线l交于点P，补全图形如图2即为所求； ②解：∠BAP=∠BCP；理由如下： 连接AB'，连接BP并延长BP交AB'于点H，AB交PC于O， ∵点B与B'关于直线l对称， ∴AB'=AB，∠ABP=∠AB'P，B'P=BP，∠B'AP=∠BAP， ∵\\triangle ABC是等边三角形， ∴∠ABC=∠BAC=60°，AB=AC=AB'， ∴∠ACB'=∠AB'P=∠ABP， ∵∠BPO+∠ABP+∠BOP=∠ACB'+∠AOC+∠BAC=180°，且∠AOC=∠BOP， ∴∠BPO=∠BAC=60°， ∴∠OPH=180°-∠BPO=120°， 在\\triangle AB'O和\\triangle ABH中， \\begin{cases}∠AB'O=∠ABH\\\\ AB'=AB\\\\ ∠B'AO=∠BAH\\end{cases}， ∴\\triangle AB'O≌\\triangle ABH(ASA)， ∴AH=AO，∠AOP=∠AHP， ∵∠PAH=∠PAO， 在\\triangle PAH和\\triangle PAO中， \\begin{cases}∠AHP=∠AOP\\\\ AH=AO\\\\ ∠PAH=∠PAO\\end{cases}， ∴\\triangle PAH≌\\triangle PAO(ASA)， ∴∠APH=∠APO=\\dfrac{1}{2}∠OPH=60°=∠ABC， ∵∠ABC+∠BOC+∠BCP=∠APO+∠AOP+∠BAP=180°，且∠APO=∠BOC， ∴∠BAP=∠BCP； ③证明：在PC上截取PN=PB，连接BN，如图4， 由②得∠BPC=60°， ∴\\triangle PBN是等边三角形， ∴PB=BN，∠PBN=60°， ∵\\triangle ABC是等边三角形， ∴AB=BC，∠ABC=60°， ∴∠CBN=∠ABC-∠PBC=60°-∠PBC， ∠ABP=∠PBN-∠PBC=60°-∠PBC， ∴∠ABP=∠CBN， 在\\triangle ABP和\\triangle CBN中， \\begin{cases}AB=BC\\\\ ∠ABP=∠CBN\\\\ PB=BN\\end{cases}， ∴\\triangle ABP≌\\triangle CBN(SAS)， ∴PA=NC， ∵PC=PN+NC， ∴PC=PB+PA； (3)当直线l能与线段CB的延长线相交时，∠BAP=∠BCP，PC=PB+PA；当直线l能与线段BC的延长线相交时，∠BAP+BCP=180°，PB=PC+PA.理由如下： 当直线l与线段BC平行时，由(1)可得点A，P重合，∠BAP及PA不存在，不符合题意； 当直线l能与线段CB的延长线相交时，如图5， 由(2)得∠BAP=∠BCP，PC=PB+PA； 当直线l能与线段BC的延长线相交时，如图6，连接AB'，AC交BP于O， ∵点B与B'关于直线l对称， ∴AB'=AB，∠ABP=∠AB'P，B'P=BP，∠B'AP=∠BAP，∠B'PA=∠BPA， ∵\\triangle ABC是等边三角形， ∴∠ACB=∠BAC=60°，AB=AC=AB'， ∴∠ACB'=∠AB'P=∠ABP， ∵∠BAO+∠ABP+∠BOA=∠ACB'+∠BPC+∠POC=180°，且∠AOB=∠COP， ∴∠BAC=∠BPC=60°， ∴∠BPB'=180°-∠BPC=120°， ∴∠APB'=∠APB=\\dfrac{1}{2}∠BPB'=60°， ∴∠APC+∠ABC=60°+60°+60°=180°， ∴∠BAP+∠BCP=360°-∠APC-∠ABC=180°； 在PB上截取PN=PC，连接CN，如图7， ∵∠BPC=60°， ∴\\triangle PCN是等边三角形， ∴PC=CN，∠PCN=60°， ∵\\triangle ABC是等边三角形， ∴AC=BC，∠ACB=60°， ∴∠BCN=∠ACB-∠NCA=60°-∠NCA， ∠ACP=∠PCN-∠ACN=60°-∠NCA， ∴∠ACP=∠BCN， 在\\triangle ACP和\\triangle BCN中， \\begin{cases}AC=BC\\\\ ∠ACP=∠BCN\\\\ PC=CN\\end{cases}， ∴\\triangle ACP≌\\triangle BCN(SAS)， ∴PA=NB， ∵PB=PN+NB， ∴PB=PC+PA； (1)根据等边三角形的性质，当直线l垂直于BC时，点B关于l的对称点B'与C的连线和l的交点P会与A重合，从对称和等边三角形的高的角度思考； (2)①按照“作点B关于l的对称点B'，连接CB'与l交于P”的步骤补全图形； ②利用对称性质(AB=AB',∠BAP=∠B'AP)和等边三角形性质(AB=AC,∠BAC=60°)，结合角的运算推导∠BAP与∠BCP的数量关系； ③采用截长补短法，在PC上截取一段等于PA，构造等边三角形，再利用全等三角形证明线段关系； (3)类似(2)的思路，结合对称和等边三角形性质，分析转动时角和线段的关系即可． 本题属于几何变换综合题，主要考查了等边三角形的性质、轴对称的性质、全等三角形的判定与性质，熟练掌握等边三角形和轴对称的性质，灵活运用截长补短法构造全等三角形是解题的关键．",
+    "analysis": "(1)解：∵\\triangle ABC是等边三角形，点P与点A重合， ∴∠BAC=∠ABC=60°， ∴∠BAB'=180°-60°=120°， ∵点B关于l的对称点B'，点P与点A重合， ∴∠B'AN=∠BAN=60°=∠ABC， ∴直线l/\\!/BC，即当直线l/\\!/BC时，点P与点A重合， 故答案为：/\\!/； (2)①解：作点B关于l的对称点B'，直线CB'与直线l交于点P，补全图形如图2即为所求； ②解：∠BAP=∠BCP；理由如下： 连接AB'，连接BP并延长BP交AB'于点H，AB交PC于O， ∵点B与B'关于直线l对称， ∴AB'=AB，∠ABP=∠AB'P，B'P=BP，∠B'AP=∠BAP， ∵\\triangle ABC是等边三角形， ∴∠ABC=∠BAC=60°，AB=AC=AB'， ∴∠ACB'=∠AB'P=∠ABP， ∵∠BPO+∠ABP+∠BOP=∠ACB'+∠AOC+∠BAC=180°，且∠AOC=∠BOP， ∴∠BPO=∠BAC=60°， ∴∠OPH=180°-∠BPO=120°， 在\\triangle AB'O和\\triangle ABH中， \\begin{cases}∠AB'O=∠ABH\\\\ AB'=AB\\\\ ∠B'AO=∠BAH\\end{cases}， ∴\\triangle AB'O≌\\triangle ABH(ASA)， ∴AH=AO，∠AOP=∠AHP， ∵∠PAH=∠PAO， 在\\triangle PAH和\\triangle PAO中， \\begin{cases}∠AHP=∠AOP\\\\ AH=AO\\\\ ∠PAH=∠PAO\\end{cases}， ∴\\triangle PAH≌\\triangle PAO(ASA)， ∴∠APH=∠APO=\\frac{1}{2}∠OPH=60°=∠ABC， ∵∠ABC+∠BOC+∠BCP=∠APO+∠AOP+∠BAP=180°，且∠APO=∠BOC， ∴∠BAP=∠BCP； ③证明：在PC上截取PN=PB，连接BN，如图4， 由②得∠BPC=60°， ∴\\triangle PBN是等边三角形， ∴PB=BN，∠PBN=60°， ∵\\triangle ABC是等边三角形， ∴AB=BC，∠ABC=60°， ∴∠CBN=∠ABC-∠PBC=60°-∠PBC， ∠ABP=∠PBN-∠PBC=60°-∠PBC， ∴∠ABP=∠CBN， 在\\triangle ABP和\\triangle CBN中， \\begin{cases}AB=BC\\\\ ∠ABP=∠CBN\\\\ PB=BN\\end{cases}， ∴\\triangle ABP≌\\triangle CBN(SAS)， ∴PA=NC， ∵PC=PN+NC， ∴PC=PB+PA； (3)当直线l能与线段CB的延长线相交时，∠BAP=∠BCP，PC=PB+PA；当直线l能与线段BC的延长线相交时，∠BAP+BCP=180°，PB=PC+PA.理由如下： 当直线l与线段BC平行时，由(1)可得点A，P重合，∠BAP及PA不存在，不符合题意； 当直线l能与线段CB的延长线相交时，如图5， 由(2)得∠BAP=∠BCP，PC=PB+PA； 当直线l能与线段BC的延长线相交时，如图6，连接AB'，AC交BP于O， ∵点B与B'关于直线l对称， ∴AB'=AB，∠ABP=∠AB'P，B'P=BP，∠B'AP=∠BAP，∠B'PA=∠BPA， ∵\\triangle ABC是等边三角形， ∴∠ACB=∠BAC=60°，AB=AC=AB'， ∴∠ACB'=∠AB'P=∠ABP， ∵∠BAO+∠ABP+∠BOA=∠ACB'+∠BPC+∠POC=180°，且∠AOB=∠COP， ∴∠BAC=∠BPC=60°， ∴∠BPB'=180°-∠BPC=120°， ∴∠APB'=∠APB=\\frac{1}{2}∠BPB'=60°， ∴∠APC+∠ABC=60°+60°+60°=180°， ∴∠BAP+∠BCP=360°-∠APC-∠ABC=180°； 在PB上截取PN=PC，连接CN，如图7， ∵∠BPC=60°， ∴\\triangle PCN是等边三角形， ∴PC=CN，∠PCN=60°， ∵\\triangle ABC是等边三角形， ∴AC=BC，∠ACB=60°， ∴∠BCN=∠ACB-∠NCA=60°-∠NCA， ∠ACP=∠PCN-∠ACN=60°-∠NCA， ∴∠ACP=∠BCN， 在\\triangle ACP和\\triangle BCN中， \\begin{cases}AC=BC\\\\ ∠ACP=∠BCN\\\\ PC=CN\\end{cases}， ∴\\triangle ACP≌\\triangle BCN(SAS)， ∴PA=NB， ∵PB=PN+NB， ∴PB=PC+PA； (1)根据等边三角形的性质，当直线l垂直于BC时，点B关于l的对称点B'与C的连线和l的交点P会与A重合，从对称和等边三角形的高的角度思考； (2)①按照“作点B关于l的对称点B'，连接CB'与l交于P”的步骤补全图形； ②利用对称性质(AB=AB',∠BAP=∠B'AP)和等边三角形性质(AB=AC,∠BAC=60°)，结合角的运算推导∠BAP与∠BCP的数量关系； ③采用截长补短法，在PC上截取一段等于PA，构造等边三角形，再利用全等三角形证明线段关系； (3)类似(2)的思路，结合对称和等边三角形性质，分析转动时角和线段的关系即可． 本题属于几何变换综合题，主要考查了等边三角形的性质、轴对称的性质、全等三角形的判定与性质，熟练掌握等边三角形和轴对称的性质，灵活运用截长补短法构造全等三角形是解题的关键．",
     "analysis_images": [
       "images/a72f328b_25_analysis_0.png",
       "images/a72f328b_25_analysis_1.png",
@@ -8000,7 +8000,7 @@
       "images/3df473d4_19_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)证明：∵\\triangle ABC是等边三角形， ∵BC=BA，∠ABC=60°， ∵线段BD绕点B逆时针旋转60°得到线段BE， ∴BE=BD，∠EBD=60°， ∵∠CBD+∠ABD=60°，∠ABE+∠ABD=60°， ∴∠CBD=∠ABE， 在\\triangle BCD和\\triangle BAE中， \\begin{cases}BC=BA\\\\ ∠CBD=∠ABE\\\\ BD=BE\\end{cases}， ∴\\triangle BCD≌\\triangle BAE(SAS)； (2)解：过B点作BH⊥AC于H点，如图， ∵\\triangle BCD≌\\triangle BAE， ∴CD=AE=5， ∴AD=AC-CD=8-5=3， ∵\\triangle ABC是等边三角形， ∴BC=AC=8，∠C=60°，AH=CH=\\dfrac{1}{2}AC=4， 在{\\rm Rt}\\triangle BCH中，BH=\\sqrt{8^{2}-4^{2}}=4\\sqrt{3}， ∴\\triangle ABD的面积=\\dfrac{1}{2}×3×4\\sqrt{3}=6\\sqrt{3}. (1)先根据等边三角形的性质得到BC=BA，∠ABC=60°，再根据旋转的性质得到BE=BD，∠EBD=60°，则∠CBD=∠ABE，然后根据“SAS”可判定\\triangle BCD≌\\triangle BAE； (2)过B点作BH⊥AC于H点，如图，先利用\\triangle BCD≌\\triangle BAE得到CD=AE=5，所以AD=3，再利用等边三角形的性质得到BC=8，∠C=60°，AH=CH=4，接着利用勾股定理计算出BH，然后利用三角形的面积公式求解． 本题考查了旋转的性质：对应点到旋转中心的距离相等；对应点与旋转中心所连线段的夹角等于旋转角；旋转前、后的图形全等．也考查了全等三角形的判定与性质、等边三角形的性质．",
+    "analysis": "(1)证明：∵\\triangle ABC是等边三角形， ∵BC=BA，∠ABC=60°， ∵线段BD绕点B逆时针旋转60°得到线段BE， ∴BE=BD，∠EBD=60°， ∵∠CBD+∠ABD=60°，∠ABE+∠ABD=60°， ∴∠CBD=∠ABE， 在\\triangle BCD和\\triangle BAE中， \\begin{cases}BC=BA\\\\ ∠CBD=∠ABE\\\\ BD=BE\\end{cases}， ∴\\triangle BCD≌\\triangle BAE(SAS)； (2)解：过B点作BH⊥AC于H点，如图， ∵\\triangle BCD≌\\triangle BAE， ∴CD=AE=5， ∴AD=AC-CD=8-5=3， ∵\\triangle ABC是等边三角形， ∴BC=AC=8，∠C=60°，AH=CH=\\frac{1}{2}AC=4， 在{\\rm Rt}\\triangle BCH中，BH=\\sqrt{8^{2}-4^{2}}=4\\sqrt{3}， ∴\\triangle ABD的面积=\\frac{1}{2}×3×4\\sqrt{3}=6\\sqrt{3}. (1)先根据等边三角形的性质得到BC=BA，∠ABC=60°，再根据旋转的性质得到BE=BD，∠EBD=60°，则∠CBD=∠ABE，然后根据“SAS”可判定\\triangle BCD≌\\triangle BAE； (2)过B点作BH⊥AC于H点，如图，先利用\\triangle BCD≌\\triangle BAE得到CD=AE=5，所以AD=3，再利用等边三角形的性质得到BC=8，∠C=60°，AH=CH=4，接着利用勾股定理计算出BH，然后利用三角形的面积公式求解． 本题考查了旋转的性质：对应点到旋转中心的距离相等；对应点与旋转中心所连线段的夹角等于旋转角；旋转前、后的图形全等．也考查了全等三角形的判定与性质、等边三角形的性质．",
     "analysis_images": [
       "images/3df473d4_19_analysis_0.png"
     ],

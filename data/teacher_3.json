@@ -646,7 +646,7 @@
       "images/3df473d4_12_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：连接OB， ∵OA是⊙O的半径，弦BC⊥OA， ∴\\overparen{AB}=\\overparen{AC}， ∴∠AOB=∠AOC， ∵∠ADB=26°， ∴∠AOB=2∠ADB=52°， ∴∠AOC=52°， 故答案为：52. 连接OB，由OA是⊙O的半径，弦BC⊥OA，得\\overparen{AB}=\\overparen{AC}，所以∠AOB=∠AOC=2∠ADB=52°，于是得到问题的答案． 此题重点考查圆心角、弧、弦的关系定理、圆周角定理等知识，正确地添加辅助线是解题的关键．",
+    "analysis": "解：连接OB， ∵OA是⊙O的半径，弦BC⊥OA， ∴\\widehat{AB}=\\widehat{AC}， ∴∠AOB=∠AOC， ∵∠ADB=26°， ∴∠AOB=2∠ADB=52°， ∴∠AOC=52°， 故答案为：52. 连接OB，由OA是⊙O的半径，弦BC⊥OA，得\\widehat{AB}=\\widehat{AC}，所以∠AOB=∠AOC=2∠ADB=52°，于是得到问题的答案． 此题重点考查圆心角、弧、弦的关系定理、圆周角定理等知识，正确地添加辅助线是解题的关键．",
     "analysis_images": [
       "images/3df473d4_12_analysis_0.png"
     ],
@@ -670,7 +670,7 @@
       "理解圆、弧、弦、圆心角、圆周角的概念"
     ],
     "normalized_stem": "如图，$OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，$D$ 是 $\\odot O$ 上一点，且点 $D$ 在优弧 $BC$ 上。若 $\\angle ADB = 26^{\\circ}$，则 $\\angle AOC$ 的度数为 ______ $^{\\circ}$。",
-    "normalized_analysis": "解：连接 $OB$，$\\because OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，$\\therefore \\widehat{AB} = \\widehat{AC}$，$\\therefore \\angle AOB = \\angle AOC$，$\\because \\angle ADB = 26^{\\circ}$，$\\therefore \\angle AOB = 2 \\angle ADB = 52^{\\circ}$，$\\therefore \\angle AOC = 52^{\\circ}$，故答案为：$52$。连接 $OB$，由 $OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，得 $\\overparen{AB} = \\overparen{AC}$，所以 $\\angle AOB = \\angle AOC = 2 \\angle ADB = 52^{\\circ}$，于是得到问题的答案。此题重点考查圆心角、弧、弦的关系定理、圆周角定理等知识，正确地添加辅助线是解题的关键。",
+    "normalized_analysis": "解：连接 $OB$，$\\because OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，$\\therefore \\widehat{AB} = \\widehat{AC}$，$\\therefore \\angle AOB = \\angle AOC$，$\\because \\angle ADB = 26^{\\circ}$，$\\therefore \\angle AOB = 2 \\angle ADB = 52^{\\circ}$，$\\therefore \\angle AOC = 52^{\\circ}$，故答案为：$52$。连接 $OB$，由 $OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，得 $\\widehat{AB} = \\widehat{AC}$，所以 $\\angle AOB = \\angle AOC = 2 \\angle ADB = 52^{\\circ}$，于是得到问题的答案。此题重点考查圆心角、弧、弦的关系定理、圆周角定理等知识，正确地添加辅助线是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "需要运用圆周角定理和垂径定理进行推理计算。",
     "core_literacy_primary": "推理能力",
@@ -1442,7 +1442,7 @@
       "通过实物和模型，了解从物体抽象出来的几何体、平面、直线 和点等概念",
       "掌握基本事实：两点之间线段最短"
     ],
-    "normalized_stem": "如图，已知直线 $l$ 和点 $A$，$B$，$P$。 (1)用适当的语句表述点 $A$ 与直线 $l$ 的位置关系：\\underline{\\qquad\\qquad\\qquad\\qquad}； (2)请用直尺和圆规按下列要求作图(保留作图痕迹)： ①画射线 $PA$； ②连接 $BP$，在线段 $BP$ 的延长线上作线段 $PC$，使 $PC=PB$； (3)连接 $AC$，则 $BC$ \\underline{\\qquad} $AC+AB$ (填“$>$”“$<$”“$=$”)成立的理由是\\underline{\\qquad\\qquad\\qquad\\qquad}。",
+    "normalized_stem": "如图，已知直线 $l$ 和点 $A$，$B$，$P$。 (1)用适当的语句表述点 $A$ 与直线 $l$ 的位置关系：$\\underline{\\qquad\\qquad\\qquad\\qquad}$； (2)请用直尺和圆规按下列要求作图(保留作图痕迹)： ①画射线 $PA$； ②连接 $BP$，在线段 $BP$ 的延长线上作线段 $PC$，使 $PC=PB$； (3)连接 $AC$，则 $BC$ $\\underline{\\qquad}$ $AC+AB$ (填“$>$”“$<$”“$=$”)成立的理由是$\\underline{\\qquad\\qquad\\qquad\\qquad}$。",
     "normalized_analysis": "本题主要考查点与直线的位置关系，基本作图以及线段的和差关系： (1)观察图形，可得结论； (2)根据题目叙述，画出图形即可； (3)根据“两点之间线段最短”可得结论。",
     "bloom_level": "应用",
     "bloom_reason": "要求学生运用几何概念和作图规则完成具体操作和推理。",

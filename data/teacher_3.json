@@ -173,12 +173,12 @@
     "type": "解答题",
     "score": 10.0,
     "answer": "解：（1）①补全图形如图所示； ②∵ 平分 ， 平分 ， ∴ ， （理由：角平分线的定义）． ∵ ， ∴ ， ， ∴ . （2）​​​​​​​ .",
-    "stem": "已知\\angle AOB=90^\\circ,\\angle AOC=30^\\circ，OE平分\\angle AOB，OD平分\\angle AOC. (1)如图，OC在\\angle AOB外部，求\\angle DOE的度数． ①依题意补全图形； ②完成下面的解答过程． 解：∵OE平分\\angle AOB，OD平分\\angle AOC， ∴\\angle AOE=\\dfrac{1}{2}\\angle AOB，\\angle AOD=\\dfrac{1}{2}\\angle AOC(理由：). ∵\\angle AOB=90^\\circ,\\angle AOC=30^\\circ， ∴\\angle AOE=__________°，{\\rm∠}AOD=_\\!_\\!_\\!_\\!_°， ∴\\angle DOE=\\angle AOE+\\angle_________=60^\\circ. (2)若OC在\\angle AOB内部，则\\angle DOE的度数是___________.",
+    "stem": "已知\\angle AOB=90^\\circ,\\angle AOC=30^\\circ，OE平分\\angle AOB，OD平分\\angle AOC. (1)如图，OC在\\angle AOB外部，求\\angle DOE的度数． ①依题意补全图形； ②完成下面的解答过程． 解：∵OE平分\\angle AOB，OD平分\\angle AOC， ∴\\angle AOE=\\frac{1}{2}\\angle AOB，\\angle AOD=\\frac{1}{2}\\angle AOC(理由：). ∵\\angle AOB=90^\\circ,\\angle AOC=30^\\circ， ∴\\angle AOE=__________°，{\\rm∠}AOD=_\\!_\\!_\\!_\\!_°， ∴\\angle DOE=\\angle AOE+\\angle_________=60^\\circ. (2)若OC在\\angle AOB内部，则\\angle DOE的度数是___________.",
     "stem_images": [
       "images/f1005462_21_stem_0.png"
     ],
     "options": [],
-    "analysis": "【分析】 本题考查的是角平分线的有关计算，根据角平分线的定义及角的和差计算即可． (1)①根据题意补全图形，②根据角平分线定义及角的和差计算即可； (2)根据题意画图，根据角平分线定义及角的和差计算即可. 【解答】 解：(1)见答案 . (2)如图： ∵OE平分{\\rm∠}AOB，OD平分{\\rm∠}AOC， ∴{\\rm∠}AOE=\\dfrac{1}{2}{\\rm∠}AOB，{\\rm∠}AOD=\\dfrac{1}{2}{\\rm∠}AOC， ∵{\\rm∠}AOB={90}^{∘},{\\rm∠}AOC={30}^{∘}， ∴{\\rm∠}AOE={45}^{∘}，{\\rm∠}AOD={15}^{∘}， ∴{\\rm∠}DOE={\\rm∠}AOE-{\\rm∠}AOD={30}^{∘}， 故答案为：{30}^{∘} .",
+    "analysis": "【分析】 本题考查的是角平分线的有关计算，根据角平分线的定义及角的和差计算即可． (1)①根据题意补全图形，②根据角平分线定义及角的和差计算即可； (2)根据题意画图，根据角平分线定义及角的和差计算即可. 【解答】 解：(1)见答案 . (2)如图： ∵OE平分{\\rm∠}AOB，OD平分{\\rm∠}AOC， ∴{\\rm∠}AOE=\\frac{1}{2}{\\rm∠}AOB，{\\rm∠}AOD=\\frac{1}{2}{\\rm∠}AOC， ∵{\\rm∠}AOB={90}^{∘},{\\rm∠}AOC={30}^{∘}， ∴{\\rm∠}AOE={45}^{∘}，{\\rm∠}AOD={15}^{∘}， ∴{\\rm∠}DOE={\\rm∠}AOE-{\\rm∠}AOD={30}^{∘}， 故答案为：{30}^{∘} .",
     "analysis_images": [
       "images/f1005462_21_analysis_0.png"
     ],
@@ -201,8 +201,8 @@
       "能进行简单的单位换算，会计算角的和、差",
       "理解角平分线的概念"
     ],
-    "normalized_stem": "已知 $\\angle AOB=90^{\\circ}$，$\\angle AOC=30^{\\circ}$，$OE$ 平分 $\\angle AOB$，$OD$ 平分 $\\angle AOC$。 (1)如图，$OC$ 在 $\\angle AOB$ 外部，求 $\\angle DOE$ 的度数。 ①依题意补全图形； ②完成下面的解答过程。 解：∵ $OE$ 平分 $\\angle AOB$，$OD$ 平分 $\\angle AOC$， ∴ $\\angle AOE=\\dfrac{1}{2}\\angle AOB$，$\\angle AOD=\\dfrac{1}{2}\\angle AOC$ (理由：)。 ∵ $\\angle AOB=90^{\\circ}$，$\\angle AOC=30^{\\circ}$， ∴ $\\angle AOE=$ __________$^{\\circ}$，$\\angle AOD=$ __________$^{\\circ}$， ∴ $\\angle DOE=\\angle AOE+\\angle$ __________ $=60^{\\circ}$。 (2)若 $OC$ 在 $\\angle AOB$ 内部，则 $\\angle DOE$ 的度数是 ___________。",
-    "normalized_analysis": "【分析】 本题考查的是角平分线的有关计算，根据角平分线的定义及角的和差计算即可。 (1)①根据题意补全图形，②根据角平分线定义及角的和差计算即可； (2)根据题意画图，根据角平分线定义及角的和差计算即可。 【解答】 解：(1)见答案。 (2)如图： ∵ $OE$ 平分 $\\angle AOB$，$OD$ 平分 $\\angle AOC$， ∴ $\\angle AOE=\\dfrac{1}{2}\\angle AOB$，$\\angle AOD=\\dfrac{1}{2}\\angle AOC$， ∵ $\\angle AOB=90^{\\circ}$，$\\angle AOC=30^{\\circ}$， ∴ $\\angle AOE=45^{\\circ}$，$\\angle AOD=15^{\\circ}$， ∴ $\\angle DOE=\\angle AOE-\\angle AOD=30^{\\circ}$， 故答案为：$30^{\\circ}$。",
+    "normalized_stem": "已知 $\\angle AOB=90^{\\circ}$，$\\angle AOC=30^{\\circ}$，$OE$ 平分 $\\angle AOB$，$OD$ 平分 $\\angle AOC$。 (1)如图，$OC$ 在 $\\angle AOB$ 外部，求 $\\angle DOE$ 的度数。 ①依题意补全图形； ②完成下面的解答过程。 解：∵ $OE$ 平分 $\\angle AOB$，$OD$ 平分 $\\angle AOC$， ∴ $\\angle AOE=\\frac{1}{2}\\angle AOB$，$\\angle AOD=\\frac{1}{2}\\angle AOC$ (理由：)。 ∵ $\\angle AOB=90^{\\circ}$，$\\angle AOC=30^{\\circ}$， ∴ $\\angle AOE=$ __________$^{\\circ}$，$\\angle AOD=$ __________$^{\\circ}$， ∴ $\\angle DOE=\\angle AOE+\\angle$ __________ $=60^{\\circ}$。 (2)若 $OC$ 在 $\\angle AOB$ 内部，则 $\\angle DOE$ 的度数是 ___________。",
+    "normalized_analysis": "【分析】 本题考查的是角平分线的有关计算，根据角平分线的定义及角的和差计算即可。 (1)①根据题意补全图形，②根据角平分线定义及角的和差计算即可； (2)根据题意画图，根据角平分线定义及角的和差计算即可。 【解答】 解：(1)见答案。 (2)如图： ∵ $OE$ 平分 $\\angle AOB$，$OD$ 平分 $\\angle AOC$， ∴ $\\angle AOE=\\frac{1}{2}\\angle AOB$，$\\angle AOD=\\frac{1}{2}\\angle AOC$， ∵ $\\angle AOB=90^{\\circ}$，$\\angle AOC=30^{\\circ}$， ∴ $\\angle AOE=45^{\\circ}$，$\\angle AOD=15^{\\circ}$， ∴ $\\angle DOE=\\angle AOE-\\angle AOD=30^{\\circ}$， 故答案为：$30^{\\circ}$。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用角平分线定义和角的和差公式解决具体问题。",
     "core_literacy_primary": "运算能力",
@@ -411,7 +411,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "写出一个次数是$4$的单项式，这个单项式可以是$____________$（写出一个即可）.",
+    "normalized_stem": "写出一个次数是$4$的单项式，这个单项式可以是____________（写出一个即可）.",
     "normalized_analysis": "【分析】此题主要考查了单项式，直接利用单项式的定义：数或字母的积组成的式子叫做单项式，进而得出答案． 【详解】解：根据题意可得，这个单项式可以为：$x^{4}$（答案不唯一）. 故答案为：$x^{4}$（答案不唯一）.",
     "bloom_level": "理解",
     "bloom_reason": "题目要求根据单项式次数的概念写出符合条件的例子，属于对概念的理解和简单应用。",
@@ -433,7 +433,7 @@
       "images/ec613dd5_13_stem_0.png"
     ],
     "options": [],
-    "analysis": "【分析】本题考查了角的计算，先根据\\angle COD=2\\angle DOB求出\\angle BOD的度数，然后根据\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD计算即可． 【详解】解∶∵\\angle COD=28{^\\circ}，\\angle COD=2\\angle DOB， ∴\\angle BOD=\\dfrac{1}{2}\\angle COD=14{^\\circ}， 又\\angle AOB=118{^\\circ}， ∴\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD=76{^\\circ}， 故答案为∶76.",
+    "analysis": "【分析】本题考查了角的计算，先根据\\angle COD=2\\angle DOB求出\\angle BOD的度数，然后根据\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD计算即可． 【详解】解∶∵\\angle COD=28{^\\circ}，\\angle COD=2\\angle DOB， ∴\\angle BOD=\\frac{1}{2}\\angle COD=14{^\\circ}， 又\\angle AOB=118{^\\circ}， ∴\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD=76{^\\circ}， 故答案为∶76.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -447,8 +447,8 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "如图，$\\angle AOB=118^{\\circ}$，$\\angle COD=28^{\\circ}$，$\\angle COD=2\\angle DOB$，则$\\angle AOC$的度数为$____________^{\\circ}$",
-    "normalized_analysis": "【分析】本题考查了角的计算，先根据$\\angle COD=2\\angle DOB$求出$\\angle BOD$的度数，然后根据$\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD$计算即可． 【详解】解：∵$\\angle COD=28^{\\circ}$，$\\angle COD=2\\angle DOB$， ∴$\\angle BOD=\\dfrac{1}{2}\\angle COD=14^{\\circ}$， 又$\\angle AOB=118^{\\circ}$， ∴$\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD=76^{\\circ}$， 故答案为：$76$.",
+    "normalized_stem": "如图，$\\angle AOB=118^{\\circ}$，$\\angle COD=28^{\\circ}$，$\\angle COD=2\\angle DOB$，则$\\angle AOC$的度数为____________$^{\\circ}$",
+    "normalized_analysis": "【分析】本题考查了角的计算，先根据$\\angle COD=2\\angle DOB$求出$\\angle BOD$的度数，然后根据$\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD$计算即可． 【详解】解：∵$\\angle COD=28^{\\circ}$，$\\angle COD=2\\angle DOB$， ∴$\\angle BOD=\\frac{1}{2}\\angle COD=14^{\\circ}$， 又$\\angle AOB=118^{\\circ}$， ∴$\\angle AOC=\\angle AOB-\\angle COD-\\angle BOD=76^{\\circ}$， 故答案为：$76$.",
     "bloom_level": "应用",
     "bloom_reason": "学生需要运用角的计算规则解决具体问题。",
     "core_literacy_primary": "运算能力",
@@ -464,27 +464,27 @@
     "id": "74b790b3_6",
     "type": "选择题",
     "score": 3.0,
-    "stem": "不透明的盒子中有三张卡片，上面分别写有数字“1，2，3”，除数字外三张卡片无其他差别。 从中随机取出一张卡片，记录其数字，放回并摇匀，再从中随机取出一张卡片，记录其数字，两次取出卡片上的数字的乘积是偶数的概率是 A.\\dfrac{1}{2} B.\\dfrac{2}{3} C.\\dfrac{4}{9} D.\\dfrac{5}{9}",
+    "stem": "不透明的盒子中有三张卡片，上面分别写有数字“1，2，3”，除数字外三张卡片无其他差别。 从中随机取出一张卡片，记录其数字，放回并摇匀，再从中随机取出一张卡片，记录其数字，两次取出卡片上的数字的乘积是偶数的概率是 A.\\frac{1}{2} B.\\frac{2}{3} C.\\frac{4}{9} D.\\frac{5}{9}",
     "stem_images": [],
     "options": [
       {
         "index": "A",
-        "text": "\\dfrac{1}{2}",
+        "text": "\\frac{1}{2}",
         "images": []
       },
       {
         "index": "B",
-        "text": "\\dfrac{2}{3}",
+        "text": "\\frac{2}{3}",
         "images": []
       },
       {
         "index": "C",
-        "text": "\\dfrac{4}{9}",
+        "text": "\\frac{4}{9}",
         "images": []
       },
       {
         "index": "D",
-        "text": "\\dfrac{5}{9}",
+        "text": "\\frac{5}{9}",
         "images": []
       }
     ],
@@ -507,7 +507,7 @@
     "xkb_knowledges": [
       "了解随机事件的概率 。"
     ],
-    "normalized_stem": "不透明的盒子中有三张卡片，上面分别写有数字“$1$，$2$，$3$”，除数字外三张卡片无其他差别。从中随机取出一张卡片，记录其数字，放回并摇匀，再从中随机取出一张卡片，记录其数字，两次取出卡片上的数字的乘积是偶数的概率是 A.$\\dfrac{1}{2}$ B.$\\dfrac{2}{3}$ C.$\\dfrac{4}{9}$ D.$\\dfrac{5}{9}$",
+    "normalized_stem": "不透明的盒子中有三张卡片，上面分别写有数字“$1$，$2$，$3$”，除数字外三张卡片无其他差别。从中随机取出一张卡片，记录其数字，放回并摇匀，再从中随机取出一张卡片，记录其数字，两次取出卡片上的数字的乘积是偶数的概率是 A.$\\frac{1}{2}$ B.$\\frac{2}{3}$ C.$\\frac{4}{9}$ D.$\\frac{5}{9}$",
     "normalized_analysis": "略",
     "bloom_level": "应用",
     "bloom_reason": "需要应用概率公式和计数原理解决具体问题。",
@@ -525,12 +525,12 @@
     "type": "填空题",
     "score": 3.0,
     "answer": "",
-    "stem": "如图，在Rt\\vartriangle ABC 中，\\angle C=90{^\\circ},\\angle B=30{^\\circ} .D为边BC 上一动点，连接AD .当AD+\\dfrac{1}{2}BD 取最小值时，\\dfrac{BD}{BC} 的值为__________.",
+    "stem": "如图，在Rt\\vartriangle ABC 中，\\angle C=90{^\\circ},\\angle B=30{^\\circ} .D为边BC 上一动点，连接AD .当AD+\\frac{1}{2}BD 取最小值时，\\frac{BD}{BC} 的值为__________.",
     "stem_images": [
       "images/d228ad66_16_stem_0.png"
     ],
     "options": [],
-    "analysis": "【分析】本题主要考查等边三角形的性质与判定，含30{^\\circ} 直角三角形的三边关系，垂线段最短等相关知识，延长AC 到点E ，使CE=AC ，连接BE ，证明\\vartriangle ABE 是等边三角形，可推出\\angle CBE=30{^\\circ} ，过点D 作DF\\bot BE 于点F ，则DF=\\dfrac{1}{2}BD ，从而AD+\\dfrac{1}{2}BD=AD+DF ，故当A ，D ，F 三点共线时，AD+DF 的值最小，过点A 作AM\\bot BE 于点M ，AM 即为所求最小值，求出AM 的值即可，构造含30{^\\circ} 的直角三角形，将目标转化为求AD+DF 的最小值是解题关键． 【详解】解：如图，延长AC 到点E ，使CE=AC ，连接BE ， \\because\\angle ACB=90{^\\circ} ，即BC\\bot AC ， \\therefore BC 垂直平分AE ， \\therefore AB=BE ， \\because\\angle ABC=30{^\\circ} ， \\therefore\\angle BAC=60{^\\circ} ， \\therefore\\vartriangle ABE 是等边三角形， \\therefore\\angle ABE=60{^\\circ} ， \\therefore\\angle CBE=30{^\\circ} ， 过点D 作DF\\bot BE 于点F ， \\therefore DF=\\dfrac{1}{2}BD ， \\therefore AD+\\dfrac{1}{2}BD=AD+DF ， \\therefore 求AD+\\dfrac{1}{2}BD 的最小值即求AD+DF 的最小值，当A ，D ，F 三点共线时，AD+DF 的值最小，过点A 作AM\\bot BE 于点M ，AM 即为所求最小值， 此时\\angle MAC=30{^\\circ} ，设C{D}{'}=x ，则AC=\\sqrt{3}x ， \\therefore BC=3x ， \\therefore\\dfrac{B{D}{'}}{BC}=\\dfrac{3x-x}{3x}=\\dfrac{2}{3} 即当AD+\\dfrac{1}{2}BD 取最小值时，\\dfrac{BD}{BC} 的值为\\dfrac{2}{3} . 故答案为：\\dfrac{2}{3} .",
+    "analysis": "【分析】本题主要考查等边三角形的性质与判定，含30{^\\circ} 直角三角形的三边关系，垂线段最短等相关知识，延长AC 到点E ，使CE=AC ，连接BE ，证明\\vartriangle ABE 是等边三角形，可推出\\angle CBE=30{^\\circ} ，过点D 作DF\\bot BE 于点F ，则DF=\\frac{1}{2}BD ，从而AD+\\frac{1}{2}BD=AD+DF ，故当A ，D ，F 三点共线时，AD+DF 的值最小，过点A 作AM\\bot BE 于点M ，AM 即为所求最小值，求出AM 的值即可，构造含30{^\\circ} 的直角三角形，将目标转化为求AD+DF 的最小值是解题关键． 【详解】解：如图，延长AC 到点E ，使CE=AC ，连接BE ， \\because\\angle ACB=90{^\\circ} ，即BC\\bot AC ， \\therefore BC 垂直平分AE ， \\therefore AB=BE ， \\because\\angle ABC=30{^\\circ} ， \\therefore\\angle BAC=60{^\\circ} ， \\therefore\\vartriangle ABE 是等边三角形， \\therefore\\angle ABE=60{^\\circ} ， \\therefore\\angle CBE=30{^\\circ} ， 过点D 作DF\\bot BE 于点F ， \\therefore DF=\\frac{1}{2}BD ， \\therefore AD+\\frac{1}{2}BD=AD+DF ， \\therefore 求AD+\\frac{1}{2}BD 的最小值即求AD+DF 的最小值，当A ，D ，F 三点共线时，AD+DF 的值最小，过点A 作AM\\bot BE 于点M ，AM 即为所求最小值， 此时\\angle MAC=30{^\\circ} ，设C{D}{'}=x ，则AC=\\sqrt{3}x ， \\therefore BC=3x ， \\therefore\\frac{B{D}{'}}{BC}=\\frac{3x-x}{3x}=\\frac{2}{3} 即当AD+\\frac{1}{2}BD 取最小值时，\\frac{BD}{BC} 的值为\\frac{2}{3} . 故答案为：\\frac{2}{3} .",
     "analysis_images": [
       "images/d228ad66_16_analysis_0.png"
     ],
@@ -550,8 +550,8 @@
     "xkb_knowledges": [
       "能用锐角三角函数的知识解决一些简单的实际问题"
     ],
-    "normalized_stem": "如图，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C=90^{\\circ}$，$\\angle B=30^{\\circ}$。$D$ 为边 $BC$ 上一动点，连接 $AD$。当 $AD+\\dfrac{1}{2}BD$ 取最小值时，$\\dfrac{BD}{BC}$ 的值为__________。",
-    "normalized_analysis": "【分析】本题主要考查等边三角形的性质与判定，含 $30^{\\circ}$ 直角三角形的三边关系，垂线段最短等相关知识，延长 $AC$ 到点 $E$，使 $CE=AC$，连接 $BE$，证明 $\\triangle ABE$ 是等边三角形，可推出 $\\angle CBE=30^{\\circ}$，过点 $D$ 作 $DF\\bot BE$ 于点 $F$，则 $DF=\\dfrac{1}{2}BD$，从而 $AD+\\dfrac{1}{2}BD=AD+DF$，故当 $A$，$D$，$F$ 三点共线时，$AD+DF$ 的值最小，过点 $A$ 作 $AM\\bot BE$ 于点 $M$，$AM$ 即为所求最小值，求出 $AM$ 的值即可，构造含 $30^{\\circ}$ 的直角三角形，将目标转化为求 $AD+DF$ 的最小值是解题关键。 【详解】解：如图，延长 $AC$ 到点 $E$，使 $CE=AC$，连接 $BE$， $\\because\\angle ACB=90^{\\circ}$，即 $BC\\bot AC$， $\\therefore BC$ 垂直平分 $AE$， $\\therefore AB=BE$， $\\because\\angle ABC=30^{\\circ}$， $\\therefore\\angle BAC=60^{\\circ}$， $\\therefore\\triangle ABE$ 是等边三角形， $\\therefore\\angle ABE=60^{\\circ}$， $\\therefore\\angle CBE=30^{\\circ}$， 过点 $D$ 作 $DF\\bot BE$ 于点 $F$， $\\therefore DF=\\dfrac{1}{2}BD$， $\\therefore AD+\\dfrac{1}{2}BD=AD+DF$， $\\therefore$ 求 $AD+\\dfrac{1}{2}BD$ 的最小值即求 $AD+DF$ 的最小值，当 $A$，$D$，$F$ 三点共线时，$AD+DF$ 的值最小，过点 $A$ 作 $AM\\bot BE$ 于点 $M$，$AM$ 即为所求最小值， 此时 $\\angle MAC=30^{\\circ}$，设 $CD'=x$，则 $AC=\\sqrt{3}x$， $\\therefore BC=3x$， $\\therefore\\dfrac{BD'}{BC}=\\dfrac{3x-x}{3x}=\\dfrac{2}{3}$ 即当 $AD+\\dfrac{1}{2}BD$ 取最小值时，$\\dfrac{BD}{BC}$ 的值为 $\\dfrac{2}{3}$。 故答案为：$\\dfrac{2}{3}$。",
+    "normalized_stem": "如图，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C=90^{\\circ}$，$\\angle B=30^{\\circ}$。$D$ 为边 $BC$ 上一动点，连接 $AD$。当 $AD+\\frac{1}{2}BD$ 取最小值时，$\\frac{BD}{BC}$ 的值为__________。",
+    "normalized_analysis": "【分析】本题主要考查等边三角形的性质与判定，含 $30^{\\circ}$ 直角三角形的三边关系，垂线段最短等相关知识，延长 $AC$ 到点 $E$，使 $CE=AC$，连接 $BE$，证明 $\\triangle ABE$ 是等边三角形，可推出 $\\angle CBE=30^{\\circ}$，过点 $D$ 作 $DF\\bot BE$ 于点 $F$，则 $DF=\\frac{1}{2}BD$，从而 $AD+\\frac{1}{2}BD=AD+DF$，故当 $A$，$D$，$F$ 三点共线时，$AD+DF$ 的值最小，过点 $A$ 作 $AM\\bot BE$ 于点 $M$，$AM$ 即为所求最小值，求出 $AM$ 的值即可，构造含 $30^{\\circ}$ 的直角三角形，将目标转化为求 $AD+DF$ 的最小值是解题关键。 【详解】解：如图，延长 $AC$ 到点 $E$，使 $CE=AC$，连接 $BE$， $\\because\\angle ACB=90^{\\circ}$，即 $BC\\bot AC$， $\\therefore BC$ 垂直平分 $AE$， $\\therefore AB=BE$， $\\because\\angle ABC=30^{\\circ}$， $\\therefore\\angle BAC=60^{\\circ}$， $\\therefore\\triangle ABE$ 是等边三角形， $\\therefore\\angle ABE=60^{\\circ}$， $\\therefore\\angle CBE=30^{\\circ}$， 过点 $D$ 作 $DF\\bot BE$ 于点 $F$， $\\therefore DF=\\frac{1}{2}BD$， $\\therefore AD+\\frac{1}{2}BD=AD+DF$， $\\therefore$ 求 $AD+\\frac{1}{2}BD$ 的最小值即求 $AD+DF$ 的最小值，当 $A$，$D$，$F$ 三点共线时，$AD+DF$ 的值最小，过点 $A$ 作 $AM\\bot BE$ 于点 $M$，$AM$ 即为所求最小值， 此时 $\\angle MAC=30^{\\circ}$，设 $CD'=x$，则 $AC=\\sqrt{3}x$， $\\therefore BC=3x$， $\\therefore\\frac{BD'}{BC}=\\frac{3x-x}{3x}=\\frac{2}{3}$ 即当 $AD+\\frac{1}{2}BD$ 取最小值时，$\\frac{BD}{BC}$ 的值为 $\\frac{2}{3}$。 故答案为：$\\frac{2}{3}$。",
     "bloom_level": "应用",
     "bloom_reason": "需要运用几何知识构造模型，解决动点最值问题。",
     "core_literacy_primary": "几何直观",
@@ -607,7 +607,7 @@
       "images/edefda7a_13_stem_0.png"
     ],
     "options": [],
-    "analysis": "本题考查了正多边形的性质、等边三角形的判定与性质、勾股定理，连接OE ，作EG\\bot x 轴于点G ，由正多边形的性质可得\\angle EOF=60{^\\circ} ，OE=OF ，EF=4 ，从而可得\\vartriangle OEF 为等边三角形，由等边三角形的性质可得OF=OE=4 ，OG=\\dfrac{1}{2}OF=2 ，再由勾股定理计算即可得出结果，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解：如图：连接OE ，作EG\\bot x 轴于点G ， ， ∵在平面直角坐标系xOy 中，半径为4的正六边形ABCDEF 的中心为点O， ∴\\angle EOF=360{^\\circ}\\div 6=60{^\\circ} ，OE=OF ，EF=4 ， ∴\\vartriangle OEF 为等边三角形， ∴OF=OE=4 ， ∵EG\\bot x轴， ∴OG=\\dfrac{1}{2}OF=2 ， ∴EG=\\sqrt{O{E^2}-O{G^2}}=2\\sqrt{3} ， ∴顶点E的坐标是\\left(-2,2\\sqrt{3}\\right) ， 故答案为：\\left(-2,2\\sqrt{3}\\right) .",
+    "analysis": "本题考查了正多边形的性质、等边三角形的判定与性质、勾股定理，连接OE ，作EG\\bot x 轴于点G ，由正多边形的性质可得\\angle EOF=60{^\\circ} ，OE=OF ，EF=4 ，从而可得\\vartriangle OEF 为等边三角形，由等边三角形的性质可得OF=OE=4 ，OG=\\frac{1}{2}OF=2 ，再由勾股定理计算即可得出结果，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解：如图：连接OE ，作EG\\bot x 轴于点G ， ， ∵在平面直角坐标系xOy 中，半径为4的正六边形ABCDEF 的中心为点O， ∴\\angle EOF=360{^\\circ}\\div 6=60{^\\circ} ，OE=OF ，EF=4 ， ∴\\vartriangle OEF 为等边三角形， ∴OF=OE=4 ， ∵EG\\bot x轴， ∴OG=\\frac{1}{2}OF=2 ， ∴EG=\\sqrt{O{E^2}-O{G^2}}=2\\sqrt{3} ， ∴顶点E的坐标是\\left(-2,2\\sqrt{3}\\right) ， 故答案为：\\left(-2,2\\sqrt{3}\\right) .",
     "analysis_images": [
       "images/edefda7a_13_analysis_0.png"
     ],
@@ -624,7 +624,7 @@
     "bnu_knowledges": [],
     "xkb_knowledges": [],
     "normalized_stem": "如图，在平面直角坐标系 $xOy$ 中，半径为 $4$ 的正六边形 $ABCDEF$ 的中心为点 $O$，顶点 $F$，$C$ 在 $x$ 轴上，顶点 $E$ 的坐标是__________.",
-    "normalized_analysis": "本题考查了正多边形的性质、等边三角形的判定与性质、勾股定理，连接 $OE$，作 $EG \\bot x$ 轴于点 $G$，由正多边形的性质可得 $\\angle EOF = 60^{\\circ}$，$OE = OF$，$EF = 4$，从而可得 $\\vartriangle OEF$ 为等边三角形，由等边三角形的性质可得 $OF = OE = 4$，$OG = \\dfrac{1}{2}OF = 2$，再由勾股定理计算即可得出结果，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解：如图：连接 $OE$，作 $EG \\bot x$ 轴于点 $G$， ， ∵在平面直角坐标系 $xOy$ 中，半径为 $4$ 的正六边形 $ABCDEF$ 的中心为点 $O$， ∴ $\\angle EOF = 360^{\\circ} \\div 6 = 60^{\\circ}$，$OE = OF$，$EF = 4$， ∴ $\\vartriangle OEF$ 为等边三角形， ∴ $OF = OE = 4$， ∵ $EG \\bot x$ 轴， ∴ $OG = \\dfrac{1}{2}OF = 2$， ∴ $EG = \\sqrt{OE^{2} - OG^{2}} = 2\\sqrt{3}$， ∴顶点 $E$ 的坐标是 $\\left(-2, 2\\sqrt{3}\\right)$， 故答案为：$\\left(-2, 2\\sqrt{3}\\right)$.",
+    "normalized_analysis": "本题考查了正多边形的性质、等边三角形的判定与性质、勾股定理，连接 $OE$，作 $EG \\bot x$ 轴于点 $G$，由正多边形的性质可得 $\\angle EOF = 60^{\\circ}$，$OE = OF$，$EF = 4$，从而可得 $\\vartriangle OEF$ 为等边三角形，由等边三角形的性质可得 $OF = OE = 4$，$OG = \\frac{1}{2}OF = 2$，再由勾股定理计算即可得出结果，熟练掌握以上知识点并灵活运用是解此题的关键． 【详解】解：如图：连接 $OE$，作 $EG \\bot x$ 轴于点 $G$， ， ∵在平面直角坐标系 $xOy$ 中，半径为 $4$ 的正六边形 $ABCDEF$ 的中心为点 $O$， ∴ $\\angle EOF = 360^{\\circ} \\div 6 = 60^{\\circ}$，$OE = OF$，$EF = 4$， ∴ $\\vartriangle OEF$ 为等边三角形， ∴ $OF = OE = 4$， ∵ $EG \\bot x$ 轴， ∴ $OG = \\frac{1}{2}OF = 2$， ∴ $EG = \\sqrt{OE^{2} - OG^{2}} = 2\\sqrt{3}$， ∴顶点 $E$ 的坐标是 $\\left(-2, 2\\sqrt{3}\\right)$， 故答案为：$\\left(-2, 2\\sqrt{3}\\right)$.",
     "bloom_level": "应用",
     "bloom_reason": "需要运用正多边形、等边三角形和勾股定理的知识解决具体坐标计算问题。",
     "core_literacy_primary": "几何直观",
@@ -670,7 +670,7 @@
       "理解圆、弧、弦、圆心角、圆周角的概念"
     ],
     "normalized_stem": "如图，$OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，$D$ 是 $\\odot O$ 上一点，且点 $D$ 在优弧 $BC$ 上。若 $\\angle ADB = 26^{\\circ}$，则 $\\angle AOC$ 的度数为 ______ $^{\\circ}$。",
-    "normalized_analysis": "解：连接 $OB$，$\\because OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，$\\therefore \\overparen{AB} = \\overparen{AC}$，$\\therefore \\angle AOB = \\angle AOC$，$\\because \\angle ADB = 26^{\\circ}$，$\\therefore \\angle AOB = 2 \\angle ADB = 52^{\\circ}$，$\\therefore \\angle AOC = 52^{\\circ}$，故答案为：$52$。连接 $OB$，由 $OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，得 $\\overparen{AB} = \\overparen{AC}$，所以 $\\angle AOB = \\angle AOC = 2 \\angle ADB = 52^{\\circ}$，于是得到问题的答案。此题重点考查圆心角、弧、弦的关系定理、圆周角定理等知识，正确地添加辅助线是解题的关键。",
+    "normalized_analysis": "解：连接 $OB$，$\\because OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，$\\therefore \\widehat{AB} = \\widehat{AC}$，$\\therefore \\angle AOB = \\angle AOC$，$\\because \\angle ADB = 26^{\\circ}$，$\\therefore \\angle AOB = 2 \\angle ADB = 52^{\\circ}$，$\\therefore \\angle AOC = 52^{\\circ}$，故答案为：$52$。连接 $OB$，由 $OA$ 是 $\\odot O$ 的半径，弦 $BC \\perp OA$，得 $\\overparen{AB} = \\overparen{AC}$，所以 $\\angle AOB = \\angle AOC = 2 \\angle ADB = 52^{\\circ}$，于是得到问题的答案。此题重点考查圆心角、弧、弦的关系定理、圆周角定理等知识，正确地添加辅助线是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "需要运用圆周角定理和垂径定理进行推理计算。",
     "core_literacy_primary": "推理能力",
@@ -686,7 +686,7 @@
     "id": "b9bedcf8_24",
     "type": "解答题",
     "score": 8.0,
-    "stem": "小李同学在“智慧中小学”学习平台上看到这样一个问题的解答： 练一练 计算：\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right) 解法1：\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right) 原式=\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{20}{30}-\\dfrac{3}{30}+\\dfrac{5}{30}-\\dfrac{12}{30}\\right)=\\left(-\\dfrac{1}{30}\\right)\\div\\dfrac{10}{30}=\\left(-\\dfrac{1}{30}\\right)\\times\\dfrac{30}{10}=-\\dfrac{1}{10} 解法2：\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right) 原式=\\left(-\\dfrac{1}{30}\\right)\\div\\left[\\dfrac{2}{3}+\\dfrac{1}{6}-\\left(\\dfrac{1}{10}+\\dfrac{2}{5}\\right)\\right] =\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{5}{6}-\\dfrac{1}{2}\\right)=\\left(-\\dfrac{1}{30}\\right)\\div\\dfrac{1}{3}=\\left(-\\dfrac{1}{30}\\right)\\times 3=-\\dfrac{1}{10} 解法3：\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)\\div\\left(-\\dfrac{1}{30}\\right) 原式=\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)\\times\\left(-30\\right)=-\\dfrac{2}{3}\\times 30+\\dfrac{1}{10}\\times 30-\\dfrac{1}{6}\\times 30+\\dfrac{2}{5}\\times 30=-20+3-5+12=-10所以\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)=-\\dfrac{1}{10} 根据你对上题解法的理解，选择一种合适的方法计算：\\left(-\\dfrac{1}{48}\\right)\\div\\left(-\\dfrac{1}{12}-\\dfrac{1}{3}+\\dfrac{3}{4}-\\dfrac{1}{6}\\right).",
+    "stem": "小李同学在“智慧中小学”学习平台上看到这样一个问题的解答： 练一练 计算：\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right) 解法1：\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right) 原式=\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{20}{30}-\\frac{3}{30}+\\frac{5}{30}-\\frac{12}{30}\\right)=\\left(-\\frac{1}{30}\\right)\\div\\frac{10}{30}=\\left(-\\frac{1}{30}\\right)\\times\\frac{30}{10}=-\\frac{1}{10} 解法2：\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right) 原式=\\left(-\\frac{1}{30}\\right)\\div\\left[\\frac{2}{3}+\\frac{1}{6}-\\left(\\frac{1}{10}+\\frac{2}{5}\\right)\\right] =\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{5}{6}-\\frac{1}{2}\\right)=\\left(-\\frac{1}{30}\\right)\\div\\frac{1}{3}=\\left(-\\frac{1}{30}\\right)\\times 3=-\\frac{1}{10} 解法3：\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)\\div\\left(-\\frac{1}{30}\\right) 原式=\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)\\times\\left(-30\\right)=-\\frac{2}{3}\\times 30+\\frac{1}{10}\\times 30-\\frac{1}{6}\\times 30+\\frac{2}{5}\\times 30=-20+3-5+12=-10所以\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)=-\\frac{1}{10} 根据你对上题解法的理解，选择一种合适的方法计算：\\left(-\\frac{1}{48}\\right)\\div\\left(-\\frac{1}{12}-\\frac{1}{3}+\\frac{3}{4}-\\frac{1}{6}\\right).",
     "stem_images": [
       "images/b9bedcf8_24_stem_0.png",
       "images/b9bedcf8_24_stem_1.png",
@@ -712,7 +712,7 @@
     "xkb_knowledges": [
       "掌握有理数的加、减、乘、除、乘方及简单的混合运算(以三步以内为主)"
     ],
-    "normalized_stem": "小李同学在“智慧中小学”学习平台上看到这样一个问题的解答： 练一练 计算：$\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)$ 解法1：$\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)$ 原式$=\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{20}{30}-\\dfrac{3}{30}+\\dfrac{5}{30}-\\dfrac{12}{30}\\right)=\\left(-\\dfrac{1}{30}\\right)\\div\\dfrac{10}{30}=\\left(-\\dfrac{1}{30}\\right)\\times\\dfrac{30}{10}=-\\dfrac{1}{10}$ 解法2：$\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)$ 原式$=\\left(-\\dfrac{1}{30}\\right)\\div\\left[\\dfrac{2}{3}+\\dfrac{1}{6}-\\left(\\dfrac{1}{10}+\\dfrac{2}{5}\\right)\\right] =\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{5}{6}-\\dfrac{1}{2}\\right)=\\left(-\\dfrac{1}{30}\\right)\\div\\dfrac{1}{3}=\\left(-\\dfrac{1}{30}\\right)\\times 3=-\\dfrac{1}{10}$ 解法3：$\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)\\div\\left(-\\dfrac{1}{30}\\right)$ 原式$=\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)\\times\\left(-30\\right)=-\\dfrac{2}{3}\\times 30+\\dfrac{1}{10}\\times 30-\\dfrac{1}{6}\\times 30+\\dfrac{2}{5}\\times 30=-20+3-5+12=-10$所以$\\left(-\\dfrac{1}{30}\\right)\\div\\left(\\dfrac{2}{3}-\\dfrac{1}{10}+\\dfrac{1}{6}-\\dfrac{2}{5}\\right)=-\\dfrac{1}{10}$ 根据你对上题解法的理解，选择一种合适的方法计算：$\\left(-\\dfrac{1}{48}\\right)\\div\\left(-\\dfrac{1}{12}-\\dfrac{1}{3}+\\dfrac{3}{4}-\\dfrac{1}{6}\\right)$.",
+    "normalized_stem": "小李同学在“智慧中小学”学习平台上看到这样一个问题的解答： 练一练 计算：$\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)$ 解法1：$\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)$ 原式$=\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{20}{30}-\\frac{3}{30}+\\frac{5}{30}-\\frac{12}{30}\\right)=\\left(-\\frac{1}{30}\\right)\\div\\frac{10}{30}=\\left(-\\frac{1}{30}\\right)\\times\\frac{30}{10}=-\\frac{1}{10}$ 解法2：$\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)$ 原式$=\\left(-\\frac{1}{30}\\right)\\div\\left[\\frac{2}{3}+\\frac{1}{6}-\\left(\\frac{1}{10}+\\frac{2}{5}\\right)\\right] =\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{5}{6}-\\frac{1}{2}\\right)=\\left(-\\frac{1}{30}\\right)\\div\\frac{1}{3}=\\left(-\\frac{1}{30}\\right)\\times 3=-\\frac{1}{10}$ 解法3：$\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)\\div\\left(-\\frac{1}{30}\\right)$ 原式$=\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)\\times\\left(-30\\right)=-\\frac{2}{3}\\times 30+\\frac{1}{10}\\times 30-\\frac{1}{6}\\times 30+\\frac{2}{5}\\times 30=-20+3-5+12=-10$所以$\\left(-\\frac{1}{30}\\right)\\div\\left(\\frac{2}{3}-\\frac{1}{10}+\\frac{1}{6}-\\frac{2}{5}\\right)=-\\frac{1}{10}$ 根据你对上题解法的理解，选择一种合适的方法计算：$\\left(-\\frac{1}{48}\\right)\\div\\left(-\\frac{1}{12}-\\frac{1}{3}+\\frac{3}{4}-\\frac{1}{6}\\right)$.",
     "normalized_analysis": "见答案",
     "bloom_level": "应用",
     "bloom_reason": "学生需要将给定的多种解法模式应用到新的具体算式中。",
@@ -920,7 +920,7 @@
       "images/22878d4c_22_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)如图所示三角形A_{1}B_{1}C_{1}， 点B_{1}(-1,-3)，C_{1}(2,-2)； (2)①∵A(-1,5)，A_{1}(2,0)， ∴将三角形ABC向右平移3个单位长度，再向下平移5个单位长度得到三角形A_{1}B_{1}C_{1}， ∵C(1,m)， ∴点C_{1}的坐标为(4,m-5)， ②∵三角形A_{1}C_{1}D的面积为6， ∴\\dfrac{1}{2}×4×(m-5)=6， ∴m=8. (1)根据平移的性质作出图形即可； (2)①根据平移的性质即可得到结论； ②根据三角形的面积公式列方程即可得到结论． 本题考查了作图-平移变换，三角形的面积，熟练掌握平移的性质是解题的关键．",
+    "analysis": "(1)如图所示三角形A_{1}B_{1}C_{1}， 点B_{1}(-1,-3)，C_{1}(2,-2)； (2)①∵A(-1,5)，A_{1}(2,0)， ∴将三角形ABC向右平移3个单位长度，再向下平移5个单位长度得到三角形A_{1}B_{1}C_{1}， ∵C(1,m)， ∴点C_{1}的坐标为(4,m-5)， ②∵三角形A_{1}C_{1}D的面积为6， ∴\\frac{1}{2}×4×(m-5)=6， ∴m=8. (1)根据平移的性质作出图形即可； (2)①根据平移的性质即可得到结论； ②根据三角形的面积公式列方程即可得到结论． 本题考查了作图-平移变换，三角形的面积，熟练掌握平移的性质是解题的关键．",
     "analysis_images": [
       "images/22878d4c_22_analysis_0.png"
     ],
@@ -997,10 +997,10 @@
     "type": "解答题",
     "score": 6.0,
     "answer": "2013;25  bc=-7;反  2026-n;2n-1",
-    "stem": "小帆同学利用计算机设计了一个计算程序，输入和输出的数据如下表： 输入 1 2 3 4 5 6 … n 输出a 2025 2024 2023 2022 2021 2020 … 输出b 1 3 5 7 9 11 … 输出c -7 -\\dfrac{7}{3} -\\dfrac{7}{5} -1 -\\dfrac{7}{9} -\\dfrac{7}{11} … (1)那么当输入的数据是13时，输出的a=______ ，b=______ . (2)用式子表示b与c的关系______ ，b与c成______ 比例关系.(填正或反) (3)当输入的数据是n(n为正整数)时，输出的a=______ ，b=______ .(用含n的代数式表示)",
+    "stem": "小帆同学利用计算机设计了一个计算程序，输入和输出的数据如下表： 输入 1 2 3 4 5 6 … n 输出a 2025 2024 2023 2022 2021 2020 … 输出b 1 3 5 7 9 11 … 输出c -7 -\\frac{7}{3} -\\frac{7}{5} -1 -\\frac{7}{9} -\\frac{7}{11} … (1)那么当输入的数据是13时，输出的a=______ ，b=______ . (2)用式子表示b与c的关系______ ，b与c成______ 比例关系.(填正或反) (3)当输入的数据是n(n为正整数)时，输出的a=______ ，b=______ .(用含n的代数式表示)",
     "stem_images": [],
     "options": [],
-    "analysis": "解：(1)当输入的数据是13时，输出的a=2026-13=2013； 当输入1时，b=1=2×1-1， 当输入2时，b=3=2×2-1， 当输入3时，b=5=2×3-1， ∴当输入的数据是13时，输出的b=2×13-1=25， 故答案为：2013，25.  (2)∵1×(-7)=-7，3×(-\\dfrac{7}{3})=-7，5×(-\\dfrac{7}{5})=-7，7×(-1)=-7，9×(-\\dfrac{7}{9})=-7，11×(-\\dfrac{7}{11})=-7，⋯， 所以bc=-7，b与c成反比例关系， 故答案为：bc=-7，反． (3)由表格可知，输入的数据与a之和等于2026， 由题意可得：输出的a=2026-n； 当输入1时，b=1=2×1-1， 当输入2时，b=3=2×2-1， 当输入3时，b=5=2×3-1， ∴当输入的数据是n(n为正整数)时，输出的b=2n-1， 故答案为：2026-n；2n-1. (1)根据表格可得输入的数据与a之和等于2026，输出的b是连续的奇数，归纳类推出一般规律，由此即可得； (2)根据表格可得bc=-7，满足反比例关系，由此即可得； (3)根据输入的数据与a之和等于2026，输出的b是连续的奇数，归纳类推出一般规律即可得． 本题考查了用代数式表示数的规律、反比例关系，正确发现一般规律是解题关键．",
+    "analysis": "解：(1)当输入的数据是13时，输出的a=2026-13=2013； 当输入1时，b=1=2×1-1， 当输入2时，b=3=2×2-1， 当输入3时，b=5=2×3-1， ∴当输入的数据是13时，输出的b=2×13-1=25， 故答案为：2013，25.  (2)∵1×(-7)=-7，3×(-\\frac{7}{3})=-7，5×(-\\frac{7}{5})=-7，7×(-1)=-7，9×(-\\frac{7}{9})=-7，11×(-\\frac{7}{11})=-7，⋯， 所以bc=-7，b与c成反比例关系， 故答案为：bc=-7，反． (3)由表格可知，输入的数据与a之和等于2026， 由题意可得：输出的a=2026-n； 当输入1时，b=1=2×1-1， 当输入2时，b=3=2×2-1， 当输入3时，b=5=2×3-1， ∴当输入的数据是n(n为正整数)时，输出的b=2n-1， 故答案为：2026-n；2n-1. (1)根据表格可得输入的数据与a之和等于2026，输出的b是连续的奇数，归纳类推出一般规律，由此即可得； (2)根据表格可得bc=-7，满足反比例关系，由此即可得； (3)根据输入的数据与a之和等于2026，输出的b是连续的奇数，归纳类推出一般规律即可得． 本题考查了用代数式表示数的规律、反比例关系，正确发现一般规律是解题关键．",
     "analysis_images": [],
     "knowledges": [
       "函数关系式"
@@ -1018,8 +1018,8 @@
     "xkb_knowledges": [
       "能用适当的函数表示法刻画简单实际问题中变量之间的关系， 理解函数值的意义。"
     ],
-    "normalized_stem": "小帆同学利用计算机设计了一个计算程序，输入和输出的数据如下表： 输入 1 2 3 4 5 6 … $n$ 输出a 2025 2024 2023 2022 2021 2020 … 输出b 1 3 5 7 9 11 … 输出c $-7$ $-\\dfrac{7}{3}$ $-\\dfrac{7}{5}$ $-1$ $-\\dfrac{7}{9}$ $-\\dfrac{7}{11}$ … (1)那么当输入的数据是13时，输出的$a=$ ______ ，$b=$ ______ . (2)用式子表示$b$与$c$的关系 ______ ，$b$与$c$成 ______ 比例关系.(填正或反) (3)当输入的数据是$n$($n$为正整数)时，输出的$a=$ ______ ，$b=$ ______ .(用含$n$的代数式表示)",
-    "normalized_analysis": "解：(1)当输入的数据是13时，输出的$a=2026-13=2013$； 当输入1时，$b=1=2\\times 1-1$， 当输入2时，$b=3=2\\times 2-1$， 当输入3时，$b=5=2\\times 3-1$， ∴当输入的数据是13时，输出的$b=2\\times 13-1=25$， 故答案为：2013，25.  (2)∵$1\\times (-7)=-7$，$3\\times (-\\dfrac{7}{3})=-7$，$5\\times (-\\dfrac{7}{5})=-7$，$7\\times (-1)=-7$，$9\\times (-\\dfrac{7}{9})=-7$，$11\\times (-\\dfrac{7}{11})=-7$，$\\cdots$， 所以$bc=-7$，$b$与$c$成反比例关系， 故答案为：$bc=-7$，反． (3)由表格可知，输入的数据与$a$之和等于2026， 由题意可得：输出的$a=2026-n$； 当输入1时，$b=1=2\\times 1-1$， 当输入2时，$b=3=2\\times 2-1$， 当输入3时，$b=5=2\\times 3-1$， ∴当输入的数据是$n$($n$为正整数)时，输出的$b=2n-1$， 故答案为：$2026-n$；$2n-1$. (1)根据表格可得输入的数据与$a$之和等于2026，输出的$b$是连续的奇数，归纳类推出一般规律，由此即可得； (2)根据表格可得$bc=-7$，满足反比例关系，由此即可得； (3)根据输入的数据与$a$之和等于2026，输出的$b$是连续的奇数，归纳类推出一般规律即可得． 本题考查了用代数式表示数的规律、反比例关系，正确发现一般规律是解题关键．",
+    "normalized_stem": "小帆同学利用计算机设计了一个计算程序，输入和输出的数据如下表： 输入 1 2 3 4 5 6 … $n$ 输出a 2025 2024 2023 2022 2021 2020 … 输出b 1 3 5 7 9 11 … 输出c $-7$ $-\\frac{7}{3}$ $-\\frac{7}{5}$ $-1$ $-\\frac{7}{9}$ $-\\frac{7}{11}$ … (1)那么当输入的数据是13时，输出的$a=$ ______ ，$b=$ ______ . (2)用式子表示$b$与$c$的关系 ______ ，$b$与$c$成 ______ 比例关系.(填正或反) (3)当输入的数据是$n$($n$为正整数)时，输出的$a=$ ______ ，$b=$ ______ .(用含$n$的代数式表示)",
+    "normalized_analysis": "解：(1)当输入的数据是13时，输出的$a=2026-13=2013$； 当输入1时，$b=1=2\\times 1-1$， 当输入2时，$b=3=2\\times 2-1$， 当输入3时，$b=5=2\\times 3-1$， ∴当输入的数据是13时，输出的$b=2\\times 13-1=25$， 故答案为：2013，25.  (2)∵$1\\times (-7)=-7$，$3\\times (-\\frac{7}{3})=-7$，$5\\times (-\\frac{7}{5})=-7$，$7\\times (-1)=-7$，$9\\times (-\\frac{7}{9})=-7$，$11\\times (-\\frac{7}{11})=-7$，$\\cdots$， 所以$bc=-7$，$b$与$c$成反比例关系， 故答案为：$bc=-7$，反． (3)由表格可知，输入的数据与$a$之和等于2026， 由题意可得：输出的$a=2026-n$； 当输入1时，$b=1=2\\times 1-1$， 当输入2时，$b=3=2\\times 2-1$， 当输入3时，$b=5=2\\times 3-1$， ∴当输入的数据是$n$($n$为正整数)时，输出的$b=2n-1$， 故答案为：$2026-n$；$2n-1$. (1)根据表格可得输入的数据与$a$之和等于2026，输出的$b$是连续的奇数，归纳类推出一般规律，由此即可得； (2)根据表格可得$bc=-7$，满足反比例关系，由此即可得； (3)根据输入的数据与$a$之和等于2026，输出的$b$是连续的奇数，归纳类推出一般规律即可得． 本题考查了用代数式表示数的规律、反比例关系，正确发现一般规律是解题关键．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要将观察到的数据规律归纳为代数表达式，并应用反比例关系进行判断。",
     "core_literacy_primary": "模型观念",
@@ -1039,7 +1039,7 @@
     "stem": "已知某扇形的圆心角为60°，半径为3cm，则此扇形的面积为 ______  cm^{2}(结果保留π).",
     "stem_images": [],
     "options": [],
-    "analysis": "解：此扇形的面积为\\dfrac{60π×3^{2}}{360}=\\dfrac{3}{2}π(cm^{2}). 故答案为：\\dfrac{3}{2}π. 直接根据扇形的面积公式计算即可． 本题考查扇形的面积，解题的关键是记住扇形的面积公式，属于中考常考题型．",
+    "analysis": "解：此扇形的面积为\\frac{60π×3^{2}}{360}=\\frac{3}{2}π(cm^{2}). 故答案为：\\frac{3}{2}π. 直接根据扇形的面积公式计算即可． 本题考查扇形的面积，解题的关键是记住扇形的面积公式，属于中考常考题型．",
     "analysis_images": [],
     "knowledges": [
       "扇形面积的计算"
@@ -1058,7 +1058,7 @@
       "会计算扇形的面积"
     ],
     "normalized_stem": "已知某扇形的圆心角为 $60^{\\circ}$，半径为 $3\\,\\text{cm}$，则此扇形的面积为 ______ $\\,\\text{cm}^{2}$ (结果保留 $\\pi$).",
-    "normalized_analysis": "解：此扇形的面积为 $\\dfrac{60\\pi \\times 3^{2}}{360} = \\dfrac{3}{2}\\pi\\,(\\text{cm}^{2})$。故答案为：$\\dfrac{3}{2}\\pi$。直接根据扇形的面积公式计算即可。本题考查扇形的面积，解题的关键是记住扇形的面积公式，属于中考常考题型。",
+    "normalized_analysis": "解：此扇形的面积为 $\\frac{60\\pi \\times 3^{2}}{360} = \\frac{3}{2}\\pi\\,(\\text{cm}^{2})$。故答案为：$\\frac{3}{2}\\pi$。直接根据扇形的面积公式计算即可。本题考查扇形的面积，解题的关键是记住扇形的面积公式，属于中考常考题型。",
     "bloom_level": "应用",
     "bloom_reason": "直接套用扇形面积公式进行计算，属于知识点的直接应用。",
     "core_literacy_primary": "运算能力",
@@ -1074,7 +1074,7 @@
     "type": "计算题",
     "score": 6.0,
     "answer": "（1）解： ， 去括号，得 ， 移项，得 ， 合并同类项，得 ， 系数化为1，得 ； （2）解： ， 去分母，得 ， 去括号，得 ， 移项，得 ， 合并同类项，得 ， 系数化为1，得 ．",
-    "stem": "解下列方程： (1)7x-5=3\\left(x-2\\right)； (2)\\dfrac{4+3x}{5}=2+\\dfrac{x-2}{3}.",
+    "stem": "解下列方程： (1)7x-5=3\\left(x-2\\right)； (2)\\frac{4+3x}{5}=2+\\frac{x-2}{3}.",
     "stem_images": [],
     "options": [],
     "analysis": "【分析】本题考查了解一元一次方程，掌握解一元一次方程的步骤是解题的关键． (1)先去括号，再将方程移项合并，将x系数化为1，即可求出解； (2)方程去分母，去括号，移项合并，将x系数化为1，即可求出解．",
@@ -1091,7 +1091,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "解下列方程： (1)$7x-5=3\\left(x-2\\right)$； (2)$\\dfrac{4+3x}{5}=2+\\dfrac{x-2}{3}$.",
+    "normalized_stem": "解下列方程： (1)$7x-5=3\\left(x-2\\right)$； (2)$\\frac{4+3x}{5}=2+\\frac{x-2}{3}$.",
     "normalized_analysis": "【分析】本题考查了解一元一次方程，掌握解一元一次方程的步骤是解题的关键． (1)先去括号，再将方程移项合并，将$x$系数化为$1$，即可求出解； (2)方程去分母，去括号，移项合并，将$x$系数化为$1$，即可求出解．",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用解一元一次方程的固定步骤求解具体方程。",
@@ -1111,7 +1111,7 @@
     "stem": "计算：(1){3^{-2}}=__________；(2){\\left(\\sqrt{3}-1\\right)^0}=__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "【分析】本题考查负整数指数幂和零指数幂，根据负整数指数幂和零指数幂的运算法则计算即可，也是解题关键． 【详解】解：(1){3^{-2}}=\\dfrac{1}{9}. 故答案为：\\dfrac{1}{9}； (2){\\left(\\sqrt{3}-1\\right)^0}=1. 故答案为：1.",
+    "analysis": "【分析】本题考查负整数指数幂和零指数幂，根据负整数指数幂和零指数幂的运算法则计算即可，也是解题关键． 【详解】解：(1){3^{-2}}=\\frac{1}{9}. 故答案为：\\frac{1}{9}； (2){\\left(\\sqrt{3}-1\\right)^0}=1. 故答案为：1.",
     "analysis_images": [],
     "knowledges": [
       "负整数指数幂"
@@ -1317,7 +1317,7 @@
     "stem": "若一个n边形的每个外角都是72°，则这个n边形的边数是 ______ .",
     "stem_images": [],
     "options": [],
-    "analysis": "解：∵n边形的每个外角都是72°， ∴n=\\dfrac{360}{72}=5. 故答案为：5. 多边形的外角和等于360°，由此即可求解． 本题考查多边形的内角与外角，关键是掌握n边形外角和等于360°.",
+    "analysis": "解：∵n边形的每个外角都是72°， ∴n=\\frac{360}{72}=5. 故答案为：5. 多边形的外角和等于360°，由此即可求解． 本题考查多边形的内角与外角，关键是掌握n边形外角和等于360°.",
     "analysis_images": [],
     "knowledges": [
       "多边形内角与外角"
@@ -1460,10 +1460,10 @@
     "type": "解答题",
     "score": 6.0,
     "answer": "2x 2 -2x-7，-6．",
-    "stem": "先化简，再求值：已知x^{2}-x-\\dfrac{1}{2}=0，求代数式(x+2)(x-2)+(x+1)(x-3)的值.",
+    "stem": "先化简，再求值：已知x^{2}-x-\\frac{1}{2}=0，求代数式(x+2)(x-2)+(x+1)(x-3)的值.",
     "stem_images": [],
     "options": [],
-    "analysis": "解：原式=(x^{2}-4)+(x^{2}-2x-3) =x^{2}-4+x^{2}-2x-3 =2x^{2}-2x-7， 已知x^{2}-x-\\dfrac{1}{2}=0，移项可得x^{2}-x=\\dfrac{1}{2}. 原式=-6. 先利用平方差公式和多项式乘法法则化简代数式，再根据已知方程变形得到相关式子的值，最后整体代入求值． 本题考查整式的化简求值，解题的关键是先化简代数式，再结合已知条件整体代入求值．",
+    "analysis": "解：原式=(x^{2}-4)+(x^{2}-2x-3) =x^{2}-4+x^{2}-2x-3 =2x^{2}-2x-7， 已知x^{2}-x-\\frac{1}{2}=0，移项可得x^{2}-x=\\frac{1}{2}. 原式=-6. 先利用平方差公式和多项式乘法法则化简代数式，再根据已知方程变形得到相关式子的值，最后整体代入求值． 本题考查整式的化简求值，解题的关键是先化简代数式，再结合已知条件整体代入求值．",
     "analysis_images": [],
     "knowledges": [
       "整式的混合运算"
@@ -1481,8 +1481,8 @@
     "xkb_knowledges": [
       "能进行简单的整式乘法运算(多项式乘法仅限于 一次式之间和一次式与二次式的乘法)"
     ],
-    "normalized_stem": "先化简，再求值：已知 $x^{2}-x-\\dfrac{1}{2}=0$，求代数式 $(x+2)(x-2)+(x+1)(x-3)$ 的值.",
-    "normalized_analysis": "解：原式 $=(x^{2}-4)+(x^{2}-2x-3) =x^{2}-4+x^{2}-2x-3 =2x^{2}-2x-7$， 已知 $x^{2}-x-\\dfrac{1}{2}=0$，移项可得 $x^{2}-x=\\dfrac{1}{2}$。 原式 $=-6$。 先利用平方差公式和多项式乘法法则化简代数式，再根据已知方程变形得到相关式子的值，最后整体代入求值。 本题考查整式的化简求值，解题的关键是先化简代数式，再结合已知条件整体代入求值。",
+    "normalized_stem": "先化简，再求值：已知 $x^{2}-x-\\frac{1}{2}=0$，求代数式 $(x+2)(x-2)+(x+1)(x-3)$ 的值.",
+    "normalized_analysis": "解：原式 $=(x^{2}-4)+(x^{2}-2x-3) =x^{2}-4+x^{2}-2x-3 =2x^{2}-2x-7$， 已知 $x^{2}-x-\\frac{1}{2}=0$，移项可得 $x^{2}-x=\\frac{1}{2}$。 原式 $=-6$。 先利用平方差公式和多项式乘法法则化简代数式，再根据已知方程变形得到相关式子的值，最后整体代入求值。 本题考查整式的化简求值，解题的关键是先化简代数式，再结合已知条件整体代入求值。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用整式运算规则化简表达式，并利用已知条件进行整体代入求值。",
     "core_literacy_primary": "运算能力",
@@ -1539,11 +1539,11 @@
     "id": "b9bedcf8_19",
     "type": "解答题",
     "score": 8.0,
-    "stem": "把下列各数填在相应的大括号内： 27，-\\dfrac{1}{5}，8.5，-14，-3.14，0，\\dfrac{4}{7} 正数集合\\left\\{{}\\right.______________________________…\\left.{}\\right\\} 负数集合\\left\\{{}\\right.______________________________…\\left.{}\\right\\} 非负整数集合\\left\\{{}\\right.______________________________…\\left.{}\\right\\}",
+    "stem": "把下列各数填在相应的大括号内： 27，-\\frac{1}{5}，8.5，-14，-3.14，0，\\frac{4}{7} 正数集合\\left\\{{}\\right.______________________________…\\left.{}\\right\\} 负数集合\\left\\{{}\\right.______________________________…\\left.{}\\right\\} 非负整数集合\\left\\{{}\\right.______________________________…\\left.{}\\right\\}",
     "stem_images": [],
     "options": [],
     "answer": "解：27,8.5， ； ，-14，-3.14 ； 27,0",
-    "analysis": "解：正数集合 \\left\\{ 27,8.5,\\dfrac{4}{7},\\cdots\\right\\} 负数集合 \\left\\{-\\dfrac{1}{5},-14,-3.14,\\cdots\\right\\} 非负整数集合 \\left\\{ 27,0,\\cdots\\right\\} 本题考查有理数的概念，根据正数：大于0的数，负数：小于0的数，非负整数：0和正整数，进行作答即可．",
+    "analysis": "解：正数集合 \\left\\{ 27,8.5,\\frac{4}{7},\\cdots\\right\\} 负数集合 \\left\\{-\\frac{1}{5},-14,-3.14,\\cdots\\right\\} 非负整数集合 \\left\\{ 27,0,\\cdots\\right\\} 本题考查有理数的概念，根据正数：大于0的数，负数：小于0的数，非负整数：0和正整数，进行作答即可．",
     "analysis_images": [],
     "knowledges": [
       "有理数的概念"
@@ -1583,7 +1583,7 @@
       "images/8ccee885_24_stem_0.png"
     ],
     "options": [],
-    "analysis": "【分析】本题考查了平行线的性质，角平分线定义，对顶角相等，由对顶角性质可得\\angle BMF=\\angle AME=50{^\\circ}，又MH平分\\angle BMN，则\\angle BMH=\\dfrac{1}{2}\\angle BMN=25{^\\circ}，然后通过平行线的性质即可求解，掌握知识点的应用是解题的关键．",
+    "analysis": "【分析】本题考查了平行线的性质，角平分线定义，对顶角相等，由对顶角性质可得\\angle BMF=\\angle AME=50{^\\circ}，又MH平分\\angle BMN，则\\angle BMH=\\frac{1}{2}\\angle BMN=25{^\\circ}，然后通过平行线的性质即可求解，掌握知识点的应用是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -1598,7 +1598,7 @@
     "bnu_knowledges": [],
     "xkb_knowledges": [],
     "normalized_stem": "如图，已知直线 $AB \\parallel CD$，直线 $EF$ 分别交 $AB$，$CD$ 于点 $M$，$N$，$\\angle AME=50^{\\circ}$，$MH$ 平分 $\\angle BMN$ 且交 $CD$ 于点 $H$，$NG \\parallel MH$，求 $\\angle HNG$ 的度数．",
-    "normalized_analysis": "【分析】本题考查了平行线的性质，角平分线定义，对顶角相等，由对顶角性质可得 $\\angle BMF=\\angle AME=50^{\\circ}$，又 $MH$ 平分 $\\angle BMN$，则 $\\angle BMH=\\dfrac{1}{2}\\angle BMN=25^{\\circ}$，然后通过平行线的性质即可求解，掌握知识点的应用是解题的关键．",
+    "normalized_analysis": "【分析】本题考查了平行线的性质，角平分线定义，对顶角相等，由对顶角性质可得 $\\angle BMF=\\angle AME=50^{\\circ}$，又 $MH$ 平分 $\\angle BMN$，则 $\\angle BMH=\\frac{1}{2}\\angle BMN=25^{\\circ}$，然后通过平行线的性质即可求解，掌握知识点的应用是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "需要运用平行线性质、角平分线定义等知识解决具体角度计算问题。",
     "core_literacy_primary": "推理能力",
@@ -1620,7 +1620,7 @@
       "images/468b06de_14_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：∵四边形ABCD是正方形，正方形的对角线平分一组对角， ∴∠BAC=45°. ∵AB=AE， ∴∠ABE=∠AEB， ∴∠ABE=∠AEB=\\dfrac{1}{2}×(180°-∠BAC)=\\dfrac{1}{2}×(180°-45°)=67.5°， ∵线段EB绕点E顺时针旋转后得到EF，根据旋转的性质可知EB=EF， ∴\\triangle EBF是等腰三角形， 又∵∠EBF=67.5°， ∴∠EFB=∠EBF=67.5°， ∴∠BEF=180°-∠EFB-∠EBF=180°-67.5°-67.5°=45°， ∴∠AEF=∠AEB-∠BEF，把∠AEB=67.5°，∠BEF=45°代入可得： ∴∠AEF=67.5°-45°=22.5°. 故答案为：22.5. 先根据正方形性质得出∠BAC的度数，再由AB=AE求出∠ABE和∠AEB的度数，接着根据旋转性质得到EB=EF，进而求出∠BEF的度数，最后算出∠AEF的度数． 本题考查了正方形的性质、旋转的性质以及等腰三角形的性质，解题的关键是利用这些性质求出相关角的度数．",
+    "analysis": "解：∵四边形ABCD是正方形，正方形的对角线平分一组对角， ∴∠BAC=45°. ∵AB=AE， ∴∠ABE=∠AEB， ∴∠ABE=∠AEB=\\frac{1}{2}×(180°-∠BAC)=\\frac{1}{2}×(180°-45°)=67.5°， ∵线段EB绕点E顺时针旋转后得到EF，根据旋转的性质可知EB=EF， ∴\\triangle EBF是等腰三角形， 又∵∠EBF=67.5°， ∴∠EFB=∠EBF=67.5°， ∴∠BEF=180°-∠EFB-∠EBF=180°-67.5°-67.5°=45°， ∴∠AEF=∠AEB-∠BEF，把∠AEB=67.5°，∠BEF=45°代入可得： ∴∠AEF=67.5°-45°=22.5°. 故答案为：22.5. 先根据正方形性质得出∠BAC的度数，再由AB=AE求出∠ABE和∠AEB的度数，接着根据旋转性质得到EB=EF，进而求出∠BEF的度数，最后算出∠AEF的度数． 本题考查了正方形的性质、旋转的性质以及等腰三角形的性质，解题的关键是利用这些性质求出相关角的度数．",
     "analysis_images": [],
     "knowledges": [
       "正方形的性质"
@@ -1656,10 +1656,10 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "解： ， 当 ， 时， 原式 ．",
-    "stem": "先化简，再求值：xy+\\left(2xy-3{y^2}\\right)-2\\left(xy-{y^2}\\right)，其中x=-2，y=\\dfrac{1}{2}.",
+    "stem": "先化简，再求值：xy+\\left(2xy-3{y^2}\\right)-2\\left(xy-{y^2}\\right)，其中x=-2，y=\\frac{1}{2}.",
     "stem_images": [],
     "options": [],
-    "analysis": "【分析】本题考查了整式加减的化简与求值，熟练掌握整式加减的运算法则是解题的关键．根据整式加减的运算法则化简，再将x=-2，y=\\dfrac{1}{2}代入到化简后的式子计算即可．",
+    "analysis": "【分析】本题考查了整式加减的化简与求值，熟练掌握整式加减的运算法则是解题的关键．根据整式加减的运算法则化简，再将x=-2，y=\\frac{1}{2}代入到化简后的式子计算即可．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -1673,8 +1673,8 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "先化简，再求值：$xy+\\left(2xy-3y^{2}\\right)-2\\left(xy-y^{2}\\right)$，其中 $x=-2$，$y=\\dfrac{1}{2}$.",
-    "normalized_analysis": "【分析】本题考查了整式加减的化简与求值，熟练掌握整式加减的运算法则是解题的关键．根据整式加减的运算法则化简，再将 $x=-2$，$y=\\dfrac{1}{2}$ 代入到化简后的式子计算即可．",
+    "normalized_stem": "先化简，再求值：$xy+\\left(2xy-3y^{2}\\right)-2\\left(xy-y^{2}\\right)$，其中 $x=-2$，$y=\\frac{1}{2}$.",
+    "normalized_analysis": "【分析】本题考查了整式加减的化简与求值，熟练掌握整式加减的运算法则是解题的关键．根据整式加减的运算法则化简，再将 $x=-2$，$y=\\frac{1}{2}$ 代入到化简后的式子计算即可．",
     "bloom_level": "应用",
     "bloom_reason": "需要应用整式加减法则进行化简，并代入具体数值进行计算。",
     "core_literacy_primary": "运算能力",
@@ -1787,7 +1787,7 @@
       "images/a72f328b_15_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：由条件可知∠ABB'=60°， ∵BB'⊥AC， ∴∠AFB=90°， ∴∠BAF=180°-∠ABB'-∠AFB =180°-60°-90° =30°， ∴∠ACB=\\dfrac{180°-∠BAC}{2} =\\dfrac{180°-30°}{2} =\\dfrac{150°}{2} =75°， ∴∠FBC=180°-∠BFC-∠FCB =180°-90°-75° =15°， 故答案为：15. 根据等边三角形的性质和三角形内角和定理求出∠BAF的度数，再结合等腰三角形的性质求出∠ACB的度数，最后在\\triangle CFB中运用三角形内角和定理求解即可． 本题考查了等边三角形的性质、等腰三角形的性质、三角形内角和的应用，掌握三角形内角和定理是解决本题的关键．",
+    "analysis": "解：由条件可知∠ABB'=60°， ∵BB'⊥AC， ∴∠AFB=90°， ∴∠BAF=180°-∠ABB'-∠AFB =180°-60°-90° =30°， ∴∠ACB=\\frac{180°-∠BAC}{2} =\\frac{180°-30°}{2} =\\frac{150°}{2} =75°， ∴∠FBC=180°-∠BFC-∠FCB =180°-90°-75° =15°， 故答案为：15. 根据等边三角形的性质和三角形内角和定理求出∠BAF的度数，再结合等腰三角形的性质求出∠ACB的度数，最后在\\triangle CFB中运用三角形内角和定理求解即可． 本题考查了等边三角形的性质、等腰三角形的性质、三角形内角和的应用，掌握三角形内角和定理是解决本题的关键．",
     "analysis_images": [],
     "knowledges": [
       "等边三角形的性质",
@@ -1875,7 +1875,7 @@
       "images/e324f91b_26_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)①由题意可知，P_{1}和P_{2}所在的线段为AD，AD的中点为点P_{2}，此时M与P_{2}重合， 连接OP_{1}，OP_{2}，将OP_{1}，OP_{2}沿着射线OP_{2}方向平移2个单位得到Q_{1}M，Q_{2}M， 然后将Q_{1}M，Q_{2}M绕点M顺时针和逆时针旋转150°分别得到ME_{1}、MF_{1}、ME_{2}、MF_{2}连接E_{1}F_{1}、E_{2}F_{2}，如图所示： 从上图可知，线段E_{2}F_{2}上的点都在该正方形的内部，那么在P_{2}(0,2)是正方形ABCD的“美好点”； 故答案为：P_{2}. ②∵已知正方形ABCD的顶点坐标分别为A(-2,2)，B(-2,-2)，C(2,-2)，D(2,2). ∴AD=AB=BC=CD=4，取AD的中点为M，那么OM=2， 连接OP，将OP沿着射线OM的方向平移2个单位，得到MQ， 将QM绕点M顺时针和逆时针旋转150°分别得到ME和MF， 过点Q作QK⊥y轴于点K，过点E作EV⊥AD于点V，如图所示： ∵P在线段AD上，不妨设P(a,2)， ∴P点纵坐标为2，不妨设P(a,2)，那么Q(a,4)， ∴OK=4， ∴KM=OK-OM=4-2=2， ∵∠QME=150°，∠AME=30°，∠KMA=90°， ∴∠KMQ=∠QME=∠AME=∠KMA=30°， ∴∠KMQ=∠AME=30°， ∴Q点在第一象限， ∴P点在第一象限， ∵MQ=ME，∠QKM=∠EVM=90°， ∴\\triangle QKM≌\\triangle KVM(AAS)， ∴KM=VM=2，QK=EV， ∴V点与A点重合，E点落在线段AB上，如图所示： ∵将OP沿着射线OM的方向平移2个单位，得到MQ， ∴QK=PM=a， ∴AE=a， ∵∠MAE=90°，∠AME=30°， ∴ME=2AE=2a， ∵AM^{2}+AE^{2}=ME^{2}， ∴2^{2}+a^{2}=(2a)^{2}， ∴a=\\dfrac{2\\sqrt{3}}{3}(舍去负值)， ∴P(\\dfrac{2\\sqrt{3}}{3},2)， 故答案为：P(\\dfrac{2\\sqrt{3}}{3},2)； (2)∵直线y=kx上存在正方形ABCD的“美好点”P， ∴点P为直线y=kx与正方形ABCD的交点，当“美好点”P在线段AD时， 由(1)②可知，当点P坐标为(\\dfrac{2\\sqrt{3}}{3},2)时， 点E点落在线段AB上，为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往右移动，那么将(\\dfrac{2\\sqrt{3}}{3},2)代入y=kx，得到2=\\dfrac{2\\sqrt{3}}{3}k， ∴k=2×\\dfrac{3}{2\\sqrt{3}}=\\sqrt{3}， ∴y=\\sqrt{3}x，如图所示： 同理可求得当F落在线段CD上，可求得P(-\\dfrac{2\\sqrt{3}}{3},2)，将P(-\\dfrac{2\\sqrt{3}}{3},2)代入y=kx，得到2=-\\dfrac{2\\sqrt{3}}{3}k，可求得y=-\\sqrt{3}x， 为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往左移动，如图所示： 那么当“美好点”P在线段AD时，为保证EF一定在正方形ABCD的内部或边上，P点的横坐标要大于等于-\\dfrac{2\\sqrt{3}}{3}小于等于\\dfrac{2\\sqrt{3}}{3}， 根据正方形的对称性，可知，当“美好点”P在线段BC时，为保证EF一定在正方形ABCD的内部或边上，P点的横坐标要大于等于-\\dfrac{2\\sqrt{3}}{3}小于等于\\dfrac{2\\sqrt{3}}{3}， 当“美好点”P在线段AB或者CD时，可知M点在(2,0)，连接OP，将OP沿着射线OM的方向平移2个单位，得到MQ， 将QM绕点M顺时针和逆时针旋转150°分别得到ME和MF，过点Q作QK⊥y轴于点K，过点E作EV⊥x轴于点V，如图所示： 当E落在线段BC上，点P在第二象限，由(1)②可知，∠BME=30°，BM=2， ∵∠QME=150°∴∠QMK=∠QME-∠BME-∠KMB=150°-30°-90°=30°， ∵OP/\\!/QM， ∴∠POM=30°不妨设P(0,b)，那么PM=b，PO=2b， ∵PM^{2}+MO^{2}=PO^{2}， ∴b^{2}+2^{2}=(2b)^{2}， ∴b=\\dfrac{2\\sqrt{3}}{3}(舍去负值)， ∴P(-2,\\dfrac{2\\sqrt{3}}{3})， 为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往上移动；同理可求得当F落在线段AD上，P(-2,-\\dfrac{2\\sqrt{3}}{3})， 为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往下移动，如图所示： 那么当“美好点”P在线段AB或CD时，为保证EF一定在正方形ABCD的内部或边上，P点的纵坐标要大于等于-\\dfrac{2\\sqrt{3}}{3}小于等于\\dfrac{2\\sqrt{3}}{3}， 综上，可知正方形ABCD的美好点需要在A_{1}W.B_{1}G_{1}，F_{1}J_{1}，XQ_{1}上移动， 其中A_{1}(-\\dfrac{2\\sqrt{3}}{3},2)_1，F_{1}(-\\dfrac{2\\sqrt{3}}{3},-2)，W(\\dfrac{2\\sqrt{3}}{3},2)J_\\{1\\}(\\dfrac{2\\sqrt{3}}{3},-2)，Q_{1}(2,-\\dfrac{2\\sqrt{3}}{3})G_{1}(-2,-\\dfrac{2\\sqrt{3}}{3})B_{1}(-2,\\dfrac{2\\sqrt{3}}{3})和X(2,\\dfrac{2\\sqrt{3}}{3})，如图所示： 当正方形ABCD的美好点在A_{1}W、F_{1}J_{1}上移动时， 当直线y=kx过W时，将(\\dfrac{2\\sqrt{3}}{3},2)代入，得到2=\\dfrac{2\\sqrt{3}}{3}k，解得k=\\sqrt{3}，那么y=\\sqrt{3}x， 将x=-\\dfrac{2\\sqrt{3}}{3}代入，得到y=\\sqrt{3}×-\\dfrac{2\\sqrt{3}}{3}=-2可知F_{1}也过直线y=\\sqrt{3}x， 当直线y=kx过A_{1}时，将(-\\dfrac{2\\sqrt{3}}{3},2)代入，得到2=-\\dfrac{2\\sqrt{3}}{3}k解得k=-\\sqrt{3}， 那么y=-\\sqrt{3}x，将x=\\dfrac{2\\sqrt{3}}{3}代入，得到y=-\\sqrt{3}×\\dfrac{2\\sqrt{3}}{3}=-2， 可知J_{1}也过直线y=-\\sqrt{3}x； 综上，当正方形ABCD的美好点在A_{1}W.F_{1}J_{1}上移动时，k\\leqslant-\\sqrt{3}\\text{或}k\\geqslant\\sqrt{3}； 当正方形ABCD的美好点在B_{1}G_{1}.XQ_{1}上移动时，当直线y=kx过B_{1}时，将(-2,\\dfrac{2\\sqrt{3}}{3})代入，得到-2k=\\dfrac{2\\sqrt{3}}{3}，解得k=-\\dfrac{\\sqrt{3}}{3}，那么y=-\\dfrac{\\sqrt{3}}{3}x' 将x=2代入，得到y=2×-\\dfrac{\\sqrt{3}}{3}=-\\dfrac{2\\sqrt{3}}{3}，可知Q_{1}也过直线y=-\\dfrac{\\sqrt{3}}{3}x， 当直线y=kx过X时，将(2,\\dfrac{2\\sqrt{3}}{3})代入，得到2k=\\dfrac{2\\sqrt{3}}{3}，解得k=\\dfrac{\\sqrt{3}}{3}， 那么y=\\dfrac{\\sqrt{3}}{3}x将x=-2代入，得到y=-2×\\dfrac{\\sqrt{3}}{3}=\\dfrac{-2\\sqrt{3}}{3}， 可知G_{1}也过直线y=\\dfrac{\\sqrt{3}}{3}x那么当正方形ABCD的美好点在B_{1}G_{1}，XQ_{1}上移动时，k\\leqslant-\\sqrt{3}或-\\dfrac{\\sqrt{3}}{3}\\leqslant k\\leqslant\\dfrac{\\sqrt{3}}{3}或k\\geqslant\\sqrt{3}； (3)解：与正方形ABCD大小相同的正方形ABC'D的顶点在坐标轴上，如图所示： 由题意可知，OD=OA=OC=OB=OD， ∵已知正方形ABCD的顶点坐标分别为A(-2,2)，B(-2,-2)，C(2,-2)，D(2,2)， ∴OD=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}， ∴A.D'(0,2\\sqrt{2})，C(2\\sqrt{2},0)，B'(0,-2\\sqrt{2})A(-2\\sqrt{2},0)， 由(2)可知，正方形ABCD的美好点需要在$A_{1}WB_\\{1\\}G_\\{1\\}F_{1}J_{1}XQ_\\{1\\}上移动，其中A_{1}(-\\dfrac{2\\sqrt{3}}{3},2)，F_{1}(-2,-2)，W(\\dfrac{2\\sqrt{3}}{3},2)和J_{1}(\\dfrac{2\\sqrt{3}}{3},-2)，Q_{1}(2,-\\dfrac{2\\sqrt{3}}{3})，G_{1}(-2,-\\dfrac{2\\sqrt{3}}{3})，B_{1}(-2,\\dfrac{2\\sqrt{3}}{3})和X(2,\\dfrac{2\\sqrt{3}}{3})， 同理可求得正方形ABC'D的美好点需要在ZY、VC_{1}.D_{1}E_{1}H_{1}K_{1}上移动，其中Z(-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})；H_{1}(-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})，Y(-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})，K_{1}(-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3}),V(\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})，E_{1}(\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})C_{1}(\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})，D_{1}(\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})， 即如图所示： 设直线k为y=k_{1}x+b_{1}(k_{1}≠0)代入V(\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})和H_{1}(-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})' 有\\begin{cases}(\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})k_{1}+b_{1}=\\sqrt{2}+\\dfrac{\\sqrt{6}}{3}\\\\ (-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})k_{1}+b_{1}=-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3}\\end{cases}解得\\begin{cases}k_{1}=1\\\\ b_{1}=\\dfrac{2\\sqrt{6}}{3}\\end{cases}那么直线k为y=x+\\dfrac{2\\sqrt{6}}{3}； 同理可求得直线/为：y=x+2\\sqrt{2}；直线为：y=x-2\\sqrt{2}； 直线l为：y=x+2-\\dfrac{2\\sqrt{3}}{3}直线m为：y=x+\\dfrac{2\\sqrt{3}}{3}-2，直线n为：y=x-\\dfrac{2\\sqrt{6}}{3}， 因为直线y=x+b上既存在正方形ABCD的“美好点”又存在正方形ABCD的“美好点”， 那么直线y=x+b可以在直线k和l之间移动，也可以在m和n之间移动，也可以与直线i、直线q重合， 当y=x+b与直线i重合时，那么有b=2\\sqrt{2}当y=x+b与直线q重合时，那么有b=-2\\sqrt{2}； 当y=x+b与直线k重合时，那么有b=\\dfrac{2\\sqrt{6}}{3}； 当y=x+b与直线l重合时，那么有b=2-\\dfrac{2\\sqrt{3}}{3}， 当y=x+b与直线m重合时，那么有b=\\dfrac{2\\sqrt{3}}{3}-2； 当y=x+b与直线n重合时，那么有b=-\\dfrac{2\\sqrt{6}}{3}， 那么当直线y=x+b在直线k和l之间移动，2-\\dfrac{2\\sqrt{3}}{3}\\leqslant b\\leqslant\\dfrac{2\\sqrt{6}}{3}； 直线y=x+b在m和n之间移动，-\\dfrac{2\\sqrt{6}}{3}\\leqslant b\\leqslant\\dfrac{2\\sqrt{3}}{3}-2 综上，-\\dfrac{2\\sqrt{6}}{3}\\leqslant b\\leqslant\\dfrac{2\\sqrt{3}}{3}-2^{\\text{或}}2-\\dfrac{2\\sqrt{3}}{3}\\leqslant b\\leqslant\\dfrac{2\\sqrt{6}}{3}或b=±2\\sqrt{2}. (1)①P_{1}和P_{2}所在的线段为AD，AD的中点为点P_{2}此时M与P_{2}重合，连接OP_{1}，OP_{2}，将OP_{1}，OP_{2}沿着射线OP_{2}方向平移2个单位得到Q_{1}M，Q_{2}M，然后将Q_{1}M，Q_{2}M绕点M顺时针和逆时针旋转150°分别得到$ME_{1}、ME_\\{2\\}.MF_{2}，连接E_{1}F_{1}，E_{2}F_{2}，从图象中即可判断出答案； ②取AD的中点为M，那么OM=2，连接OP，将OP沿着射线OM的方向平移2个单位，得到MQ，将QM绕点M顺时针和逆时针旋转150°分别得到ME和MF，过点Q作QK⊥y轴于点K，过点E作EV⊥AD于点V，可证\\triangle QKM≌\\triangle KVM，那么KM=VM=2，QK=EV，此时V点与A点重合，E点落在线段AB上，然后利用勾股定理可求得AE的长度，得到点P坐标； (2)当“美好点”P在线段AD时，由(1)②可知，当点P坐标为(\\dfrac{2\\sqrt{3}}{3},2)时，点E点落在线段AB上，为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往右移动，那么将(\\dfrac{2\\sqrt{3}}{3},2)代入y=kx，得到y=\\sqrt{3}x，当“美好点”P在线段AD时，为保证EF一定在正方形ABCD的内部或边上，P点的横坐标要大于等于-\\dfrac{2\\sqrt{3}}{3}小于等于\\dfrac{2\\sqrt{3}}{3}，那么k\\leqslant-\\sqrt{3}\\text{或}k\\geqslant\\sqrt{3}.同理讨论出那么当“美好点”P在线段AB时，为保证EF一定在正方形ABCD的内部或边上，P点的纵坐标要大于等于-\\dfrac{2\\sqrt{3}}{3}小于等于\\dfrac{2\\sqrt{3}}{3}，那么-\\dfrac{\\sqrt{3}}{3}\\leqslant k\\leqslant\\dfrac{\\sqrt{3}}{3}.当“美好点”P在线段CD时，-\\dfrac{\\sqrt{3}}{3}\\leqslant k\\leqslant\\dfrac{\\sqrt{3}}{3}；当“美好点”P在线段BC时，那么k\\leqslant-\\sqrt{3}\\text{或}k\\geqslant\\sqrt{3}，从而得出答案． (3)由(2)可知，正方形ABCD的美好点需要在A_{1}W、B_{1}G_{1}.F_{1}J_{1}、$XQ_{1}上移动，其中A_{1}(-\\dfrac{2\\sqrt{3}}{3},2)，F_{1}(-\\dfrac{2\\sqrt{3}}{3},-2)，W(\\dfrac{2\\sqrt{3}}{3},2)和J_{1}(\\dfrac{2\\sqrt{3}}{3},-2)，Q_{1}(2,-\\dfrac{2\\sqrt{3}}{3})!G_{1}(-2,-\\dfrac{2\\sqrt{3}}{3})，B_{1}(-2,\\dfrac{2\\sqrt{3}}{3})和X(2,\\dfrac{2\\sqrt{3}}{3})，同理可求得正方形ABC'D的美好点需要在ZY、VC_{1}，D_{1}E_{1}，H_{1}K_{1}上移动，其中Z(-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})，H_{1}(-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3}),Y(-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})，K_{1}(-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})V(\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})，E_{1}(\\sqrt{2}-\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})，C_{1}(\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},\\sqrt{2}-\\dfrac{\\sqrt{6}}{3})D_{1}(\\sqrt{2}+\\dfrac{\\sqrt{6}}{3},-\\sqrt{2}+\\dfrac{\\sqrt{6}}{3})，因为直线y=x+b上既存在正方形ABCD的“美好点”又存在正方形ABC'D的“美好点”，那么直线y=x+b可以在直线和/之间移动，也可以在m和n之间移动，也可以与直线i、直线q重合，从而求得答案． 本题考查了“美好点”，旋转的性质，一次函数与几何综合，30度所对的直角边等于斜边的一半，勾股定理，熟练掌握以上知识点并能读懂“美好点”的含义是解题的关键．",
+    "analysis": "(1)①由题意可知，P_{1}和P_{2}所在的线段为AD，AD的中点为点P_{2}，此时M与P_{2}重合， 连接OP_{1}，OP_{2}，将OP_{1}，OP_{2}沿着射线OP_{2}方向平移2个单位得到Q_{1}M，Q_{2}M， 然后将Q_{1}M，Q_{2}M绕点M顺时针和逆时针旋转150°分别得到ME_{1}、MF_{1}、ME_{2}、MF_{2}连接E_{1}F_{1}、E_{2}F_{2}，如图所示： 从上图可知，线段E_{2}F_{2}上的点都在该正方形的内部，那么在P_{2}(0,2)是正方形ABCD的“美好点”； 故答案为：P_{2}. ②∵已知正方形ABCD的顶点坐标分别为A(-2,2)，B(-2,-2)，C(2,-2)，D(2,2). ∴AD=AB=BC=CD=4，取AD的中点为M，那么OM=2， 连接OP，将OP沿着射线OM的方向平移2个单位，得到MQ， 将QM绕点M顺时针和逆时针旋转150°分别得到ME和MF， 过点Q作QK⊥y轴于点K，过点E作EV⊥AD于点V，如图所示： ∵P在线段AD上，不妨设P(a,2)， ∴P点纵坐标为2，不妨设P(a,2)，那么Q(a,4)， ∴OK=4， ∴KM=OK-OM=4-2=2， ∵∠QME=150°，∠AME=30°，∠KMA=90°， ∴∠KMQ=∠QME=∠AME=∠KMA=30°， ∴∠KMQ=∠AME=30°， ∴Q点在第一象限， ∴P点在第一象限， ∵MQ=ME，∠QKM=∠EVM=90°， ∴\\triangle QKM≌\\triangle KVM(AAS)， ∴KM=VM=2，QK=EV， ∴V点与A点重合，E点落在线段AB上，如图所示： ∵将OP沿着射线OM的方向平移2个单位，得到MQ， ∴QK=PM=a， ∴AE=a， ∵∠MAE=90°，∠AME=30°， ∴ME=2AE=2a， ∵AM^{2}+AE^{2}=ME^{2}， ∴2^{2}+a^{2}=(2a)^{2}， ∴a=\\frac{2\\sqrt{3}}{3}(舍去负值)， ∴P(\\frac{2\\sqrt{3}}{3},2)， 故答案为：P(\\frac{2\\sqrt{3}}{3},2)； (2)∵直线y=kx上存在正方形ABCD的“美好点”P， ∴点P为直线y=kx与正方形ABCD的交点，当“美好点”P在线段AD时， 由(1)②可知，当点P坐标为(\\frac{2\\sqrt{3}}{3},2)时， 点E点落在线段AB上，为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往右移动，那么将(\\frac{2\\sqrt{3}}{3},2)代入y=kx，得到2=\\frac{2\\sqrt{3}}{3}k， ∴k=2×\\frac{3}{2\\sqrt{3}}=\\sqrt{3}， ∴y=\\sqrt{3}x，如图所示： 同理可求得当F落在线段CD上，可求得P(-\\frac{2\\sqrt{3}}{3},2)，将P(-\\frac{2\\sqrt{3}}{3},2)代入y=kx，得到2=-\\frac{2\\sqrt{3}}{3}k，可求得y=-\\sqrt{3}x， 为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往左移动，如图所示： 那么当“美好点”P在线段AD时，为保证EF一定在正方形ABCD的内部或边上，P点的横坐标要大于等于-\\frac{2\\sqrt{3}}{3}小于等于\\frac{2\\sqrt{3}}{3}， 根据正方形的对称性，可知，当“美好点”P在线段BC时，为保证EF一定在正方形ABCD的内部或边上，P点的横坐标要大于等于-\\frac{2\\sqrt{3}}{3}小于等于\\frac{2\\sqrt{3}}{3}， 当“美好点”P在线段AB或者CD时，可知M点在(2,0)，连接OP，将OP沿着射线OM的方向平移2个单位，得到MQ， 将QM绕点M顺时针和逆时针旋转150°分别得到ME和MF，过点Q作QK⊥y轴于点K，过点E作EV⊥x轴于点V，如图所示： 当E落在线段BC上，点P在第二象限，由(1)②可知，∠BME=30°，BM=2， ∵∠QME=150°∴∠QMK=∠QME-∠BME-∠KMB=150°-30°-90°=30°， ∵OP/\\!/QM， ∴∠POM=30°不妨设P(0,b)，那么PM=b，PO=2b， ∵PM^{2}+MO^{2}=PO^{2}， ∴b^{2}+2^{2}=(2b)^{2}， ∴b=\\frac{2\\sqrt{3}}{3}(舍去负值)， ∴P(-2,\\frac{2\\sqrt{3}}{3})， 为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往上移动；同理可求得当F落在线段AD上，P(-2,-\\frac{2\\sqrt{3}}{3})， 为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往下移动，如图所示： 那么当“美好点”P在线段AB或CD时，为保证EF一定在正方形ABCD的内部或边上，P点的纵坐标要大于等于-\\frac{2\\sqrt{3}}{3}小于等于\\frac{2\\sqrt{3}}{3}， 综上，可知正方形ABCD的美好点需要在A_{1}W.B_{1}G_{1}，F_{1}J_{1}，XQ_{1}上移动， 其中A_{1}(-\\frac{2\\sqrt{3}}{3},2)_1，F_{1}(-\\frac{2\\sqrt{3}}{3},-2)，W(\\frac{2\\sqrt{3}}{3},2)J_\\{1\\}(\\frac{2\\sqrt{3}}{3},-2)，Q_{1}(2,-\\frac{2\\sqrt{3}}{3})G_{1}(-2,-\\frac{2\\sqrt{3}}{3})B_{1}(-2,\\frac{2\\sqrt{3}}{3})和X(2,\\frac{2\\sqrt{3}}{3})，如图所示： 当正方形ABCD的美好点在A_{1}W、F_{1}J_{1}上移动时， 当直线y=kx过W时，将(\\frac{2\\sqrt{3}}{3},2)代入，得到2=\\frac{2\\sqrt{3}}{3}k，解得k=\\sqrt{3}，那么y=\\sqrt{3}x， 将x=-\\frac{2\\sqrt{3}}{3}代入，得到y=\\sqrt{3}×-\\frac{2\\sqrt{3}}{3}=-2可知F_{1}也过直线y=\\sqrt{3}x， 当直线y=kx过A_{1}时，将(-\\frac{2\\sqrt{3}}{3},2)代入，得到2=-\\frac{2\\sqrt{3}}{3}k解得k=-\\sqrt{3}， 那么y=-\\sqrt{3}x，将x=\\frac{2\\sqrt{3}}{3}代入，得到y=-\\sqrt{3}×\\frac{2\\sqrt{3}}{3}=-2， 可知J_{1}也过直线y=-\\sqrt{3}x； 综上，当正方形ABCD的美好点在A_{1}W.F_{1}J_{1}上移动时，k\\leqslant-\\sqrt{3}\\text{或}k\\geqslant\\sqrt{3}； 当正方形ABCD的美好点在B_{1}G_{1}.XQ_{1}上移动时，当直线y=kx过B_{1}时，将(-2,\\frac{2\\sqrt{3}}{3})代入，得到-2k=\\frac{2\\sqrt{3}}{3}，解得k=-\\frac{\\sqrt{3}}{3}，那么y=-\\frac{\\sqrt{3}}{3}x' 将x=2代入，得到y=2×-\\frac{\\sqrt{3}}{3}=-\\frac{2\\sqrt{3}}{3}，可知Q_{1}也过直线y=-\\frac{\\sqrt{3}}{3}x， 当直线y=kx过X时，将(2,\\frac{2\\sqrt{3}}{3})代入，得到2k=\\frac{2\\sqrt{3}}{3}，解得k=\\frac{\\sqrt{3}}{3}， 那么y=\\frac{\\sqrt{3}}{3}x将x=-2代入，得到y=-2×\\frac{\\sqrt{3}}{3}=\\frac{-2\\sqrt{3}}{3}， 可知G_{1}也过直线y=\\frac{\\sqrt{3}}{3}x那么当正方形ABCD的美好点在B_{1}G_{1}，XQ_{1}上移动时，k\\leqslant-\\sqrt{3}或-\\frac{\\sqrt{3}}{3}\\leqslant k\\leqslant\\frac{\\sqrt{3}}{3}或k\\geqslant\\sqrt{3}； (3)解：与正方形ABCD大小相同的正方形ABC'D的顶点在坐标轴上，如图所示： 由题意可知，OD=OA=OC=OB=OD， ∵已知正方形ABCD的顶点坐标分别为A(-2,2)，B(-2,-2)，C(2,-2)，D(2,2)， ∴OD=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}， ∴A.D'(0,2\\sqrt{2})，C(2\\sqrt{2},0)，B'(0,-2\\sqrt{2})A(-2\\sqrt{2},0)， 由(2)可知，正方形ABCD的美好点需要在$A_{1}WB_\\{1\\}G_\\{1\\}F_{1}J_{1}XQ_\\{1\\}上移动，其中A_{1}(-\\frac{2\\sqrt{3}}{3},2)，F_{1}(-2,-2)，W(\\frac{2\\sqrt{3}}{3},2)和J_{1}(\\frac{2\\sqrt{3}}{3},-2)，Q_{1}(2,-\\frac{2\\sqrt{3}}{3})，G_{1}(-2,-\\frac{2\\sqrt{3}}{3})，B_{1}(-2,\\frac{2\\sqrt{3}}{3})和X(2,\\frac{2\\sqrt{3}}{3})， 同理可求得正方形ABC'D的美好点需要在ZY、VC_{1}.D_{1}E_{1}H_{1}K_{1}上移动，其中Z(-\\sqrt{2}-\\frac{\\sqrt{6}}{3},\\sqrt{2}-\\frac{\\sqrt{6}}{3})；H_{1}(-\\sqrt{2}-\\frac{\\sqrt{6}}{3},-\\sqrt{2}+\\frac{\\sqrt{6}}{3})，Y(-\\sqrt{2}+\\frac{\\sqrt{6}}{3},\\sqrt{2}+\\frac{\\sqrt{6}}{3})，K_{1}(-\\sqrt{2}+\\frac{\\sqrt{6}}{3},-\\sqrt{2}-\\frac{\\sqrt{6}}{3}),V(\\sqrt{2}-\\frac{\\sqrt{6}}{3},\\sqrt{2}+\\frac{\\sqrt{6}}{3})，E_{1}(\\sqrt{2}-\\frac{\\sqrt{6}}{3},-\\sqrt{2}-\\frac{\\sqrt{6}}{3})C_{1}(\\sqrt{2}+\\frac{\\sqrt{6}}{3},\\sqrt{2}-\\frac{\\sqrt{6}}{3})，D_{1}(\\sqrt{2}+\\frac{\\sqrt{6}}{3},-\\sqrt{2}+\\frac{\\sqrt{6}}{3})， 即如图所示： 设直线k为y=k_{1}x+b_{1}(k_{1}≠0)代入V(\\sqrt{2}-\\frac{\\sqrt{6}}{3},\\sqrt{2}+\\frac{\\sqrt{6}}{3})和H_{1}(-\\sqrt{2}-\\frac{\\sqrt{6}}{3},-\\sqrt{2}+\\frac{\\sqrt{6}}{3})' 有\\begin{cases}(\\sqrt{2}-\\frac{\\sqrt{6}}{3})k_{1}+b_{1}=\\sqrt{2}+\\frac{\\sqrt{6}}{3}\\\\ (-\\sqrt{2}-\\frac{\\sqrt{6}}{3})k_{1}+b_{1}=-\\sqrt{2}+\\frac{\\sqrt{6}}{3}\\end{cases}解得\\begin{cases}k_{1}=1\\\\ b_{1}=\\frac{2\\sqrt{6}}{3}\\end{cases}那么直线k为y=x+\\frac{2\\sqrt{6}}{3}； 同理可求得直线/为：y=x+2\\sqrt{2}；直线为：y=x-2\\sqrt{2}； 直线l为：y=x+2-\\frac{2\\sqrt{3}}{3}直线m为：y=x+\\frac{2\\sqrt{3}}{3}-2，直线n为：y=x-\\frac{2\\sqrt{6}}{3}， 因为直线y=x+b上既存在正方形ABCD的“美好点”又存在正方形ABCD的“美好点”， 那么直线y=x+b可以在直线k和l之间移动，也可以在m和n之间移动，也可以与直线i、直线q重合， 当y=x+b与直线i重合时，那么有b=2\\sqrt{2}当y=x+b与直线q重合时，那么有b=-2\\sqrt{2}； 当y=x+b与直线k重合时，那么有b=\\frac{2\\sqrt{6}}{3}； 当y=x+b与直线l重合时，那么有b=2-\\frac{2\\sqrt{3}}{3}， 当y=x+b与直线m重合时，那么有b=\\frac{2\\sqrt{3}}{3}-2； 当y=x+b与直线n重合时，那么有b=-\\frac{2\\sqrt{6}}{3}， 那么当直线y=x+b在直线k和l之间移动，2-\\frac{2\\sqrt{3}}{3}\\leqslant b\\leqslant\\frac{2\\sqrt{6}}{3}； 直线y=x+b在m和n之间移动，-\\frac{2\\sqrt{6}}{3}\\leqslant b\\leqslant\\frac{2\\sqrt{3}}{3}-2 综上，-\\frac{2\\sqrt{6}}{3}\\leqslant b\\leqslant\\frac{2\\sqrt{3}}{3}-2^{\\text{或}}2-\\frac{2\\sqrt{3}}{3}\\leqslant b\\leqslant\\frac{2\\sqrt{6}}{3}或b=±2\\sqrt{2}. (1)①P_{1}和P_{2}所在的线段为AD，AD的中点为点P_{2}此时M与P_{2}重合，连接OP_{1}，OP_{2}，将OP_{1}，OP_{2}沿着射线OP_{2}方向平移2个单位得到Q_{1}M，Q_{2}M，然后将Q_{1}M，Q_{2}M绕点M顺时针和逆时针旋转150°分别得到$ME_{1}、ME_\\{2\\}.MF_{2}，连接E_{1}F_{1}，E_{2}F_{2}，从图象中即可判断出答案； ②取AD的中点为M，那么OM=2，连接OP，将OP沿着射线OM的方向平移2个单位，得到MQ，将QM绕点M顺时针和逆时针旋转150°分别得到ME和MF，过点Q作QK⊥y轴于点K，过点E作EV⊥AD于点V，可证\\triangle QKM≌\\triangle KVM，那么KM=VM=2，QK=EV，此时V点与A点重合，E点落在线段AB上，然后利用勾股定理可求得AE的长度，得到点P坐标； (2)当“美好点”P在线段AD时，由(1)②可知，当点P坐标为(\\frac{2\\sqrt{3}}{3},2)时，点E点落在线段AB上，为保证EF一定在正方形ABCD的内部或边上，那么点P不能再继续往右移动，那么将(\\frac{2\\sqrt{3}}{3},2)代入y=kx，得到y=\\sqrt{3}x，当“美好点”P在线段AD时，为保证EF一定在正方形ABCD的内部或边上，P点的横坐标要大于等于-\\frac{2\\sqrt{3}}{3}小于等于\\frac{2\\sqrt{3}}{3}，那么k\\leqslant-\\sqrt{3}\\text{或}k\\geqslant\\sqrt{3}.同理讨论出那么当“美好点”P在线段AB时，为保证EF一定在正方形ABCD的内部或边上，P点的纵坐标要大于等于-\\frac{2\\sqrt{3}}{3}小于等于\\frac{2\\sqrt{3}}{3}，那么-\\frac{\\sqrt{3}}{3}\\leqslant k\\leqslant\\frac{\\sqrt{3}}{3}.当“美好点”P在线段CD时，-\\frac{\\sqrt{3}}{3}\\leqslant k\\leqslant\\frac{\\sqrt{3}}{3}；当“美好点”P在线段BC时，那么k\\leqslant-\\sqrt{3}\\text{或}k\\geqslant\\sqrt{3}，从而得出答案． (3)由(2)可知，正方形ABCD的美好点需要在A_{1}W、B_{1}G_{1}.F_{1}J_{1}、$XQ_{1}上移动，其中A_{1}(-\\frac{2\\sqrt{3}}{3},2)，F_{1}(-\\frac{2\\sqrt{3}}{3},-2)，W(\\frac{2\\sqrt{3}}{3},2)和J_{1}(\\frac{2\\sqrt{3}}{3},-2)，Q_{1}(2,-\\frac{2\\sqrt{3}}{3})!G_{1}(-2,-\\frac{2\\sqrt{3}}{3})，B_{1}(-2,\\frac{2\\sqrt{3}}{3})和X(2,\\frac{2\\sqrt{3}}{3})，同理可求得正方形ABC'D的美好点需要在ZY、VC_{1}，D_{1}E_{1}，H_{1}K_{1}上移动，其中Z(-\\sqrt{2}-\\frac{\\sqrt{6}}{3},\\sqrt{2}-\\frac{\\sqrt{6}}{3})，H_{1}(-\\sqrt{2}-\\frac{\\sqrt{6}}{3},-\\sqrt{2}+\\frac{\\sqrt{6}}{3}),Y(-\\sqrt{2}+\\frac{\\sqrt{6}}{3},\\sqrt{2}+\\frac{\\sqrt{6}}{3})，K_{1}(-\\sqrt{2}+\\frac{\\sqrt{6}}{3},-\\sqrt{2}-\\frac{\\sqrt{6}}{3})V(\\sqrt{2}-\\frac{\\sqrt{6}}{3},\\sqrt{2}+\\frac{\\sqrt{6}}{3})，E_{1}(\\sqrt{2}-\\frac{\\sqrt{6}}{3},-\\sqrt{2}-\\frac{\\sqrt{6}}{3})，C_{1}(\\sqrt{2}+\\frac{\\sqrt{6}}{3},\\sqrt{2}-\\frac{\\sqrt{6}}{3})D_{1}(\\sqrt{2}+\\frac{\\sqrt{6}}{3},-\\sqrt{2}+\\frac{\\sqrt{6}}{3})，因为直线y=x+b上既存在正方形ABCD的“美好点”又存在正方形ABC'D的“美好点”，那么直线y=x+b可以在直线和/之间移动，也可以在m和n之间移动，也可以与直线i、直线q重合，从而求得答案． 本题考查了“美好点”，旋转的性质，一次函数与几何综合，30度所对的直角边等于斜边的一半，勾股定理，熟练掌握以上知识点并能读懂“美好点”的含义是解题的关键．",
     "analysis_images": [
       "images/e324f91b_26_analysis_0.png",
       "images/e324f91b_26_analysis_1.png",
@@ -1979,7 +1979,7 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "A",
-    "stem": "-3的绝对值是(\\quad). A. 3 B.\\dfrac{1}{3} C.-3 D.-\\dfrac{1}{3}",
+    "stem": "-3的绝对值是(\\quad). A. 3 B.\\frac{1}{3} C.-3 D.-\\frac{1}{3}",
     "stem_images": [],
     "options": [
       {
@@ -1989,7 +1989,7 @@
       },
       {
         "index": "B",
-        "text": "\\dfrac{1}{3}",
+        "text": "\\frac{1}{3}",
         "images": []
       },
       {
@@ -1999,7 +1999,7 @@
       },
       {
         "index": "D",
-        "text": "-\\dfrac{1}{3}",
+        "text": "-\\frac{1}{3}",
         "images": []
       }
     ],
@@ -2021,7 +2021,7 @@
     "xkb_knowledges": [
       "掌握求有理数的相反数和绝对值的方法"
     ],
-    "normalized_stem": "$-3$ 的绝对值是 (\\quad). A. $3$ B. $\\dfrac{1}{3}$ C. $-3$ D. $-\\dfrac{1}{3}$",
+    "normalized_stem": "$-3$ 的绝对值是 (\\quad). A. $3$ B. $\\frac{1}{3}$ C. $-3$ D. $-\\frac{1}{3}$",
     "normalized_analysis": "【分析】本题主要考查求一个数的绝对值，根据负数的绝对值是它的相反数求解即可． 【详解】解：$-3$ 的绝对值是 $3$， 故选：A.",
     "bloom_level": "记忆",
     "bloom_reason": "直接考查绝对值定义，属于知识点的直接回忆。",
@@ -2293,10 +2293,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": ">",
-    "stem": "比较大小：-\\dfrac{3}{5}__________-\\dfrac{3}{4}",
+    "stem": "比较大小：-\\frac{3}{5}__________-\\frac{3}{4}",
     "stem_images": [],
     "options": [],
-    "analysis": "【分析】两个负数，绝对值大的其值反而小．依此即可求解． 【详解】解：\\because\\left|-\\dfrac{3}{5}\\right|=\\dfrac{3}{5}=\\dfrac{12}{20},\\left|-\\dfrac{3}{4}\\right|=\\dfrac{3}{4}=\\dfrac{15}{20}， \\(\\therefore\\dfrac{12}{20} < \\dfrac{15}{20}.\\) ∴-\\dfrac{3}{5}>-\\dfrac{3}{4}. 本题考查了有理数大小比较，有理数大小比较的法则：①正数都大于0； ②负数都小于0； ③正数大于一切负数； ④两个负数，绝对值大的反而小．",
+    "analysis": "【分析】两个负数，绝对值大的其值反而小．依此即可求解． 【详解】解：\\because\\left|-\\frac{3}{5}\\right|=\\frac{3}{5}=\\frac{12}{20},\\left|-\\frac{3}{4}\\right|=\\frac{3}{4}=\\frac{15}{20}， \\(\\therefore\\frac{12}{20} < \\frac{15}{20}.\\) ∴-\\frac{3}{5}>-\\frac{3}{4}. 本题考查了有理数大小比较，有理数大小比较的法则：①正数都大于0； ②负数都小于0； ③正数大于一切负数； ④两个负数，绝对值大的反而小．",
     "analysis_images": [],
     "knowledges": [
       "有理数大小比较"
@@ -2493,7 +2493,7 @@
     "stem": "已知关于x的一元二次方程m{x^2}-\\left(3m-3\\right)x+2m-3=0\\left(m\\neq 0\\right). (1) 求证：方程总有两个实数根； (2) 若m是正整数，方程的两个实数根都是整数，求m的值．",
     "stem_images": [],
     "options": [],
-    "analysis": "1.  本题考查了一元二次方程根的判别式，因式分解法解一元二次方程，熟练掌握以上知识点并灵活运用是解此题的关键． 根据一元二次方程根的判别式计算得出\\Delta\\geqslant 0，即可得证； 2.  先利用因式分解法方程可得{x_1}=1，{x_2}=2-\\dfrac{3}{m}，再结合题意分析即可得出结果．",
+    "analysis": "1.  本题考查了一元二次方程根的判别式，因式分解法解一元二次方程，熟练掌握以上知识点并灵活运用是解此题的关键． 根据一元二次方程根的判别式计算得出\\Delta\\geqslant 0，即可得证； 2.  先利用因式分解法方程可得{x_1}=1，{x_2}=2-\\frac{3}{m}，再结合题意分析即可得出结果．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -2617,7 +2617,7 @@
       "images/a72f328b_26_stem_1.png"
     ],
     "options": [],
-    "analysis": "(1)∵点A的坐标为(4,-2)， ∴点A关于x轴的对称点为A'(4,2)， 如图1，点B的坐标为(2,0)，C_{3}在x轴上，过点A'作线段A'C垂直于A'B且等于A'B，C_{2}，C_{3}是点A关于直线l和点B的“垂直点”． ∴C_{3}是点A关于x轴和点B的“有效垂直点”， 故答案为：C_{3}； (2)①∵点A的坐标为(-2,-3)，点B的坐标为(0,m). ∴点A关于y轴的对称点为A'的坐标为(2,-3)，B在y轴上， ∵点C是点A关于y轴和点B的“垂直点”， ∴A'C=A'B，A'C⊥A'B， 如图2，B的坐标为(0,m)，D的坐标为(0,-3)，当B在D的上方时，过点C_{1}作C_{1}E⊥AA'于点E，设AA'交y轴于点D， ∴BD=m+3，A'D=2， ∴∠A'DB=∠C_{1}EA'=90， 又∵∠C_{1}A'E+∠BA'D=90°，∠C_{1}A'E+∠C_{1}=90°， ∴∠A'C_{1}E=∠BA'D， 在\\triangle A'BD和\\triangle C_{1}A'E中， \\begin{cases}∠A'DB=∠C_{1}EA'\\\\ A'B=C_{1}A'\\\\ ∠BA'D=∠A'C_{1}E\\end{cases}， ∴\\triangle A'BD≌\\triangle C_{1}A'E(ASA)， ∴EC_{1}=A'D=2，A'E=BD=m+3， ∴E'的坐标为(2-m-3,-3)即E'的坐标为(-1-m,-3)， ∴C_{1}的坐标为(-1-m,-5)， ∵A'C_{2}=A'C_{1}， ∴C_{2}的坐标为(2×2-(-1-m),2×(-3)-(-5))， 即C_{2}的坐标为(5+m,-1). 如图3，当B在D的下方时， 同理可得C_{1}的坐标为(-1-m,-5)，C_{2}的坐标为(5+m,-1)， 综上所述，点C的坐标为(-1-m,-5)或(5+m,-1)， 故答案为：(-1-m,-5)或(5+m,-1)； ②设M的坐标为(-5,0)，N的坐标为(0,-5)，则OM=ON=5， ∴\\triangle MON是等腰直角三角形，则∠OMN=45°， 如图4，过点A作AF⊥x轴于点F，则F的坐标为(a,0)，\\triangle AFM是等腰直角三角形，设A的坐标为(a,b)，则A'的坐标为(-a,b)， 当b>0时， ∴AF=FM=b，FM=AF=b=-a-5， ∴a+b=-5， 当\\(b < 0\\)时，同理可得a+b=-5， ∴过点(-5,0)和(0,-5)的直线上的点满足a+b=-5， 同①构造全等三角形，同理可得C_{1}的坐标为(b-a-5,-5)，则C_{2}的坐标为(10,b-a)， ∵点C是点A关于y轴和点B的“有效垂直点”，且C在过点(-5,0)和(0,-5)的直线上， 依题意得：\\begin{cases}{b-a-5+(-5)=-5}\\\\ {a+b=-5}\\end{cases}或\\begin{cases}{10+b-a=-5}\\\\ {a+b=-5}\\end{cases}， 解得：\\begin{cases}{a=-5}\\\\ {b=0}\\end{cases}或\\begin{cases}{a=5}\\\\ {b=-10}\\end{cases}， ∴A的坐标为(-5,0)或(5,-10)， 故答案为：(-5,0)或(5,-10)； (3)t的值为2.理由如下： ∵A是线段PQ上的点，点P的坐标为(t-1,0)，点Q的坐标为(t,1)， 设A的坐标为(m,n)，则t-1\\leqslant m\\leqslant t，0\\leqslant n\\leqslant 1， ∴A'的坐标为(-m,n)， 如图5，过点Q作QS⊥x轴于点S，过点A作AT⊥x轴于点T，则S的坐标为(t,0)， ∴PS=QS=1， ∴\\triangle PQS是等腰直角三角形， ∴\\triangle APT是等腰直角三角形， ∴TP=TA=n， ∴OT=t-1+n=m， ∴m-n=t-1①， ∵点B的坐标为(0,-3)， ∴BH=n+3，A'H=m， 同理得：\\triangle A'HB≌\\triangle C_{1}GA'， ∴C_{1}G=A'H=m，A'G=HB=n+3， ∴C_{1}的坐标为(-m+n+3,n+m)， ∴C_{1}的坐标为(4-t,n+m)， ∵t-1\\leqslant m\\leqslant t，0\\leqslant n\\leqslant 1， \\(∴-t\\leqslant-m < 1-t\\)， ∴t-1\\leqslant m+n\\leqslant t+1， ∵线段PQ上存在点A以及点A关于y轴和点B的“垂直点”， ∴当C_{1}的坐标(4-t,n+m)在PQ上时，满足t-1\\leqslant x_{C_{1}}\\leqslant t，0\\leqslant y_{C_{1}}\\leqslant 1， ∴t-1\\leqslant 4-t\\leqslant t， 解得：2\\leqslant t\\leqslant\\dfrac{5}{2}， ∴纵坐标范围为：1\\leqslant t-1\\leqslant\\dfrac{3}{2}或3\\leqslant t+1\\leqslant\\dfrac{7}{2}， ∵0\\leqslant y_{C_{1}}\\leqslant 1， ∴t-1=1符合题意， 解得：t=2； ∵A'的坐标为(-m,n)，C_{1}的坐标为(-m+n+3,n+m)， ∴C_{2}的坐标为(-2m-(-m+n+3),2n-(n+m))， ∴C_{2}的坐标为(-m-n-3,n-m)， ∵m-n=t-1， ∴C_{2}的坐标为(-m-n-3,t-1)， ∵t-1\\leqslant m\\leqslant t，0\\leqslant n\\leqslant 1， \\(∴-t\\leqslant-m < 1-t\\)，-1\\leqslant-n\\leqslant 0， ∴-1-t-3\\leqslant-m-n-3\\leqslant 1-t-3即-t-4\\leqslant-m-n-3\\leqslant-t-2，-t\\leqslant m-n\\leqslant 2-t， ∵线段PQ上存在点A以及点A关于y轴和点B的“垂直点”． ∴当C_{2}的坐标(-m-n-3,t-1)在PQ上时，满足t-1\\leqslant x_{C_{2}}\\leqslant t，0\\leqslant y_{C_{2}}\\leqslant 1， ∵0\\leqslant y_{C_{2}}\\leqslant 1， ∴0\\leqslant t-1\\leqslant 1， 解得：-1\\leqslant t\\leqslant 2， ∴横坐标范围为：-t-4\\geqslant 0，-t-2\\leqslant 1，即t\\leqslant-4或t\\geqslant-3， ∴不存在C_{2}在线段PQ上， 综上所述，t=2， 故答案为：2. (1)根据新定义得出A(4,-2)关于x轴的对称点为A'(4,2)，过点A'作线段A'C垂直于A'B且等于A'B，可得C_{3}在x轴上，即可求解； (2)①根据新定义可得A'C=A'B，A'C⊥A'B，当B在D的上方时，过点C_{1}作C_{1}E⊥AA'于点E，设AA'交y轴于点D，证明\\triangle A'BD≌\\triangle C_{1}A'E(ASA)得出C_{1}(-1-m,-5)，根据中点坐标公式可得C_{2}(5+m,-1)，当B在D的下方时，同理可得相同结论； ②过点A作AF⊥x轴于点F，则F(a,0)，\\triangle AFM是等腰直角三角形，设A(a,b)，则A'(-a,b)，根据等腰直角三角形的性质结合坐标系可得a+b=-5，进而同①构造全等三角形，同理可得C_{1}(b-a-5,-5)，则C_{2}(10,b-a)，根据题意得出点C是点A关于y轴和点B的“有效垂直点”，且C在过点(-5,0)和(0,-5)的直线上，建立二元一次方程组，解方程组，即可求解； (3)同理构造直角三角形，得出C_{1}(-m+n+3,n+m)，根据等腰直角三角形的性质结合坐标系可得m-n=t-1，则C_{1}(4-t,n+m)，根据题意线段PQ上存在点A以及点A关于y轴和点B的“垂直点”，求得2\\leqslant t\\leqslant\\dfrac{5}{2}，根据0\\leqslant y_{C_{1}}\\leqslant 1，求得符合题意的t的值，同理C_{2}(-m-n-3,n-m)，同理列出不等式组，解不等式组即可求解． 本题属于几何变换综合题，主要考查了几何新定义，垂直模型构造全等，坐标与图形，等腰直角三角形的性质，全等三角形的性质与判定，一元一次不等式组的应用，熟练掌握全等三角形的判定与性质是解答本题的关键．",
+    "analysis": "(1)∵点A的坐标为(4,-2)， ∴点A关于x轴的对称点为A'(4,2)， 如图1，点B的坐标为(2,0)，C_{3}在x轴上，过点A'作线段A'C垂直于A'B且等于A'B，C_{2}，C_{3}是点A关于直线l和点B的“垂直点”． ∴C_{3}是点A关于x轴和点B的“有效垂直点”， 故答案为：C_{3}； (2)①∵点A的坐标为(-2,-3)，点B的坐标为(0,m). ∴点A关于y轴的对称点为A'的坐标为(2,-3)，B在y轴上， ∵点C是点A关于y轴和点B的“垂直点”， ∴A'C=A'B，A'C⊥A'B， 如图2，B的坐标为(0,m)，D的坐标为(0,-3)，当B在D的上方时，过点C_{1}作C_{1}E⊥AA'于点E，设AA'交y轴于点D， ∴BD=m+3，A'D=2， ∴∠A'DB=∠C_{1}EA'=90， 又∵∠C_{1}A'E+∠BA'D=90°，∠C_{1}A'E+∠C_{1}=90°， ∴∠A'C_{1}E=∠BA'D， 在\\triangle A'BD和\\triangle C_{1}A'E中， \\begin{cases}∠A'DB=∠C_{1}EA'\\\\ A'B=C_{1}A'\\\\ ∠BA'D=∠A'C_{1}E\\end{cases}， ∴\\triangle A'BD≌\\triangle C_{1}A'E(ASA)， ∴EC_{1}=A'D=2，A'E=BD=m+3， ∴E'的坐标为(2-m-3,-3)即E'的坐标为(-1-m,-3)， ∴C_{1}的坐标为(-1-m,-5)， ∵A'C_{2}=A'C_{1}， ∴C_{2}的坐标为(2×2-(-1-m),2×(-3)-(-5))， 即C_{2}的坐标为(5+m,-1). 如图3，当B在D的下方时， 同理可得C_{1}的坐标为(-1-m,-5)，C_{2}的坐标为(5+m,-1)， 综上所述，点C的坐标为(-1-m,-5)或(5+m,-1)， 故答案为：(-1-m,-5)或(5+m,-1)； ②设M的坐标为(-5,0)，N的坐标为(0,-5)，则OM=ON=5， ∴\\triangle MON是等腰直角三角形，则∠OMN=45°， 如图4，过点A作AF⊥x轴于点F，则F的坐标为(a,0)，\\triangle AFM是等腰直角三角形，设A的坐标为(a,b)，则A'的坐标为(-a,b)， 当b>0时， ∴AF=FM=b，FM=AF=b=-a-5， ∴a+b=-5， 当\\(b < 0\\)时，同理可得a+b=-5， ∴过点(-5,0)和(0,-5)的直线上的点满足a+b=-5， 同①构造全等三角形，同理可得C_{1}的坐标为(b-a-5,-5)，则C_{2}的坐标为(10,b-a)， ∵点C是点A关于y轴和点B的“有效垂直点”，且C在过点(-5,0)和(0,-5)的直线上， 依题意得：\\begin{cases}{b-a-5+(-5)=-5}\\\\ {a+b=-5}\\end{cases}或\\begin{cases}{10+b-a=-5}\\\\ {a+b=-5}\\end{cases}， 解得：\\begin{cases}{a=-5}\\\\ {b=0}\\end{cases}或\\begin{cases}{a=5}\\\\ {b=-10}\\end{cases}， ∴A的坐标为(-5,0)或(5,-10)， 故答案为：(-5,0)或(5,-10)； (3)t的值为2.理由如下： ∵A是线段PQ上的点，点P的坐标为(t-1,0)，点Q的坐标为(t,1)， 设A的坐标为(m,n)，则t-1\\leqslant m\\leqslant t，0\\leqslant n\\leqslant 1， ∴A'的坐标为(-m,n)， 如图5，过点Q作QS⊥x轴于点S，过点A作AT⊥x轴于点T，则S的坐标为(t,0)， ∴PS=QS=1， ∴\\triangle PQS是等腰直角三角形， ∴\\triangle APT是等腰直角三角形， ∴TP=TA=n， ∴OT=t-1+n=m， ∴m-n=t-1①， ∵点B的坐标为(0,-3)， ∴BH=n+3，A'H=m， 同理得：\\triangle A'HB≌\\triangle C_{1}GA'， ∴C_{1}G=A'H=m，A'G=HB=n+3， ∴C_{1}的坐标为(-m+n+3,n+m)， ∴C_{1}的坐标为(4-t,n+m)， ∵t-1\\leqslant m\\leqslant t，0\\leqslant n\\leqslant 1， \\(∴-t\\leqslant-m < 1-t\\)， ∴t-1\\leqslant m+n\\leqslant t+1， ∵线段PQ上存在点A以及点A关于y轴和点B的“垂直点”， ∴当C_{1}的坐标(4-t,n+m)在PQ上时，满足t-1\\leqslant x_{C_{1}}\\leqslant t，0\\leqslant y_{C_{1}}\\leqslant 1， ∴t-1\\leqslant 4-t\\leqslant t， 解得：2\\leqslant t\\leqslant\\frac{5}{2}， ∴纵坐标范围为：1\\leqslant t-1\\leqslant\\frac{3}{2}或3\\leqslant t+1\\leqslant\\frac{7}{2}， ∵0\\leqslant y_{C_{1}}\\leqslant 1， ∴t-1=1符合题意， 解得：t=2； ∵A'的坐标为(-m,n)，C_{1}的坐标为(-m+n+3,n+m)， ∴C_{2}的坐标为(-2m-(-m+n+3),2n-(n+m))， ∴C_{2}的坐标为(-m-n-3,n-m)， ∵m-n=t-1， ∴C_{2}的坐标为(-m-n-3,t-1)， ∵t-1\\leqslant m\\leqslant t，0\\leqslant n\\leqslant 1， \\(∴-t\\leqslant-m < 1-t\\)，-1\\leqslant-n\\leqslant 0， ∴-1-t-3\\leqslant-m-n-3\\leqslant 1-t-3即-t-4\\leqslant-m-n-3\\leqslant-t-2，-t\\leqslant m-n\\leqslant 2-t， ∵线段PQ上存在点A以及点A关于y轴和点B的“垂直点”． ∴当C_{2}的坐标(-m-n-3,t-1)在PQ上时，满足t-1\\leqslant x_{C_{2}}\\leqslant t，0\\leqslant y_{C_{2}}\\leqslant 1， ∵0\\leqslant y_{C_{2}}\\leqslant 1， ∴0\\leqslant t-1\\leqslant 1， 解得：-1\\leqslant t\\leqslant 2， ∴横坐标范围为：-t-4\\geqslant 0，-t-2\\leqslant 1，即t\\leqslant-4或t\\geqslant-3， ∴不存在C_{2}在线段PQ上， 综上所述，t=2， 故答案为：2. (1)根据新定义得出A(4,-2)关于x轴的对称点为A'(4,2)，过点A'作线段A'C垂直于A'B且等于A'B，可得C_{3}在x轴上，即可求解； (2)①根据新定义可得A'C=A'B，A'C⊥A'B，当B在D的上方时，过点C_{1}作C_{1}E⊥AA'于点E，设AA'交y轴于点D，证明\\triangle A'BD≌\\triangle C_{1}A'E(ASA)得出C_{1}(-1-m,-5)，根据中点坐标公式可得C_{2}(5+m,-1)，当B在D的下方时，同理可得相同结论； ②过点A作AF⊥x轴于点F，则F(a,0)，\\triangle AFM是等腰直角三角形，设A(a,b)，则A'(-a,b)，根据等腰直角三角形的性质结合坐标系可得a+b=-5，进而同①构造全等三角形，同理可得C_{1}(b-a-5,-5)，则C_{2}(10,b-a)，根据题意得出点C是点A关于y轴和点B的“有效垂直点”，且C在过点(-5,0)和(0,-5)的直线上，建立二元一次方程组，解方程组，即可求解； (3)同理构造直角三角形，得出C_{1}(-m+n+3,n+m)，根据等腰直角三角形的性质结合坐标系可得m-n=t-1，则C_{1}(4-t,n+m)，根据题意线段PQ上存在点A以及点A关于y轴和点B的“垂直点”，求得2\\leqslant t\\leqslant\\frac{5}{2}，根据0\\leqslant y_{C_{1}}\\leqslant 1，求得符合题意的t的值，同理C_{2}(-m-n-3,n-m)，同理列出不等式组，解不等式组即可求解． 本题属于几何变换综合题，主要考查了几何新定义，垂直模型构造全等，坐标与图形，等腰直角三角形的性质，全等三角形的性质与判定，一元一次不等式组的应用，熟练掌握全等三角形的判定与性质是解答本题的关键．",
     "analysis_images": [
       "images/a72f328b_26_analysis_0.png",
       "images/a72f328b_26_analysis_1.png",
@@ -2642,7 +2642,7 @@
       "了解相似三角形的性质定理：相似三角形对应线段的比等于相似比；面积比等于相似比的平方"
     ],
     "normalized_stem": "在平面直角坐标系$xOy$中，对于点$A$，点$B$和直线$l$，点$A$关于$l$的对称点为点$A'$，点$B$是直线$l$上一点，过点$A'$作线段$A'C$垂直于$A'B$且等于$A'B$，则称点$C$是点$A$关于直线$l$和点$B$的“垂直点”。若线段$A'C$与直线$l$有交点，则称点$C$是点$A$关于直线$l$和点$B$的“有效垂直点”。 (1)如图所示，若点$A$的坐标为$(4,-2)$，点$B$的坐标为$(2,0)$，在图中的点$C_{1}$，$C_{2}$，$C_{3}$，$C_{4}$中，______是点$A$关于$x$轴和点$B$的“有效垂直点”。 (2)点$B$的坐标为$(0,m)$。 ①若点$A$的坐标为$(-2,-3)$，点$C$是点$A$关于$y$轴和点$B$的“垂直点”，则点$C$的坐标为______(用含$m$的式子表示)； ②若$m=5$，点$A$、$C$都在过点$(-5,0)$和$(0,-5)$的直线上，且点$C$是点$A$关于$y$轴和点$B$的“有效垂直点”，则点$A$的坐标为______。 (3)若点$B$的坐标是$(0,-3)$，点$P(t-1,0)$，点$Q(t,1)$，若线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”。直接写出$t$的值为______。",
-    "normalized_analysis": "(1)∵点$A$的坐标为$(4,-2)$， ∴点$A$关于$x$轴的对称点为$A'(4,2)$， 如图1，点$B$的坐标为$(2,0)$，$C_{3}$在$x$轴上，过点$A'$作线段$A'C$垂直于$A'B$且等于$A'B$，$C_{2}$，$C_{3}$是点$A$关于直线$l$和点$B$的“垂直点”。 ∴$C_{3}$是点$A$关于$x$轴和点$B$的“有效垂直点”， 故答案为：$C_{3}$； (2)①∵点$A$的坐标为$(-2,-3)$，点$B$的坐标为$(0,m)$。 ∴点$A$关于$y$轴的对称点为$A'$的坐标为$(2,-3)$，$B$在$y$轴上， ∵点$C$是点$A$关于$y$轴和点$B$的“垂直点”， ∴$A'C=A'B$，$A'C\\perp A'B$， 如图2，$B$的坐标为$(0,m)$，$D$的坐标为$(0,-3)$，当$B$在$D$的上方时，过点$C_{1}$作$C_{1}E\\perp AA'$于点$E$，设$AA'$交$y$轴于点$D$， ∴$BD=m+3$，$A'D=2$， ∴$\\angle A'DB=\\angle C_{1}EA'=90^{\\circ}$， 又∵$\\angle C_{1}A'E+\\angle BA'D=90^{\\circ}$，$\\angle C_{1}A'E+\\angle C_{1}=90^{\\circ}$， ∴$\\angle A'C_{1}E=\\angle BA'D$， 在$\\triangle A'BD$和$\\triangle C_{1}A'E$中， $\\begin{cases}\\angle A'DB=\\angle C_{1}EA'\\\\ A'B=C_{1}A'\\\\ \\angle BA'D=\\angle A'C_{1}E\\end{cases}$， ∴$\\triangle A'BD\\cong\\triangle C_{1}A'E(ASA)$， ∴$EC_{1}=A'D=2$，$A'E=BD=m+3$， ∴$E'$的坐标为$(2-m-3,-3)$即$E'$的坐标为$(-1-m,-3)$， ∴$C_{1}$的坐标为$(-1-m,-5)$， ∵$A'C_{2}=A'C_{1}$， ∴$C_{2}$的坐标为$(2\\times 2-(-1-m),2\\times (-3)-(-5))$， 即$C_{2}$的坐标为$(5+m,-1)$。 如图3，当$B$在$D$的下方时， 同理可得$C_{1}$的坐标为$(-1-m,-5)$，$C_{2}$的坐标为$(5+m,-1)$， 综上所述，点$C$的坐标为$(-1-m,-5)$或$(5+m,-1)$， 故答案为：$(-1-m,-5)$或$(5+m,-1)$； ②设$M$的坐标为$(-5,0)$，$N$的坐标为$(0,-5)$，则$OM=ON=5$， ∴$\\triangle MON$是等腰直角三角形，则$\\angle OMN=45^{\\circ}$， 如图4，过点$A$作$AF\\perp x$轴于点$F$，则$F$的坐标为$(a,0)$，$\\triangle AFM$是等腰直角三角形，设$A$的坐标为$(a,b)$，则$A'$的坐标为$(-a,b)$， 当$b>0$时， ∴$AF=FM=b$，$FM=AF=b=-a-5$， ∴$a+b=-5$， 当$b < 0$时，同理可得$a+b=-5$， ∴过点$(-5,0)$和$(0,-5)$的直线上的点满足$a+b=-5$， 同①构造全等三角形，同理可得$C_{1}$的坐标为$(b-a-5,-5)$，则$C_{2}$的坐标为$(10,b-a)$， ∵点$C$是点$A$关于$y$轴和点$B$的“有效垂直点”，且$C$在过点$(-5,0)$和$(0,-5)$的直线上， 依题意得：$\\begin{cases}b-a-5+(-5)=-5\\\\ a+b=-5\\end{cases}$或$\\begin{cases}10+b-a=-5\\\\ a+b=-5\\end{cases}$， 解得：$\\begin{cases}a=-5\\\\ b=0\\end{cases}$或$\\begin{cases}a=5\\\\ b=-10\\end{cases}$， ∴$A$的坐标为$(-5,0)$或$(5,-10)$， 故答案为：$(-5,0)$或$(5,-10)$； (3)$t$的值为$2$。理由如下： ∵$A$是线段$PQ$上的点，点$P$的坐标为$(t-1,0)$，点$Q$的坐标为$(t,1)$， 设$A$的坐标为$(m,n)$，则$t-1\\leqslant m\\leqslant t$，$0\\leqslant n\\leqslant 1$， ∴$A'$的坐标为$(-m,n)$， 如图5，过点$Q$作$QS\\perp x$轴于点$S$，过点$A$作$AT\\perp x$轴于点$T$，则$S$的坐标为$(t,0)$， ∴$PS=QS=1$， ∴$\\triangle PQS$是等腰直角三角形， ∴$\\triangle APT$是等腰直角三角形， ∴$TP=TA=n$， ∴$OT=t-1+n=m$， ∴$m-n=t-1$①， ∵点$B$的坐标为$(0,-3)$， ∴$BH=n+3$，$A'H=m$， 同理得：$\\triangle A'HB\\cong\\triangle C_{1}GA'$， ∴$C_{1}G=A'H=m$，$A'G=HB=n+3$， ∴$C_{1}$的坐标为$(-m+n+3,n+m)$， ∴$C_{1}$的坐标为$(4-t,n+m)$， ∵$t-1\\leqslant m\\leqslant t$，$0\\leqslant n\\leqslant 1$， $\\therefore -t\\leqslant -m < 1-t$， ∴$t-1\\leqslant m+n\\leqslant t+1$， ∵线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”， ∴当$C_{1}$的坐标$(4-t,n+m)$在$PQ$上时，满足$t-1\\leqslant x_{C_{1}}\\leqslant t$，$0\\leqslant y_{C_{1}}\\leqslant 1$， ∴$t-1\\leqslant 4-t\\leqslant t$， 解得：$2\\leqslant t\\leqslant\\dfrac{5}{2}$， ∴纵坐标范围为：$1\\leqslant t-1\\leqslant\\dfrac{3}{2}$或$3\\leqslant t+1\\leqslant\\dfrac{7}{2}$， ∵$0\\leqslant y_{C_{1}}\\leqslant 1$， ∴$t-1=1$符合题意， 解得：$t=2$； ∵$A'$的坐标为$(-m,n)$，$C_{1}$的坐标为$(-m+n+3,n+m)$， ∴$C_{2}$的坐标为$(-2m-(-m+n+3),2n-(n+m))$， ∴$C_{2}$的坐标为$(-m-n-3,n-m)$， ∵$m-n=t-1$， ∴$C_{2}$的坐标为$(-m-n-3,t-1)$， ∵$t-1\\leqslant m\\leqslant t$，$0\\leqslant n\\leqslant 1$， $\\therefore -t\\leqslant -m < 1-t$，$-1\\leqslant -n\\leqslant 0$， ∴$-1-t-3\\leqslant -m-n-3\\leqslant 1-t-3$即$-t-4\\leqslant -m-n-3\\leqslant -t-2$，$-t\\leqslant m-n\\leqslant 2-t$， ∵线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”。 ∴当$C_{2}$的坐标$(-m-n-3,t-1)$在$PQ$上时，满足$t-1\\leqslant x_{C_{2}}\\leqslant t$，$0\\leqslant y_{C_{2}}\\leqslant 1$， ∵$0\\leqslant y_{C_{2}}\\leqslant 1$， ∴$0\\leqslant t-1\\leqslant 1$， 解得：$-1\\leqslant t\\leqslant 2$， ∴横坐标范围为：$-t-4\\geqslant 0$，$-t-2\\leqslant 1$，即$t\\leqslant -4$或$t\\geqslant -3$， ∴不存在$C_{2}$在线段$PQ$上， 综上所述，$t=2$， 故答案为：$2$。 (1)根据新定义得出$A(4,-2)$关于$x$轴的对称点为$A'(4,2)$，过点$A'$作线段$A'C$垂直于$A'B$且等于$A'B$，可得$C_{3}$在$x$轴上，即可求解； (2)①根据新定义可得$A'C=A'B$，$A'C\\perp A'B$，当$B$在$D$的上方时，过点$C_{1}$作$C_{1}E\\perp AA'$于点$E$，设$AA'$交$y$轴于点$D$，证明$\\triangle A'BD\\cong\\triangle C_{1}A'E(ASA)$得出$C_{1}(-1-m,-5)$，根据中点坐标公式可得$C_{2}(5+m,-1)$，当$B$在$D$的下方时，同理可得相同结论； ②过点$A$作$AF\\perp x$轴于点$F$，则$F(a,0)$，$\\triangle AFM$是等腰直角三角形，设$A(a,b)$，则$A'(-a,b)$，根据等腰直角三角形的性质结合坐标系可得$a+b=-5$，进而同①构造全等三角形，同理可得$C_{1}(b-a-5,-5)$，则$C_{2}(10,b-a)$，根据题意得出点$C$是点$A$关于$y$轴和点$B$的“有效垂直点”，且$C$在过点$(-5,0)$和$(0,-5)$的直线上，建立二元一次方程组，解方程组，即可求解； (3)同理构造直角三角形，得出$C_{1}(-m+n+3,n+m)$，根据等腰直角三角形的性质结合坐标系可得$m-n=t-1$，则$C_{1}(4-t,n+m)$，根据题意线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”，求得$2\\leqslant t\\leqslant\\dfrac{5}{2}$，根据$0\\leqslant y_{C_{1}}\\leqslant 1$，求得符合题意的$t$的值，同理$C_{2}(-m-n-3,n-m)$，同理列出不等式组，解不等式组即可求解。 本题属于几何变换综合题，主要考查了几何新定义，垂直模型构造全等，坐标与图形，等腰直角三角形的性质，全等三角形的性质与判定，一元一次不等式组的应用，熟练掌握全等三角形的判定与性质是解答本题的关键。",
+    "normalized_analysis": "(1)∵点$A$的坐标为$(4,-2)$， ∴点$A$关于$x$轴的对称点为$A'(4,2)$， 如图1，点$B$的坐标为$(2,0)$，$C_{3}$在$x$轴上，过点$A'$作线段$A'C$垂直于$A'B$且等于$A'B$，$C_{2}$，$C_{3}$是点$A$关于直线$l$和点$B$的“垂直点”。 ∴$C_{3}$是点$A$关于$x$轴和点$B$的“有效垂直点”， 故答案为：$C_{3}$； (2)①∵点$A$的坐标为$(-2,-3)$，点$B$的坐标为$(0,m)$。 ∴点$A$关于$y$轴的对称点为$A'$的坐标为$(2,-3)$，$B$在$y$轴上， ∵点$C$是点$A$关于$y$轴和点$B$的“垂直点”， ∴$A'C=A'B$，$A'C\\perp A'B$， 如图2，$B$的坐标为$(0,m)$，$D$的坐标为$(0,-3)$，当$B$在$D$的上方时，过点$C_{1}$作$C_{1}E\\perp AA'$于点$E$，设$AA'$交$y$轴于点$D$， ∴$BD=m+3$，$A'D=2$， ∴$\\angle A'DB=\\angle C_{1}EA'=90^{\\circ}$， 又∵$\\angle C_{1}A'E+\\angle BA'D=90^{\\circ}$，$\\angle C_{1}A'E+\\angle C_{1}=90^{\\circ}$， ∴$\\angle A'C_{1}E=\\angle BA'D$， 在$\\triangle A'BD$和$\\triangle C_{1}A'E$中， $\\begin{cases}\\angle A'DB=\\angle C_{1}EA'\\\\ A'B=C_{1}A'\\\\ \\angle BA'D=\\angle A'C_{1}E\\end{cases}$， ∴$\\triangle A'BD\\cong\\triangle C_{1}A'E(ASA)$， ∴$EC_{1}=A'D=2$，$A'E=BD=m+3$， ∴$E'$的坐标为$(2-m-3,-3)$即$E'$的坐标为$(-1-m,-3)$， ∴$C_{1}$的坐标为$(-1-m,-5)$， ∵$A'C_{2}=A'C_{1}$， ∴$C_{2}$的坐标为$(2\\times 2-(-1-m),2\\times (-3)-(-5))$， 即$C_{2}$的坐标为$(5+m,-1)$。 如图3，当$B$在$D$的下方时， 同理可得$C_{1}$的坐标为$(-1-m,-5)$，$C_{2}$的坐标为$(5+m,-1)$， 综上所述，点$C$的坐标为$(-1-m,-5)$或$(5+m,-1)$， 故答案为：$(-1-m,-5)$或$(5+m,-1)$； ②设$M$的坐标为$(-5,0)$，$N$的坐标为$(0,-5)$，则$OM=ON=5$， ∴$\\triangle MON$是等腰直角三角形，则$\\angle OMN=45^{\\circ}$， 如图4，过点$A$作$AF\\perp x$轴于点$F$，则$F$的坐标为$(a,0)$，$\\triangle AFM$是等腰直角三角形，设$A$的坐标为$(a,b)$，则$A'$的坐标为$(-a,b)$， 当$b>0$时， ∴$AF=FM=b$，$FM=AF=b=-a-5$， ∴$a+b=-5$， 当$b < 0$时，同理可得$a+b=-5$， ∴过点$(-5,0)$和$(0,-5)$的直线上的点满足$a+b=-5$， 同①构造全等三角形，同理可得$C_{1}$的坐标为$(b-a-5,-5)$，则$C_{2}$的坐标为$(10,b-a)$， ∵点$C$是点$A$关于$y$轴和点$B$的“有效垂直点”，且$C$在过点$(-5,0)$和$(0,-5)$的直线上， 依题意得：$\\begin{cases}b-a-5+(-5)=-5\\\\ a+b=-5\\end{cases}$或$\\begin{cases}10+b-a=-5\\\\ a+b=-5\\end{cases}$， 解得：$\\begin{cases}a=-5\\\\ b=0\\end{cases}$或$\\begin{cases}a=5\\\\ b=-10\\end{cases}$， ∴$A$的坐标为$(-5,0)$或$(5,-10)$， 故答案为：$(-5,0)$或$(5,-10)$； (3)$t$的值为$2$。理由如下： ∵$A$是线段$PQ$上的点，点$P$的坐标为$(t-1,0)$，点$Q$的坐标为$(t,1)$， 设$A$的坐标为$(m,n)$，则$t-1\\leqslant m\\leqslant t$，$0\\leqslant n\\leqslant 1$， ∴$A'$的坐标为$(-m,n)$， 如图5，过点$Q$作$QS\\perp x$轴于点$S$，过点$A$作$AT\\perp x$轴于点$T$，则$S$的坐标为$(t,0)$， ∴$PS=QS=1$， ∴$\\triangle PQS$是等腰直角三角形， ∴$\\triangle APT$是等腰直角三角形， ∴$TP=TA=n$， ∴$OT=t-1+n=m$， ∴$m-n=t-1$①， ∵点$B$的坐标为$(0,-3)$， ∴$BH=n+3$，$A'H=m$， 同理得：$\\triangle A'HB\\cong\\triangle C_{1}GA'$， ∴$C_{1}G=A'H=m$，$A'G=HB=n+3$， ∴$C_{1}$的坐标为$(-m+n+3,n+m)$， ∴$C_{1}$的坐标为$(4-t,n+m)$， ∵$t-1\\leqslant m\\leqslant t$，$0\\leqslant n\\leqslant 1$， $\\therefore -t\\leqslant -m < 1-t$， ∴$t-1\\leqslant m+n\\leqslant t+1$， ∵线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”， ∴当$C_{1}$的坐标$(4-t,n+m)$在$PQ$上时，满足$t-1\\leqslant x_{C_{1}}\\leqslant t$，$0\\leqslant y_{C_{1}}\\leqslant 1$， ∴$t-1\\leqslant 4-t\\leqslant t$， 解得：$2\\leqslant t\\leqslant\\frac{5}{2}$， ∴纵坐标范围为：$1\\leqslant t-1\\leqslant\\frac{3}{2}$或$3\\leqslant t+1\\leqslant\\frac{7}{2}$， ∵$0\\leqslant y_{C_{1}}\\leqslant 1$， ∴$t-1=1$符合题意， 解得：$t=2$； ∵$A'$的坐标为$(-m,n)$，$C_{1}$的坐标为$(-m+n+3,n+m)$， ∴$C_{2}$的坐标为$(-2m-(-m+n+3),2n-(n+m))$， ∴$C_{2}$的坐标为$(-m-n-3,n-m)$， ∵$m-n=t-1$， ∴$C_{2}$的坐标为$(-m-n-3,t-1)$， ∵$t-1\\leqslant m\\leqslant t$，$0\\leqslant n\\leqslant 1$， $\\therefore -t\\leqslant -m < 1-t$，$-1\\leqslant -n\\leqslant 0$， ∴$-1-t-3\\leqslant -m-n-3\\leqslant 1-t-3$即$-t-4\\leqslant -m-n-3\\leqslant -t-2$，$-t\\leqslant m-n\\leqslant 2-t$， ∵线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”。 ∴当$C_{2}$的坐标$(-m-n-3,t-1)$在$PQ$上时，满足$t-1\\leqslant x_{C_{2}}\\leqslant t$，$0\\leqslant y_{C_{2}}\\leqslant 1$， ∵$0\\leqslant y_{C_{2}}\\leqslant 1$， ∴$0\\leqslant t-1\\leqslant 1$， 解得：$-1\\leqslant t\\leqslant 2$， ∴横坐标范围为：$-t-4\\geqslant 0$，$-t-2\\leqslant 1$，即$t\\leqslant -4$或$t\\geqslant -3$， ∴不存在$C_{2}$在线段$PQ$上， 综上所述，$t=2$， 故答案为：$2$。 (1)根据新定义得出$A(4,-2)$关于$x$轴的对称点为$A'(4,2)$，过点$A'$作线段$A'C$垂直于$A'B$且等于$A'B$，可得$C_{3}$在$x$轴上，即可求解； (2)①根据新定义可得$A'C=A'B$，$A'C\\perp A'B$，当$B$在$D$的上方时，过点$C_{1}$作$C_{1}E\\perp AA'$于点$E$，设$AA'$交$y$轴于点$D$，证明$\\triangle A'BD\\cong\\triangle C_{1}A'E(ASA)$得出$C_{1}(-1-m,-5)$，根据中点坐标公式可得$C_{2}(5+m,-1)$，当$B$在$D$的下方时，同理可得相同结论； ②过点$A$作$AF\\perp x$轴于点$F$，则$F(a,0)$，$\\triangle AFM$是等腰直角三角形，设$A(a,b)$，则$A'(-a,b)$，根据等腰直角三角形的性质结合坐标系可得$a+b=-5$，进而同①构造全等三角形，同理可得$C_{1}(b-a-5,-5)$，则$C_{2}(10,b-a)$，根据题意得出点$C$是点$A$关于$y$轴和点$B$的“有效垂直点”，且$C$在过点$(-5,0)$和$(0,-5)$的直线上，建立二元一次方程组，解方程组，即可求解； (3)同理构造直角三角形，得出$C_{1}(-m+n+3,n+m)$，根据等腰直角三角形的性质结合坐标系可得$m-n=t-1$，则$C_{1}(4-t,n+m)$，根据题意线段$PQ$上存在点$A$以及点$A$关于$y$轴和点$B$的“垂直点”，求得$2\\leqslant t\\leqslant\\frac{5}{2}$，根据$0\\leqslant y_{C_{1}}\\leqslant 1$，求得符合题意的$t$的值，同理$C_{2}(-m-n-3,n-m)$，同理列出不等式组，解不等式组即可求解。 本题属于几何变换综合题，主要考查了几何新定义，垂直模型构造全等，坐标与图形，等腰直角三角形的性质，全等三角形的性质与判定，一元一次不等式组的应用，熟练掌握全等三角形的判定与性质是解答本题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用新定义规则，在坐标系中进行几何构造与坐标计算。",
     "core_literacy_primary": "几何直观",
@@ -2743,7 +2743,7 @@
       "images/2955239d_23_stem_0.png"
     ],
     "options": [],
-    "analysis": "1.  本题主要考查数轴上的动点问题，涉及到用代数式表示点的位置、根据距离列方程以及代数式的化简求值． 根据数轴上动点的表示规则，用初始位置加上速度与运动时间的乘积，就能直接写出点M在运动t秒后表示的数； 【详解】解：∵M从-5出发，沿数轴正方向运动，每秒走2个单位， ∴则t秒后移动的距离为2t， ∴点M表示的数：-5+2t， 故答案为：-5+2t； 2.  先依据两点间的距离公式列出关于t的绝对值方程，再根据绝对值的几何意义分两种情况去掉绝对值符号，分别解方程后得到t的值； 3.  首先写出D、E、F三点运动t秒后的数轴表示数，结合点M的表达式求出ME、MF、MD的化简式(利用t>0去掉绝对值)，再将其代入代数式并整理，根据“代数式为定值则含t项的系数为0”这一关键条件，解方程求出常数n的值． 解：∵点D从A\\left(-5\\right)出发，速度1个单位/秒向负方向运动，∴t秒后表示的数：-5-t； ∵点E从B\\left(10\\right)出发，速度3个单位/秒向正方向运动，∴t秒后表示的数：10+3t； ∵点F从C\\left(20\\right)出发，速度4个单位/秒向正方向运动，∴t秒后表示的数：20+4t； 点M表示的数：-5+2t； ∴ME=\\left(10+3t\\right)-\\left(-5+2t\\right)\\left|=\\right|15+t|=15+t(t>0); MF=\\left(20+4t\\right)-\\left(-5+2t\\right)\\left|=\\right|25+2t|=25+2t(t>0)； MD=\\left(-5+2t\\right)-\\left(-5-t\\right)=3t(t>0)； 分别将ME、MF、MD代入式子ME-3MF+nMD，得： \\left(15+t\\right)-3\\left(25+2t\\right)+n\\cdot 3t =15+t-75-6t+3nt =\\left(3n-5\\right)t-60， ∵式子为定值，即与t无关， ∴t的系数必须为0， ∴3n-5=0， ∴n=\\dfrac{5}{3}. 故答案为：\\dfrac{5}{3}；",
+    "analysis": "1.  本题主要考查数轴上的动点问题，涉及到用代数式表示点的位置、根据距离列方程以及代数式的化简求值． 根据数轴上动点的表示规则，用初始位置加上速度与运动时间的乘积，就能直接写出点M在运动t秒后表示的数； 【详解】解：∵M从-5出发，沿数轴正方向运动，每秒走2个单位， ∴则t秒后移动的距离为2t， ∴点M表示的数：-5+2t， 故答案为：-5+2t； 2.  先依据两点间的距离公式列出关于t的绝对值方程，再根据绝对值的几何意义分两种情况去掉绝对值符号，分别解方程后得到t的值； 3.  首先写出D、E、F三点运动t秒后的数轴表示数，结合点M的表达式求出ME、MF、MD的化简式(利用t>0去掉绝对值)，再将其代入代数式并整理，根据“代数式为定值则含t项的系数为0”这一关键条件，解方程求出常数n的值． 解：∵点D从A\\left(-5\\right)出发，速度1个单位/秒向负方向运动，∴t秒后表示的数：-5-t； ∵点E从B\\left(10\\right)出发，速度3个单位/秒向正方向运动，∴t秒后表示的数：10+3t； ∵点F从C\\left(20\\right)出发，速度4个单位/秒向正方向运动，∴t秒后表示的数：20+4t； 点M表示的数：-5+2t； ∴ME=\\left(10+3t\\right)-\\left(-5+2t\\right)\\left|=\\right|15+t|=15+t(t>0); MF=\\left(20+4t\\right)-\\left(-5+2t\\right)\\left|=\\right|25+2t|=25+2t(t>0)； MD=\\left(-5+2t\\right)-\\left(-5-t\\right)=3t(t>0)； 分别将ME、MF、MD代入式子ME-3MF+nMD，得： \\left(15+t\\right)-3\\left(25+2t\\right)+n\\cdot 3t =15+t-75-6t+3nt =\\left(3n-5\\right)t-60， ∵式子为定值，即与t无关， ∴t的系数必须为0， ∴3n-5=0， ∴n=\\frac{5}{3}. 故答案为：\\frac{5}{3}；",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -2852,7 +2852,7 @@
       "images/a72f328b_21_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)画出与\\triangle ABC关于直线l对称的图形\\triangle A_{1}B_{1}C_{1}，如图所示，A_{1}(5,1)； 故答案为：(5,1)； (2)由C(-4,4)，C_{1}(6,4)，可得CC_{1}的长度为6-(-4)=10，点B(0,2)到CC_{1}的距离为4-2=2. ∴S_{\\triangle BCC_{1}}=\\dfrac{1}{2}×CC_{1}×高=\\dfrac{1}{2}×10×2=10. (3)作点A(-3,1)关于x轴的对称点A'(-3,-1). 设直线A'B的解析式为y=kx+b，由条件可得： \\begin{cases}{-3k+b=-1}\\\\ {b=2}\\end{cases}， 把b=2代入-3k+b=-1，得-3k+2=-1， 解得k=1. ∴直线A'B的解析式为y=x+2. 令y=0，则x+2=0，x=-2， ∴P(-2,0). 故答案为：(-2,0). (1)根据关于垂直于x轴的直线对称的点的坐标规律，即对称点的纵坐标不变，横坐标到直线l(x=1)的距离相等，从而确定A_{1}、B_{1}、C_{1}的坐标，再画出图形； (2)先确定CC_{1}的长度，再找到点B到CC_{1}的水平距离(即高)，然后根据三角形面积公式S=\\dfrac{1}{2}×底×高计算面积； (3)利用轴对称的性质，作点A关于x轴的对称点A'，连接A'B与x轴的交点即为P点，再通过求直线A'B的解析式确定P点坐标． 本题主要考查了轴对称变换、三角形面积公式、一次函数的应用等知识点，熟练掌握轴对称的性质以及坐标变换规律是解题的关键．",
+    "analysis": "(1)画出与\\triangle ABC关于直线l对称的图形\\triangle A_{1}B_{1}C_{1}，如图所示，A_{1}(5,1)； 故答案为：(5,1)； (2)由C(-4,4)，C_{1}(6,4)，可得CC_{1}的长度为6-(-4)=10，点B(0,2)到CC_{1}的距离为4-2=2. ∴S_{\\triangle BCC_{1}}=\\frac{1}{2}×CC_{1}×高=\\frac{1}{2}×10×2=10. (3)作点A(-3,1)关于x轴的对称点A'(-3,-1). 设直线A'B的解析式为y=kx+b，由条件可得： \\begin{cases}{-3k+b=-1}\\\\ {b=2}\\end{cases}， 把b=2代入-3k+b=-1，得-3k+2=-1， 解得k=1. ∴直线A'B的解析式为y=x+2. 令y=0，则x+2=0，x=-2， ∴P(-2,0). 故答案为：(-2,0). (1)根据关于垂直于x轴的直线对称的点的坐标规律，即对称点的纵坐标不变，横坐标到直线l(x=1)的距离相等，从而确定A_{1}、B_{1}、C_{1}的坐标，再画出图形； (2)先确定CC_{1}的长度，再找到点B到CC_{1}的水平距离(即高)，然后根据三角形面积公式S=\\frac{1}{2}×底×高计算面积； (3)利用轴对称的性质，作点A关于x轴的对称点A'，连接A'B与x轴的交点即为P点，再通过求直线A'B的解析式确定P点坐标． 本题主要考查了轴对称变换、三角形面积公式、一次函数的应用等知识点，熟练掌握轴对称的性质以及坐标变换规律是解题的关键．",
     "analysis_images": [
       "images/a72f328b_21_analysis_0.png"
     ],
@@ -2876,7 +2876,7 @@
       "能画出简单平面图形(点、线段、直线、三角形等)关于给定对称轴的对称图形"
     ],
     "normalized_stem": "如图，在平面直角坐标系中，点$A$的坐标为$(-3,1)$，点$B$的坐标为$(0,2)$。点$C$的坐标为$(-4,4)$，直线$l$是经过点$(1,0)$，并且垂直于$x$轴的直线。 (1)在图中画出与$\\triangle ABC$关于直线$l$对称的图形$\\triangle A_{1}B_{1}C_{1}$，并写出点$A_{1}$的坐标：$______$； (2)连接$BC_{1}$，$CC_{1}$，求$\\triangle BCC_{1}$的面积； (3)若$x$轴上存在一点$P$，使得$PA+PB$最小，在图中画出符合条件的点$P$，并写出点$P$的坐标：$______$。(保留画图痕迹)",
-    "normalized_analysis": "(1)画出与$\\triangle ABC$关于直线$l$对称的图形$\\triangle A_{1}B_{1}C_{1}$，如图所示，$A_{1}(5,1)$； 故答案为：$(5,1)$； (2)由$C(-4,4)$，$C_{1}(6,4)$，可得$CC_{1}$的长度为$6-(-4)=10$，点$B(0,2)$到$CC_{1}$的距离为$4-2=2$。 $\\therefore S_{\\triangle BCC_{1}}=\\dfrac{1}{2}\\times CC_{1}\\times \\text{高}=\\dfrac{1}{2}\\times 10\\times 2=10$。 (3)作点$A(-3,1)$关于$x$轴的对称点$A'(-3,-1)$。 设直线$A'B$的解析式为$y=kx+b$，由条件可得： $\\begin{cases}-3k+b=-1\\\\ b=2\\end{cases}$， 把$b=2$代入$-3k+b=-1$，得$-3k+2=-1$， 解得$k=1$。 $\\therefore$直线$A'B$的解析式为$y=x+2$。 令$y=0$，则$x+2=0$，$x=-2$， $\\therefore P(-2,0)$。 故答案为：$(-2,0)$。 (1)根据关于垂直于$x$轴的直线对称的点的坐标规律，即对称点的纵坐标不变，横坐标到直线$l(x=1)$的距离相等，从而确定$A_{1}$、$B_{1}$、$C_{1}$的坐标，再画出图形； (2)先确定$CC_{1}$的长度，再找到点$B$到$CC_{1}$的水平距离(即高)，然后根据三角形面积公式$S=\\dfrac{1}{2}\\times \\text{底}\\times \\text{高}$计算面积； (3)利用轴对称的性质，作点$A$关于$x$轴的对称点$A'$，连接$A'B$与$x$轴的交点即为$P$点，再通过求直线$A'B$的解析式确定$P$点坐标。 本题主要考查了轴对称变换、三角形面积公式、一次函数的应用等知识点，熟练掌握轴对称的性质以及坐标变换规律是解题的关键。",
+    "normalized_analysis": "(1)画出与$\\triangle ABC$关于直线$l$对称的图形$\\triangle A_{1}B_{1}C_{1}$，如图所示，$A_{1}(5,1)$； 故答案为：$(5,1)$； (2)由$C(-4,4)$，$C_{1}(6,4)$，可得$CC_{1}$的长度为$6-(-4)=10$，点$B(0,2)$到$CC_{1}$的距离为$4-2=2$。 $\\therefore S_{\\triangle BCC_{1}}=\\frac{1}{2}\\times CC_{1}\\times \\text{高}=\\frac{1}{2}\\times 10\\times 2=10$。 (3)作点$A(-3,1)$关于$x$轴的对称点$A'(-3,-1)$。 设直线$A'B$的解析式为$y=kx+b$，由条件可得： $\\begin{cases}-3k+b=-1\\\\ b=2\\end{cases}$， 把$b=2$代入$-3k+b=-1$，得$-3k+2=-1$， 解得$k=1$。 $\\therefore$直线$A'B$的解析式为$y=x+2$。 令$y=0$，则$x+2=0$，$x=-2$， $\\therefore P(-2,0)$。 故答案为：$(-2,0)$。 (1)根据关于垂直于$x$轴的直线对称的点的坐标规律，即对称点的纵坐标不变，横坐标到直线$l(x=1)$的距离相等，从而确定$A_{1}$、$B_{1}$、$C_{1}$的坐标，再画出图形； (2)先确定$CC_{1}$的长度，再找到点$B$到$CC_{1}$的水平距离(即高)，然后根据三角形面积公式$S=\\frac{1}{2}\\times \\text{底}\\times \\text{高}$计算面积； (3)利用轴对称的性质，作点$A$关于$x$轴的对称点$A'$，连接$A'B$与$x$轴的交点即为$P$点，再通过求直线$A'B$的解析式确定$P$点坐标。 本题主要考查了轴对称变换、三角形面积公式、一次函数的应用等知识点，熟练掌握轴对称的性质以及坐标变换规律是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用轴对称的性质和坐标变换规律解决作图、求面积和最短路径问题。",
     "core_literacy_primary": "几何直观",
@@ -2906,7 +2906,7 @@
       "images/3df473d4_21_stem_8.png"
     ],
     "options": [],
-    "analysis": "解：如图2，连接AE，DF， ∵两个正八边形组成的图案“ ”． ∴∠BAE=BEA=\\dfrac{360°}{8}=45°， ∴\\triangle ABE是等腰直角三角形， 同理可得\\triangle CDF也是等腰直角三角形， 由题意可知，S_{\\triangle ABE}=S_{\\triangle CDF}， ∵“ ”的面积比“ ”的面积大400m^{2}， ∴S_{\\triangle ABE}=200m^{2}， 即\\dfrac{1}{2}AB^{2}=200， ∴AB=20， 即正八边形“ ”的相邻两架飞机的距离是20m. 连接AE，DF，根据正八边形的性质得出\\triangle ABE是等腰直角三角形，\\triangle CDF也是等腰直角三角形，由题意可知，S_{\\triangle ABE}=S_{\\triangle CDF}，据此解答即可． 本题考查了正八边形的性质，熟记正八边形的外角和是360°是解题的关键．",
+    "analysis": "解：如图2，连接AE，DF， ∵两个正八边形组成的图案“ ”． ∴∠BAE=BEA=\\frac{360°}{8}=45°， ∴\\triangle ABE是等腰直角三角形， 同理可得\\triangle CDF也是等腰直角三角形， 由题意可知，S_{\\triangle ABE}=S_{\\triangle CDF}， ∵“ ”的面积比“ ”的面积大400m^{2}， ∴S_{\\triangle ABE}=200m^{2}， 即\\frac{1}{2}AB^{2}=200， ∴AB=20， 即正八边形“ ”的相邻两架飞机的距离是20m. 连接AE，DF，根据正八边形的性质得出\\triangle ABE是等腰直角三角形，\\triangle CDF也是等腰直角三角形，由题意可知，S_{\\triangle ABE}=S_{\\triangle CDF}，据此解答即可． 本题考查了正八边形的性质，熟记正八边形的外角和是360°是解题的关键．",
     "analysis_images": [
       "images/3df473d4_21_analysis_0.png",
       "images/3df473d4_21_analysis_1.png",
@@ -2931,7 +2931,7 @@
       "了解正多边形的概念及正多边形与圆的关系"
     ],
     "normalized_stem": "2025年9月3日，我们迎来了纪念中国人民抗日战争暨世界反法西斯战争胜利80周年的重要时刻.这次阅兵，由徒步方队、装备方队和空中梯队组成.空中护旗梯队由多型直升机组成，他们以“最高标准、最好状态、最佳效果”飞过天安门上空，接受祖国和人民的检阅.如图1，26架直升机汇成巨大的“$\\text{ }$”字样，其中“$\\text{ }$”由14架飞机组成，“$\\text{ }$”由12架飞机组成. 如图2，将每一架飞机当作一个点，连接形成由两个正八边形组成的图案“$\\text{ }$”.如果将$B$，$C$两点隐去，连接$AE$，$DF$，则得到图3中的图案“$\\text{ }$”.发现“$\\text{ }$”的面积比“$\\text{ }$”的面积大$400\\text{m}^{2}$，求组成正八边形“$\\text{ }$”的相邻两架飞机的距离是多少米？",
-    "normalized_analysis": "解：如图2，连接$AE$，$DF$， $\\because$两个正八边形组成的图案“$\\text{ }$”. $\\therefore \\angle BAE = \\angle BEA = \\dfrac{360^{\\circ}}{8} = 45^{\\circ}$， $\\therefore \\triangle ABE$是等腰直角三角形， 同理可得$\\triangle CDF$也是等腰直角三角形， 由题意可知，$S_{\\triangle ABE} = S_{\\triangle CDF}$， $\\because$“$\\text{ }$”的面积比“$\\text{ }$”的面积大$400\\text{m}^{2}$， $\\therefore S_{\\triangle ABE} = 200\\text{m}^{2}$， 即$\\dfrac{1}{2}AB^{2} = 200$， $\\therefore AB = 20$， 即正八边形“$\\text{ }$”的相邻两架飞机的距离是$20\\text{m}$. 连接$AE$，$DF$，根据正八边形的性质得出$\\triangle ABE$是等腰直角三角形，$\\triangle CDF$也是等腰直角三角形，由题意可知，$S_{\\triangle ABE} = S_{\\triangle CDF}$，据此解答即可． 本题考查了正八边形的性质，熟记正八边形的外角和是$360^{\\circ}$是解题的关键．",
+    "normalized_analysis": "解：如图2，连接$AE$，$DF$， $\\because$两个正八边形组成的图案“$\\text{ }$”. $\\therefore \\angle BAE = \\angle BEA = \\frac{360^{\\circ}}{8} = 45^{\\circ}$， $\\therefore \\triangle ABE$是等腰直角三角形， 同理可得$\\triangle CDF$也是等腰直角三角形， 由题意可知，$S_{\\triangle ABE} = S_{\\triangle CDF}$， $\\because$“$\\text{ }$”的面积比“$\\text{ }$”的面积大$400\\text{m}^{2}$， $\\therefore S_{\\triangle ABE} = 200\\text{m}^{2}$， 即$\\frac{1}{2}AB^{2} = 200$， $\\therefore AB = 20$， 即正八边形“$\\text{ }$”的相邻两架飞机的距离是$20\\text{m}$. 连接$AE$，$DF$，根据正八边形的性质得出$\\triangle ABE$是等腰直角三角形，$\\triangle CDF$也是等腰直角三角形，由题意可知，$S_{\\triangle ABE} = S_{\\triangle CDF}$，据此解答即可． 本题考查了正八边形的性质，熟记正八边形的外角和是$360^{\\circ}$是解题的关键．",
     "bloom_level": "应用",
     "bloom_reason": "运用正多边形性质建立方程解决几何面积问题。",
     "core_literacy_primary": "几何直观",
@@ -3235,7 +3235,7 @@
         "images": []
       }
     ],
-    "analysis": "解：由题意，如图1， ∵B(1,-1)， ∴B关于直线y=x的对称点B'(-1,1). ∴连接AB'交y=x 于点P，此时PA+PB取最小值等于AB. 又∵A(2,1)，B'(-1,1)， ∴AB'/\\!/x轴． ∴P(1,1)，故①正确，②错误． 连接BA并延长交直线y=x于P，如图2， 此时，|PB-PA|取最大值等于AB. 设直线AB为y=kx+b， ∵A(2,1)，B(1,-1)， ∴\\begin{cases}{2k+b=1}\\\\ {k+b=-1}\\end{cases}. ∴\\begin{cases}{k=2}\\\\ {b=-3}\\end{cases}. ∴直线AB为y=2x-3. 联列方程组\\begin{cases}{y=x}\\\\ {y=2x-3}\\end{cases}， ∴\\begin{cases}{x=3}\\\\ {y=3}\\end{cases}. ∴此时P(3,3)，故③错误． 由题意，如图3， ∵|PA-PB|\\geqslant 0， ∴|PA-PB|取得最小值为0，此时PA=PB. ∴P在AB的垂直平分线上． ∵A(2,1)，B(1,-1)， ∴AB的中点为(1.5,0). ∵直线AB为y=2x-3， ∴AB的垂直平分线为y=-\\dfrac{1}{2}x+\\dfrac{3}{4}. ∴联列方程组\\begin{cases}y=x\\\\ y=-\\dfrac{1}{2}x+\\dfrac{3}{4}\\end{cases}. ∴\\begin{cases}{x=0.5}\\\\ {y=0.5}\\end{cases}. ∴P(0.5,0.5)，此时|PA-PB|取得最小值，故④正确． 综上，正确的有①④． 故选：B. 依据题意，结合函数图象分三种情形计算分析即可逐个判断得解． 本题主要考查了一次函数图象上点的坐标特征、正比例函数的性质、轴对称-最短路线问题，解题时要熟练掌握并能灵活运用一次函数的性质是关键．",
+    "analysis": "解：由题意，如图1， ∵B(1,-1)， ∴B关于直线y=x的对称点B'(-1,1). ∴连接AB'交y=x 于点P，此时PA+PB取最小值等于AB. 又∵A(2,1)，B'(-1,1)， ∴AB'/\\!/x轴． ∴P(1,1)，故①正确，②错误． 连接BA并延长交直线y=x于P，如图2， 此时，|PB-PA|取最大值等于AB. 设直线AB为y=kx+b， ∵A(2,1)，B(1,-1)， ∴\\begin{cases}{2k+b=1}\\\\ {k+b=-1}\\end{cases}. ∴\\begin{cases}{k=2}\\\\ {b=-3}\\end{cases}. ∴直线AB为y=2x-3. 联列方程组\\begin{cases}{y=x}\\\\ {y=2x-3}\\end{cases}， ∴\\begin{cases}{x=3}\\\\ {y=3}\\end{cases}. ∴此时P(3,3)，故③错误． 由题意，如图3， ∵|PA-PB|\\geqslant 0， ∴|PA-PB|取得最小值为0，此时PA=PB. ∴P在AB的垂直平分线上． ∵A(2,1)，B(1,-1)， ∴AB的中点为(1.5,0). ∵直线AB为y=2x-3， ∴AB的垂直平分线为y=-\\frac{1}{2}x+\\frac{3}{4}. ∴联列方程组\\begin{cases}y=x\\\\ y=-\\frac{1}{2}x+\\frac{3}{4}\\end{cases}. ∴\\begin{cases}{x=0.5}\\\\ {y=0.5}\\end{cases}. ∴P(0.5,0.5)，此时|PA-PB|取得最小值，故④正确． 综上，正确的有①④． 故选：B. 依据题意，结合函数图象分三种情形计算分析即可逐个判断得解． 本题主要考查了一次函数图象上点的坐标特征、正比例函数的性质、轴对称-最短路线问题，解题时要熟练掌握并能灵活运用一次函数的性质是关键．",
     "analysis_images": [
       "images/e324f91b_8_analysis_0.png",
       "images/e324f91b_8_analysis_1.png",
@@ -3264,7 +3264,7 @@
       "理解正比例函数"
     ],
     "normalized_stem": "如图，在平面直角坐标系$xOy$中，$A(2,1)$，$B(1,-1)$，点$P$在直线$y=x$上。有以下结论： ①当点$P$的坐标为$(1,1)$时，$PA+PB$取得最小值； ②当点$P$的坐标为$(1,1)$时，$PA+PB$取得最大值； ③当点$P$的坐标为$(2.5,2.5)$时，$|PA-PB|$取得最大值； ④当点$P$的坐标为$(0.5,0.5)$时，$|PA-PB|$取得最小值。 上述结论中，所有正确结论的序号是$(\\quad)$ A. ①③ B. ①④ C. ②③ D. ②④",
-    "normalized_analysis": "解：由题意，如图1， $\\because B(1,-1)$， $\\therefore B$关于直线$y=x$的对称点$B'(-1,1)$。 $\\therefore$连接$AB'$交$y=x$ 于点$P$，此时$PA+PB$取最小值等于$AB'$。 又$\\because A(2,1)$，$B'(-1,1)$， $\\therefore AB'\\parallel x$轴。 $\\therefore P(1,1)$，故①正确，②错误。 连接$BA$并延长交直线$y=x$于$P$，如图2， 此时，$|PB-PA|$取最大值等于$AB$。 设直线$AB$为$y=kx+b$， $\\because A(2,1)$，$B(1,-1)$， $\\therefore \\begin{cases}2k+b=1\\\\ k+b=-1\\end{cases}$。 $\\therefore \\begin{cases}k=2\\\\ b=-3\\end{cases}$。 $\\therefore$直线$AB$为$y=2x-3$。 联列方程组$\\begin{cases}y=x\\\\ y=2x-3\\end{cases}$， $\\therefore \\begin{cases}x=3\\\\ y=3\\end{cases}$。 $\\therefore$此时$P(3,3)$，故③错误。 由题意，如图3， $\\because |PA-PB|\\geqslant 0$， $\\therefore |PA-PB|$取得最小值为$0$，此时$PA=PB$。 $\\therefore P$在$AB$的垂直平分线上。 $\\because A(2,1)$，$B(1,-1)$， $\\therefore AB$的中点为$(1.5,0)$。 $\\because$直线$AB$为$y=2x-3$， $\\therefore AB$的垂直平分线为$y=-\\dfrac{1}{2}x+\\dfrac{3}{4}$。 $\\therefore$联列方程组$\\begin{cases}y=x\\\\ y=-\\dfrac{1}{2}x+\\dfrac{3}{4}\\end{cases}$。 $\\therefore \\begin{cases}x=0.5\\\\ y=0.5\\end{cases}$。 $\\therefore P(0.5,0.5)$，此时$|PA-PB|$取得最小值，故④正确。 综上，正确的有①④。 故选：B。 依据题意，结合函数图象分三种情形计算分析即可逐个判断得解。 本题主要考查了一次函数图象上点的坐标特征、正比例函数的性质、轴对称-最短路线问题，解题时要熟练掌握并能灵活运用一次函数的性质是关键。",
+    "normalized_analysis": "解：由题意，如图1， $\\because B(1,-1)$， $\\therefore B$关于直线$y=x$的对称点$B'(-1,1)$。 $\\therefore$连接$AB'$交$y=x$ 于点$P$，此时$PA+PB$取最小值等于$AB'$。 又$\\because A(2,1)$，$B'(-1,1)$， $\\therefore AB'\\parallel x$轴。 $\\therefore P(1,1)$，故①正确，②错误。 连接$BA$并延长交直线$y=x$于$P$，如图2， 此时，$|PB-PA|$取最大值等于$AB$。 设直线$AB$为$y=kx+b$， $\\because A(2,1)$，$B(1,-1)$， $\\therefore \\begin{cases}2k+b=1\\\\ k+b=-1\\end{cases}$。 $\\therefore \\begin{cases}k=2\\\\ b=-3\\end{cases}$。 $\\therefore$直线$AB$为$y=2x-3$。 联列方程组$\\begin{cases}y=x\\\\ y=2x-3\\end{cases}$， $\\therefore \\begin{cases}x=3\\\\ y=3\\end{cases}$。 $\\therefore$此时$P(3,3)$，故③错误。 由题意，如图3， $\\because |PA-PB|\\geqslant 0$， $\\therefore |PA-PB|$取得最小值为$0$，此时$PA=PB$。 $\\therefore P$在$AB$的垂直平分线上。 $\\because A(2,1)$，$B(1,-1)$， $\\therefore AB$的中点为$(1.5,0)$。 $\\because$直线$AB$为$y=2x-3$， $\\therefore AB$的垂直平分线为$y=-\\frac{1}{2}x+\\frac{3}{4}$。 $\\therefore$联列方程组$\\begin{cases}y=x\\\\ y=-\\frac{1}{2}x+\\frac{3}{4}\\end{cases}$。 $\\therefore \\begin{cases}x=0.5\\\\ y=0.5\\end{cases}$。 $\\therefore P(0.5,0.5)$，此时$|PA-PB|$取得最小值，故④正确。 综上，正确的有①④。 故选：B。 依据题意，结合函数图象分三种情形计算分析即可逐个判断得解。 本题主要考查了一次函数图象上点的坐标特征、正比例函数的性质、轴对称-最短路线问题，解题时要熟练掌握并能灵活运用一次函数的性质是关键。",
     "bloom_level": "应用",
     "bloom_reason": "需要运用轴对称、垂直平分线等几何知识解决动点最值问题。",
     "core_literacy_primary": "几何直观",
@@ -3286,7 +3286,7 @@
       "images/edefda7a_25_stem_0.png"
     ],
     "options": [],
-    "analysis": "1.  本题考查了二次函数的应用，熟练掌握二次函数的性质是解此题的关键． 由题意并结合图象可得二次函数的顶点坐标为C\\left(0,2\\right)，二次函数的解析式为y=a{x^2}+2，将B\\left(5,1\\right)代入y=a{x^2}+2可得25a+2=1，计算即可得出结果； 2.  在y=-\\dfrac{1}{25}{x^2}+2中，当y=1.75时，-\\dfrac{1}{25}{x^2}+2=1.75，求得x=2.5或x=-2.5，从而可得与x轴的两交点间的水平距离为5m，再求出间隔数，即可得出结果； 3.  抛物线上移hm后，解析式为y=-\\dfrac{1}{25}{x^2}+2+h，求出总水平距离为5.4m，令y=1.75，则-\\dfrac{1}{25}{x^2}+2+h=1.75，求出水平距离为2\\sqrt{6.25+25h}，由题意可得2\\sqrt{6.25+25h}\\geqslant 5.4，求解即可得出结果．",
+    "analysis": "1.  本题考查了二次函数的应用，熟练掌握二次函数的性质是解此题的关键． 由题意并结合图象可得二次函数的顶点坐标为C\\left(0,2\\right)，二次函数的解析式为y=a{x^2}+2，将B\\left(5,1\\right)代入y=a{x^2}+2可得25a+2=1，计算即可得出结果； 2.  在y=-\\frac{1}{25}{x^2}+2中，当y=1.75时，-\\frac{1}{25}{x^2}+2=1.75，求得x=2.5或x=-2.5，从而可得与x轴的两交点间的水平距离为5m，再求出间隔数，即可得出结果； 3.  抛物线上移hm后，解析式为y=-\\frac{1}{25}{x^2}+2+h，求出总水平距离为5.4m，令y=1.75，则-\\frac{1}{25}{x^2}+2+h=1.75，求出水平距离为2\\sqrt{6.25+25h}，由题意可得2\\sqrt{6.25+25h}\\geqslant 5.4，求解即可得出结果．",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -3578,17 +3578,17 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "B",
-    "stem": "-\\dfrac{1}{2}的相反数是(\\quad) A.-\\dfrac{1}{2} B.\\dfrac{1}{2} C. -2 D. 2",
+    "stem": "-\\frac{1}{2}的相反数是(\\quad) A.-\\frac{1}{2} B.\\frac{1}{2} C. -2 D. 2",
     "stem_images": [],
     "options": [
       {
         "index": "A",
-        "text": "-\\dfrac{1}{2}",
+        "text": "-\\frac{1}{2}",
         "images": []
       },
       {
         "index": "B",
-        "text": "\\dfrac{1}{2}",
+        "text": "\\frac{1}{2}",
         "images": []
       },
       {
@@ -3602,7 +3602,7 @@
         "images": []
       }
     ],
-    "analysis": "【分析】 本题考查了相反数的定义，此题属于基础题，掌握好相反数的概念是解题的关键. 根据只有符合不同的两个数互为相反数解答. 【解答】 解：-\\dfrac{1}{2}的相反数是\\dfrac{1}{2}. 故选B.",
+    "analysis": "【分析】 本题考查了相反数的定义，此题属于基础题，掌握好相反数的概念是解题的关键. 根据只有符合不同的两个数互为相反数解答. 【解答】 解：-\\frac{1}{2}的相反数是\\frac{1}{2}. 故选B.",
     "analysis_images": [],
     "knowledges": [
       "相反数"
@@ -3704,7 +3704,7 @@
       "images/468b06de_10_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：∵在{\\rm Rt}\\triangle ABC中，∠ACB=90°， ∴AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{8^{2}+6^{2}}=10， ∵CD是AB边上的中线 ∴CD=\\dfrac{1}{2}AB=5. 故答案为：5. 根据勾股定理求得AB，由斜边上中线等于斜边一半求得CD. 本题考查勾股定理，直角三角形性质，由相关定理得出线段间数量关系是解题的关键．",
+    "analysis": "解：∵在{\\rm Rt}\\triangle ABC中，∠ACB=90°， ∴AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{8^{2}+6^{2}}=10， ∵CD是AB边上的中线 ∴CD=\\frac{1}{2}AB=5. 故答案为：5. 根据勾股定理求得AB，由斜边上中线等于斜边一半求得CD. 本题考查勾股定理，直角三角形性质，由相关定理得出线段间数量关系是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "直角三角形斜边上的中线"
@@ -3723,7 +3723,7 @@
       "探索并掌握直角三角形的性质定理：直角三角形的两个锐角互余，直角三角形斜边上的中线等于斜边的一 半"
     ],
     "normalized_stem": "如图，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle ACB=90^{\\circ}$，$CD$ 是 $AB$ 边上的中线。已知 $AC=8$，$BC=6$，则 $CD$ 的长为______。",
-    "normalized_analysis": "解：$\\because$ 在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle ACB=90^{\\circ}$，$\\therefore AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{8^{2}+6^{2}}=10$，$\\because CD$ 是 $AB$ 边上的中线，$\\therefore CD=\\dfrac{1}{2}AB=5$。故答案为：$5$。根据勾股定理求得 $AB$，由斜边上中线等于斜边一半求得 $CD$。本题考查勾股定理，直角三角形性质，由相关定理得出线段间数量关系是解题的关键。",
+    "normalized_analysis": "解：$\\because$ 在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle ACB=90^{\\circ}$，$\\therefore AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{8^{2}+6^{2}}=10$，$\\because CD$ 是 $AB$ 边上的中线，$\\therefore CD=\\frac{1}{2}AB=5$。故答案为：$5$。根据勾股定理求得 $AB$，由斜边上中线等于斜边一半求得 $CD$。本题考查勾股定理，直角三角形性质，由相关定理得出线段间数量关系是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用勾股定理和直角三角形斜边中线定理进行计算。",
     "core_literacy_primary": "运算能力",
@@ -3740,7 +3740,7 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "解： 解：由①得： 由②得： 两个不等式的解集在数轴上表示为： ∴此不等式组的解集为",
-    "stem": "解不等式组：\\left\\{\\begin{array}{l}3x-1\\leqslant 7\\left(x+1\\right)\\\\ \\dfrac{5x-1}{4}<  1\\end{array}\\right.，并把不等式组的解集在数轴上表示出来．",
+    "stem": "解不等式组：\\left\\{\\begin{array}{l}3x-1\\leqslant 7\\left(x+1\\right)\\\\ \\frac{5x-1}{4}<  1\\end{array}\\right.，并把不等式组的解集在数轴上表示出来．",
     "stem_images": [],
     "options": [],
     "analysis": "【分析】本题考查了解不等式组，在数轴上表示不等式组的解集. 先求出不等式组的解集，再在数轴上表示即可.",
@@ -3757,7 +3757,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "解不等式组：$\\left\\{\\begin{array}{l}3x-1\\leqslant 7\\left(x+1\\right)\\\\ \\dfrac{5x-1}{4}< 1\\end{array}\\right.$，并把不等式组的解集在数轴上表示出来．",
+    "normalized_stem": "解不等式组：$\\left\\{\\begin{array}{l}3x-1\\leqslant 7\\left(x+1\\right)\\\\ \\frac{5x-1}{4}< 1\\end{array}\\right.$，并把不等式组的解集在数轴上表示出来．",
     "normalized_analysis": "【分析】本题考查了解不等式组，在数轴上表示不等式组的解集。先求出不等式组的解集，再在数轴上表示即可。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用解不等式组的步骤和数轴表示方法解决问题。",
@@ -3986,7 +3986,7 @@
       "images/3df473d4_16_stem_0.png"
     ],
     "options": [],
-    "analysis": "解：连接AC、OC，过O点作OQ⊥AC于Q点，如图， ∵AB⊥弦CD， ∴∠AFC=90°， 在{\\rm Rt}\\triangle OCF中，∵OF=1，OC=OA=2， ∴CF=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}， 在{\\rm Rt}\\triangle ACF中，AC=\\sqrt{CF^{2}+AF^{2}}=\\sqrt{(\\sqrt{3})^{2}+3^{2}}=2\\sqrt{3}， ∵OQ⊥AC， ∴AQ=CQ， ∵CP⊥AE， ∴∠APC=90°， ∴PQ=AQ=\\dfrac{1}{2}AC=\\sqrt{3}， 在{\\rm Rt}\\triangle AOQ中，OQ=\\sqrt{OA^{2}-AQ^{2}}=\\sqrt{2^{2}-(\\sqrt{3})^{2}}=1， ∵OP\\leqslant PQ+OQ(当且仅当O、P、Q共线时取等号)， ∴OP的最大值为PQ+OQ=\\sqrt{3}+1. 故答案为：\\sqrt{3}+1. 解：连接AC、OC，过O点作OQ⊥AC于Q点，如图，利用勾股定理先计算出CF=\\sqrt{3}，再计算出AC=2\\sqrt{3}，根据垂径定理得到AQ=CQ，接着利用直角三角形斜边上的中线性质得到PQ=AQ=\\dfrac{1}{2}AC=\\sqrt{3}，然后利用勾股定理得到OQ=1，最后利用三角形三边的关系得到OP\\leqslant PQ+OQ(当且仅当O、P、Q共线时取等号)，所以OP的最大值为PQ+OQ. 本题考查了垂径定理：垂直于弦的直径平分这条弦，并且平分弦所对的两条弧．也考查了勾股定理和三δ角形三边的关系．",
+    "analysis": "解：连接AC、OC，过O点作OQ⊥AC于Q点，如图， ∵AB⊥弦CD， ∴∠AFC=90°， 在{\\rm Rt}\\triangle OCF中，∵OF=1，OC=OA=2， ∴CF=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}， 在{\\rm Rt}\\triangle ACF中，AC=\\sqrt{CF^{2}+AF^{2}}=\\sqrt{(\\sqrt{3})^{2}+3^{2}}=2\\sqrt{3}， ∵OQ⊥AC， ∴AQ=CQ， ∵CP⊥AE， ∴∠APC=90°， ∴PQ=AQ=\\frac{1}{2}AC=\\sqrt{3}， 在{\\rm Rt}\\triangle AOQ中，OQ=\\sqrt{OA^{2}-AQ^{2}}=\\sqrt{2^{2}-(\\sqrt{3})^{2}}=1， ∵OP\\leqslant PQ+OQ(当且仅当O、P、Q共线时取等号)， ∴OP的最大值为PQ+OQ=\\sqrt{3}+1. 故答案为：\\sqrt{3}+1. 解：连接AC、OC，过O点作OQ⊥AC于Q点，如图，利用勾股定理先计算出CF=\\sqrt{3}，再计算出AC=2\\sqrt{3}，根据垂径定理得到AQ=CQ，接着利用直角三角形斜边上的中线性质得到PQ=AQ=\\frac{1}{2}AC=\\sqrt{3}，然后利用勾股定理得到OQ=1，最后利用三角形三边的关系得到OP\\leqslant PQ+OQ(当且仅当O、P、Q共线时取等号)，所以OP的最大值为PQ+OQ. 本题考查了垂径定理：垂直于弦的直径平分这条弦，并且平分弦所对的两条弧．也考查了勾股定理和三δ角形三边的关系．",
     "analysis_images": [
       "images/3df473d4_16_analysis_0.png"
     ],
@@ -4010,7 +4010,7 @@
       "探索并证明垂径定理：垂直于弦的直径平分弦以及弦所对的两条弧"
     ],
     "normalized_stem": "如图，$\\odot O$ 的直径 $AB \\perp$ 弦 $CD$ 于点 $F$，$OA=2$，$OF=1$，点 $E$ 为 $\\odot O$ 上一动点，$CP \\perp$ 直线 $AE$ 于点 $P$，连接 $OP$，点 $E$ 在 $\\odot O$ 上运动的过程中，线段 $OP$ 长的最大值为 ______.",
-    "normalized_analysis": "解：连接 $AC$、$OC$，过 $O$ 点作 $OQ \\perp AC$ 于 $Q$ 点，如图， $\\because AB \\perp$ 弦 $CD$， $\\therefore \\angle AFC=90^{\\circ}$， 在 $\\mathrm{Rt}\\triangle OCF$ 中，$\\because OF=1$，$OC=OA=2$， $\\therefore CF=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$， 在 $\\mathrm{Rt}\\triangle ACF$ 中，$AC=\\sqrt{CF^{2}+AF^{2}}=\\sqrt{(\\sqrt{3})^{2}+3^{2}}=2\\sqrt{3}$， $\\because OQ \\perp AC$， $\\therefore AQ=CQ$， $\\because CP \\perp AE$， $\\therefore \\angle APC=90^{\\circ}$， $\\therefore PQ=AQ=\\dfrac{1}{2}AC=\\sqrt{3}$， 在 $\\mathrm{Rt}\\triangle AOQ$ 中，$OQ=\\sqrt{OA^{2}-AQ^{2}}=\\sqrt{2^{2}-(\\sqrt{3})^{2}}=1$， $\\because OP \\leqslant PQ+OQ$ (当且仅当 $O$、$P$、$Q$ 共线时取等号)， $\\therefore OP$ 的最大值为 $PQ+OQ=\\sqrt{3}+1$. 故答案为：$\\sqrt{3}+1$. 本题考查了垂径定理：垂直于弦的直径平分这条弦，并且平分弦所对的两条弧．也考查了勾股定理和三角形三边的关系．",
+    "normalized_analysis": "解：连接 $AC$、$OC$，过 $O$ 点作 $OQ \\perp AC$ 于 $Q$ 点，如图， $\\because AB \\perp$ 弦 $CD$， $\\therefore \\angle AFC=90^{\\circ}$， 在 $\\mathrm{Rt}\\triangle OCF$ 中，$\\because OF=1$，$OC=OA=2$， $\\therefore CF=\\sqrt{2^{2}-1^{2}}=\\sqrt{3}$， 在 $\\mathrm{Rt}\\triangle ACF$ 中，$AC=\\sqrt{CF^{2}+AF^{2}}=\\sqrt{(\\sqrt{3})^{2}+3^{2}}=2\\sqrt{3}$， $\\because OQ \\perp AC$， $\\therefore AQ=CQ$， $\\because CP \\perp AE$， $\\therefore \\angle APC=90^{\\circ}$， $\\therefore PQ=AQ=\\frac{1}{2}AC=\\sqrt{3}$， 在 $\\mathrm{Rt}\\triangle AOQ$ 中，$OQ=\\sqrt{OA^{2}-AQ^{2}}=\\sqrt{2^{2}-(\\sqrt{3})^{2}}=1$， $\\because OP \\leqslant PQ+OQ$ (当且仅当 $O$、$P$、$Q$ 共线时取等号)， $\\therefore OP$ 的最大值为 $PQ+OQ=\\sqrt{3}+1$. 故答案为：$\\sqrt{3}+1$. 本题考查了垂径定理：垂直于弦的直径平分这条弦，并且平分弦所对的两条弧．也考查了勾股定理和三角形三边的关系．",
     "bloom_level": "应用",
     "bloom_reason": "需要综合运用垂径定理、勾股定理和三角形三边关系解决动态几何最值问题。",
     "core_literacy_primary": "几何直观",
@@ -4071,7 +4071,7 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "A",
-    "stem": "-6的相反数是(\\quad) A. 6 B. -\\dfrac{1}{{\\rm{6}}} C. -6 D.\\dfrac{1}{{\\rm{6}}}",
+    "stem": "-6的相反数是(\\quad) A. 6 B. -\\frac{1}{{\\rm{6}}} C. -6 D.\\frac{1}{{\\rm{6}}}",
     "stem_images": [],
     "options": [
       {
@@ -4081,7 +4081,7 @@
       },
       {
         "index": "B",
-        "text": "-\\dfrac{1}{{\\rm{6}}}",
+        "text": "-\\frac{1}{{\\rm{6}}}",
         "images": []
       },
       {
@@ -4091,7 +4091,7 @@
       },
       {
         "index": "D",
-        "text": "\\dfrac{1}{{\\rm{6}}}",
+        "text": "\\frac{1}{{\\rm{6}}}",
         "images": []
       }
     ],
@@ -4114,7 +4114,7 @@
     "xkb_knowledges": [
       "掌握求有理数的相反数和绝对值的方法"
     ],
-    "normalized_stem": "$-6$ 的相反数是$(\\quad)$ A. $6$ B. $-\\dfrac{1}{6}$ C. $-6$ D. $\\dfrac{1}{6}$",
+    "normalized_stem": "$-6$ 的相反数是$(\\quad)$ A. $6$ B. $-\\frac{1}{6}$ C. $-6$ D. $\\frac{1}{6}$",
     "normalized_analysis": "【分析】此题主要考查了相反数的含义以及求法，要熟练掌握，解答此题的关键是要明确：相反数是成对出现的，不能单独存在；求一个数的相反数的方法就是在这个数的前边添加“$-$”。根据相反数的含义，可得求一个数的相反数的方法就是在这个数的前边添加“$-$”，据此解答即可。 【解答】解：$-6$ 的相反数是 $6$。故选 A。",
     "bloom_level": "记忆",
     "bloom_reason": "直接考查相反数的定义，属于基础概念的记忆与识别。",
@@ -4174,7 +4174,7 @@
       "images/468b06de_23_stem_0.png"
     ],
     "options": [],
-    "analysis": "证明：如图1， ∵\\triangle EDC≌\\triangle ABC， ∴DC=BC=a，EC=AC=b，DE=AB=c，∠BCD=∠ACB=90°. ∴S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}(用a，b表示面积). 如图2，延长DE交AB于M， ∵∠ABC=∠EDC，∠1=∠2， ∴∠EMB=∠ECD=90°. ∵S_{凹四边形BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=S_{\\triangle BDE}+S_{\\triangle ADE}， 即\\dfrac{1}{2}DE\\cdot BM+\\dfrac{1}{2}DE\\cdot AM=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2} ∴\\dfrac{1}{2}DE\\cdot(BM+AM)=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2} ∴\\dfrac{1}{2}DE\\cdot AB=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2} 即\\dfrac{1}{2}c^{2}=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}， ∴a^{2}+b^{2}=c^{2}. 故答案为：\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}，EMB，90，\\dfrac{1}{2}c^{2}=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}. 根据题意用两种方法表示出S_{凹四边形BDAE}的面积，列等式求解即可． 此题考查了全等三角形的性质，勾股定的证明，三角形内角和定理，解题的关键是掌握以上知识点．",
+    "analysis": "证明：如图1， ∵\\triangle EDC≌\\triangle ABC， ∴DC=BC=a，EC=AC=b，DE=AB=c，∠BCD=∠ACB=90°. ∴S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}(用a，b表示面积). 如图2，延长DE交AB于M， ∵∠ABC=∠EDC，∠1=∠2， ∴∠EMB=∠ECD=90°. ∵S_{凹四边形BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=S_{\\triangle BDE}+S_{\\triangle ADE}， 即\\frac{1}{2}DE\\cdot BM+\\frac{1}{2}DE\\cdot AM=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2} ∴\\frac{1}{2}DE\\cdot(BM+AM)=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2} ∴\\frac{1}{2}DE\\cdot AB=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2} 即\\frac{1}{2}c^{2}=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}， ∴a^{2}+b^{2}=c^{2}. 故答案为：\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}，EMB，90，\\frac{1}{2}c^{2}=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}. 根据题意用两种方法表示出S_{凹四边形BDAE}的面积，列等式求解即可． 此题考查了全等三角形的性质，勾股定的证明，三角形内角和定理，解题的关键是掌握以上知识点．",
     "analysis_images": [],
     "knowledges": [
       "等腰直角三角形",
@@ -4205,7 +4205,7 @@
       "探索并证明角平分线的性质定理：角平 分线上的点到角两边的距离相等；反之，角的内部到角两边距离相等 的点在角的平分线上"
     ],
     "normalized_stem": "阅读理解： 我们利用两种不同的方式计算同一个图形的面积，可以得到代数恒等式.勾股定理就可以构造一些特殊的图形，通过计算其面积的方式来证明. 现代著名数学家张景中先生，构造了如图的图形：如图1，$\\mathrm{Rt}\\triangle ABC$中，$\\angle ACB=90^{\\circ}$，$AB=c$，$BC=a$，$AC=b$，$\\triangle EDC\\cong\\triangle ABC$，其中$D$、$C$、$A$共线.连接$BD$、$AE$，得到凹四边形$BDAE$.用两种不同的方式计算凹四边形$BDAE$的面积，从而完成证明. 帆帆想用张景中先生的方法尝试证明，请你协助帆帆完成证明. 已知：$\\mathrm{Rt}\\triangle ABC$中，$\\angle ACB=90^{\\circ}$，$AB=c$，$BC=a$，$AC=b$，$\\triangle EDC\\cong\\triangle ABC$，$D$、$C$、$A$共线. 求证：$a^{2}+b^{2}=c^{2}$. 证明思路：如图1，帆帆发现$S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=S_{\\triangle BDE}+S_{\\triangle ADE}$，可以得到代数恒等式. 证明：如图1，$\\because\\triangle EDC\\cong\\triangle ABC$， $\\therefore DC=BC=a$，$EC=AC=b$，$DE=AB=c$，$\\angle BCD=\\angle ACB=90^{\\circ}$. $\\therefore S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=$______(用$a$，$b$表示面积). 如图2，延长$DE$交$AB$于$M$， $\\because\\angle ABC=\\angle EDC$，$\\angle 1=\\angle 2$， $\\therefore\\angle$______$=\\angle ECD=$______$^{\\circ}$. 请你利用$S_{\\text{凹四边形}BDAE}=S_{\\triangle BDE}+S_{\\triangle ADE}$，计算$S_{\\text{凹四边形}BDAE}$. $\\because S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=S_{\\triangle BDE}+S_{\\triangle ADB}$， 即______， $\\therefore a^{2}+b^{2}=c^{2}$.",
-    "normalized_analysis": "证明：如图1， $\\because\\triangle EDC\\cong\\triangle ABC$， $\\therefore DC=BC=a$，$EC=AC=b$，$DE=AB=c$，$\\angle BCD=\\angle ACB=90^{\\circ}$. $\\therefore S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$(用$a$，$b$表示面积). 如图2，延长$DE$交$AB$于$M$， $\\because\\angle ABC=\\angle EDC$，$\\angle 1=\\angle 2$， $\\therefore\\angle EMB=\\angle ECD=90^{\\circ}$. $\\because S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=S_{\\triangle BDE}+S_{\\triangle ADE}$， 即$\\dfrac{1}{2}DE\\cdot BM+\\dfrac{1}{2}DE\\cdot AM=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$ $\\therefore\\dfrac{1}{2}DE\\cdot(BM+AM)=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$ $\\therefore\\dfrac{1}{2}DE\\cdot AB=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$ 即$\\dfrac{1}{2}c^{2}=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$， $\\therefore a^{2}+b^{2}=c^{2}$. 故答案为：$\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$，$EMB$，$90$，$\\dfrac{1}{2}c^{2}=\\dfrac{1}{2}b^{2}+\\dfrac{1}{2}a^{2}$. 根据题意用两种方法表示出$S_{\\text{凹四边形}BDAE}$的面积，列等式求解即可． 此题考查了全等三角形的性质，勾股定的证明，三角形内角和定理，解题的关键是掌握以上知识点．",
+    "normalized_analysis": "证明：如图1， $\\because\\triangle EDC\\cong\\triangle ABC$， $\\therefore DC=BC=a$，$EC=AC=b$，$DE=AB=c$，$\\angle BCD=\\angle ACB=90^{\\circ}$. $\\therefore S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$(用$a$，$b$表示面积). 如图2，延长$DE$交$AB$于$M$， $\\because\\angle ABC=\\angle EDC$，$\\angle 1=\\angle 2$， $\\therefore\\angle EMB=\\angle ECD=90^{\\circ}$. $\\because S_{\\text{凹四边形}BDAE}=S_{\\triangle BCD}+S_{\\triangle ACE}=S_{\\triangle BDE}+S_{\\triangle ADE}$， 即$\\frac{1}{2}DE\\cdot BM+\\frac{1}{2}DE\\cdot AM=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$ $\\therefore\\frac{1}{2}DE\\cdot(BM+AM)=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$ $\\therefore\\frac{1}{2}DE\\cdot AB=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$ 即$\\frac{1}{2}c^{2}=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$， $\\therefore a^{2}+b^{2}=c^{2}$. 故答案为：$\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$，$EMB$，$90$，$\\frac{1}{2}c^{2}=\\frac{1}{2}b^{2}+\\frac{1}{2}a^{2}$. 根据题意用两种方法表示出$S_{\\text{凹四边形}BDAE}$的面积，列等式求解即可． 此题考查了全等三角形的性质，勾股定的证明，三角形内角和定理，解题的关键是掌握以上知识点．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用已知的几何性质和面积公式，通过两种方法计算面积来证明勾股定理。",
     "core_literacy_primary": "几何直观",
@@ -4263,7 +4263,7 @@
     "id": "74b790b3_9",
     "type": "填空题",
     "score": 3.0,
-    "stem": "若代数式\\dfrac{3}{x-7}在实数范围内有意义，则实数x的取值范围是__________。",
+    "stem": "若代数式\\frac{3}{x-7}在实数范围内有意义，则实数x的取值范围是__________。",
     "stem_images": [],
     "options": [],
     "answer": "",
@@ -4285,7 +4285,7 @@
     "xkb_knowledges": [
       "了解分式和最简分式的概念"
     ],
-    "normalized_stem": "若代数式 $\\dfrac{3}{x-7}$ 在实数范围内有意义，则实数 $x$ 的取值范围是__________。",
+    "normalized_stem": "若代数式 $\\frac{3}{x-7}$ 在实数范围内有意义，则实数 $x$ 的取值范围是__________。",
     "normalized_analysis": "略",
     "bloom_level": "理解",
     "bloom_reason": "考查对分式有意义的条件（分母不为零）的理解与应用。",
@@ -4458,7 +4458,7 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "B",
-    "stem": "-7的绝对值是(\\quad) A.-7 B.7 C.\\dfrac{1}{7} D.-\\dfrac{1}{7}",
+    "stem": "-7的绝对值是(\\quad) A.-7 B.7 C.\\frac{1}{7} D.-\\frac{1}{7}",
     "stem_images": [],
     "options": [
       {
@@ -4473,12 +4473,12 @@
       },
       {
         "index": "C",
-        "text": "\\dfrac{1}{7}",
+        "text": "\\frac{1}{7}",
         "images": []
       },
       {
         "index": "D",
-        "text": "-\\dfrac{1}{7}",
+        "text": "-\\frac{1}{7}",
         "images": []
       }
     ],
@@ -4496,7 +4496,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "-7的绝对值是$(\\quad)$ A.$-7$ B.$7$ C.$\\dfrac{1}{7}$ D.$-\\dfrac{1}{7}$",
+    "normalized_stem": "-7的绝对值是$(\\quad)$ A.$-7$ B.$7$ C.$\\frac{1}{7}$ D.$-\\frac{1}{7}$",
     "normalized_analysis": "【分析】本题考查了绝对值，绝对值是数轴上表示一个数的点到原点的距离，正数的绝对值是它本身、负数的绝对值是它的相反数、$0$的绝对值是$0$。$-7$是一个负数，它的绝对值是它的相反数$7$。 【详解】解：根据绝对值的定义可知：$\\left|-7\\right|=7$。 故选：B。",
     "bloom_level": "记忆",
     "bloom_reason": "直接考查绝对值定义和基本性质，属于知识回忆层面。",
@@ -4513,7 +4513,7 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "B",
-    "stem": "下列二次根式中，最简二次根式是(\\quad) A.\\sqrt{8} B. \\sqrt{3}C.\\sqrt{16} D.\\dfrac{1}{\\sqrt{2}}",
+    "stem": "下列二次根式中，最简二次根式是(\\quad) A.\\sqrt{8} B. \\sqrt{3}C.\\sqrt{16} D.\\frac{1}{\\sqrt{2}}",
     "stem_images": [],
     "options": [
       {
@@ -4533,7 +4533,7 @@
       },
       {
         "index": "D",
-        "text": "\\dfrac{1}{\\sqrt{2}}",
+        "text": "\\frac{1}{\\sqrt{2}}",
         "images": []
       }
     ],
@@ -4555,8 +4555,8 @@
     "xkb_knowledges": [
       "了解二次根式、最简二次根式的概念"
     ],
-    "normalized_stem": "下列二次根式中，最简二次根式是$(\\quad)$ A.$\\sqrt{8}$ B.$\\sqrt{3}$ C.$\\sqrt{16}$ D.$\\dfrac{1}{\\sqrt{2}}$",
-    "normalized_analysis": "解：A、$\\sqrt{8}=2\\sqrt{2}$，被开方数含有能开得尽方的因数$4$，不是最简二次根式，故此选项不符合题意； B、$\\sqrt{3}$是最简二次根式，故此选项符合题意； C、$\\sqrt{16}=4$，被开方数含有能开得尽方的因数$16$，不是最简二次根式，故此选项不符合题意； D、$\\dfrac{1}{\\sqrt{2}}=\\dfrac{\\sqrt{2}}{2}$，分母中含有二次根式，不是最简二次根式，故此选项不符合题意； 故选：B. 满足以下两个条件：①被开方数不含分母；②被开方数中不含能开得尽方的因数或因式，像这样的二次根式叫做最简二次根式，由此判断即可． 本题考查了最简二次根式，熟练掌握这个概念是解题的关键．",
+    "normalized_stem": "下列二次根式中，最简二次根式是$(\\quad)$ A.$\\sqrt{8}$ B.$\\sqrt{3}$ C.$\\sqrt{16}$ D.$\\frac{1}{\\sqrt{2}}$",
+    "normalized_analysis": "解：A、$\\sqrt{8}=2\\sqrt{2}$，被开方数含有能开得尽方的因数$4$，不是最简二次根式，故此选项不符合题意； B、$\\sqrt{3}$是最简二次根式，故此选项符合题意； C、$\\sqrt{16}=4$，被开方数含有能开得尽方的因数$16$，不是最简二次根式，故此选项不符合题意； D、$\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$，分母中含有二次根式，不是最简二次根式，故此选项不符合题意； 故选：B. 满足以下两个条件：①被开方数不含分母；②被开方数中不含能开得尽方的因数或因式，像这样的二次根式叫做最简二次根式，由此判断即可． 本题考查了最简二次根式，熟练掌握这个概念是解题的关键．",
     "bloom_level": "理解",
     "bloom_reason": "题目要求识别最简二次根式，需要理解概念并应用判断条件。",
     "core_literacy_primary": "运算能力",
@@ -5105,7 +5105,7 @@
     "type": "计算题",
     "score": 5.0,
     "answer": "【小题1】 解： ， 去括号得： ， 移项，合并同类项得： ， 系数化为1得： ； 【小题2】 解： ， 去分母得： ， 去括号得： ， 移项，合并同类项得： ， 系数化为1得： ．",
-    "stem": "解下列方程： (1) 2x+5\\left(x+1\\right)=6； (2) \\dfrac{3x+4}{2}-1=\\dfrac{x-4}{3}.",
+    "stem": "解下列方程： (1) 2x+5\\left(x+1\\right)=6； (2) \\frac{3x+4}{2}-1=\\frac{x-4}{3}.",
     "stem_images": [],
     "options": [],
     "analysis": "1.  本题主要考查了解一元一次方程，解题的关键是熟练掌握解一元一次方程的基本步骤． 先去括号，然后移项，合并同类项，最后未知数系数化为1即可； 2.  先去分母，再去括号，然后移项合并同类项，最后未知数系数化为1即可．",
@@ -5122,7 +5122,7 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "解下列方程： (1) $2x+5\\left(x+1\\right)=6$； (2) $\\dfrac{3x+4}{2}-1=\\dfrac{x-4}{3}$.",
+    "normalized_stem": "解下列方程： (1) $2x+5\\left(x+1\\right)=6$； (2) $\\frac{3x+4}{2}-1=\\frac{x-4}{3}$.",
     "normalized_analysis": "1. 本题主要考查了解一元一次方程，解题的关键是熟练掌握解一元一次方程的基本步骤．先去括号，然后移项，合并同类项，最后未知数系数化为$1$即可； 2. 先去分母，再去括号，然后移项合并同类项，最后未知数系数化为$1$即可．",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用解一元一次方程的固定步骤求解具体方程。",
@@ -5474,7 +5474,7 @@
         "images": []
       }
     ],
-    "analysis": "解：先根据长方形和正方形的面积公式分别求出S_{1}和S_{2}可得： S_{1}=a^{2}-b^{2}； S_{2}=(a-b)(\\dfrac{a}{2}+b+\\dfrac{a}{2})-b^{2} =(a-b)(a+b)-b^{2} =a^{2}-b^{2}-b^{2} =a^{2}-2b^{2}； ∴S_{1}-S_{2}=a^{2}-b^{2}-(a^{2}-2b^{2}) =a^{2}-b^{2}-a^{2}+2b^{2} =b^{2}>0， ∴S_{1}>S_{2}， 故选：A. 先根据长方形和正方形的面积公式分别求出S_{1}和S_{2}，然后利用作差法比较大小，进行计算即可解答． 本题考查了整式的混合运算，熟练掌握作差法比较大小是解题的关键．",
+    "analysis": "解：先根据长方形和正方形的面积公式分别求出S_{1}和S_{2}可得： S_{1}=a^{2}-b^{2}； S_{2}=(a-b)(\\frac{a}{2}+b+\\frac{a}{2})-b^{2} =(a-b)(a+b)-b^{2} =a^{2}-b^{2}-b^{2} =a^{2}-2b^{2}； ∴S_{1}-S_{2}=a^{2}-b^{2}-(a^{2}-2b^{2}) =a^{2}-b^{2}-a^{2}+2b^{2} =b^{2}>0， ∴S_{1}>S_{2}， 故选：A. 先根据长方形和正方形的面积公式分别求出S_{1}和S_{2}，然后利用作差法比较大小，进行计算即可解答． 本题考查了整式的混合运算，熟练掌握作差法比较大小是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "整式的混合运算"
@@ -5548,10 +5548,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "；4",
-    "stem": "单项式-\\dfrac{3x^{3}y}{5}的系数是 ______ ，次数是 ______ .",
+    "stem": "单项式-\\frac{3x^{3}y}{5}的系数是 ______ ，次数是 ______ .",
     "stem_images": [],
     "options": [],
-    "analysis": "解：根据单项式的次数和系数的定义，单项式-\\dfrac{3x^{3}y}{5}的系数是-\\dfrac{3}{5}，次数是4. 单项式的系数是指单项式中的数字因数，次数是指所有字母的指数和． 此题考查了单项式的系数与次数：单项式的系数是指单项式中的数字因数，次数是指所有字母的指数和．",
+    "analysis": "解：根据单项式的次数和系数的定义，单项式-\\frac{3x^{3}y}{5}的系数是-\\frac{3}{5}，次数是4. 单项式的系数是指单项式中的数字因数，次数是指所有字母的指数和． 此题考查了单项式的系数与次数：单项式的系数是指单项式中的数字因数，次数是指所有字母的指数和．",
     "analysis_images": [],
     "knowledges": [
       "单项式"
@@ -5586,10 +5586,10 @@
     "type": "解答题",
     "score": 7.0,
     "answer": "-8≤x≤4  （2）见解析",
-    "stem": "已知数轴上点A、B对应的数分别为a、b，点P为数轴上任意一点，其表示的数为x. (1)当a=-8，b=4时，点P到点A，点B的距离之和最小，那么x的取值范围是______ . (2)有如下的规定：如果P点在点A，点B之间(点P不与A、B重合)，并且点P到点A的距离是点P到点B的距离3倍，那么我们就称P点是A→B的奇点.当a=0，b=9时，当x的值为何值时，A、B、P中恰有一个点为其余两点的奇点. 小珊同学求出了其中的一种情况，她的解答如下： 答：当P点是A→B的奇点时，x=\\dfrac{27}{4}； 请你仿造小珊同学的解答方式，把其余的情况写出来.",
+    "stem": "已知数轴上点A、B对应的数分别为a、b，点P为数轴上任意一点，其表示的数为x. (1)当a=-8，b=4时，点P到点A，点B的距离之和最小，那么x的取值范围是______ . (2)有如下的规定：如果P点在点A，点B之间(点P不与A、B重合)，并且点P到点A的距离是点P到点B的距离3倍，那么我们就称P点是A→B的奇点.当a=0，b=9时，当x的值为何值时，A、B、P中恰有一个点为其余两点的奇点. 小珊同学求出了其中的一种情况，她的解答如下： 答：当P点是A→B的奇点时，x=\\frac{27}{4}； 请你仿造小珊同学的解答方式，把其余的情况写出来.",
     "stem_images": [],
     "options": [],
-    "analysis": "解：(1)数轴上点A、B对应的数分别为a、b，点P为数轴上任意一点，其表示的数为x.  点P到点A，点B的距离之和为|x+8|+|x-4|， 当\\(x < -8\\)时，|x+8|+|x-4|  =-(x+8)-(x-4)  =-x-8-x+4  =-2x-4， \\(∵x < -8\\)， ∴-2x-4>12； 当\\(-8\\leqslant x < 4\\)时， 可得：|x+8|+|x-4|=x+8+4-x=12； 当x\\geqslant 4时，|x+8|+|x-4|=x+8+x-4=2x+4， ∵x\\geqslant 4， ∴2x+4\\geqslant 12， 当x=4时，|x+8|+|x-4|有最小值12； ∴当-8\\leqslant x\\leqslant 4时，点P到点A，点B的距离之和最小； 故答案为：-8\\leqslant x\\leqslant 4； (2)如果P点在点A，点B之间(点P不与A、B重合)，并且点P到点A的距离是点P到点B的距离3倍，那么我们就称P点是A→B的奇点．则： 解：当P点是A→B的奇点时， 可得：x-0=3(9-x)， 解得：x=\\dfrac{27}{4}； 当P点是B→A的奇点时， 可得：9-x=3(x-0)， 解得：x=\\dfrac{9}{4}； 当A点是P→B的奇点时， 可得：0-x=3×(9-0)， 解得：x=-27； 当A点是B→P的奇点时， 可得：(9-0)=3(0-x)， 解得：x=-3； 当B点是A→P的奇点时， 可得：9-0=3(x-9)， 解得：x=12； 当B点是P→A的奇点时， 可得：x-9=3(9-0)， 解得：x=36. (1)点P到点A，点B的距离之和为|x+8|+|x-4|，分情况求出|x+8|+|x-4|即可得到结果； (2)根据奇点的定义分三种情况：当P点是A→B的奇点时，当A点是P→B的奇点时，当B点是A→P的奇点时．根据不同情况列方程求出x的值即可． 本题主要考查了数轴上两点之间的距离、一元一次方程的应用，解决本题的关键是根据数轴上两点之间的距离公式列方程．",
+    "analysis": "解：(1)数轴上点A、B对应的数分别为a、b，点P为数轴上任意一点，其表示的数为x.  点P到点A，点B的距离之和为|x+8|+|x-4|， 当\\(x < -8\\)时，|x+8|+|x-4|  =-(x+8)-(x-4)  =-x-8-x+4  =-2x-4， \\(∵x < -8\\)， ∴-2x-4>12； 当\\(-8\\leqslant x < 4\\)时， 可得：|x+8|+|x-4|=x+8+4-x=12； 当x\\geqslant 4时，|x+8|+|x-4|=x+8+x-4=2x+4， ∵x\\geqslant 4， ∴2x+4\\geqslant 12， 当x=4时，|x+8|+|x-4|有最小值12； ∴当-8\\leqslant x\\leqslant 4时，点P到点A，点B的距离之和最小； 故答案为：-8\\leqslant x\\leqslant 4； (2)如果P点在点A，点B之间(点P不与A、B重合)，并且点P到点A的距离是点P到点B的距离3倍，那么我们就称P点是A→B的奇点．则： 解：当P点是A→B的奇点时， 可得：x-0=3(9-x)， 解得：x=\\frac{27}{4}； 当P点是B→A的奇点时， 可得：9-x=3(x-0)， 解得：x=\\frac{9}{4}； 当A点是P→B的奇点时， 可得：0-x=3×(9-0)， 解得：x=-27； 当A点是B→P的奇点时， 可得：(9-0)=3(0-x)， 解得：x=-3； 当B点是A→P的奇点时， 可得：9-0=3(x-9)， 解得：x=12； 当B点是P→A的奇点时， 可得：x-9=3(9-0)， 解得：x=36. (1)点P到点A，点B的距离之和为|x+8|+|x-4|，分情况求出|x+8|+|x-4|即可得到结果； (2)根据奇点的定义分三种情况：当P点是A→B的奇点时，当A点是P→B的奇点时，当B点是A→P的奇点时．根据不同情况列方程求出x的值即可． 本题主要考查了数轴上两点之间的距离、一元一次方程的应用，解决本题的关键是根据数轴上两点之间的距离公式列方程．",
     "analysis_images": [],
     "knowledges": [
       "数轴",
@@ -5610,8 +5610,8 @@
       "能针对具体问题列出方程",
       "能用数轴上的点表示有理数"
     ],
-    "normalized_stem": "已知数轴上点 $A$、$B$ 对应的数分别为 $a$、$b$，点 $P$ 为数轴上任意一点，其表示的数为 $x$。 (1)当 $a=-8$，$b=4$ 时，点 $P$ 到点 $A$，点 $B$ 的距离之和最小，那么 $x$ 的取值范围是______。 (2)有如下的规定：如果 $P$ 点在点 $A$，点 $B$ 之间(点 $P$ 不与 $A$、$B$ 重合)，并且点 $P$ 到点 $A$ 的距离是点 $P$ 到点 $B$ 的距离 $3$ 倍，那么我们就称 $P$ 点是 $A\\to B$ 的奇点。当 $a=0$，$b=9$ 时，当 $x$ 的值为何值时，$A$、$B$、$P$ 中恰有一个点为其余两点的奇点。 小珊同学求出了其中的一种情况，她的解答如下： 答：当 $P$ 点是 $A\\to B$ 的奇点时，$x=\\dfrac{27}{4}$； 请你仿造小珊同学的解答方式，把其余的情况写出来。",
-    "normalized_analysis": "解：(1)数轴上点 $A$、$B$ 对应的数分别为 $a$、$b$，点 $P$ 为数轴上任意一点，其表示的数为 $x$。 点 $P$ 到点 $A$，点 $B$ 的距离之和为 $|x+8|+|x-4|$， 当 $x < -8$ 时，$|x+8|+|x-4| =-(x+8)-(x-4) =-x-8-x+4 =-2x-4$， $\\because x < -8$， $\\therefore -2x-4>12$； 当 $-8\\leqslant x < 4$ 时， 可得：$|x+8|+|x-4|=x+8+4-x=12$； 当 $x\\geqslant 4$ 时，$|x+8|+|x-4|=x+8+x-4=2x+4$， $\\because x\\geqslant 4$， $\\therefore 2x+4\\geqslant 12$， 当 $x=4$ 时，$|x+8|+|x-4|$ 有最小值 $12$； $\\therefore$ 当 $-8\\leqslant x\\leqslant 4$ 时，点 $P$ 到点 $A$，点 $B$ 的距离之和最小； 故答案为：$-8\\leqslant x\\leqslant 4$； (2)如果 $P$ 点在点 $A$，点 $B$ 之间(点 $P$ 不与 $A$、$B$ 重合)，并且点 $P$ 到点 $A$ 的距离是点 $P$ 到点 $B$ 的距离 $3$ 倍，那么我们就称 $P$ 点是 $A\\to B$ 的奇点。则： 解：当 $P$ 点是 $A\\to B$ 的奇点时， 可得：$x-0=3(9-x)$， 解得：$x=\\dfrac{27}{4}$； 当 $P$ 点是 $B\\to A$ 的奇点时， 可得：$9-x=3(x-0)$， 解得：$x=\\dfrac{9}{4}$； 当 $A$ 点是 $P\\to B$ 的奇点时， 可得：$0-x=3\\times(9-0)$， 解得：$x=-27$； 当 $A$ 点是 $B\\to P$ 的奇点时， 可得：$(9-0)=3(0-x)$， 解得：$x=-3$； 当 $B$ 点是 $A\\to P$ 的奇点时， 可得：$9-0=3(x-9)$， 解得：$x=12$； 当 $B$ 点是 $P\\to A$ 的奇点时， 可得：$x-9=3(9-0)$， 解得：$x=36$。 (1)点 $P$ 到点 $A$，点 $B$ 的距离之和为 $|x+8|+|x-4|$，分情况求出 $|x+8|+|x-4|$ 即可得到结果； (2)根据奇点的定义分三种情况：当 $P$ 点是 $A\\to B$ 的奇点时，当 $A$ 点是 $P\\to B$ 的奇点时，当 $B$ 点是 $A\\to P$ 的奇点时。根据不同情况列方程求出 $x$ 的值即可。 本题主要考查了数轴上两点之间的距离、一元一次方程的应用，解决本题的关键是根据数轴上两点之间的距离公式列方程。",
+    "normalized_stem": "已知数轴上点 $A$、$B$ 对应的数分别为 $a$、$b$，点 $P$ 为数轴上任意一点，其表示的数为 $x$。 (1)当 $a=-8$，$b=4$ 时，点 $P$ 到点 $A$，点 $B$ 的距离之和最小，那么 $x$ 的取值范围是______。 (2)有如下的规定：如果 $P$ 点在点 $A$，点 $B$ 之间(点 $P$ 不与 $A$、$B$ 重合)，并且点 $P$ 到点 $A$ 的距离是点 $P$ 到点 $B$ 的距离 $3$ 倍，那么我们就称 $P$ 点是 $A\\to B$ 的奇点。当 $a=0$，$b=9$ 时，当 $x$ 的值为何值时，$A$、$B$、$P$ 中恰有一个点为其余两点的奇点。 小珊同学求出了其中的一种情况，她的解答如下： 答：当 $P$ 点是 $A\\to B$ 的奇点时，$x=\\frac{27}{4}$； 请你仿造小珊同学的解答方式，把其余的情况写出来。",
+    "normalized_analysis": "解：(1)数轴上点 $A$、$B$ 对应的数分别为 $a$、$b$，点 $P$ 为数轴上任意一点，其表示的数为 $x$。 点 $P$ 到点 $A$，点 $B$ 的距离之和为 $|x+8|+|x-4|$， 当 $x < -8$ 时，$|x+8|+|x-4| =-(x+8)-(x-4) =-x-8-x+4 =-2x-4$， $\\because x < -8$， $\\therefore -2x-4>12$； 当 $-8\\leqslant x < 4$ 时， 可得：$|x+8|+|x-4|=x+8+4-x=12$； 当 $x\\geqslant 4$ 时，$|x+8|+|x-4|=x+8+x-4=2x+4$， $\\because x\\geqslant 4$， $\\therefore 2x+4\\geqslant 12$， 当 $x=4$ 时，$|x+8|+|x-4|$ 有最小值 $12$； $\\therefore$ 当 $-8\\leqslant x\\leqslant 4$ 时，点 $P$ 到点 $A$，点 $B$ 的距离之和最小； 故答案为：$-8\\leqslant x\\leqslant 4$； (2)如果 $P$ 点在点 $A$，点 $B$ 之间(点 $P$ 不与 $A$、$B$ 重合)，并且点 $P$ 到点 $A$ 的距离是点 $P$ 到点 $B$ 的距离 $3$ 倍，那么我们就称 $P$ 点是 $A\\to B$ 的奇点。则： 解：当 $P$ 点是 $A\\to B$ 的奇点时， 可得：$x-0=3(9-x)$， 解得：$x=\\frac{27}{4}$； 当 $P$ 点是 $B\\to A$ 的奇点时， 可得：$9-x=3(x-0)$， 解得：$x=\\frac{9}{4}$； 当 $A$ 点是 $P\\to B$ 的奇点时， 可得：$0-x=3\\times(9-0)$， 解得：$x=-27$； 当 $A$ 点是 $B\\to P$ 的奇点时， 可得：$(9-0)=3(0-x)$， 解得：$x=-3$； 当 $B$ 点是 $A\\to P$ 的奇点时， 可得：$9-0=3(x-9)$， 解得：$x=12$； 当 $B$ 点是 $P\\to A$ 的奇点时， 可得：$x-9=3(9-0)$， 解得：$x=36$。 (1)点 $P$ 到点 $A$，点 $B$ 的距离之和为 $|x+8|+|x-4|$，分情况求出 $|x+8|+|x-4|$ 即可得到结果； (2)根据奇点的定义分三种情况：当 $P$ 点是 $A\\to B$ 的奇点时，当 $A$ 点是 $P\\to B$ 的奇点时，当 $B$ 点是 $A\\to P$ 的奇点时。根据不同情况列方程求出 $x$ 的值即可。 本题主要考查了数轴上两点之间的距离、一元一次方程的应用，解决本题的关键是根据数轴上两点之间的距离公式列方程。",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用数轴距离公式和奇点定义，建立并求解方程解决新情境问题。",
     "core_literacy_primary": "模型观念",
@@ -6041,7 +6041,7 @@
       }
     ],
     "answer": "C",
-    "analysis": "解：a^{-1}=\\dfrac{1}{a}，故A不符合题意； a^{2}+a^{2}=2a^{2}，故B不符合题意； a\\boldsymbol{⋅}a^{3}=a^{1+3}=a^{4}，故C符合题意； (a^{3})^{2}=a^{3×2}=a^{6}，故D不符合题意． 故选：C. 本题分别计算四个选项结果进而作答． 本题考查负整数指数幂，同底数幂的乘法，乘方运算，解题的关键是熟悉幂的运算．",
+    "analysis": "解：a^{-1}=\\frac{1}{a}，故A不符合题意； a^{2}+a^{2}=2a^{2}，故B不符合题意； a\\boldsymbol{⋅}a^{3}=a^{1+3}=a^{4}，故C符合题意； (a^{3})^{2}=a^{3×2}=a^{6}，故D不符合题意． 故选：C. 本题分别计算四个选项结果进而作答． 本题考查负整数指数幂，同底数幂的乘法，乘方运算，解题的关键是熟悉幂的运算．",
     "analysis_images": [],
     "knowledges": [
       "幂的乘方与积的乘方",
@@ -6068,7 +6068,7 @@
       "了解整数指数幂的意义和基本性质"
     ],
     "normalized_stem": "下列计算正确的是$(\\quad)$ A. $a^{-1}=-a$ B. $a^{2}+a^{2}=0$ C. $a \\cdot a^{3}=a^{4}$ D. $(a^{3})^{2}=a^{9}$",
-    "normalized_analysis": "解：$a^{-1}=\\dfrac{1}{a}$，故A不符合题意； $a^{2}+a^{2}=2a^{2}$，故B不符合题意； $a \\cdot a^{3}=a^{1+3}=a^{4}$，故C符合题意； $(a^{3})^{2}=a^{3 \\times 2}=a^{6}$，故D不符合题意． 故选：C. 本题分别计算四个选项结果进而作答． 本题考查负整数指数幂，同底数幂的乘法，乘方运算，解题的关键是熟悉幂的运算．",
+    "normalized_analysis": "解：$a^{-1}=\\frac{1}{a}$，故A不符合题意； $a^{2}+a^{2}=2a^{2}$，故B不符合题意； $a \\cdot a^{3}=a^{1+3}=a^{4}$，故C符合题意； $(a^{3})^{2}=a^{3 \\times 2}=a^{6}$，故D不符合题意． 故选：C. 本题分别计算四个选项结果进而作答． 本题考查负整数指数幂，同底数幂的乘法，乘方运算，解题的关键是熟悉幂的运算．",
     "bloom_level": "理解",
     "bloom_reason": "题目考查对幂的运算规则的理解和直接应用。",
     "core_literacy_primary": "运算能力",
@@ -6089,7 +6089,7 @@
       "images/3df473d4_25_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)证明：连接OA， ∵⊙O的直径CD与弦AB交于点E，EA=EB， ∴OE⊥AB， ∴∠AEC=90°， ∵OA=OC， ∴∠OAC=∠C， ∵∠CAF=∠CAB， ∴∠OAF=∠OAC+∠CAF=90°， ∴OA⊥AF， ∵OA是⊙O的半径， ∴AF与⊙O相切于点A； (2)解：设⊙O的半径R， ∵ED=1，DK=3， ∴OE=R-ED=R-1，OK=R+3， 由勾股定理得AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)，AE^{2}=AK^{2}-EK^{2}，AK^{2}=OK^{2}-OA^{2}， ∴AE^{2}=AK^{2}-EK^{2}=OK^{2}-OA^{2}-EK^{2}=(R+3)^{2}-R^{2}-4^{2}=6R-7， ∴6R-7=4(R-1)， 解得R=\\dfrac{3}{2}， ∴⊙O的半径长为\\dfrac{3}{2}. (1)连接OA，根据垂径定理得到∠AEC=90°，由OA=OC，得到∠OAC=∠C，结合已知条件得到∠OAF=90°，即可证得结论； (2)设⊙O的半径R，得到OE=R-ED=R-1，OK=R+3，由勾股定理得AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)，AE^{2}=AK^{2}-EK^{2}，AK^{2}=OK^{2}-OA^{2}，得到AE^{2}=OK^{2}-OA^{2}-EK^{2}=6R-7，即6R-7=4(R-1)，求解即可． 本题主要考查了垂径定理，圆周角定理，勾股定理，切线的性质和判定，能综合运用相关知识是解决问题的关键．",
+    "analysis": "(1)证明：连接OA， ∵⊙O的直径CD与弦AB交于点E，EA=EB， ∴OE⊥AB， ∴∠AEC=90°， ∵OA=OC， ∴∠OAC=∠C， ∵∠CAF=∠CAB， ∴∠OAF=∠OAC+∠CAF=90°， ∴OA⊥AF， ∵OA是⊙O的半径， ∴AF与⊙O相切于点A； (2)解：设⊙O的半径R， ∵ED=1，DK=3， ∴OE=R-ED=R-1，OK=R+3， 由勾股定理得AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)，AE^{2}=AK^{2}-EK^{2}，AK^{2}=OK^{2}-OA^{2}， ∴AE^{2}=AK^{2}-EK^{2}=OK^{2}-OA^{2}-EK^{2}=(R+3)^{2}-R^{2}-4^{2}=6R-7， ∴6R-7=4(R-1)， 解得R=\\frac{3}{2}， ∴⊙O的半径长为\\frac{3}{2}. (1)连接OA，根据垂径定理得到∠AEC=90°，由OA=OC，得到∠OAC=∠C，结合已知条件得到∠OAF=90°，即可证得结论； (2)设⊙O的半径R，得到OE=R-ED=R-1，OK=R+3，由勾股定理得AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)，AE^{2}=AK^{2}-EK^{2}，AK^{2}=OK^{2}-OA^{2}，得到AE^{2}=OK^{2}-OA^{2}-EK^{2}=6R-7，即6R-7=4(R-1)，求解即可． 本题主要考查了垂径定理，圆周角定理，勾股定理，切线的性质和判定，能综合运用相关知识是解决问题的关键．",
     "analysis_images": [
       "images/3df473d4_25_analysis_0.png"
     ],
@@ -6119,7 +6119,7 @@
       "探索并证明垂径定理：垂直于弦的直径平分弦以及弦所对的两条弧"
     ],
     "normalized_stem": "如图，$\\odot O$ 的直径 $CD$ 与弦 $AB$ 交于点 $E$，$EA=EB$，过点 $A$ 作射线 $AF$ 使得 $\\angle CAF=\\angle CAB$。 (1)求证：$AF$ 与 $\\odot O$ 相切于点 $A$； (2)延长 $CD$ 交射线 $AF$ 的反向延长线于点 $K$，若 $ED=1$，$DK=3$，求 $\\odot O$ 的半径长。",
-    "normalized_analysis": "(1)证明：连接 $OA$， $\\because \\odot O$ 的直径 $CD$ 与弦 $AB$ 交于点 $E$，$EA=EB$， $\\therefore OE \\perp AB$， $\\therefore \\angle AEC=90^{\\circ}$， $\\because OA=OC$， $\\therefore \\angle OAC=\\angle C$， $\\because \\angle CAF=\\angle CAB$， $\\therefore \\angle OAF=\\angle OAC+\\angle CAF=90^{\\circ}$， $\\therefore OA \\perp AF$， $\\because OA$ 是 $\\odot O$ 的半径， $\\therefore AF$ 与 $\\odot O$ 相切于点 $A$； (2)解：设 $\\odot O$ 的半径 $R$， $\\because ED=1$，$DK=3$， $\\therefore OE=R-ED=R-1$，$OK=R+3$， 由勾股定理得 $AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)$，$AE^{2}=AK^{2}-EK^{2}$，$AK^{2}=OK^{2}-OA^{2}$， $\\therefore AE^{2}=AK^{2}-EK^{2}=OK^{2}-OA^{2}-EK^{2}=(R+3)^{2}-R^{2}-4^{2}=6R-7$， $\\therefore 6R-7=4(R-1)$， 解得 $R=\\dfrac{3}{2}$， $\\therefore \\odot O$ 的半径长为 $\\dfrac{3}{2}$。 (1)连接 $OA$，根据垂径定理得到 $\\angle AEC=90^{\\circ}$，由 $OA=OC$，得到 $\\angle OAC=\\angle C$，结合已知条件得到 $\\angle OAF=90^{\\circ}$，即可证得结论； (2)设 $\\odot O$ 的半径 $R$，得到 $OE=R-ED=R-1$，$OK=R+3$，由勾股定理得 $AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)$，$AE^{2}=AK^{2}-EK^{2}$，$AK^{2}=OK^{2}-OA^{2}$，得到 $AE^{2}=OK^{2}-OA^{2}-EK^{2}=6R-7$，即 $6R-7=4(R-1)$，求解即可。 本题主要考查了垂径定理，圆周角定理，勾股定理，切线的性质和判定，能综合运用相关知识是解决问题的关键。",
+    "normalized_analysis": "(1)证明：连接 $OA$， $\\because \\odot O$ 的直径 $CD$ 与弦 $AB$ 交于点 $E$，$EA=EB$， $\\therefore OE \\perp AB$， $\\therefore \\angle AEC=90^{\\circ}$， $\\because OA=OC$， $\\therefore \\angle OAC=\\angle C$， $\\because \\angle CAF=\\angle CAB$， $\\therefore \\angle OAF=\\angle OAC+\\angle CAF=90^{\\circ}$， $\\therefore OA \\perp AF$， $\\because OA$ 是 $\\odot O$ 的半径， $\\therefore AF$ 与 $\\odot O$ 相切于点 $A$； (2)解：设 $\\odot O$ 的半径 $R$， $\\because ED=1$，$DK=3$， $\\therefore OE=R-ED=R-1$，$OK=R+3$， 由勾股定理得 $AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)$，$AE^{2}=AK^{2}-EK^{2}$，$AK^{2}=OK^{2}-OA^{2}$， $\\therefore AE^{2}=AK^{2}-EK^{2}=OK^{2}-OA^{2}-EK^{2}=(R+3)^{2}-R^{2}-4^{2}=6R-7$， $\\therefore 6R-7=4(R-1)$， 解得 $R=\\frac{3}{2}$， $\\therefore \\odot O$ 的半径长为 $\\frac{3}{2}$。 (1)连接 $OA$，根据垂径定理得到 $\\angle AEC=90^{\\circ}$，由 $OA=OC$，得到 $\\angle OAC=\\angle C$，结合已知条件得到 $\\angle OAF=90^{\\circ}$，即可证得结论； (2)设 $\\odot O$ 的半径 $R$，得到 $OE=R-ED=R-1$，$OK=R+3$，由勾股定理得 $AE^{2}=OA^{2}-OE^{2}=R^{2}-(R-1)^{2}=4(R-1)$，$AE^{2}=AK^{2}-EK^{2}$，$AK^{2}=OK^{2}-OA^{2}$，得到 $AE^{2}=OK^{2}-OA^{2}-EK^{2}=6R-7$，即 $6R-7=4(R-1)$，求解即可。 本题主要考查了垂径定理，圆周角定理，勾股定理，切线的性质和判定，能综合运用相关知识是解决问题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "需要综合运用垂径定理、圆周角定理、勾股定理和切线判定定理解决几何问题。",
     "core_literacy_primary": "几何直观",
@@ -6141,7 +6141,7 @@
       "images/2955239d_20_stem_0.png"
     ],
     "options": [],
-    "analysis": "1.  本题考查作图-复杂作图，直线，射线，线段，解题的关键是理解题意，正确作出图形． 根据题目要求作出图形； 2.  分别求出CE，CB，再利用线段和差定义求解． 解：如图， ∵AB=6，AC=a=3，BD=b=5， ∴BC=AB-AC=6-3=3， ∴CD=CB+BD=3+5=8， ∵点E是线段CD的中点， ∴CE=\\dfrac{1}{2}CD=4， ∴AE=AC+CE=3+4=7， 故答案为：8；7.",
+    "analysis": "1.  本题考查作图-复杂作图，直线，射线，线段，解题的关键是理解题意，正确作出图形． 根据题目要求作出图形； 2.  分别求出CE，CB，再利用线段和差定义求解． 解：如图， ∵AB=6，AC=a=3，BD=b=5， ∴BC=AB-AC=6-3=3， ∴CD=CB+BD=3+5=8， ∵点E是线段CD的中点， ∴CE=\\frac{1}{2}CD=4， ∴AE=AC+CE=3+4=7， 故答案为：8；7.",
     "analysis_images": [
       "images/2955239d_20_analysis_0.png"
     ],
@@ -6175,10 +6175,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "",
-    "stem": "在实数\\sqrt{4}，\\dfrac{\\sqrt{3}}{3}，3.14159，\\dfrac{22}{7}中，是无理数的是 __________ .",
+    "stem": "在实数\\sqrt{4}，\\frac{\\sqrt{3}}{3}，3.14159，\\frac{22}{7}中，是无理数的是 __________ .",
     "stem_images": [],
     "options": [],
-    "analysis": "解：\\sqrt{4}=2， 故在实数\\sqrt{4}，\\dfrac{\\sqrt{3}}{3}，3.14159，\\dfrac{22}{7}中，是无理数的是\\dfrac{\\sqrt{3}}{3}. 故答案为：\\dfrac{\\sqrt{3}}{3}. 根据无理数就是无限不循环小数，有理数是整数与分数的统称，即有限小数和无限循环小数是有理数，而无限不循环小数是无理数． 此题考查算术平方根以及无理数，掌握无理数的概念，有理数的概念是解题的关键．",
+    "analysis": "解：\\sqrt{4}=2， 故在实数\\sqrt{4}，\\frac{\\sqrt{3}}{3}，3.14159，\\frac{22}{7}中，是无理数的是\\frac{\\sqrt{3}}{3}. 故答案为：\\frac{\\sqrt{3}}{3}. 根据无理数就是无限不循环小数，有理数是整数与分数的统称，即有限小数和无限循环小数是有理数，而无限不循环小数是无理数． 此题考查算术平方根以及无理数，掌握无理数的概念，有理数的概念是解题的关键．",
     "analysis_images": [],
     "knowledges": [
       "无理数"
@@ -6196,8 +6196,8 @@
     "xkb_knowledges": [
       "了解无理数和实数"
     ],
-    "normalized_stem": "在实数 $\\sqrt{4}$，$\\dfrac{\\sqrt{3}}{3}$，$3.14159$，$\\dfrac{22}{7}$ 中，是无理数的是 __________.",
-    "normalized_analysis": "解：$\\sqrt{4}=2$，故在实数 $\\sqrt{4}$，$\\dfrac{\\sqrt{3}}{3}$，$3.14159$，$\\dfrac{22}{7}$ 中，是无理数的是 $\\dfrac{\\sqrt{3}}{3}$。故答案为：$\\dfrac{\\sqrt{3}}{3}$。根据无理数就是无限不循环小数，有理数是整数与分数的统称，即有限小数和无限循环小数是有理数，而无限不循环小数是无理数。此题考查算术平方根以及无理数，掌握无理数的概念，有理数的概念是解题的关键。",
+    "normalized_stem": "在实数 $\\sqrt{4}$，$\\frac{\\sqrt{3}}{3}$，$3.14159$，$\\frac{22}{7}$ 中，是无理数的是 __________.",
+    "normalized_analysis": "解：$\\sqrt{4}=2$，故在实数 $\\sqrt{4}$，$\\frac{\\sqrt{3}}{3}$，$3.14159$，$\\frac{22}{7}$ 中，是无理数的是 $\\frac{\\sqrt{3}}{3}$。故答案为：$\\frac{\\sqrt{3}}{3}$。根据无理数就是无限不循环小数，有理数是整数与分数的统称，即有限小数和无限循环小数是有理数，而无限不循环小数是无理数。此题考查算术平方根以及无理数，掌握无理数的概念，有理数的概念是解题的关键。",
     "bloom_level": "理解",
     "bloom_reason": "题目要求识别无理数，需要理解无理数的定义并应用概念进行判断。",
     "core_literacy_primary": "抽象能力",
@@ -6424,7 +6424,7 @@
     "stem": "等腰三角形的一个内角为50°，则它的顶角的度数为 ______ .",
     "stem_images": [],
     "options": [],
-    "analysis": "解：当50°的内角是等腰三角形的底角时， 它的顶角的度数为：180°-50°-50°=80°； 当50°的内角是等腰三角形的顶角时， 它的底角的度数为：\\dfrac{1}{2}×(180°-50°)=65°，符合要求； 故答案为：80°或50°. 分50°的内角是等腰三角形的底角或顶角两种情况，利用三角形内角和定理求解． 本题考查等腰三角形的定义、三角形内角和定理，解题的关键是注意分情况讨论，避免漏解．",
+    "analysis": "解：当50°的内角是等腰三角形的底角时， 它的顶角的度数为：180°-50°-50°=80°； 当50°的内角是等腰三角形的顶角时， 它的底角的度数为：\\frac{1}{2}×(180°-50°)=65°，符合要求； 故答案为：80°或50°. 分50°的内角是等腰三角形的底角或顶角两种情况，利用三角形内角和定理求解． 本题考查等腰三角形的定义、三角形内角和定理，解题的关键是注意分情况讨论，避免漏解．",
     "analysis_images": [],
     "knowledges": [
       "三角形内角和定理",
@@ -6469,7 +6469,7 @@
       "images/e324f91b_18_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)把点(3,3)和(0,-3)分别代入y=kx+b得\\begin{cases}{3k+b=3}\\\\ {b=-3}\\end{cases}， 解得\\begin{cases}{k=2}\\\\ {b=-3}\\end{cases}， ∴该一次函数的解析式为y=2x-3； (2)如图， (3)解方程组\\begin{cases}{y=2x-3}\\\\ {y=-x}\\end{cases}得\\begin{cases}{x=1}\\\\ {y=-1}\\end{cases}， ∴直线y=2x-3与直线y=-x的交点坐标为(1,-1)， 当y=0时，2x-3=0， 解得x=\\dfrac{3}{2}， ∴直线y=2x-3与x轴的交点坐标为(\\dfrac{3}{2},0)， ∴求直线y=kx+b(k≠0)，直线y=-x与x轴围成的三角形的面积=\\dfrac{1}{2}×\\dfrac{3}{2}×1=\\dfrac{3}{4}. (1)利用待定系数法求一次函数解析式； (2)利用描点法画出函数图象； (3)先解方程组\\begin{cases}{y=2x-3}\\\\ {y=-x}\\end{cases}得直线y=2x-3与直线y=-x的交点坐标，再计算函数值为0所对应的自变量的值得到直线y=2x-3与x轴的交点坐标，然后根据三角形面积公式计算． 本题考查了待定系数法求一次函数解析式：求一次函数y=kx+b，则需要两组x，y的值．也考查了一次函数的性质．",
+    "analysis": "(1)把点(3,3)和(0,-3)分别代入y=kx+b得\\begin{cases}{3k+b=3}\\\\ {b=-3}\\end{cases}， 解得\\begin{cases}{k=2}\\\\ {b=-3}\\end{cases}， ∴该一次函数的解析式为y=2x-3； (2)如图， (3)解方程组\\begin{cases}{y=2x-3}\\\\ {y=-x}\\end{cases}得\\begin{cases}{x=1}\\\\ {y=-1}\\end{cases}， ∴直线y=2x-3与直线y=-x的交点坐标为(1,-1)， 当y=0时，2x-3=0， 解得x=\\frac{3}{2}， ∴直线y=2x-3与x轴的交点坐标为(\\frac{3}{2},0)， ∴求直线y=kx+b(k≠0)，直线y=-x与x轴围成的三角形的面积=\\frac{1}{2}×\\frac{3}{2}×1=\\frac{3}{4}. (1)利用待定系数法求一次函数解析式； (2)利用描点法画出函数图象； (3)先解方程组\\begin{cases}{y=2x-3}\\\\ {y=-x}\\end{cases}得直线y=2x-3与直线y=-x的交点坐标，再计算函数值为0所对应的自变量的值得到直线y=2x-3与x轴的交点坐标，然后根据三角形面积公式计算． 本题考查了待定系数法求一次函数解析式：求一次函数y=kx+b，则需要两组x，y的值．也考查了一次函数的性质．",
     "analysis_images": [
       "images/e324f91b_18_analysis_0.png"
     ],
@@ -6501,7 +6501,7 @@
       "根据图象和表达式$y= kx+b(k\\neq 0)  $ 探索并理解k>0 和 k<0时图象的变化情况"
     ],
     "normalized_stem": "在平面直角坐标系$xOy$中，一次函数$y=kx+b(k\\neq 0)$的图象经过点$(3,3)$和$(0,-3)$. (1)求该一次函数的解析式； (2)在所给平面直角坐标系中画出该函数的图象； (3)求直线$y=kx+b(k\\neq 0)$，直线$y=-x$与$x$轴围成的三角形的面积.",
-    "normalized_analysis": "(1)把点$(3,3)$和$(0,-3)$分别代入$y=kx+b$得$\\begin{cases}3k+b=3\\\\ b=-3\\end{cases}$， 解得$\\begin{cases}k=2\\\\ b=-3\\end{cases}$， ∴该一次函数的解析式为$y=2x-3$； (2)如图， (3)解方程组$\\begin{cases}y=2x-3\\\\ y=-x\\end{cases}$得$\\begin{cases}x=1\\\\ y=-1\\end{cases}$， ∴直线$y=2x-3$与直线$y=-x$的交点坐标为$(1,-1)$， 当$y=0$时，$2x-3=0$， 解得$x=\\dfrac{3}{2}$， ∴直线$y=2x-3$与$x$轴的交点坐标为$(\\dfrac{3}{2},0)$， ∴求直线$y=kx+b(k\\neq 0)$，直线$y=-x$与$x$轴围成的三角形的面积$=\\dfrac{1}{2}\\times\\dfrac{3}{2}\\times 1=\\dfrac{3}{4}$. (1)利用待定系数法求一次函数解析式； (2)利用描点法画出函数图象； (3)先解方程组$\\begin{cases}y=2x-3\\\\ y=-x\\end{cases}$得直线$y=2x-3$与直线$y=-x$的交点坐标，再计算函数值为0所对应的自变量的值得到直线$y=2x-3$与$x$轴的交点坐标，然后根据三角形面积公式计算． 本题考查了待定系数法求一次函数解析式：求一次函数$y=kx+b$，则需要两组$x$，$y$的值．也考查了一次函数的性质．",
+    "normalized_analysis": "(1)把点$(3,3)$和$(0,-3)$分别代入$y=kx+b$得$\\begin{cases}3k+b=3\\\\ b=-3\\end{cases}$， 解得$\\begin{cases}k=2\\\\ b=-3\\end{cases}$， ∴该一次函数的解析式为$y=2x-3$； (2)如图， (3)解方程组$\\begin{cases}y=2x-3\\\\ y=-x\\end{cases}$得$\\begin{cases}x=1\\\\ y=-1\\end{cases}$， ∴直线$y=2x-3$与直线$y=-x$的交点坐标为$(1,-1)$， 当$y=0$时，$2x-3=0$， 解得$x=\\frac{3}{2}$， ∴直线$y=2x-3$与$x$轴的交点坐标为$(\\frac{3}{2},0)$， ∴求直线$y=kx+b(k\\neq 0)$，直线$y=-x$与$x$轴围成的三角形的面积$=\\frac{1}{2}\\times\\frac{3}{2}\\times 1=\\frac{3}{4}$. (1)利用待定系数法求一次函数解析式； (2)利用描点法画出函数图象； (3)先解方程组$\\begin{cases}y=2x-3\\\\ y=-x\\end{cases}$得直线$y=2x-3$与直线$y=-x$的交点坐标，再计算函数值为0所对应的自变量的值得到直线$y=2x-3$与$x$轴的交点坐标，然后根据三角形面积公式计算． 本题考查了待定系数法求一次函数解析式：求一次函数$y=kx+b$，则需要两组$x$，$y$的值．也考查了一次函数的性质．",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用待定系数法、函数图象和三角形面积公式解决具体问题。",
     "core_literacy_primary": "运算能力",
@@ -6556,12 +6556,12 @@
     "type": "解答题",
     "score": 8.0,
     "answer": "下，上； ．",
-    "stem": "在平面直角坐标系xOy中，以方程y=kx+b的解为坐标(x,y)的点在直线y=kx+b上；反过来，直线y=kx+b上的点的坐标(x,y)是方程y=kx+b的解. 以不等式y>kx+b的解为坐标(x,y)的点在直线y=kx+b的上方；反过来，在直线y=kx+b的上方的点的坐标(x,y)是不等式y>kx+b的解. 以不等式y< kx+b的解为坐标(x,y)的点在直线y=kx+b的下方；反过来，在直线y=kx+b的下方的点的坐标(x,y)是不等式y< kx+b的解. 如图，已知直线y=x+4，直线y=-2x+4和直线y=-\\dfrac{1}{2}x-\\dfrac{1}{2}. (1)点(0,0)在直线y=-2x+4的 ______方，点(1,5)在直线y=-2x+4的 ______方(填“上”或“下”)； (2)以不等式组\\begin{cases}y\\leqslant x+4\\\\ y\\leqslant-2x+4\\\\ y\\geqslant-\\dfrac{1}{2}x-\\dfrac{1}{2}\\end{cases}的解为坐标的点的全体记为图形M.已知直线y=m(m为实数)与图形M的公共部分为线段AB(点A可与点B重合)，若对于线段AB上的任一点P，在线段AB上都存在点Q，使得PQ=1，则m的取值范围是 ______.",
+    "stem": "在平面直角坐标系xOy中，以方程y=kx+b的解为坐标(x,y)的点在直线y=kx+b上；反过来，直线y=kx+b上的点的坐标(x,y)是方程y=kx+b的解. 以不等式y>kx+b的解为坐标(x,y)的点在直线y=kx+b的上方；反过来，在直线y=kx+b的上方的点的坐标(x,y)是不等式y>kx+b的解. 以不等式y< kx+b的解为坐标(x,y)的点在直线y=kx+b的下方；反过来，在直线y=kx+b的下方的点的坐标(x,y)是不等式y< kx+b的解. 如图，已知直线y=x+4，直线y=-2x+4和直线y=-\\frac{1}{2}x-\\frac{1}{2}. (1)点(0,0)在直线y=-2x+4的 ______方，点(1,5)在直线y=-2x+4的 ______方(填“上”或“下”)； (2)以不等式组\\begin{cases}y\\leqslant x+4\\\\ y\\leqslant-2x+4\\\\ y\\geqslant-\\frac{1}{2}x-\\frac{1}{2}\\end{cases}的解为坐标的点的全体记为图形M.已知直线y=m(m为实数)与图形M的公共部分为线段AB(点A可与点B重合)，若对于线段AB上的任一点P，在线段AB上都存在点Q，使得PQ=1，则m的取值范围是 ______.",
     "stem_images": [
       "images/e324f91b_25_stem_0.png"
     ],
     "options": [],
-    "analysis": "(1)当x=0时，y=4>0， ∴点(0,0)在直线y=-2x+4的下方， 当x=1时，\\(y=-2+4=2 < 5\\)， ∴点(1,5)在直线y=-2x+4的上方， 故答案为：下，上； (2)∵对于线段AB上的任一点P，在线段AB上都存在点Q，使得PQ=1， ∴AB\\geqslant 2， 当点A，B在直线y=x+4和y=-2x+4上， 令y=m，则x+4=m，-2x+4=m，解得x=m-4， x=\\dfrac{4-m}{2}\\dfrac{4-m}{2}-(m-4)\\geqslant 2， 解得：m\\leqslant\\dfrac{8}{3}， 当点A，B在直线y=-\\dfrac{1}{2}x-\\dfrac{1}{2}和y=-2x+4上， 令y=m，则-\\dfrac{1}{2}x-\\dfrac{1}{2}=m-2x+4=m， 解得x=-2m-1， x=\\dfrac{4-m}{2}\\dfrac{4-m}{2}-(-2m-1)\\geqslant 2， 解得m\\geqslant-\\dfrac{2}{3}， ∴m的取值范围为-\\dfrac{2}{3}\\leqslant m\\leqslant\\dfrac{8}{3}， 故答案为：-\\dfrac{2}{3}\\leqslant m\\leqslant\\dfrac{8}{3}. (1)把x=0和x=1分别代入函数解析式求出函数值和点的纵坐标比较解答即可； (2)根据题意可得AB\\geqslant 2，然后分为点A，B在直线y=x+4和y=-2x+4上或点A，B在直线y=-\\dfrac{1}{2}x-\\dfrac{1}{2}和y=-2x+4上，两种情况令y=m，根据横坐标的差\\geqslant 2列不等式求出m的取值范围． 本题考查一次函数的图象，一次函数图象上点的坐标特征，解题的关键是掌握相关知识的灵活运用．",
+    "analysis": "(1)当x=0时，y=4>0， ∴点(0,0)在直线y=-2x+4的下方， 当x=1时，\\(y=-2+4=2 < 5\\)， ∴点(1,5)在直线y=-2x+4的上方， 故答案为：下，上； (2)∵对于线段AB上的任一点P，在线段AB上都存在点Q，使得PQ=1， ∴AB\\geqslant 2， 当点A，B在直线y=x+4和y=-2x+4上， 令y=m，则x+4=m，-2x+4=m，解得x=m-4， x=\\frac{4-m}{2}\\frac{4-m}{2}-(m-4)\\geqslant 2， 解得：m\\leqslant\\frac{8}{3}， 当点A，B在直线y=-\\frac{1}{2}x-\\frac{1}{2}和y=-2x+4上， 令y=m，则-\\frac{1}{2}x-\\frac{1}{2}=m-2x+4=m， 解得x=-2m-1， x=\\frac{4-m}{2}\\frac{4-m}{2}-(-2m-1)\\geqslant 2， 解得m\\geqslant-\\frac{2}{3}， ∴m的取值范围为-\\frac{2}{3}\\leqslant m\\leqslant\\frac{8}{3}， 故答案为：-\\frac{2}{3}\\leqslant m\\leqslant\\frac{8}{3}. (1)把x=0和x=1分别代入函数解析式求出函数值和点的纵坐标比较解答即可； (2)根据题意可得AB\\geqslant 2，然后分为点A，B在直线y=x+4和y=-2x+4上或点A，B在直线y=-\\frac{1}{2}x-\\frac{1}{2}和y=-2x+4上，两种情况令y=m，根据横坐标的差\\geqslant 2列不等式求出m的取值范围． 本题考查一次函数的图象，一次函数图象上点的坐标特征，解题的关键是掌握相关知识的灵活运用．",
     "analysis_images": [],
     "knowledges": [
       "不等式(组)的解集",
@@ -6588,8 +6588,8 @@
       "能解数字系数的一元一次不等式",
       "体会一次函数与二元一次方程的关系"
     ],
-    "normalized_stem": "在平面直角坐标系$xOy$中，以方程$y=kx+b$的解为坐标$(x,y)$的点在直线$y=kx+b$上；反过来，直线$y=kx+b$上的点的坐标$(x,y)$是方程$y=kx+b$的解. 以不等式$y>kx+b$的解为坐标$(x,y)$的点在直线$y=kx+b$的上方；反过来，在直线$y=kx+b$的上方的点的坐标$(x,y)$是不等式$y>kx+b$的解. 以不等式$y<kx+b$的解为坐标$(x,y)$的点在直线$y=kx+b$的下方；反过来，在直线$y=kx+b$的下方的点的坐标$(x,y)$是不等式$y<kx+b$的解. 如图，已知直线$y=x+4$，直线$y=-2x+4$和直线$y=-\\dfrac{1}{2}x-\\dfrac{1}{2}$. (1)点$(0,0)$在直线$y=-2x+4$的 ______方，点$(1,5)$在直线$y=-2x+4$的 ______方(填“上”或“下”)； (2)以不等式组$\\begin{cases}y\\leqslant x+4\\\\ y\\leqslant-2x+4\\\\ y\\geqslant-\\dfrac{1}{2}x-\\dfrac{1}{2}\\end{cases}$的解为坐标的点的全体记为图形$M$.已知直线$y=m$($m$为实数)与图形$M$的公共部分为线段$AB$(点$A$可与点$B$重合)，若对于线段$AB$上的任一点$P$，在线段$AB$上都存在点$Q$，使得$PQ=1$，则$m$的取值范围是 ______.",
-    "normalized_analysis": "(1)当$x=0$时，$y=4>0$， ∴点$(0,0)$在直线$y=-2x+4$的下方， 当$x=1$时，$y=-2+4=2<5$， ∴点$(1,5)$在直线$y=-2x+4$的上方， 故答案为：下，上； (2)∵对于线段$AB$上的任一点$P$，在线段$AB$上都存在点$Q$，使得$PQ=1$， ∴$AB\\geqslant 2$， 当点$A$，$B$在直线$y=x+4$和$y=-2x+4$上， 令$y=m$，则$x+4=m$，$-2x+4=m$，解得$x=m-4$，$x=\\dfrac{4-m}{2}$，$\\dfrac{4-m}{2}-(m-4)\\geqslant 2$， 解得：$m\\leqslant\\dfrac{8}{3}$， 当点$A$，$B$在直线$y=-\\dfrac{1}{2}x-\\dfrac{1}{2}$和$y=-2x+4$上， 令$y=m$，则$-\\dfrac{1}{2}x-\\dfrac{1}{2}=m$，$-2x+4=m$， 解得$x=-2m-1$，$x=\\dfrac{4-m}{2}$，$\\dfrac{4-m}{2}-(-2m-1)\\geqslant 2$， 解得$m\\geqslant-\\dfrac{2}{3}$， ∴$m$的取值范围为$-\\dfrac{2}{3}\\leqslant m\\leqslant\\dfrac{8}{3}$， 故答案为：$-\\dfrac{2}{3}\\leqslant m\\leqslant\\dfrac{8}{3}$. (1)把$x=0$和$x=1$分别代入函数解析式求出函数值和点的纵坐标比较解答即可； (2)根据题意可得$AB\\geqslant 2$，然后分为点$A$，$B$在直线$y=x+4$和$y=-2x+4$上或点$A$，$B$在直线$y=-\\dfrac{1}{2}x-\\dfrac{1}{2}$和$y=-2x+4$上，两种情况令$y=m$，根据横坐标的差$\\geqslant 2$列不等式求出$m$的取值范围． 本题考查一次函数的图象，一次函数图象上点的坐标特征，解题的关键是掌握相关知识的灵活运用．",
+    "normalized_stem": "在平面直角坐标系$xOy$中，以方程$y=kx+b$的解为坐标$(x,y)$的点在直线$y=kx+b$上；反过来，直线$y=kx+b$上的点的坐标$(x,y)$是方程$y=kx+b$的解. 以不等式$y>kx+b$的解为坐标$(x,y)$的点在直线$y=kx+b$的上方；反过来，在直线$y=kx+b$的上方的点的坐标$(x,y)$是不等式$y>kx+b$的解. 以不等式$y<kx+b$的解为坐标$(x,y)$的点在直线$y=kx+b$的下方；反过来，在直线$y=kx+b$的下方的点的坐标$(x,y)$是不等式$y<kx+b$的解. 如图，已知直线$y=x+4$，直线$y=-2x+4$和直线$y=-\\frac{1}{2}x-\\frac{1}{2}$. (1)点$(0,0)$在直线$y=-2x+4$的 ______方，点$(1,5)$在直线$y=-2x+4$的 ______方(填“上”或“下”)； (2)以不等式组$\\begin{cases}y\\leqslant x+4\\\\ y\\leqslant-2x+4\\\\ y\\geqslant-\\frac{1}{2}x-\\frac{1}{2}\\end{cases}$的解为坐标的点的全体记为图形$M$.已知直线$y=m$($m$为实数)与图形$M$的公共部分为线段$AB$(点$A$可与点$B$重合)，若对于线段$AB$上的任一点$P$，在线段$AB$上都存在点$Q$，使得$PQ=1$，则$m$的取值范围是 ______.",
+    "normalized_analysis": "(1)当$x=0$时，$y=4>0$， ∴点$(0,0)$在直线$y=-2x+4$的下方， 当$x=1$时，$y=-2+4=2<5$， ∴点$(1,5)$在直线$y=-2x+4$的上方， 故答案为：下，上； (2)∵对于线段$AB$上的任一点$P$，在线段$AB$上都存在点$Q$，使得$PQ=1$， ∴$AB\\geqslant 2$， 当点$A$，$B$在直线$y=x+4$和$y=-2x+4$上， 令$y=m$，则$x+4=m$，$-2x+4=m$，解得$x=m-4$，$x=\\frac{4-m}{2}$，$\\frac{4-m}{2}-(m-4)\\geqslant 2$， 解得：$m\\leqslant\\frac{8}{3}$， 当点$A$，$B$在直线$y=-\\frac{1}{2}x-\\frac{1}{2}$和$y=-2x+4$上， 令$y=m$，则$-\\frac{1}{2}x-\\frac{1}{2}=m$，$-2x+4=m$， 解得$x=-2m-1$，$x=\\frac{4-m}{2}$，$\\frac{4-m}{2}-(-2m-1)\\geqslant 2$， 解得$m\\geqslant-\\frac{2}{3}$， ∴$m$的取值范围为$-\\frac{2}{3}\\leqslant m\\leqslant\\frac{8}{3}$， 故答案为：$-\\frac{2}{3}\\leqslant m\\leqslant\\frac{8}{3}$. (1)把$x=0$和$x=1$分别代入函数解析式求出函数值和点的纵坐标比较解答即可； (2)根据题意可得$AB\\geqslant 2$，然后分为点$A$，$B$在直线$y=x+4$和$y=-2x+4$上或点$A$，$B$在直线$y=-\\frac{1}{2}x-\\frac{1}{2}$和$y=-2x+4$上，两种情况令$y=m$，根据横坐标的差$\\geqslant 2$列不等式求出$m$的取值范围． 本题考查一次函数的图象，一次函数图象上点的坐标特征，解题的关键是掌握相关知识的灵活运用．",
     "bloom_level": "应用",
     "bloom_reason": "学生需应用一次函数与不等式的关系解决新情境下的参数取值范围问题。",
     "core_literacy_primary": "模型观念",
@@ -6606,7 +6606,7 @@
     "type": "解答题",
     "score": 16.0,
     "answer": "解：（1）-1-3+（-6）-（-15） =-4+（-6）+15 =-10+15 =5； （2） =- +（- ） =- ； （3） =-56× +56× -56× =-8+14-2 =4； （4） =-1× +（3-4） =- +（-1） =-1 ．",
-    "stem": "计算： (1)-1-3+(-6)-(-15)； (2)8×(-\\dfrac{1}{5})+(-\\dfrac{4}{5})； (3)(\\dfrac{1}{7}-\\dfrac{1}{4}+\\dfrac{1}{28})×(-56)； (4)-1^{2023}×|-\\dfrac{1}{2}|+[3-(-2)^{2}].",
+    "stem": "计算： (1)-1-3+(-6)-(-15)； (2)8×(-\\frac{1}{5})+(-\\frac{4}{5})； (3)(\\frac{1}{7}-\\frac{1}{4}+\\frac{1}{28})×(-56)； (4)-1^{2023}×|-\\frac{1}{2}|+[3-(-2)^{2}].",
     "stem_images": [],
     "options": [],
     "analysis": "(1)按照从左到右的顺序进行计算，即可解答； (2)先算乘法，再算加法，即可解答； (3)利用乘法分配律进行计算即可解答； (2)先算乘方，再算乘法，后算加减，有括号先算括号里，即可解答． 本题考查了有理数的混合运算，准确熟练地进行计算是解题的关键．",
@@ -6734,7 +6734,7 @@
     "type": "计算题",
     "score": 6.0,
     "answer": "解： ， ， ， ， ， 经检验， 为原分式方程的增根，故原分式方程无解．",
-    "stem": "解方程：\\dfrac{4}{x-2}+\\dfrac{2x}{2-x}=-1 .",
+    "stem": "解方程：\\frac{4}{x-2}+\\frac{2x}{2-x}=-1 .",
     "stem_images": [],
     "options": [],
     "analysis": "【分析】本题主要考查解分式方程，按照解分式方程的步骤进行解答即可，关键在于“转化思想”，把分式方程转化为整式方程求解，最后一定注意要验根．",
@@ -6755,7 +6755,7 @@
     "xkb_knowledges": [
       "能解一元一次方程和可化为一元一次方程的分式方程"
     ],
-    "normalized_stem": "解方程：$\\dfrac{4}{x-2}+\\dfrac{2x}{2-x}=-1$.",
+    "normalized_stem": "解方程：$\\frac{4}{x-2}+\\frac{2x}{2-x}=-1$.",
     "normalized_analysis": "【分析】本题主要考查解分式方程，按照解分式方程的步骤进行解答即可，关键在于“转化思想”，把分式方程转化为整式方程求解，最后一定注意要验根．",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用解分式方程的标准步骤和验根方法解决问题。",
@@ -6813,10 +6813,10 @@
     "type": "填空题",
     "score": 2.0,
     "answer": "2 3",
-    "stem": "如果单项式2{x^m}{y^3}与单项式-\\dfrac{1}{3}{x^2}{y^n}的和仍是单项式，那么m的值是__________，n的值是__________.",
+    "stem": "如果单项式2{x^m}{y^3}与单项式-\\frac{1}{3}{x^2}{y^n}的和仍是单项式，那么m的值是__________，n的值是__________.",
     "stem_images": [],
     "options": [],
-    "analysis": "解：∵单项式2x^{m}y^{3}与单项式-\\dfrac{1}{3}x^{2}y^{n}的和仍是单项式， ∴2x^{m}y^{3}与-\\dfrac{1}{3}x^{2}y^{n}是同类项， ∴m=2，n=3. 故答案为：2，3. 由题意可知2x^{m}y^{3}与-\\dfrac{1}{3}x^{2}y^{n}是同类项，再根据同类项的定义解答即可． 本题考查了合并同类项，掌握同类项的定义是解答本题的关键．",
+    "analysis": "解：∵单项式2x^{m}y^{3}与单项式-\\frac{1}{3}x^{2}y^{n}的和仍是单项式， ∴2x^{m}y^{3}与-\\frac{1}{3}x^{2}y^{n}是同类项， ∴m=2，n=3. 故答案为：2，3. 由题意可知2x^{m}y^{3}与-\\frac{1}{3}x^{2}y^{n}是同类项，再根据同类项的定义解答即可． 本题考查了合并同类项，掌握同类项的定义是解答本题的关键．",
     "analysis_images": [],
     "knowledges": [
       "合并同类项"
@@ -6834,8 +6834,8 @@
     "xkb_knowledges": [
       "掌握合并同类项和去括号的法则"
     ],
-    "normalized_stem": "如果单项式 $2x^{m}y^{3}$ 与单项式 $-\\dfrac{1}{3}x^{2}y^{n}$ 的和仍是单项式，那么 $m$ 的值是__________，$n$ 的值是__________.",
-    "normalized_analysis": "解：∵单项式 $2x^{m}y^{3}$ 与单项式 $-\\dfrac{1}{3}x^{2}y^{n}$ 的和仍是单项式，∴ $2x^{m}y^{3}$ 与 $-\\dfrac{1}{3}x^{2}y^{n}$ 是同类项，∴ $m=2$，$n=3$。故答案为：$2$，$3$。由题意可知 $2x^{m}y^{3}$ 与 $-\\dfrac{1}{3}x^{2}y^{n}$ 是同类项，再根据同类项的定义解答即可。本题考查了合并同类项，掌握同类项的定义是解答本题的关键。",
+    "normalized_stem": "如果单项式 $2x^{m}y^{3}$ 与单项式 $-\\frac{1}{3}x^{2}y^{n}$ 的和仍是单项式，那么 $m$ 的值是__________，$n$ 的值是__________.",
+    "normalized_analysis": "解：∵单项式 $2x^{m}y^{3}$ 与单项式 $-\\frac{1}{3}x^{2}y^{n}$ 的和仍是单项式，∴ $2x^{m}y^{3}$ 与 $-\\frac{1}{3}x^{2}y^{n}$ 是同类项，∴ $m=2$，$n=3$。故答案为：$2$，$3$。由题意可知 $2x^{m}y^{3}$ 与 $-\\frac{1}{3}x^{2}y^{n}$ 是同类项，再根据同类项的定义解答即可。本题考查了合并同类项，掌握同类项的定义是解答本题的关键。",
     "bloom_level": "理解",
     "bloom_reason": "需要理解同类项的定义，并应用该定义求解未知指数。",
     "core_literacy_primary": "运算能力",
@@ -6989,7 +6989,7 @@
     "id": "e40c232a_17",
     "type": "解答题",
     "score": 10.0,
-    "stem": "计算： (1)(-3{)}^{3}+{\\left(\\dfrac{1}{2}\\right)}^{-2}-(5-π{)}^{0}； (2)(a+3)^{2}-a(a+2).",
+    "stem": "计算： (1)(-3{)}^{3}+{\\left(\\frac{1}{2}\\right)}^{-2}-(5-π{)}^{0}； (2)(a+3)^{2}-a(a+2).",
     "stem_images": [],
     "options": [],
     "answer": "解：（1）原式=-27+4-1 =-24； （2）原式=a 2 +6a+9-a 2 -2a =4a+9．",
@@ -7019,7 +7019,7 @@
       "能进行简单的整式乘法运算(多项式乘法仅限于 一次式之间和一次式与二次式的乘法)",
       "了解整数指数幂的意义和基本性质"
     ],
-    "normalized_stem": "计算： (1) $(-3)^{3}+\\left(\\dfrac{1}{2}\\right)^{-2}-(5-\\pi)^{0}$； (2) $(a+3)^{2}-a(a+2)$.",
+    "normalized_stem": "计算： (1) $(-3)^{3}+\\left(\\frac{1}{2}\\right)^{-2}-(5-\\pi)^{0}$； (2) $(a+3)^{2}-a(a+2)$.",
     "normalized_analysis": "(1) 利用有理数的乘方法则，负整数指数幂的意义和零指数幂的意义化简运算即可； (2) 利用完全平方公式和单项式乘多项式的法则化简运算即可。 本题主要考查了实数的运算，整式的运算，有理数的乘方法则，负整数指数幂的意义，零指数幂的意义，完全平方公式和单项式乘多项式的法则，熟练掌握上述法则与性质是解题的关键。",
     "bloom_level": "应用",
     "bloom_reason": "题目要求直接应用幂运算、乘法公式等法则进行计算。",
@@ -7036,12 +7036,12 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "C",
-    "stem": "若a<  b，则下列不等式不成立的是(\\quad) A.\\dfrac{a}{5}<  \\dfrac{b}{5} B.2a<  a+b C.-2a<  -2b D.2a-13<  2b-13",
+    "stem": "若a<  b，则下列不等式不成立的是(\\quad) A.\\frac{a}{5}<  \\frac{b}{5} B.2a<  a+b C.-2a<  -2b D.2a-13<  2b-13",
     "stem_images": [],
     "options": [
       {
         "index": "A",
-        "text": "\\(\\dfrac{a}{5} < \\dfrac{b}{5}\\)",
+        "text": "\\(\\frac{a}{5} < \\frac{b}{5}\\)",
         "images": []
       },
       {
@@ -7060,7 +7060,7 @@
         "images": []
       }
     ],
-    "analysis": "【分析】本题考查了不等式的性质，熟练掌握不等式的性质是解题的关键． 根据不等式的性质解答即可． 【详解】A、由\\(a < b\\)两边同时除以正数5，不改变不等号方向，得\\(\\dfrac{a}{5} < \\dfrac{b}{5}\\)，故成立． B、由\\(a < b\\)两边同时加上a，得\\(2a < a+b\\)，故成立． C、由\\(a < b\\)两边同时乘以负数-2，需改变不等号方向，原式应变为-2a>-2b，但选项C仍保持\\( < \\)，故不成立． D、由\\(a < b\\)两边先乘以正数2得\\(2a < 2b\\)，再减去13不改变不等号方向，故\\(2a-13 < 2b-13\\)成立． 故选：C.",
+    "analysis": "【分析】本题考查了不等式的性质，熟练掌握不等式的性质是解题的关键． 根据不等式的性质解答即可． 【详解】A、由\\(a < b\\)两边同时除以正数5，不改变不等号方向，得\\(\\frac{a}{5} < \\frac{b}{5}\\)，故成立． B、由\\(a < b\\)两边同时加上a，得\\(2a < a+b\\)，故成立． C、由\\(a < b\\)两边同时乘以负数-2，需改变不等号方向，原式应变为-2a>-2b，但选项C仍保持\\( < \\)，故不成立． D、由\\(a < b\\)两边先乘以正数2得\\(2a < 2b\\)，再减去13不改变不等号方向，故\\(2a-13 < 2b-13\\)成立． 故选：C.",
     "analysis_images": [],
     "knowledges": [
       "初中数学(默认)"
@@ -7074,8 +7074,8 @@
     ],
     "bnu_knowledges": [],
     "xkb_knowledges": [],
-    "normalized_stem": "若 $a < b$，则下列不等式不成立的是(\\quad) A.$\\dfrac{a}{5} < \\dfrac{b}{5}$ B.$2a < a+b$ C.$-2a < -2b$ D.$2a-13 < 2b-13$",
-    "normalized_analysis": "【分析】本题考查了不等式的性质，熟练掌握不等式的性质是解题的关键． 根据不等式的性质解答即可． 【详解】A、由 $a < b$ 两边同时除以正数 $5$，不改变不等号方向，得 $\\dfrac{a}{5} < \\dfrac{b}{5}$，故成立． B、由 $a < b$ 两边同时加上 $a$，得 $2a < a+b$，故成立． C、由 $a < b$ 两边同时乘以负数 $-2$，需改变不等号方向，原式应变为 $-2a > -2b$，但选项 C 仍保持 $<$，故不成立． D、由 $a < b$ 两边先乘以正数 $2$ 得 $2a < 2b$，再减去 $13$ 不改变不等号方向，故 $2a-13 < 2b-13$ 成立． 故选：C.",
+    "normalized_stem": "若 $a < b$，则下列不等式不成立的是(\\quad) A.$\\frac{a}{5} < \\frac{b}{5}$ B.$2a < a+b$ C.$-2a < -2b$ D.$2a-13 < 2b-13$",
+    "normalized_analysis": "【分析】本题考查了不等式的性质，熟练掌握不等式的性质是解题的关键． 根据不等式的性质解答即可． 【详解】A、由 $a < b$ 两边同时除以正数 $5$，不改变不等号方向，得 $\\frac{a}{5} < \\frac{b}{5}$，故成立． B、由 $a < b$ 两边同时加上 $a$，得 $2a < a+b$，故成立． C、由 $a < b$ 两边同时乘以负数 $-2$，需改变不等号方向，原式应变为 $-2a > -2b$，但选项 C 仍保持 $<$，故不成立． D、由 $a < b$ 两边先乘以正数 $2$ 得 $2a < 2b$，再减去 $13$ 不改变不等号方向，故 $2a-13 < 2b-13$ 成立． 故选：C.",
     "bloom_level": "理解",
     "bloom_reason": "题目要求理解并应用不等式的基本性质进行判断。",
     "core_literacy_primary": "运算能力",
@@ -7128,7 +7128,7 @@
     "id": "74b790b3_18",
     "type": "解答题",
     "score": 8.0,
-    "stem": "解不等式组：\\left\\{\\begin{array}{l}2x-1<  5-x,\\\\ \\dfrac{3+5x}{3}>2x.\\end{array}\\right.",
+    "stem": "解不等式组：\\left\\{\\begin{array}{l}2x-1<  5-x,\\\\ \\frac{3+5x}{3}>2x.\\end{array}\\right.",
     "stem_images": [],
     "options": [],
     "answer": "解：由①得； 由②得； ∴不等式组的解集为",
@@ -7150,7 +7150,7 @@
     "xkb_knowledges": [
       "能解数字系数的一元一次不等式"
     ],
-    "normalized_stem": "解不等式组：$\\left\\{\\begin{array}{l}2x-1<5-x,\\\\ \\dfrac{3+5x}{3}>2x.\\end{array}\\right.$",
+    "normalized_stem": "解不等式组：$\\left\\{\\begin{array}{l}2x-1<5-x,\\\\ \\frac{3+5x}{3}>2x.\\end{array}\\right.$",
     "normalized_analysis": "略",
     "bloom_level": "应用",
     "bloom_reason": "学生需要应用解一元一次不等式的方法和步骤来求解不等式组。",
@@ -7208,7 +7208,7 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "D",
-    "stem": "在半径为2的\\odot O中，点M为弦AB的中点，点P是平面内一点，且OP=3.下列说法正确的是(\\quad) A. 若AB=2，则PM长的取值范围是1\\leqslant PM\\leqslant 4 B. 若AB=\\dfrac{24}{5}，则PM的长可以是\\dfrac{24}{5} C. 若PM=2，则AB长的最小值是2\\sqrt{3} D. 若PM=2，则AB长的最大值是2\\sqrt{3}",
+    "stem": "在半径为2的\\odot O中，点M为弦AB的中点，点P是平面内一点，且OP=3.下列说法正确的是(\\quad) A. 若AB=2，则PM长的取值范围是1\\leqslant PM\\leqslant 4 B. 若AB=\\frac{24}{5}，则PM的长可以是\\frac{24}{5} C. 若PM=2，则AB长的最小值是2\\sqrt{3} D. 若PM=2，则AB长的最大值是2\\sqrt{3}",
     "stem_images": [],
     "options": [
       {
@@ -7218,7 +7218,7 @@
       },
       {
         "index": "B",
-        "text": "若AB=\\dfrac{24}{5}，则PM的长可以是\\dfrac{24}{5}",
+        "text": "若AB=\\frac{24}{5}，则PM的长可以是\\frac{24}{5}",
         "images": []
       },
       {
@@ -7232,7 +7232,7 @@
         "images": []
       }
     ],
-    "analysis": "本题考查了垂径定理、三角形的三边关系和勾股定理的应用，正确的画出图象是解决本题的关键． 根据垂径定理可得OM\\bot AB，且AM=BM，设AB=2a，则OM=\\sqrt{\\left(4-{a^2}\\right)}，当AB=2时OM=\\sqrt{3}，M轨迹为圆，求出PM范围；当PM=2时，可得点M在以P为圆心、2为半径的圆上，且M在圆\\odot O内，结合三角形三边关系可得\\left|OP-PM\\right|\\leqslant OM\\leqslant OP+PM，再根据OM=\\sqrt{\\left(4-{a^2}\\right)}和AB=2a求解即可． 【详解】解：∵\\odot O半径为2，点M为弦AB中点， ∴OM\\bot AB，且AM=BM， 设AB=2a，则OM=\\sqrt{\\left(4-{a^2}\\right)}， 若AB=2，则a=1，OM=\\sqrt{3}， ∵OP=3， ∴PM为P到M的距离，如下图， ∴P{M_{\\min}}=3-\\sqrt{3}\\approx 1.268，P{M_{\\max}}=3+\\sqrt{3}\\approx 4.732， ∴1\\leqslant PM\\leqslant 4不成立，A选项错误，不符合题意； ∵\\dfrac{24}{5}>3+\\sqrt{3}， ∴PM不可以为\\dfrac{24}{5}，B选项错误，不符合题意； 若PM=2，OP=3， 由题意得，点M在以P为圆心、2为半径的圆上(PM=2)，且M在圆\\odot O内，如图， ∴\\left|OP-PM\\right|\\leqslant OM\\leqslant OP+PM，即1\\leqslant OM\\leqslant 5， ∵OM\\leqslant 2， ∴1\\leqslant OM\\leqslant 2， ∵OM=\\sqrt{\\left(4-{a^2}\\right)}， ∴\\sqrt{\\left(4-{a^2}\\right)}\\geqslant 1， 得{a^2}\\leqslant 3，AB=2a\\leqslant 2\\sqrt{3}； 由\\sqrt{\\left(4-{a^2}\\right)}\\leqslant 2， ∵{a^2}\\geqslant 0， ∴AB\\geqslant 0， ∴0\\leqslant AB\\leqslant 2\\sqrt{3}，最大值为2\\sqrt{3}， ∴C选项错误，不符合题意； ∴D选项正确，符合题意． 故选D.",
+    "analysis": "本题考查了垂径定理、三角形的三边关系和勾股定理的应用，正确的画出图象是解决本题的关键． 根据垂径定理可得OM\\bot AB，且AM=BM，设AB=2a，则OM=\\sqrt{\\left(4-{a^2}\\right)}，当AB=2时OM=\\sqrt{3}，M轨迹为圆，求出PM范围；当PM=2时，可得点M在以P为圆心、2为半径的圆上，且M在圆\\odot O内，结合三角形三边关系可得\\left|OP-PM\\right|\\leqslant OM\\leqslant OP+PM，再根据OM=\\sqrt{\\left(4-{a^2}\\right)}和AB=2a求解即可． 【详解】解：∵\\odot O半径为2，点M为弦AB中点， ∴OM\\bot AB，且AM=BM， 设AB=2a，则OM=\\sqrt{\\left(4-{a^2}\\right)}， 若AB=2，则a=1，OM=\\sqrt{3}， ∵OP=3， ∴PM为P到M的距离，如下图， ∴P{M_{\\min}}=3-\\sqrt{3}\\approx 1.268，P{M_{\\max}}=3+\\sqrt{3}\\approx 4.732， ∴1\\leqslant PM\\leqslant 4不成立，A选项错误，不符合题意； ∵\\frac{24}{5}>3+\\sqrt{3}， ∴PM不可以为\\frac{24}{5}，B选项错误，不符合题意； 若PM=2，OP=3， 由题意得，点M在以P为圆心、2为半径的圆上(PM=2)，且M在圆\\odot O内，如图， ∴\\left|OP-PM\\right|\\leqslant OM\\leqslant OP+PM，即1\\leqslant OM\\leqslant 5， ∵OM\\leqslant 2， ∴1\\leqslant OM\\leqslant 2， ∵OM=\\sqrt{\\left(4-{a^2}\\right)}， ∴\\sqrt{\\left(4-{a^2}\\right)}\\geqslant 1， 得{a^2}\\leqslant 3，AB=2a\\leqslant 2\\sqrt{3}； 由\\sqrt{\\left(4-{a^2}\\right)}\\leqslant 2， ∵{a^2}\\geqslant 0， ∴AB\\geqslant 0， ∴0\\leqslant AB\\leqslant 2\\sqrt{3}，最大值为2\\sqrt{3}， ∴C选项错误，不符合题意； ∴D选项正确，符合题意． 故选D.",
     "analysis_images": [
       "images/edefda7a_8_analysis_0.png",
       "images/edefda7a_8_analysis_1.png"
@@ -7409,7 +7409,7 @@
     "type": "选择题",
     "score": 3.0,
     "answer": "D",
-    "stem": "一个人先沿水平道路前进m千米，继而沿n千米长的山坡爬到了山顶，之后又沿原路返回到出发点，全程共用了8小时.已知此人在水平路上每小时走4千米，上山每小时走3千米，下山每小时走6千米，则此人所走的全程是(\\quad)千米. A. 50 B. 38 C.\\dfrac{104}{3} D. 32",
+    "stem": "一个人先沿水平道路前进m千米，继而沿n千米长的山坡爬到了山顶，之后又沿原路返回到出发点，全程共用了8小时.已知此人在水平路上每小时走4千米，上山每小时走3千米，下山每小时走6千米，则此人所走的全程是(\\quad)千米. A. 50 B. 38 C.\\frac{104}{3} D. 32",
     "stem_images": [],
     "options": [
       {
@@ -7424,7 +7424,7 @@
       },
       {
         "index": "C",
-        "text": "\\dfrac{104}{3}",
+        "text": "\\frac{104}{3}",
         "images": []
       },
       {
@@ -7433,7 +7433,7 @@
         "images": []
       }
     ],
-    "analysis": "解：在水平路上每小时走4千米，上山每小时走3千米，下山每小时走6千米， ∵总时间=去程水平时间+去程上山时间+回程下山时间+回程水平时间， ∴\\dfrac{m}{4}+\\dfrac{n}{3}+\\dfrac{n}{6}+\\dfrac{m}{4}=8， 化简得：\\dfrac{m}{2}+\\dfrac{n}{2}=8， 即\\dfrac{m+n}{2}=8， ∴m+n=16， ∴全程=2(m+n)=2×16=32千米． 故选：D. 根据题意，总时间由水平道路和山坡的时间组成，去程和回程时间之和为8小时，列出方程求解m+n，再求全程2(m+n)即可． 本题考查了等式的性质，代数式求值．",
+    "analysis": "解：在水平路上每小时走4千米，上山每小时走3千米，下山每小时走6千米， ∵总时间=去程水平时间+去程上山时间+回程下山时间+回程水平时间， ∴\\frac{m}{4}+\\frac{n}{3}+\\frac{n}{6}+\\frac{m}{4}=8， 化简得：\\frac{m}{2}+\\frac{n}{2}=8， 即\\frac{m+n}{2}=8， ∴m+n=16， ∴全程=2(m+n)=2×16=32千米． 故选：D. 根据题意，总时间由水平道路和山坡的时间组成，去程和回程时间之和为8小时，列出方程求解m+n，再求全程2(m+n)即可． 本题考查了等式的性质，代数式求值．",
     "analysis_images": [],
     "knowledges": [
       "列代数式"
@@ -7451,8 +7451,8 @@
     "xkb_knowledges": [
       "能根据特定的问题查阅资料，找到所需的公式"
     ],
-    "normalized_stem": "一个人先沿水平道路前进 $m$ 千米，继而沿 $n$ 千米长的山坡爬到了山顶，之后又沿原路返回到出发点，全程共用了 $8$ 小时。已知此人在水平路上每小时走 $4$ 千米，上山每小时走 $3$ 千米，下山每小时走 $6$ 千米，则此人所走的全程是 $(\\quad)$ 千米。 A. $50$ B. $38$ C. $\\dfrac{104}{3}$ D. $32$",
-    "normalized_analysis": "解：在水平路上每小时走 $4$ 千米，上山每小时走 $3$ 千米，下山每小时走 $6$ 千米，∵总时间 $=$ 去程水平时间 $+$ 去程上山时间 $+$ 回程下山时间 $+$ 回程水平时间，∴$\\dfrac{m}{4}+\\dfrac{n}{3}+\\dfrac{n}{6}+\\dfrac{m}{4}=8$，化简得：$\\dfrac{m}{2}+\\dfrac{n}{2}=8$，即 $\\dfrac{m+n}{2}=8$，∴$m+n=16$，∴全程 $=2(m+n)=2\\times 16=32$ 千米。故选：D。根据题意，总时间由水平道路和山坡的时间组成，去程和回程时间之和为 $8$ 小时，列出方程求解 $m+n$，再求全程 $2(m+n)$ 即可。本题考查了等式的性质，代数式求值。",
+    "normalized_stem": "一个人先沿水平道路前进 $m$ 千米，继而沿 $n$ 千米长的山坡爬到了山顶，之后又沿原路返回到出发点，全程共用了 $8$ 小时。已知此人在水平路上每小时走 $4$ 千米，上山每小时走 $3$ 千米，下山每小时走 $6$ 千米，则此人所走的全程是 $(\\quad)$ 千米。 A. $50$ B. $38$ C. $\\frac{104}{3}$ D. $32$",
+    "normalized_analysis": "解：在水平路上每小时走 $4$ 千米，上山每小时走 $3$ 千米，下山每小时走 $6$ 千米，∵总时间 $=$ 去程水平时间 $+$ 去程上山时间 $+$ 回程下山时间 $+$ 回程水平时间，∴$\\frac{m}{4}+\\frac{n}{3}+\\frac{n}{6}+\\frac{m}{4}=8$，化简得：$\\frac{m}{2}+\\frac{n}{2}=8$，即 $\\frac{m+n}{2}=8$，∴$m+n=16$，∴全程 $=2(m+n)=2\\times 16=32$ 千米。故选：D。根据题意，总时间由水平道路和山坡的时间组成，去程和回程时间之和为 $8$ 小时，列出方程求解 $m+n$，再求全程 $2(m+n)$ 即可。本题考查了等式的性质，代数式求值。",
     "bloom_level": "应用",
     "bloom_reason": "需要根据速度、时间、路程关系建立方程并求解实际问题。",
     "core_literacy_primary": "模型观念",
@@ -7508,7 +7508,7 @@
     "type": "选择题",
     "score": 2.0,
     "answer": "C",
-    "stem": "下列解方程的变形过程正确的是(\\quad) A. 方程3x=2x-1，移项得3x+2x=-1 B. 方程-\\dfrac{2}{3}x=2，系数化为1得x=-\\dfrac{3}{4} C. 方程4-2\\left(3x-1\\right)=1，去括号得4-6x+2=1 D. 方程\\dfrac{3x-1}{2}=1+\\dfrac{2x+1}{3}，去分母得3\\left(3x-1\\right)=1+2\\left(2x+1\\right)",
+    "stem": "下列解方程的变形过程正确的是(\\quad) A. 方程3x=2x-1，移项得3x+2x=-1 B. 方程-\\frac{2}{3}x=2，系数化为1得x=-\\frac{3}{4} C. 方程4-2\\left(3x-1\\right)=1，去括号得4-6x+2=1 D. 方程\\frac{3x-1}{2}=1+\\frac{2x+1}{3}，去分母得3\\left(3x-1\\right)=1+2\\left(2x+1\\right)",
     "stem_images": [],
     "options": [
       {
@@ -7518,7 +7518,7 @@
       },
       {
         "index": "B",
-        "text": "方程-\\dfrac{2}{3}x=2，系数化为1得x=-\\dfrac{3}{4}",
+        "text": "方程-\\frac{2}{3}x=2，系数化为1得x=-\\frac{3}{4}",
         "images": []
       },
       {
@@ -7528,11 +7528,11 @@
       },
       {
         "index": "D",
-        "text": "方程\\dfrac{3x-1}{2}=1+\\dfrac{2x+1}{3}，去分母得3\\left(3x-1\\right)=1+2\\left(2x+1\\right)",
+        "text": "方程\\frac{3x-1}{2}=1+\\frac{2x+1}{3}，去分母得3\\left(3x-1\\right)=1+2\\left(2x+1\\right)",
         "images": []
       }
     ],
-    "analysis": "【分析】 本题考查解一元一次方程，根据解一元一次方程的步骤逐项判断即可． 【详解】 解：由3x=2x-1 ，移项，得3x-2x=-1，则选项A不符合题意； 方程-\\dfrac{2}{3}x=2，系数化为1，得x=-3，则选项B不符合题意； 方程4-2\\left(3x-1\\right)=1，去括号，得4-6x+2=1，正确，符合题意； 方程\\dfrac{3x-1}{2}=1+\\dfrac{2x+1}{3}，去分母，得3\\left(3x-1\\right)=6+2\\left(2x+1\\right)，则D不符合题意. 故选：C.",
+    "analysis": "【分析】 本题考查解一元一次方程，根据解一元一次方程的步骤逐项判断即可． 【详解】 解：由3x=2x-1 ，移项，得3x-2x=-1，则选项A不符合题意； 方程-\\frac{2}{3}x=2，系数化为1，得x=-3，则选项B不符合题意； 方程4-2\\left(3x-1\\right)=1，去括号，得4-6x+2=1，正确，符合题意； 方程\\frac{3x-1}{2}=1+\\frac{2x+1}{3}，去分母，得3\\left(3x-1\\right)=6+2\\left(2x+1\\right)，则D不符合题意. 故选：C.",
     "analysis_images": [],
     "knowledges": [
       "一元一次方程的解法"
@@ -7550,8 +7550,8 @@
     "xkb_knowledges": [
       "能解一元一次方程和可化为一元一次方程的分式方程"
     ],
-    "normalized_stem": "下列解方程的变形过程正确的是($\\quad$) A. 方程$3x=2x-1$，移项得$3x+2x=-1$ B. 方程$-\\dfrac{2}{3}x=2$，系数化为$1$得$x=-\\dfrac{3}{4}$ C. 方程$4-2\\left(3x-1\\right)=1$，去括号得$4-6x+2=1$ D. 方程$\\dfrac{3x-1}{2}=1+\\dfrac{2x+1}{3}$，去分母得$3\\left(3x-1\\right)=1+2\\left(2x+1\\right)$",
-    "normalized_analysis": "【分析】 本题考查解一元一次方程，根据解一元一次方程的步骤逐项判断即可． 【详解】 解：由$3x=2x-1$，移项，得$3x-2x=-1$，则选项A不符合题意； 方程$-\\dfrac{2}{3}x=2$，系数化为$1$，得$x=-3$，则选项B不符合题意； 方程$4-2\\left(3x-1\\right)=1$，去括号，得$4-6x+2=1$，正确，符合题意； 方程$\\dfrac{3x-1}{2}=1+\\dfrac{2x+1}{3}$，去分母，得$3\\left(3x-1\\right)=6+2\\left(2x+1\\right)$，则D不符合题意. 故选：C.",
+    "normalized_stem": "下列解方程的变形过程正确的是($\\quad$) A. 方程$3x=2x-1$，移项得$3x+2x=-1$ B. 方程$-\\frac{2}{3}x=2$，系数化为$1$得$x=-\\frac{3}{4}$ C. 方程$4-2\\left(3x-1\\right)=1$，去括号得$4-6x+2=1$ D. 方程$\\frac{3x-1}{2}=1+\\frac{2x+1}{3}$，去分母得$3\\left(3x-1\\right)=1+2\\left(2x+1\\right)$",
+    "normalized_analysis": "【分析】 本题考查解一元一次方程，根据解一元一次方程的步骤逐项判断即可． 【详解】 解：由$3x=2x-1$，移项，得$3x-2x=-1$，则选项A不符合题意； 方程$-\\frac{2}{3}x=2$，系数化为$1$，得$x=-3$，则选项B不符合题意； 方程$4-2\\left(3x-1\\right)=1$，去括号，得$4-6x+2=1$，正确，符合题意； 方程$\\frac{3x-1}{2}=1+\\frac{2x+1}{3}$，去分母，得$3\\left(3x-1\\right)=6+2\\left(2x+1\\right)$，则D不符合题意. 故选：C.",
     "bloom_level": "理解",
     "bloom_reason": "题目要求判断解方程步骤的正确性，需要理解移项、去括号等基本变形规则。",
     "core_literacy_primary": "运算能力",
@@ -7567,10 +7567,10 @@
     "type": "解答题",
     "score": 10.0,
     "answer": "解： 当 ， 时， ．",
-    "stem": "先化简，再求值：(3x{y}^{2}-{x}^{2}y)-2(x{y}^{2}-{y}^{3})-2{y}^{3}，其中x=-1，y=\\dfrac{1}{2}.",
+    "stem": "先化简，再求值：(3x{y}^{2}-{x}^{2}y)-2(x{y}^{2}-{y}^{3})-2{y}^{3}，其中x=-1，y=\\frac{1}{2}.",
     "stem_images": [],
     "options": [],
-    "analysis": "本题考查的是整式的加减运算中的化简求值，掌握去括号，合并同类项是解本题的关键.先去括号，再合并同类项，得到化简的结果，再把x=-1，y=\\dfrac{1}{2}代入计算即可．",
+    "analysis": "本题考查的是整式的加减运算中的化简求值，掌握去括号，合并同类项是解本题的关键.先去括号，再合并同类项，得到化简的结果，再把x=-1，y=\\frac{1}{2}代入计算即可．",
     "analysis_images": [],
     "knowledges": [
       "整式的加减",
@@ -7591,8 +7591,8 @@
       "能进行简 单的整式加减运算",
       "能对简单的分式进行加、减、乘、除运算"
     ],
-    "normalized_stem": "先化简，再求值：$(3xy^{2}-x^{2}y)-2(xy^{2}-y^{3})-2y^{3}$，其中 $x=-1$，$y=\\dfrac{1}{2}$.",
-    "normalized_analysis": "本题考查的是整式的加减运算中的化简求值，掌握去括号，合并同类项是解本题的关键。先去括号，再合并同类项，得到化简的结果，再把 $x=-1$，$y=\\dfrac{1}{2}$ 代入计算即可。",
+    "normalized_stem": "先化简，再求值：$(3xy^{2}-x^{2}y)-2(xy^{2}-y^{3})-2y^{3}$，其中 $x=-1$，$y=\\frac{1}{2}$.",
+    "normalized_analysis": "本题考查的是整式的加减运算中的化简求值，掌握去括号，合并同类项是解本题的关键。先去括号，再合并同类项，得到化简的结果，再把 $x=-1$，$y=\\frac{1}{2}$ 代入计算即可。",
     "bloom_level": "应用",
     "bloom_reason": "需要应用整式加减的运算法则进行化简，并代入具体数值计算。",
     "core_literacy_primary": "运算能力",

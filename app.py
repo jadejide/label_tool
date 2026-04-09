@@ -395,6 +395,7 @@ def sanitize_candidates(primary: str, candidates: List[str]) -> List[str]:
 
 
 def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
+    # Bloom 多选
     bloom = record.get("human_bloom_level") or []
     if isinstance(bloom, str):
         bloom = [bloom] if bloom in BLOOM_LEVELS and bloom != UNSELECTED else []
@@ -402,19 +403,33 @@ def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
         bloom = [x for x in bloom if x in BLOOM_LEVELS and x != UNSELECTED]
     else:
         bloom = []
-    primary = record.get("human_core_literacy_primary") or UNSELECTED
-    if bloom not in BLOOM_LEVELS:
-        bloom = UNSELECTED
-    if primary not in PRIMARY_OPTIONS:
-        primary = UNSELECTED
-    cands = sanitize_candidates(primary if primary != UNSELECTED else "", record.get("human_core_literacy_candidates") or [])
-    return {
+
+    # 核心素养多选
+    core = record.get("human_core_literacy_candidates") or []
+    if isinstance(core, str):
+        core = [core] if core in CORE_LITERACIES else []
+    elif isinstance(core, list):
+        core = [x for x in core if x in CORE_LITERACIES]
+    else:
+        core = []
+
+    state = {
         "edit_bloom": bloom,
-        "edit_primary": primary,
-        "edit_candidates": cands,
+        "edit_primary": core,      # 先兼容你现在复用这个字段的写法
+        "edit_candidates": core,
         "edit_comment_bloom": record.get("human_comment_bloom", "") or "",
         "edit_comment_core": record.get("human_comment_core", "") or "",
     }
+
+    # 关键：同步每个 Bloom checkbox 的勾选状态
+    for level in BLOOM_LEVELS[1:]:
+        state[f"edit_bloom_{level}"] = level in bloom
+
+    # 关键：同步每个 核心素养 checkbox 的勾选状态
+    for item in CORE_LITERACIES:
+        state[f"edit_core_{item}"] = item in core
+
+    return state
 
 
 def current_time_str() -> str:
@@ -441,19 +456,22 @@ def show_flash() -> None:
 
 
 def build_draft_payload(task_key: str, record_uid: str) -> Dict[str, Any]:
-    primary = st.session_state.get("edit_primary", UNSELECTED)
-    primary_value = primary if primary in CORE_LITERACIES else ""
     selected_bloom = st.session_state.get("edit_bloom", [])
-    selected_bloom = [x for x in selected_bloom if x in BLOOM_LEVELS and x != UNSELECTED]
+    if not isinstance(selected_bloom, list):
+        selected_bloom = []
+    
+    selected_core = st.session_state.get("edit_candidates", [])
+    if not isinstance(selected_core, list):
+        selected_core = []
+    
     return {
         "record_uid": record_uid,
         "human_bloom_level": selected_bloom,
-        "human_core_literacy_primary": primary_value,
-        "human_core_literacy_candidates": sanitize_candidates(primary_value, st.session_state.get("edit_candidates", [])),
-        "human_comment_bloom": st.session_state.get("edit_comment_bloom", "").strip(),
-        "human_comment_core": st.session_state.get("edit_comment_core", "").strip(),
-        "human_annotator": task_key,
-        "draft_updated_at": current_time_str(),
+        "human_core_literacy_primary": selected_core[0] if selected_core else "",
+        "human_core_literacy_candidates": selected_core,
+        "human_comment_bloom": st.session_state.get("edit_comment_bloom", ""),
+        "human_comment_core": st.session_state.get("edit_comment_core", ""),
+        "updated_at": current_time_str(),
     }
 
 
@@ -921,19 +939,13 @@ with right:
         )
 
         st.caption("Bloom 层级")
-        selected_bloom = st.session_state.get("edit_bloom", [])
-        if not isinstance(selected_bloom, list):
-            selected_bloom = [selected_bloom] if selected_bloom else []
         
         new_selected_bloom = []
-        levels = BLOOM_LEVELS[1:]
-        
         cols = st.columns(3)
-        for i, level in enumerate(levels):
+        for i, level in enumerate(BLOOM_LEVELS[1:]):
             with cols[i % 3]:
                 checked = st.checkbox(
                     level,
-                    value=(level in selected_bloom),
                     key=f"edit_bloom_{level}",
                 )
                 if checked:
@@ -962,10 +974,6 @@ with right:
 
         st.caption("核心素养（最多 5 个）")
 
-        selected_core = st.session_state.get("edit_primary", [])
-        if not isinstance(selected_core, list):
-            selected_core = [selected_core] if selected_core in CORE_LITERACIES else []
-        
         new_selected_core = []
         cols = st.columns(3)
         
@@ -973,7 +981,6 @@ with right:
             with cols[i % 3]:
                 checked = st.checkbox(
                     item,
-                    value=(item in selected_core),
                     key=f"edit_core_{item}",
                 )
                 if checked:
@@ -985,6 +992,8 @@ with right:
         
         st.session_state["edit_primary"] = new_selected_core
         st.session_state["edit_candidates"] = new_selected_core
+        
+        st.text_area("核心素养备注", key="edit_comment_core", height=88, placeholder="可选")
     st.write("")
     nav1, nav2 = st.columns(2)
     with nav1:

@@ -363,13 +363,13 @@ def load_drafts(task_key: str) -> Dict[str, Dict[str, Any]]:
 
 def record_is_saved(record_uid: str, saved_map: Dict[str, Dict[str, Any]]) -> bool:
     saved = saved_map.get(record_uid) or {}
-    return bool(saved.get("human_bloom_level")) and bool(saved.get("human_core_literacy_primary"))
+    return bool(saved.get("human_bloom_level")) and bool(saved.get("human_core_literacy_candidates"))
 
 
 def get_draft_status(record_uid: str, drafts: Dict[str, Dict[str, Any]]) -> bool:
     draft = drafts.get(record_uid) or {}
     return any(str(draft.get(k, "")).strip() for k in [
-        "human_bloom_level", "human_core_literacy_primary", "human_comment_bloom", "human_comment_core"
+        "human_bloom_level", "human_comment_bloom", "human_comment_core"
     ]) or bool(draft.get("human_core_literacy_candidates"))
 
 
@@ -480,8 +480,8 @@ def persist_save(task_key: str, record_uid: str):
     drafts = deepcopy(st.session_state[drafts_key])
 
     payload = build_draft_payload(task_key, record_uid)
-    if not payload.get("human_bloom_level") or not payload.get("human_core_literacy_primary"):
-        return False, "请至少选择 Bloom 层级和核心素养主标签后再保存。"
+    if not payload.get("human_bloom_level") or not payload.get("human_core_literacy_candidates"):
+        return False, "请至少选择 Bloom 层级和核心素养后再保存。"
 
     payload["human_updated_at"] = current_time_str()
     payload["human_status"] = "已标注"
@@ -499,12 +499,12 @@ def export_saved_rows(task_key: str) -> List[Dict[str, Any]]:
     saved = st.session_state[f"saved::{task_key}"]
     rows: List[Dict[str, Any]] = []
     for uid, rec in saved.items():
-        if not rec.get("human_bloom_level") or not rec.get("human_core_literacy_primary"):
+        if not rec.get("human_bloom_level") or not rec.get("human_core_literacy_candidates"):
             continue
         rows.append({
             "id": uid,
             "human_bloom_level": rec.get("human_bloom_level", ""),
-            "human_core_literacy_primary": rec.get("human_core_literacy_primary", ""),
+            "human_core_literacy_primary": (rec.get("human_core_literacy_candidates") or [""])[0],
             "human_core_literacy_candidates": rec.get("human_core_literacy_candidates", []),
             "human_comment_bloom": rec.get("human_comment_bloom", ""),
             "human_comment_core": rec.get("human_comment_core", ""),
@@ -951,7 +951,7 @@ with right:
         st.markdown(
             f"""
 <div class="model-card">
-  <div class="model-title">核心素养模型建议</div>
+  <div class="model-title">核心素养模型预测</div>
   <div class="model-row"><b>主标签：</b>{escape_html(str(core_model))}</div>
   <div class="model-row"><b>候选：</b>{escape_html('、'.join(core_candidates) if core_candidates else '无')}</div>
   <div class="model-row"><b>建议理由：</b>{escape_html(str(core_reason or '无'))}</div>
@@ -960,16 +960,31 @@ with right:
             unsafe_allow_html=True,
         )
 
-        st.selectbox("核心素养主标签", options=PRIMARY_OPTIONS, key="edit_primary")
-        st.multiselect(
-            "核心素养候选（最多 3 个）",
-            options=CORE_LITERACIES,
-            key="edit_candidates",
-            max_selections=3,
-            help="若选择了主标签，保存时会自动保证主标签出现在候选首位。",
-        )
-        st.text_area("核心素养备注", key="edit_comment_core", height=88, placeholder="可选")
+        st.caption("核心素养（最多 5 个）")
 
+        selected_core = st.session_state.get("edit_primary", [])
+        if not isinstance(selected_core, list):
+            selected_core = [selected_core] if selected_core in CORE_LITERACIES else []
+        
+        new_selected_core = []
+        cols = st.columns(3)
+        
+        for i, item in enumerate(CORE_LITERACIES):
+            with cols[i % 3]:
+                checked = st.checkbox(
+                    item,
+                    value=(item in selected_core),
+                    key=f"edit_core_{item}",
+                )
+                if checked:
+                    new_selected_core.append(item)
+        
+        if len(new_selected_core) > 5:
+            st.warning("核心素养最多选择 5 个")
+            new_selected_core = new_selected_core[:5]
+        
+        st.session_state["edit_primary"] = new_selected_core
+        st.session_state["edit_candidates"] = new_selected_core
     st.write("")
     nav1, nav2 = st.columns(2)
     with nav1:

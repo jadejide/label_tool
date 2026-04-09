@@ -921,16 +921,25 @@ with right:
         )
 
         st.caption("Bloom 层级")
-        st.multiselect(
-            "Bloom 层级",
-            options=BLOOM_LEVELS[1:],   # 一般不建议把“未选择”放进多选
-            key="edit_bloom",
-            placeholder="可选择多个 Bloom 层级",
-            
-        )
+        selected_bloom = st.session_state.get("edit_bloom", [])
+        if not isinstance(selected_bloom, list):
+            selected_bloom = [selected_bloom] if selected_bloom else []
+        
+        new_selected_bloom = []
+        for level in BLOOM_LEVELS[1:]:
+            checked = st.checkbox(
+                level,
+                value=(level in selected_bloom),
+                key=f"edit_bloom_{level}",
+            )
+            if checked:
+                new_selected_bloom.append(level)
+        
+        st.session_state["edit_bloom"] = new_selected_bloom
+        
         st.text_area("Bloom 备注", key="edit_comment_bloom", height=88, placeholder="可选")
 
-    st.write("")
+    # st.write("")
 
     with st.container(border=True):
         st.markdown("### 核心素养标注")

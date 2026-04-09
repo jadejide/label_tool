@@ -926,14 +926,18 @@ with right:
             selected_bloom = [selected_bloom] if selected_bloom else []
         
         new_selected_bloom = []
-        for level in BLOOM_LEVELS[1:]:
-            checked = st.checkbox(
-                level,
-                value=(level in selected_bloom),
-                key=f"edit_bloom_{level}",
-            )
-            if checked:
-                new_selected_bloom.append(level)
+        levels = BLOOM_LEVELS[1:]
+        
+        cols = st.columns(3)
+        for i, level in enumerate(levels):
+            with cols[i % 3]:
+                checked = st.checkbox(
+                    level,
+                    value=(level in selected_bloom),
+                    key=f"edit_bloom_{level}",
+                )
+                if checked:
+                    new_selected_bloom.append(level)
         
         st.session_state["edit_bloom"] = new_selected_bloom
         

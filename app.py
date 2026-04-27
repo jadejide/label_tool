@@ -16,6 +16,7 @@ st.set_page_config(page_title="数学题人工标注工具", layout="wide")
 # =========================
 # 配置
 # =========================
+
 UNSELECTED = "未选择"
 BLOOM_LEVELS = [UNSELECTED, "记忆", "理解", "应用", "分析", "评价", "创造"]
 CORE_LITERACIES = [
@@ -23,7 +24,7 @@ CORE_LITERACIES = [
     "数据观念", "模型观念", "应用意识", "创新意识",
 ]
 PRIMARY_OPTIONS = [UNSELECTED] + CORE_LITERACIES
-
+KNOWLEDGE_CHECK_OPTIONS = [UNSELECTED, "正确", "错误"]
 TASKS: Dict[str, Dict[str, str]] = {
     "teacher1": {"label": "教师 1", "data_file": "teacher_all.json"},
     # "teacher2": {"label": "教师 2", "data_file": "teacher_2.json"},
@@ -419,6 +420,9 @@ def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
         "edit_candidates": core,
         "edit_comment_bloom": record.get("human_comment_bloom", "") or "",
         "edit_comment_core": record.get("human_comment_core", "") or "",
+        # 新增：知识点核验
+        "edit_new_knowledge_checks": record.get("human_new_knowledge_checks", {}) or {},
+        "edit_comment_new_knowledge": record.get("human_comment_new_knowledge", "") or "",
     }
 
     # 关键：同步每个 Bloom checkbox 的勾选状态
@@ -471,12 +475,23 @@ def build_draft_payload(task_key: str, record_uid: str) -> Dict[str, Any]:
         "human_core_literacy_candidates": selected_core,
         "human_comment_bloom": st.session_state.get("edit_comment_bloom", ""),
         "human_comment_core": st.session_state.get("edit_comment_core", ""),
+        # 新增：知识点核验
+        "human_new_knowledge_checks": st.session_state.get("edit_new_knowledge_checks", {}),
+        "human_comment_new_knowledge": st.session_state.get("edit_comment_new_knowledge", ""),
         "updated_at": current_time_str(),
     }
 
 
 def draft_has_content(payload: Dict[str, Any]) -> bool:
-    return bool(payload.get("human_bloom_level")) or bool(payload.get("human_core_literacy_primary")) or bool(payload.get("human_core_literacy_candidates")) or bool(payload.get("human_comment_bloom")) or bool(payload.get("human_comment_core"))
+    return (
+        bool(payload.get("human_bloom_level"))
+        or bool(payload.get("human_core_literacy_primary"))
+        or bool(payload.get("human_core_literacy_candidates"))
+        or bool(payload.get("human_comment_bloom"))
+        or bool(payload.get("human_comment_core"))
+        or bool(payload.get("human_new_knowledge_checks"))
+        or bool(payload.get("human_comment_new_knowledge"))
+    )
 
 
 def persist_draft(task_key: str, record_uid: str) -> None:
@@ -526,6 +541,9 @@ def export_saved_rows(task_key: str) -> List[Dict[str, Any]]:
             "human_core_literacy_candidates": rec.get("human_core_literacy_candidates", []),
             "human_comment_bloom": rec.get("human_comment_bloom", ""),
             "human_comment_core": rec.get("human_comment_core", ""),
+            # 新增
+            "human_new_knowledge_checks": rec.get("human_new_knowledge_checks", {}),
+            "human_comment_new_knowledge": rec.get("human_comment_new_knowledge", ""),
             "human_annotator": rec.get("human_annotator", ""),
             "human_updated_at": rec.get("human_updated_at", ""),
             "human_status": rec.get("human_status", "已标注"),
@@ -542,8 +560,20 @@ def export_saved_results_csv(task_key: str) -> bytes:
     rows = export_saved_rows(task_key)
     output = io.StringIO()
     fieldnames = [
-        "id", "human_bloom_level", "human_core_literacy_primary", "human_core_literacy_candidates",
-        "human_comment_bloom", "human_comment_core", "human_annotator", "human_updated_at", "human_status",
+        "id",
+        "human_bloom_level",
+        "human_core_literacy_primary",
+        "human_core_literacy_candidates",
+        "human_comment_bloom",
+        "human_comment_core",
+    
+        # 新增
+        "human_new_knowledge_checks",
+        "human_comment_new_knowledge",
+    
+        "human_annotator",
+        "human_updated_at",
+        "human_status",
     ]
     writer = csv.DictWriter(output, fieldnames=fieldnames)
     writer.writeheader()
@@ -551,6 +581,10 @@ def export_saved_results_csv(task_key: str) -> bytes:
         row = dict(row)
         row["human_core_literacy_candidates"] = "、".join(row.get("human_core_literacy_candidates", []))
         row["human_bloom_level"] = "、".join(row.get("human_bloom_level", []))
+        row["human_new_knowledge_checks"] = json.dumps(
+        row.get("human_new_knowledge_checks", {}),
+        ensure_ascii=False
+    )
         writer.writerow(row)
     return output.getvalue().encode("utf-8-sig")
 
@@ -879,7 +913,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-left, right = st.columns([1.72, 1], gap="large")
+left, middle, right = st.columns([1.55, 0.85, 1], gap="large")
 
 with left:
     st.markdown("## 题目区")
@@ -916,6 +950,71 @@ with left:
         if current_record.get("analysis_images"):
             st.markdown("### 解析图片")
             render_images(current_record.get("analysis_images", []))
+with middle:
+    st.markdown("## 知识点核验")
+
+    with st.container(height=1000, border=True):
+        new_knowledges = current_record.get("new_knowledges") or []
+
+        if not new_knowledges:
+            st.info("本题暂无 new_knowledges。")
+            st.session_state["edit_new_knowledge_checks"] = {}
+        else:
+            st.caption("请核验 JSON 中的 new_knowledges 是否正确。")
+
+            old_checks = st.session_state.get("edit_new_knowledge_checks", {})
+            if not isinstance(old_checks, dict):
+                old_checks = {}
+
+            new_checks = {}
+
+            for i, knowledge in enumerate(new_knowledges):
+                knowledge_text = str(knowledge)
+                key = f"edit_new_knowledge_check_{i}"
+
+                default_value = old_checks.get(knowledge_text, UNSELECTED)
+                if default_value not in KNOWLEDGE_CHECK_OPTIONS:
+                    default_value = UNSELECTED
+
+                st.markdown(f"**知识点 {i + 1}：**")
+                st.markdown(
+                    f"""
+                    <div style="
+                        border: 1px solid #e5e7eb;
+                        border-radius: 12px;
+                        padding: 10px 12px;
+                        background: #fff;
+                        margin-bottom: 8px;
+                        line-height: 1.6;
+                    ">
+                        {escape_html(knowledge_text)}
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+
+                choice = st.radio(
+                    "核验结果",
+                    KNOWLEDGE_CHECK_OPTIONS,
+                    index=KNOWLEDGE_CHECK_OPTIONS.index(default_value),
+                    key=key,
+                    horizontal=True,
+                    label_visibility="collapsed",
+                )
+
+                if choice != UNSELECTED:
+                    new_checks[knowledge_text] = choice
+
+                st.divider()
+
+            st.session_state["edit_new_knowledge_checks"] = new_checks
+
+        st.text_area(
+            "知识点核验备注",
+            key="edit_comment_new_knowledge",
+            height=120,
+            placeholder="可选，例如：第2个知识点应改为……",
+        )
 
 with right:
     bloom_model = current_record.get("bloom_level") or "无"

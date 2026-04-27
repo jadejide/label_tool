@@ -524,7 +524,7 @@ def persist_save(task_key: str, record_uid: str, current_record: Dict[str, Any])
     ]
 
     if missing:
-        return False, "请完成所有 new_knowledges 的正确/错误核验后再保存。"
+        return False, "请完成所有知识点的正确/错误核验后再保存。"
 
     payload["human_updated_at"] = current_time_str()
     payload["human_status"] = "已标注"
@@ -970,7 +970,7 @@ with middle:
             st.info("本题暂无 new_knowledges。")
             st.session_state["edit_new_knowledge_checks"] = {}
         else:
-            st.caption("请核验 JSON 中的 new_knowledges 是否正确。")
+            # st.caption("请核验 JSON 中的 new_knowledges 是否正确。")
 
             old_checks = st.session_state.get("edit_new_knowledge_checks", {})
             if not isinstance(old_checks, dict):

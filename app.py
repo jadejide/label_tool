@@ -939,8 +939,8 @@ with left:
             st.markdown(f"**分值：** {current_record['score']}")
         if current_record.get("knowledges"):
             st.markdown(f"**知识点：** {'、'.join(current_record['knowledges'])}")
-        if current_record.get("abilities"):
-            st.markdown(f"**能力要求：** {'、'.join(current_record['abilities'])}")
+        # if current_record.get("abilities"):
+        #     st.markdown(f"**能力要求：** {'、'.join(current_record['abilities'])}")
 
         st.markdown("### 题干")
         render_text_block(current_record.get("normalized_stem") or current_record.get("stem"))

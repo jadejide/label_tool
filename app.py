@@ -506,7 +506,7 @@ def persist_draft(task_key: str, record_uid: str) -> None:
         st.session_state[drafts_key] = drafts
 
 
-def persist_save(task_key: str, record_uid: str):
+def persist_save(task_key: str, record_uid: str, current_record: Dict[str, Any]):
     saved_key = f"saved::{task_key}"
     drafts_key = f"drafts::{task_key}"
     saved = deepcopy(st.session_state[saved_key])
@@ -515,6 +515,16 @@ def persist_save(task_key: str, record_uid: str):
     payload = build_draft_payload(task_key, record_uid)
     if not payload.get("human_bloom_level") or not payload.get("human_core_literacy_candidates"):
         return False, "请至少选择 Bloom 层级和核心素养后再保存。"
+    new_knowledges = [str(x) for x in (current_record.get("new_knowledges") or [])]
+    checks = payload.get("human_new_knowledge_checks", {})
+
+    missing = [
+        x for x in new_knowledges
+        if checks.get(x) not in ["正确", "错误"]
+    ]
+
+    if missing:
+        return False, "请完成所有 new_knowledges 的正确/错误核验后再保存。"
 
     payload["human_updated_at"] = current_time_str()
     payload["human_status"] = "已标注"
@@ -970,7 +980,7 @@ with middle:
 
             for i, knowledge in enumerate(new_knowledges):
                 knowledge_text = str(knowledge)
-                key = f"edit_new_knowledge_check_{i}"
+                key = f"edit_new_knowledge_check_{current_uid}_{i}"
 
                 default_value = old_checks.get(knowledge_text, UNSELECTED)
                 if default_value not in KNOWLEDGE_CHECK_OPTIONS:
@@ -1110,12 +1120,12 @@ with right:
     save1, save2 = st.columns(2)
     with save1:
         if st.button("保存当前题", use_container_width=True):
-            ok, msg = persist_save(active_task, current_uid)
+            ok, msg = persist_save(active_task, current_uid, current_record)
             set_flash(msg, "success" if ok else "warning")
             st.rerun()
     with save2:
         if st.button("保存并下一题", type="primary", use_container_width=True):
-            ok, msg = persist_save(active_task, current_uid)
+            ok, msg = persist_save(active_task, current_uid, current_record)
             if ok:
                 set_flash(msg, "success")
                 if current_index < len(base_records) - 1:

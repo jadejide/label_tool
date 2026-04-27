@@ -11,7 +11,7 @@ from typing import Any, Dict, List, Optional
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="数字题人工标注工具", layout="wide")
+st.set_page_config(page_title="数学题人工标注工具", layout="wide")
 
 # =========================
 # 配置
@@ -23,15 +23,16 @@ CORE_LITERACIES = [
     "数据观念", "模型观念", "应用意识", "创新意识",
 ]
 PRIMARY_OPTIONS = [UNSELECTED] + CORE_LITERACIES
-KNOWLEDGE_AUDIT_UNSELECTED = "\u672a\u9009\u62e9"
-KNOWLEDGE_AUDIT_OPTIONS = [KNOWLEDGE_AUDIT_UNSELECTED, "\u6b63\u786e", "\u9519\u8bef"]
 
 TASKS: Dict[str, Dict[str, str]] = {
-    "teacher_all": {"label": "\u5408\u5e76\u6807\u6ce8\u4efb\u52a1", "data_file": "teacher_all.json"},
+    "teacher1": {"label": "教师 1", "data_file": "teacher_1.json"},
+    "teacher2": {"label": "教师 2", "data_file": "teacher_2.json"},
+    "teacher3": {"label": "教师 3", "data_file": "teacher_3.json"},
 }
-task_from_url = st.query_params.get("task", "teacher_all")
+task_from_url = st.query_params.get("task", "teacher1")
 if task_from_url not in TASKS:
-    task_from_url = "teacher_all"
+    st.error("无效任务链接")
+    st.stop()
 
 active_task = task_from_url
 task_label = TASKS[active_task]["label"]
@@ -360,37 +361,16 @@ def load_drafts(task_key: str) -> Dict[str, Dict[str, Any]]:
     return deepcopy(data) if isinstance(data, dict) else {}
 
 
-def extract_knowledge_judgment_map(record: Dict[str, Any]) -> Dict[str, str]:
-    judgments = record.get("human_new_knowledge_judgments") or []
-    result: Dict[str, str] = {}
-    if not isinstance(judgments, list):
-        return result
-    for item in judgments:
-        if not isinstance(item, dict):
-            continue
-        knowledge = str(item.get("knowledge") or "").strip()
-        verdict = str(item.get("verdict") or "").strip()
-        if knowledge and verdict in KNOWLEDGE_AUDIT_OPTIONS[1:]:
-            result[knowledge] = verdict
-    return result
-
-
-def knowledge_audit_is_complete(record: Dict[str, Any]) -> bool:
-    required = [str(item).strip() for item in (record.get("new_knowledges") or []) if str(item).strip()]
-    judgment_map = extract_knowledge_judgment_map(record)
-    return all(judgment_map.get(knowledge) in KNOWLEDGE_AUDIT_OPTIONS[1:] for knowledge in required)
-
-
 def record_is_saved(record_uid: str, saved_map: Dict[str, Dict[str, Any]]) -> bool:
     saved = saved_map.get(record_uid) or {}
-    return bool(saved.get("human_bloom_level")) and bool(saved.get("human_core_literacy_candidates")) and knowledge_audit_is_complete(saved)
+    return bool(saved.get("human_bloom_level")) and bool(saved.get("human_core_literacy_candidates"))
 
 
 def get_draft_status(record_uid: str, drafts: Dict[str, Dict[str, Any]]) -> bool:
     draft = drafts.get(record_uid) or {}
     return any(str(draft.get(k, "")).strip() for k in [
         "human_bloom_level", "human_comment_bloom", "human_comment_core"
-    ]) or bool(draft.get("human_core_literacy_candidates")) or bool(extract_knowledge_judgment_map(draft))
+    ]) or bool(draft.get("human_core_literacy_candidates"))
 
 
 def build_working_record(base_record: Dict[str, Any], saved: Optional[Dict[str, Any]], draft: Optional[Dict[str, Any]]) -> Dict[str, Any]:
@@ -415,6 +395,7 @@ def sanitize_candidates(primary: str, candidates: List[str]) -> List[str]:
 
 
 def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
+    # Bloom 多选
     bloom = record.get("human_bloom_level") or []
     if isinstance(bloom, str):
         bloom = [bloom] if bloom in BLOOM_LEVELS and bloom != UNSELECTED else []
@@ -423,6 +404,7 @@ def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
     else:
         bloom = []
 
+    # 核心素养多选
     core = record.get("human_core_literacy_candidates") or []
     if isinstance(core, str):
         core = [core] if core in CORE_LITERACIES else []
@@ -431,24 +413,21 @@ def build_editor_state(record: Dict[str, Any]) -> Dict[str, Any]:
     else:
         core = []
 
-    knowledge_judgment_map = extract_knowledge_judgment_map(record)
-
     state = {
         "edit_bloom": bloom,
-        "edit_primary": core,
+        "edit_primary": core,      # 先兼容你现在复用这个字段的写法
         "edit_candidates": core,
         "edit_comment_bloom": record.get("human_comment_bloom", "") or "",
         "edit_comment_core": record.get("human_comment_core", "") or "",
     }
 
+    # 关键：同步每个 Bloom checkbox 的勾选状态
     for level in BLOOM_LEVELS[1:]:
         state[f"edit_bloom_{level}"] = level in bloom
 
+    # 关键：同步每个 核心素养 checkbox 的勾选状态
     for item in CORE_LITERACIES:
         state[f"edit_core_{item}"] = item in core
-
-    for idx, knowledge in enumerate(record.get("new_knowledges") or []):
-        state[f"edit_knowledge_{idx}"] = knowledge_judgment_map.get(str(knowledge).strip(), KNOWLEDGE_AUDIT_UNSELECTED)
 
     return state
 
@@ -480,27 +459,13 @@ def build_draft_payload(task_key: str, record_uid: str) -> Dict[str, Any]:
     selected_bloom = st.session_state.get("edit_bloom", [])
     if not isinstance(selected_bloom, list):
         selected_bloom = []
-
+    
     selected_core = st.session_state.get("edit_candidates", [])
     if not isinstance(selected_core, list):
         selected_core = []
-
-    base_records = st.session_state.get(f"base::{task_key}", [])
-    current_record = next((record for idx, record in enumerate(base_records) if get_record_uid(record, idx) == record_uid), {})
-
-    knowledge_judgments = []
-    for idx, knowledge in enumerate(current_record.get("new_knowledges") or []):
-        normalized = str(knowledge).strip()
-        if not normalized:
-            continue
-        verdict = st.session_state.get(f"edit_knowledge_{idx}", KNOWLEDGE_AUDIT_UNSELECTED)
-        if verdict in KNOWLEDGE_AUDIT_OPTIONS[1:]:
-            knowledge_judgments.append({"knowledge": normalized, "verdict": verdict})
-
+    
     return {
         "record_uid": record_uid,
-        "new_knowledges": current_record.get("new_knowledges", []),
-        "human_new_knowledge_judgments": knowledge_judgments,
         "human_bloom_level": selected_bloom,
         "human_core_literacy_primary": selected_core[0] if selected_core else "",
         "human_core_literacy_candidates": selected_core,
@@ -511,7 +476,7 @@ def build_draft_payload(task_key: str, record_uid: str) -> Dict[str, Any]:
 
 
 def draft_has_content(payload: Dict[str, Any]) -> bool:
-    return bool(payload.get("human_bloom_level")) or bool(payload.get("human_core_literacy_primary")) or bool(payload.get("human_core_literacy_candidates")) or bool(payload.get("human_comment_bloom")) or bool(payload.get("human_comment_core")) or bool(payload.get("human_new_knowledge_judgments"))
+    return bool(payload.get("human_bloom_level")) or bool(payload.get("human_core_literacy_primary")) or bool(payload.get("human_core_literacy_candidates")) or bool(payload.get("human_comment_bloom")) or bool(payload.get("human_comment_core"))
 
 
 def persist_draft(task_key: str, record_uid: str) -> None:
@@ -534,19 +499,17 @@ def persist_save(task_key: str, record_uid: str):
 
     payload = build_draft_payload(task_key, record_uid)
     if not payload.get("human_bloom_level") or not payload.get("human_core_literacy_candidates"):
-        return False, "\u8bf7\u81f3\u5c11\u5b8c\u6210 Bloom \u548c\u6838\u5fc3\u7d20\u517b\u6807\u6ce8\u540e\u518d\u4fdd\u5b58\u3002"
-    if not knowledge_audit_is_complete(payload):
-        return False, "\u8bf7\u5b8c\u6210\u5168\u90e8\u65b0\u77e5\u8bc6\u70b9\u7684\u6b63\u786e/\u9519\u8bef\u6838\u9a8c\u540e\u518d\u4fdd\u5b58\u3002"
+        return False, "请至少选择 Bloom 层级和核心素养后再保存。"
 
     payload["human_updated_at"] = current_time_str()
-    payload["human_status"] = "\u5df2\u6807\u6ce8"
+    payload["human_status"] = "已标注"
 
     saved[record_uid] = payload
     drafts.pop(record_uid, None)
 
     st.session_state[saved_key] = saved
     st.session_state[drafts_key] = drafts
-    st.session_state["last_save_msg"] = f"\u5df2\u4fdd\u5b58\uff1a{record_uid}\uff08{payload['human_updated_at']}\uff09"
+    st.session_state["last_save_msg"] = f"已保存：{record_uid}（{payload['human_updated_at']}）"
     return True, st.session_state["last_save_msg"]
 
 
@@ -554,29 +517,10 @@ def export_saved_rows(task_key: str) -> List[Dict[str, Any]]:
     saved = st.session_state[f"saved::{task_key}"]
     rows: List[Dict[str, Any]] = []
     for uid, rec in saved.items():
-        if not rec.get("human_bloom_level") or not rec.get("human_core_literacy_candidates") or not knowledge_audit_is_complete(rec):
+        if not rec.get("human_bloom_level") or not rec.get("human_core_literacy_candidates"):
             continue
-
-        correct = []
-        wrong = []
-        for item in rec.get("human_new_knowledge_judgments", []):
-            if not isinstance(item, dict):
-                continue
-            knowledge = str(item.get("knowledge") or "").strip()
-            verdict = str(item.get("verdict") or "").strip()
-            if not knowledge:
-                continue
-            if verdict == "\u6b63\u786e":
-                correct.append(knowledge)
-            elif verdict == "\u9519\u8bef":
-                wrong.append(knowledge)
-
         rows.append({
             "id": uid,
-            "new_knowledges": rec.get("new_knowledges", []),
-            "human_new_knowledge_judgments": rec.get("human_new_knowledge_judgments", []),
-            "human_new_knowledge_correct": correct,
-            "human_new_knowledge_wrong": wrong,
             "human_bloom_level": rec.get("human_bloom_level", ""),
             "human_core_literacy_primary": (rec.get("human_core_literacy_candidates") or [""])[0],
             "human_core_literacy_candidates": rec.get("human_core_literacy_candidates", []),
@@ -584,7 +528,7 @@ def export_saved_rows(task_key: str) -> List[Dict[str, Any]]:
             "human_comment_core": rec.get("human_comment_core", ""),
             "human_annotator": rec.get("human_annotator", ""),
             "human_updated_at": rec.get("human_updated_at", ""),
-            "human_status": rec.get("human_status", "\u5df2\u6807\u6ce8"),
+            "human_status": rec.get("human_status", "已标注"),
         })
     rows.sort(key=lambda x: str(x.get("id", "")))
     return rows
@@ -598,19 +542,15 @@ def export_saved_results_csv(task_key: str) -> bytes:
     rows = export_saved_rows(task_key)
     output = io.StringIO()
     fieldnames = [
-        "id", "new_knowledges", "human_new_knowledge_correct", "human_new_knowledge_wrong",
-        "human_bloom_level", "human_core_literacy_primary", "human_core_literacy_candidates",
+        "id", "human_bloom_level", "human_core_literacy_primary", "human_core_literacy_candidates",
         "human_comment_bloom", "human_comment_core", "human_annotator", "human_updated_at", "human_status",
     ]
     writer = csv.DictWriter(output, fieldnames=fieldnames)
     writer.writeheader()
     for row in rows:
         row = dict(row)
-        row["new_knowledges"] = "\u3001".join(row.get("new_knowledges", []))
-        row["human_new_knowledge_correct"] = "\u3001".join(row.get("human_new_knowledge_correct", []))
-        row["human_new_knowledge_wrong"] = "\u3001".join(row.get("human_new_knowledge_wrong", []))
-        row["human_core_literacy_candidates"] = "?".join(row.get("human_core_literacy_candidates", []))
-        row["human_bloom_level"] = "?".join(row.get("human_bloom_level", []))
+        row["human_core_literacy_candidates"] = "、".join(row.get("human_core_literacy_candidates", []))
+        row["human_bloom_level"] = "、".join(row.get("human_bloom_level", []))
         writer.writerow(row)
     return output.getvalue().encode("utf-8-sig")
 
@@ -686,10 +626,10 @@ def init_task_data(task_key: str) -> None:
 
 
 def get_active_task() -> str:
-    q = st.query_params.get("task", "teacher_all")
+    q = st.query_params.get("task", "teacher1")
     if isinstance(q, list):
-        q = q[0] if q else "teacher_all"
-    return q if q in TASKS else "teacher_all"
+        q = q[0] if q else "teacher1"
+    return q if q in TASKS else "teacher1"
 
 
 # def switch_task(task_key: str) -> None:
@@ -939,7 +879,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-left, middle, right = st.columns([1.5, 0.9, 1], gap="large")
+left, right = st.columns([1.72, 1], gap="large")
 
 with left:
     st.markdown("## 题目区")
@@ -953,6 +893,8 @@ with left:
             st.markdown(f"**年级：** {'、'.join(current_record['grades'])}")
         if current_record.get("score") not in [None, ""]:
             st.markdown(f"**分值：** {current_record['score']}")
+        if current_record.get("knowledges"):
+            st.markdown(f"**知识点：** {'、'.join(current_record['knowledges'])}")
         if current_record.get("abilities"):
             st.markdown(f"**能力要求：** {'、'.join(current_record['abilities'])}")
 
@@ -974,25 +916,6 @@ with left:
         if current_record.get("analysis_images"):
             st.markdown("### 解析图片")
             render_images(current_record.get("analysis_images", []))
-
-with middle:
-    st.markdown("## \u77e5\u8bc6\u70b9\u6838\u9a8c")
-    with st.container(height=1000, border=True):
-        predicted_knowledges = [str(item).strip() for item in (current_record.get("new_knowledges") or []) if str(item).strip()]
-        if not predicted_knowledges:
-            st.info("\u5f53\u524d\u9898\u6ca1\u6709\u6a21\u578b\u9884\u6d4b\u77e5\u8bc6\u70b9\u3002")
-        else:
-            st.caption("\u8bf7\u6839\u636e\u9898\u76ee\u548c\u89e3\u6790\uff0c\u9010\u9879\u5224\u65ad\u6a21\u578b\u9884\u6d4b\u77e5\u8bc6\u70b9\u662f\u5426\u6b63\u786e\u3002")
-            for idx, knowledge in enumerate(predicted_knowledges):
-                st.markdown(f"**{idx + 1}. {knowledge}**")
-                st.radio(
-                    "\u6838\u9a8c\u7ed3\u679c",
-                    KNOWLEDGE_AUDIT_OPTIONS,
-                    key=f"edit_knowledge_{idx}",
-                    horizontal=True,
-                    label_visibility="collapsed",
-                )
-                st.write("")
 
 with right:
     bloom_model = current_record.get("bloom_level") or "无"
